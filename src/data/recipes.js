@@ -1429,7 +1429,7 @@ export const INITIAL_RECIPES = [
     calories: '160 kcal',
     rating: '4.8',
     reviews: 140,
-    image: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',
+    image: '/rose_milk.png',
     description: 'Fragrant, pretty-in-pink sweet beverage made with cold whole milk infused with authentic rose syrup and soaked sabja seeds.',
     ingredients: [
       { name: 'Chilled whole milk', amount: '2 cups', available: true },
@@ -1444,7 +1444,7 @@ export const INITIAL_RECIPES = [
       'Stir in bloomed sabja seeds and ice cubes.',
       'Serve chilled in tall glasses with edible dried rose petals on top.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=chilled+rose+milk+recipe',
+    youtubeUrl: 'https://youtu.be/w6JW2vggG04?si=meCc8fo_dHhTNA1f',
     isSaved: false
   },
   {
