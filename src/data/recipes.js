@@ -1355,7 +1355,7 @@ export const INITIAL_RECIPES = [
       'Blend or churn with a traditional madhani for 30 seconds until a slight froth forms on top.',
       'Pour into clay glasses (kulhads), garnish with fresh coriander, and serve chilled with ice cubes.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=masala+chaas+recipe',
+    youtubeUrl: 'https://youtu.be/82DyooLMuLE?si=cSi3xUMThF8fDVuZ',
     isSaved: false
   },
   {
@@ -1385,7 +1385,7 @@ export const INITIAL_RECIPES = [
       'Add sugar, roasted cumin, black salt, and fresh mint leaves; blend into a smooth concentrate.',
       'Dilute 3 tablespoons of pulp in chilled water with ice cubes and stir well before serving.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=aam+panna+recipe',
+    youtubeUrl: 'https://youtu.be/oCz-NQfDmEs?si=tTE5vZfNB_utpmeH',
     isSaved: false
   },
   {
