@@ -240,7 +240,7 @@ function App() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 showToast('🎉 Welcome to CookSmart Ai!');
               }}
-              onLogin={(user) => {
+              onLogin={(_user) => {
                 setCurrentScreen('home');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 showToast(`👋 Welcome back, Chef!`);

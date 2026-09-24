@@ -1207,7 +1207,7 @@ export const INITIAL_RECIPES = [
     isSaved: false
   },
 
-  // ===================== BEVERAGES (DRINKS) (4) =====================
+  // ===================== BEVERAGES (DRINKS) (38) =====================
   {
     id: 'drink-1',
     title: 'Creamy Mango Lassi with Saffron',
@@ -1326,6 +1326,1022 @@ export const INITIAL_RECIPES = [
       'Garnish with a slapped mint sprig and dehydrated lime wheel.'
     ],
     youtubeUrl: 'https://youtu.be/PIM2c_nryRY?si=G1EetgmWb_GrjsDZ',
+    isSaved: false
+  },
+  {
+    id: 'drink-5',
+    title: 'Spiced Masala Chaas (Indian Buttermilk)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '65 kcal',
+    rating: '4.9',
+    reviews: 180,
+    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80',
+    description: 'Traditional cooling Indian buttermilk churned with fresh curd, chilled water, roasted cumin, black salt, and freshly chopped coriander.',
+    ingredients: [
+      { name: 'Fresh creamy curd (dahi)', amount: '1 cup', available: true },
+      { name: 'Chilled water', amount: '2 cups', available: true },
+      { name: 'Roasted cumin powder (bhuna jeera)', amount: '1 tsp', available: true },
+      { name: 'Black salt & regular salt', amount: '1/2 tsp', available: true },
+      { name: 'Finely chopped fresh coriander & green chili', amount: '1 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'In a pitcher or blender, whisk chilled fresh curd with cold water until light and frothy.',
+      'Add roasted cumin powder, black salt, regular salt, and finely minced green chili.',
+      'Blend or churn with a traditional madhani for 30 seconds until a slight froth forms on top.',
+      'Pour into clay glasses (kulhads), garnish with fresh coriander, and serve chilled with ice cubes.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=masala+chaas+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-6',
+    title: 'Tangy Kairi Aam Panna',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '10 mins',
+    cookTime: '10 mins',
+    calories: '95 kcal',
+    rating: '4.9',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    description: 'Iconic Indian summer cooler crafted from boiled green raw mangoes, sweetened with sugar, and seasoned with roasted cumin and black salt.',
+    ingredients: [
+      { name: 'Raw green mangoes (kairi)', amount: '2 medium', available: true },
+      { name: 'Sugar or jaggery', amount: '1/2 cup', available: true },
+      { name: 'Roasted cumin powder', amount: '1 tsp', available: true },
+      { name: 'Black salt (kala namak)', amount: '1/2 tsp', available: true },
+      { name: 'Fresh mint leaves & chilled water', amount: '3 cups', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Pressure cook raw mangoes with 1 cup water for 2 whistles until soft and pulpy.',
+      'Once cooled, peel and scrape out the soft mango pulp into a blender.',
+      'Add sugar, roasted cumin, black salt, and fresh mint leaves; blend into a smooth concentrate.',
+      'Dilute 3 tablespoons of pulp in chilled water with ice cubes and stir well before serving.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=aam+panna+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-7',
+    title: 'Classic Punjabi Sweet Lassi',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '240 kcal',
+    rating: '5.0',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1571006682858-a53ec2299d63?auto=format&fit=crop&w=800&q=80',
+    description: 'Rich, thick, creamy North Indian yogurt shake churned with sugar, cold milk, and topped with clotted malai and cardamom.',
+    ingredients: [
+      { name: 'Fresh thick curd (Greek or home dahi)', amount: '2 cups', available: true },
+      { name: 'Chilled milk or water', amount: '1/2 cup', available: true },
+      { name: 'Granulated sugar', amount: '3 tbsp', available: true },
+      { name: 'Green cardamom powder', amount: '1/4 tsp', available: true },
+      { name: 'Fresh clotted cream (malai) for topping', amount: '1 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'In a wide earthen pot or blender, combine thick curd, cold milk, sugar, and crushed cardamom.',
+      'Blend or churn with a wooden hand-churner for 45 seconds until silky smooth and foamy.',
+      'Pour into tall tumblers over crushed ice.',
+      'Crown with a generous dollop of fresh malai and crushed pistachio slivers.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=punjabi+sweet+lassi+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-8',
+    title: 'Chilled Rose Milk (Gulab Sharbat)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '3 mins',
+    cookTime: '0 mins',
+    calories: '160 kcal',
+    rating: '4.8',
+    reviews: 140,
+    image: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',
+    description: 'Fragrant, pretty-in-pink sweet beverage made with cold whole milk infused with authentic rose syrup and soaked sabja seeds.',
+    ingredients: [
+      { name: 'Chilled whole milk', amount: '2 cups', available: true },
+      { name: 'Concentrated rose syrup (or Rooh Afza)', amount: '3 tbsp', available: true },
+      { name: 'Ice cubes', amount: '1/2 cup', available: true },
+      { name: 'Soaked basil seeds (sabja)', amount: '1 tsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Pour ice-cold milk into a jug or shaker.',
+      'Add sweet concentrated rose syrup and stir briskly until evenly pink and fragrant.',
+      'Stir in bloomed sabja seeds and ice cubes.',
+      'Serve chilled in tall glasses with edible dried rose petals on top.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=chilled+rose+milk+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-9',
+    title: 'Chatpata Jaljeera Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '45 kcal',
+    rating: '4.7',
+    reviews: 165,
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
+    description: 'Electrifying digestive summer drink with fresh mint, lemon, cumin, dry ginger, black pepper, and crispy boondi.',
+    ingredients: [
+      { name: 'Fresh mint and coriander leaves', amount: '1 cup', available: true },
+      { name: 'Fresh lemon juice', amount: '2 tbsp', available: true },
+      { name: 'Roasted cumin powder & chaat masala', amount: '1 tbsp', available: true },
+      { name: 'Black salt, ginger powder, and amchur', amount: '1 tsp', available: true },
+      { name: 'Chilled water & crispy salted boondi', amount: '3 cups', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Blend mint, coriander, and green chili with a splash of water into a smooth herbal paste.',
+      'Mix the paste into chilled water; add lemon juice, roasted cumin, black salt, and dry mango powder.',
+      'Strain through a sieve for a crystal-clear refreshing infusion.',
+      'Stir in crispy boondi and ice cubes right before serving.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=jaljeera+recipe+authentic',
+    isSaved: false
+  },
+  {
+    id: 'drink-10',
+    title: 'Desi Shikanji Nimbu Pani (Fresh Lemonade)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '70 kcal',
+    rating: '5.0',
+    reviews: 430,
+    image: 'https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?auto=format&fit=crop&w=800&q=80',
+    description: 'Quintessential Indian street-style fresh lemonade shaken with lemon juice, chilled water, sugar, and shikanji masala salt.',
+    ingredients: [
+      { name: 'Freshly squeezed lemon juice', amount: '3 tbsp', available: true },
+      { name: 'Chilled water or club soda', amount: '2 cups', available: true },
+      { name: 'Sugar syrup or powdered sugar', amount: '2 tbsp', available: true },
+      { name: 'Black salt and roasted jeera powder', amount: '1/2 tsp', available: true },
+      { name: 'Fresh mint sprig & lemon slices', amount: 'For garnish', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Squeeze fresh lemon juice into a shaker or tall glass.',
+      'Dissolve sugar syrup with black salt and a pinch of roasted cumin.',
+      'Top with chilled water or sparkling soda and plenty of ice cubes.',
+      'Stir vigorously and serve garnished with a floating lemon wheel and mint leaf.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=nimbu+pani+shikanji+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-11',
+    title: 'Tender Coconut Lemon Mint Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '3 mins',
+    cookTime: '0 mins',
+    calories: '55 kcal',
+    rating: '4.8',
+    reviews: 95,
+    image: 'https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=800&q=80',
+    description: 'Natural electrolyte powerhouse combining sweet tender coconut water, tangy freshly squeezed lemon, and muddled spearmint.',
+    ingredients: [
+      { name: 'Fresh tender coconut water', amount: '2 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1 tbsp', available: true },
+      { name: 'Fresh mint leaves', amount: '8-10 leaves', available: true },
+      { name: 'Coconut malai strips', amount: '2 tbsp', available: false },
+      { name: 'Crushed ice', amount: '1/2 cup', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Lightly clap or muddle fresh mint leaves in the bottom of serving glasses.',
+      'Pour in chilled fresh tender coconut water and fresh lemon juice.',
+      'Add crushed ice and tender coconut meat strips.',
+      'Stir gently to blend flavors and serve immediately for instant hydration.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=coconut+water+lemon+cooler+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-12',
+    title: 'Cooling Pudina Mint Sharbat',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '60 kcal',
+    rating: '4.7',
+    reviews: 110,
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80',
+    description: 'Deep-green cooling herbal potion extracted from garden mint leaves, raw cane sugar, lemon juice, and mountain spring water.',
+    ingredients: [
+      { name: 'Fresh mint leaves (pudina)', amount: '1.5 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '2 tbsp', available: true },
+      { name: 'Sugar or rock sugar (mishri)', amount: '2 tbsp', available: true },
+      { name: 'Chilled water', amount: '2.5 cups', available: true },
+      { name: 'Black salt and cumin', amount: '1/4 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Blend clean mint leaves, sugar, lemon juice, and black salt with 1/2 cup water until vibrant green.',
+      'Strain the concentrated syrup through a fine sieve into a pitcher.',
+      'Add remaining chilled water and stir thoroughly.',
+      'Serve over crushed ice with fresh mint garnish for an invigorating refresher.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=pudina+sharbat+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-13',
+    title: 'Bihari Spiced Sattu Sharbat (Protein Cooler)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '150 kcal',
+    rating: '4.9',
+    reviews: 260,
+    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80',
+    description: 'Traditional desi protein powerhouse drink made with roasted Bengal gram (sattu) flour, lemon, roasted cumin, black salt, and green chili.',
+    ingredients: [
+      { name: 'Roasted gram flour (chana sattu)', amount: '4 tbsp', available: true },
+      { name: 'Chilled water', amount: '2 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Black salt and roasted cumin powder', amount: '1/2 tsp each', available: true },
+      { name: 'Finely minced green chili & coriander', amount: '1 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'In a tall glass or jug, add roasted chana sattu flour.',
+      'Pour a little chilled water first and whisk with a fork to form a lump-free paste.',
+      'Pour the remaining water, lemon juice, black salt, and roasted cumin powder.',
+      'Stir vigorously and top with minced coriander and green chili. Drink fresh!'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=sattu+sharbat+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-14',
+    title: 'Sparkling Citrus Orange Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '85 kcal',
+    rating: '4.8',
+    reviews: 135,
+    image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80',
+    description: 'Vibrant sunrise mocktail combining freshly squeezed orange juice, sparkling soda water, lemon, and a hint of mint.',
+    ingredients: [
+      { name: 'Freshly squeezed orange juice', amount: '1.5 cups', available: true },
+      { name: 'Chilled sparkling soda or water', amount: '1 cup', available: true },
+      { name: 'Fresh lemon juice', amount: '1 tbsp', available: true },
+      { name: 'Sugar syrup or honey', amount: '1 tbsp', available: true },
+      { name: 'Orange slices and fresh ice', amount: '1 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Fill highball glasses with ice cubes and orange wheels.',
+      'Pour sweet orange juice and freshly squeezed lemon juice.',
+      'Slowly top with bubbly chilled soda water to create a fizzy crown.',
+      'Garnish with mint leaves and a festive straw.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=fresh+orange+cooler+mocktail+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-15',
+    title: 'Fresh Watermelon Mint Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '65 kcal',
+    rating: '4.9',
+    reviews: 290,
+    image: 'https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&w=800&q=80',
+    description: 'Ultra-hydrating summer quencher blended from ripe ruby-red watermelon chunks, lime juice, sea salt, and torn fresh spearmint.',
+    ingredients: [
+      { name: 'Fresh seedless watermelon chunks', amount: '3 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Fresh mint leaves', amount: '8 leaves', available: true },
+      { name: 'Black salt or sea salt', amount: '1 pinch', available: true },
+      { name: 'Crushed ice', amount: '1/2 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Add sweet watermelon chunks, fresh mint leaves, lemon juice, and a pinch of black salt to blender.',
+      'Pulse for 30 seconds until liquid and smooth (no straining needed for fiber).',
+      'Fill tall glasses with crushed ice and pour watermelon cooler over the top.',
+      'Garnish with a triangular watermelon slice and a mint bouquet.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=watermelon+cooler+mocktail+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-16',
+    title: 'Tropical Pineapple Lemon Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '90 kcal',
+    rating: '4.8',
+    reviews: 120,
+    image: 'https://images.unsplash.com/photo-1589733955431-7b0b029283f5?auto=format&fit=crop&w=800&q=80',
+    description: 'Zingy tropical cooler crafted from sweet-tart pineapple pulp, fresh lemon juice, black salt, and crushed ice.',
+    ingredients: [
+      { name: 'Fresh ripe pineapple cubes', amount: '2 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1 tbsp', available: true },
+      { name: 'Sugar or honey', amount: '1 tbsp', available: true },
+      { name: 'Black salt and crushed ice', amount: '1/4 tsp', available: true },
+      { name: 'Chilled water or ginger ale', amount: '1/2 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Blend pineapple cubes with a splash of water and honey until frothy and smooth.',
+      'Strain through a mesh sieve if you prefer a silky texture.',
+      'Stir in fresh lemon juice and a hint of black salt for that tropical kick.',
+      'Serve over ice with a pineapple wedge perched on the rim.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=pineapple+cooler+juice+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-17',
+    title: 'Sparkling Fresh Strawberry Lemonade',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '95 kcal',
+    rating: '4.9',
+    reviews: 240,
+    image: 'https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=800&q=80',
+    description: 'Gorgeous red-ombre mocktail made with macerated sweet strawberries, tart freshly squeezed lemon, sugar syrup, and cold water.',
+    ingredients: [
+      { name: 'Fresh strawberries (hulled)', amount: '1.5 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1/4 cup', available: true },
+      { name: 'Granulated sugar or honey', amount: '3 tbsp', available: true },
+      { name: 'Chilled water or club soda', amount: '2 cups', available: true },
+      { name: 'Ice cubes and strawberry slices', amount: '1 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Puree fresh strawberries with 2 tablespoons of sugar until silky smooth.',
+      'In a tall jug, whisk fresh lemon juice, remaining sugar, and chilled water.',
+      'Fill glasses with ice cubes, spoon 3 tablespoons of strawberry puree at the base.',
+      'Top with lemonade and stir gently for a stunning ombré sunset effect.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=fresh+strawberry+lemonade+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-18',
+    title: 'Crisp Iced Apple Lemon Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '80 kcal',
+    rating: '4.7',
+    reviews: 115,
+    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=800&q=80',
+    description: 'Crisp, sparkling orchard cooler balancing naturally sweet apple juice with tart lemon, sliced green apple, and mint.',
+    ingredients: [
+      { name: 'Pure apple juice (or fresh apple puree)', amount: '1.5 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Chilled soda or tonic water', amount: '1 cup', available: true },
+      { name: 'Thin apple slices & ice', amount: '1/2 cup', available: true },
+      { name: 'Fresh mint leaves', amount: '4 leaves', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Fill glasses with ice cubes and fan thin apple slices against the glass walls.',
+      'Pour sweet apple juice and freshly squeezed lemon juice.',
+      'Top with bubbly chilled soda or water and stir gently.',
+      'Garnish with a sprig of fresh mint and serve immediately.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=iced+apple+cooler+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-19',
+    title: 'Chilled Black Grape Mint Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '90 kcal',
+    rating: '4.8',
+    reviews: 105,
+    image: 'https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=800&q=80',
+    description: 'Deep purple antioxidant elixir made with sweet seedless black grapes, a squeeze of lemon, sugar, and cooling mint.',
+    ingredients: [
+      { name: 'Seedless black or red grapes', amount: '2 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1 tbsp', available: true },
+      { name: 'Sugar or honey', amount: '1.5 tbsp', available: true },
+      { name: 'Chilled water or club soda', amount: '1 cup', available: true },
+      { name: 'Black salt & mint', amount: '1 pinch', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Wash grapes and blend with sugar, lemon juice, black salt, and 1/2 cup water.',
+      'Strain through a fine strainer to catch any thick grape skins.',
+      'Pour into highball glasses loaded with crushed ice.',
+      'Top with a splash of soda and garnish with mint leaves.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=grape+cooler+juice+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-20',
+    title: 'Zesty Mint Lemon Soda Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '3 mins',
+    cookTime: '0 mins',
+    calories: '60 kcal',
+    rating: '4.9',
+    reviews: 215,
+    image: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80',
+    description: 'The ultimate fizzy restaurant cooler with muddled garden mint, tangy lemon juice, simple syrup, and bubbly chilled soda.',
+    ingredients: [
+      { name: 'Fresh lemon juice', amount: '2 tbsp', available: true },
+      { name: 'Fresh mint leaves', amount: '12 leaves', available: true },
+      { name: 'Sugar syrup', amount: '2 tbsp', available: true },
+      { name: 'Chilled club soda', amount: '1.5 cups', available: true },
+      { name: 'Black salt and crushed ice', amount: '1 pinch', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'In a tall glass, muddle mint leaves and sugar syrup with a pinch of black salt.',
+      'Squeeze in fresh lemon juice and fill glass with plenty of crushed ice.',
+      'Pour chilled sparkling soda to the top and watch it fizz.',
+      'Give it one quick stir and sip through a straw for instant refreshment.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mint+lemon+soda+cooler+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-21',
+    title: 'Detox Cucumber Mint Hydration Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '35 kcal',
+    rating: '4.8',
+    reviews: 130,
+    image: 'https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=800&q=80',
+    description: 'Crisp, spa-grade wellness cooler packed with pureed cucumber, fresh lemon, mint leaves, and ice-cold water.',
+    ingredients: [
+      { name: 'English cucumber (chopped)', amount: '1 cup', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Fresh mint leaves', amount: '8 leaves', available: true },
+      { name: 'Chilled water', amount: '2 cups', available: true },
+      { name: 'Pink Himalayan salt', amount: '1 pinch', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Blend diced cucumber, mint leaves, lemon juice, and salt with 1/2 cup water.',
+      'Strain through a fine mesh sieve to extract pure green cucumber juice.',
+      'Combine with remaining chilled water and ice cubes.',
+      'Garnish with cucumber ribbons and fresh mint for a revitalizing spa drink.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=cucumber+mint+cooler+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-22',
+    title: 'Sweet Sunshine Mango Lemon Cooler',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '110 kcal',
+    rating: '4.9',
+    reviews: 190,
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    description: 'Golden tropical thirst quencher made with sweet Alphonso mango pulp, fresh lemon juice, chilled water, and crushed ice.',
+    ingredients: [
+      { name: 'Sweet mango pulp', amount: '1 cup', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Chilled water or soda', amount: '1.5 cups', available: true },
+      { name: 'Crushed ice & mint', amount: '1/2 cup', available: true },
+      { name: 'Black salt', amount: '1 pinch', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Combine mango pulp, fresh lemon juice, and a pinch of black salt in a pitcher.',
+      'Whisk in ice-cold water until light and thoroughly incorporated.',
+      'Fill glasses with crushed ice and pour the sunshine cooler.',
+      'Top with fresh mint leaves and a lemon wedge.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mango+cooler+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-23',
+    title: 'Velvety Cold Chocolate Milk',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '3 mins',
+    cookTime: '0 mins',
+    calories: '180 kcal',
+    rating: '4.9',
+    reviews: 275,
+    image: 'https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80',
+    description: 'Rich, comforting café-style chocolate milk shaken cold with Dutch cocoa powder, chilled milk, and a touch of sweetness.',
+    ingredients: [
+      { name: 'Chilled whole milk', amount: '2 cups', available: true },
+      { name: 'Dutch cocoa powder', amount: '2 tbsp', available: true },
+      { name: 'Sugar or maple syrup', amount: '2 tbsp', available: true },
+      { name: 'Warm water (to dissolve cocoa)', amount: '2 tbsp', available: true },
+      { name: 'Chocolate shavings', amount: 'For garnish', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'In a glass, whisk cocoa powder and sugar with warm water to create a glossy chocolate paste.',
+      'Pour ice-cold milk into a cocktail shaker or jar, add the chocolate paste and ice cubes.',
+      'Shake vigorously for 20 seconds until frothy and velvety.',
+      'Pour into chilled glasses and dust top with cocoa powder or chocolate curls.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=homemade+chocolate+milk+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-24',
+    title: 'Creamy Classic Banana Milkshake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '210 kcal',
+    rating: '4.8',
+    reviews: 320,
+    image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',
+    description: 'Silky smooth, energy-packed shake blended from ripe bananas, chilled milk, sugar, and a hint of vanilla.',
+    ingredients: [
+      { name: 'Ripe bananas (sliced)', amount: '2 medium', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Sugar or honey', amount: '1.5 tbsp', available: true },
+      { name: 'Vanilla extract or cardamom', amount: '1/4 tsp', available: true },
+      { name: 'Ice cubes', amount: '4 cubes', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Peel and slice ripe bananas into the blender jar.',
+      'Add chilled milk, sugar or honey, vanilla extract, and ice cubes.',
+      'Blend on high speed for 60 seconds until thick, frothy, and totally lump-free.',
+      'Pour into a tall glass and sprinkle a pinch of ground cinnamon on top.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=creamy+banana+shake+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-25',
+    title: 'Fresh Pink Strawberry Milkshake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '230 kcal',
+    rating: '5.0',
+    reviews: 280,
+    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    description: 'Thick, creamy diner-style strawberry shake made with fresh ripe strawberries, cold milk, sugar, and optional vanilla ice cream.',
+    ingredients: [
+      { name: 'Fresh ripe strawberries', amount: '1.5 cups', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Sugar', amount: '2 tbsp', available: true },
+      { name: 'Vanilla ice cream', amount: '1 scoop', available: false },
+      { name: 'Ice cubes', amount: '4 cubes', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Hull and slice fresh strawberries into blender.',
+      'Add chilled milk, sugar, vanilla ice cream scoop, and ice cubes.',
+      'Blend on high until silky smooth and pastel pink.',
+      'Pour into soda glasses and garnish with a fresh strawberry on the rim.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=strawberry+milkshake+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-26',
+    title: 'Thick Mango Milkshake with Ice Cream',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '250 kcal',
+    rating: '5.0',
+    reviews: 390,
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    description: 'Street-style indulgent mango mastani shake made with sweet Alphonso pulp, chilled milk, and sugar.',
+    ingredients: [
+      { name: 'Sweet ripe mango pulp or cubes', amount: '1.5 cups', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Sugar', amount: '2 tbsp', available: true },
+      { name: 'Vanilla or mango ice cream scoop', amount: '1 scoop', available: false },
+      { name: 'Chopped cashews and tutty-fruity', amount: '1 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Blend fresh mango pulp, chilled milk, and sugar for 45 seconds until thick.',
+      'Pour into tall tumblers over crushed ice.',
+      'Crown with a scoop of ice cream.',
+      'Garnish with chopped cashews, pistachios, and colorful tutty-fruity.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mango+milkshake+recipe+street+style',
+    isSaved: false
+  },
+  {
+    id: 'drink-27',
+    title: 'Spiced Apple Cinnamon Milkshake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '5 mins',
+    cookTime: '0 mins',
+    calories: '210 kcal',
+    rating: '4.7',
+    reviews: 90,
+    image: 'https://images.unsplash.com/photo-1570696516188-ade861b84a49?auto=format&fit=crop&w=800&q=80',
+    description: 'Warmly spiced autumn shake blending tender apple pieces, cold milk, cinnamon powder, and honey.',
+    ingredients: [
+      { name: 'Sweet red apple (peeled & diced)', amount: '1 large', available: true },
+      { name: 'Chilled milk', amount: '1.5 cups', available: true },
+      { name: 'Ground cinnamon powder', amount: '1/2 tsp', available: true },
+      { name: 'Honey or sugar', amount: '1.5 tbsp', available: true },
+      { name: 'Vanilla extract & ice', amount: '1/4 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Add peeled diced apple, chilled milk, honey, and cinnamon into blender jar.',
+      'Blend on high for 60-90 seconds until the apple is thoroughly pureed and frothy.',
+      'Pour into chilled glasses over ice.',
+      'Dust with extra ground cinnamon and serve cold.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=apple+milkshake+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-28',
+    title: 'High-Protein Peanut Butter Banana Shake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '320 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',
+    description: 'Gym-favorite protein powerhouse made by blending rich peanut butter, ripe banana, cold milk, and honey.',
+    ingredients: [
+      { name: 'Creamy peanut butter', amount: '2 tbsp', available: true },
+      { name: 'Ripe banana', amount: '1 large', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Honey', amount: '1 tbsp', available: true },
+      { name: 'Chia seeds or roasted peanuts', amount: '1 tsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Add banana slices, creamy peanut butter, honey, and cold milk into blender.',
+      'Blend for 60 seconds until thick, nutty, and velvety.',
+      'Pour into a shaker bottle or tall glass.',
+      'Garnish with banana coins and crushed roasted peanuts.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=peanut+butter+banana+shake+protein',
+    isSaved: false
+  },
+  {
+    id: 'drink-29',
+    title: 'Café-Style Cookies & Cream Oreo Shake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '340 kcal',
+    rating: '5.0',
+    reviews: 450,
+    image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80',
+    description: 'Irresistible dessert shake made with crushed chocolate Oreo cookies, rich milk, and creamy vanilla ice cream.',
+    ingredients: [
+      { name: 'Oreo cookies', amount: '5 cookies', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Vanilla ice cream', amount: '2 scoops', available: false },
+      { name: 'Chocolate syrup for drizzle', amount: '1 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Swirl chocolate syrup along inside walls of serving glasses.',
+      'In a blender, combine 4 Oreo cookies, vanilla ice cream, and chilled milk.',
+      'Pulse for 30 seconds so crunchy cookie crumbles remain suspended.',
+      'Pour into prepared glasses and top with the remaining crumbled Oreo cookie.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=oreo+milkshake+cafe+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-30',
+    title: 'Frothy Thick Café-Style Cold Coffee',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '170 kcal',
+    rating: '5.0',
+    reviews: 520,
+    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    description: 'Rich, velvety, coffeehouse-standard cold coffee whipped with instant coffee granules, sugar, ice, and chilled milk.',
+    ingredients: [
+      { name: 'Instant coffee powder', amount: '1.5 tbsp', available: true },
+      { name: 'Warm water (to dissolve)', amount: '2 tbsp', available: true },
+      { name: 'Granulated sugar', amount: '2 tbsp', available: true },
+      { name: 'Chilled whole milk', amount: '2 cups', available: true },
+      { name: 'Ice cubes', amount: '1 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Dissolve instant coffee powder and sugar in warm water; whip until golden and frothy.',
+      'Add the coffee mixture, cold milk, and ice cubes into the blender jar.',
+      'Blend on high speed for 60 seconds until thick, creamy froth fills the top half.',
+      'Drizzle chocolate syrup into glass, pour cold coffee, and spoon the foam on top.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=cafe+style+cold+coffee+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-31',
+    title: 'Rich Chocolate Banana Energy Shake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '240 kcal',
+    rating: '4.8',
+    reviews: 160,
+    image: 'https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80',
+    description: 'Fudge-like decadent blend of ripe sweet banana, pure cocoa powder, cold milk, and honey.',
+    ingredients: [
+      { name: 'Ripe banana', amount: '1 large', available: true },
+      { name: 'Dutch cocoa powder', amount: '1.5 tbsp', available: true },
+      { name: 'Chilled milk', amount: '1.5 cups', available: true },
+      { name: 'Sugar or honey', amount: '1.5 tbsp', available: true },
+      { name: 'Ice cubes', amount: '4 cubes', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Slice banana into blender jar; add cocoa powder, honey, and chilled milk.',
+      'Add ice cubes and blend on high for 45 seconds until thick and chocolatey.',
+      'Pour into tall tumblers.',
+      'Garnish top with a dust of cocoa powder and banana chips.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=chocolate+banana+shake+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-32',
+    title: 'Royal Rose Ice Cream Milkshake',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '4 mins',
+    cookTime: '0 mins',
+    calories: '260 kcal',
+    rating: '4.9',
+    reviews: 175,
+    image: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',
+    description: 'Luxurious sweet dessert milkshake made by blending aromatic rose syrup with chilled whole milk and creamy vanilla ice cream.',
+    ingredients: [
+      { name: 'Concentrated rose syrup (Rooh Afza)', amount: '3 tbsp', available: true },
+      { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
+      { name: 'Vanilla ice cream', amount: '2 scoops', available: false },
+      { name: 'Pistachio slivers & rose petals', amount: 'For garnish', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Blend rose syrup, 1 scoop of vanilla ice cream, and chilled milk until thick and creamy.',
+      'Pour into soda fountain glasses.',
+      'Top with a second scoop of vanilla ice cream.',
+      'Drizzle with extra rose syrup and sprinkle crushed pistachios.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=rose+ice+cream+shake+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-33',
+    title: 'Soothing Adrak Ginger Tea',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '3 mins',
+    cookTime: '6 mins',
+    calories: '85 kcal',
+    rating: '5.0',
+    reviews: 380,
+    image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80',
+    description: 'Immunity-boosting fiery ginger tea simmered with fresh crushed adrak, Assam black tea leaves, and sweet milk.',
+    ingredients: [
+      { name: 'Fresh ginger (crushed)', amount: '1.5 inch piece', available: true },
+      { name: 'Strong black tea leaves', amount: '2 tsp', available: true },
+      { name: 'Water', amount: '1 cup', available: true },
+      { name: 'Milk', amount: '1 cup', available: true },
+      { name: 'Sugar or jaggery', amount: '2 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Pound fresh ginger thoroughly in mortar and pestle to release all aromatic juices.',
+      'Boil water with the crushed ginger for 3 minutes to infuse the spicy ginger flavor.',
+      'Add black tea leaves and simmer for 1 minute; add milk and sugar.',
+      'Bring to rolling boil twice, strain into cups, and enjoy hot.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=adrak+wali+chai+ginger+tea+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-34',
+    title: 'Warm Immunity Honey Lemon Tea',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Continental',
+    prepTime: '3 mins',
+    cookTime: '2 mins',
+    calories: '60 kcal',
+    rating: '4.9',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    description: 'Classic soothing throat relief infusion made with hot water, freshly squeezed lemon juice, and pure raw honey.',
+    ingredients: [
+      { name: 'Warm/Hot water (not boiling)', amount: '1.5 cups', available: true },
+      { name: 'Fresh lemon juice', amount: '1.5 tbsp', available: true },
+      { name: 'Pure raw honey', amount: '1.5 tbsp', available: true },
+      { name: 'Fresh ginger slice', amount: '1 slice', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Heat water until steaming hot (around 75°C - 80°C; do not boil honey).',
+      'Squeeze in fresh lemon juice and add ginger slice.',
+      'Stir in raw wild honey until completely dissolved.',
+      'Sip slowly from a warm mug for instant soothing comfort.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=hot+honey+lemon+water+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-35',
+    title: 'Decadent European Hot Chocolate',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'European',
+    prepTime: '3 mins',
+    cookTime: '5 mins',
+    calories: '240 kcal',
+    rating: '5.0',
+    reviews: 410,
+    image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80',
+    description: 'Thick, velvety, European-style winter warmer simmered with whole milk, Dutch cocoa, dark chocolate, and sugar.',
+    ingredients: [
+      { name: 'Whole milk', amount: '2 cups', available: true },
+      { name: 'Dark chocolate chips or chopped chocolate', amount: '50g', available: false },
+      { name: 'Dutch cocoa powder', amount: '1.5 tbsp', available: true },
+      { name: 'Sugar', amount: '2 tbsp', available: true },
+      { name: 'Vanilla extract & pinch of salt', amount: '1/4 tsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Warm milk in a heavy saucepan over medium heat until steaming.',
+      'Whisk in cocoa powder, sugar, and a pinch of salt until completely dissolved.',
+      'Add dark chocolate chunks and whisk constantly until melted and silky thick.',
+      'Pour into cozy mugs and top with whipped cream or mini marshmallows.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=thick+hot+chocolate+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-36',
+    title: 'Traditional Kesar Badam Milk (Almond Milk)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '5 mins',
+    cookTime: '8 mins',
+    calories: '220 kcal',
+    rating: '5.0',
+    reviews: 320,
+    image: 'https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80',
+    description: 'Rich royal tonic simmered with soaked blanched almond paste, saffron strands, green cardamom, and warm whole milk.',
+    ingredients: [
+      { name: 'Whole milk', amount: '2 cups', available: true },
+      { name: 'Soaked blanched almonds (badam)', amount: '15 almonds', available: true },
+      { name: 'Saffron strands (kesar)', amount: '1 pinch', available: false },
+      { name: 'Green cardamom powder', amount: '1/4 tsp', available: true },
+      { name: 'Sugar', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Blend soaked blanched almonds with 3 tablespoons of milk into a smooth paste.',
+      'Bring remaining milk to a gentle boil with saffron strands.',
+      'Stir in almond paste, sugar, and cardamom powder; simmer on low heat for 5 minutes.',
+      'Serve steaming hot in winter or chilled in summer with sliced almonds.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kesar+badam+milk+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-37',
+    title: 'Golden Haldi Doodh (Turmeric Latte)',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'Indian',
+    prepTime: '2 mins',
+    cookTime: '4 mins',
+    calories: '130 kcal',
+    rating: '4.9',
+    reviews: 350,
+    image: 'https://images.unsplash.com/photo-1578859318504-204695586b82?auto=format&fit=crop&w=800&q=80',
+    description: 'Ayurvedic healing golden milk simmered with organic turmeric, black pepper, cinnamon, honey, and warm milk.',
+    ingredients: [
+      { name: 'Whole milk (or oat/almond milk)', amount: '2 cups', available: true },
+      { name: 'Organic turmeric powder (haldi)', amount: '1/2 tsp', available: true },
+      { name: 'Cracked black pepper (activates turmeric)', amount: '1 pinch', available: true },
+      { name: 'Cinnamon stick or powder', amount: '1/4 tsp', available: true },
+      { name: 'Honey or jaggery', amount: '1.5 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Add milk, turmeric, black pepper, and cinnamon powder to a saucepan.',
+      'Simmer gently on medium-low heat for 3-4 minutes, whisking occasionally.',
+      'Pour into mugs through a strainer.',
+      'Stir in honey or jaggery to taste and enjoy warm before bed.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=haldi+doodh+golden+milk+recipe',
+    isSaved: false
+  },
+  {
+    id: 'drink-38',
+    title: 'Warm Spiced Cinnamon Apple Cider Drink',
+    course: 'Drinks',
+    category: 'Drinks',
+    cuisine: 'American',
+    prepTime: '3 mins',
+    cookTime: '7 mins',
+    calories: '95 kcal',
+    rating: '4.8',
+    reviews: 145,
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
+    description: 'Cozy spiced warm beverage brewed with pure apple juice, whole cinnamon quills, cloves, and a touch of lemon.',
+    ingredients: [
+      { name: 'Pure unfiltered apple juice', amount: '2.5 cups', available: true },
+      { name: 'Cinnamon sticks', amount: '2 sticks', available: true },
+      { name: 'Whole cloves & star anise', amount: '3 cloves', available: false },
+      { name: 'Fresh orange or lemon peel', amount: '1 strip', available: true },
+      { name: 'Brown sugar or maple syrup (optional)', amount: '1 tbsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'In a saucepan, combine apple juice, cinnamon sticks, cloves, and citrus peel.',
+      'Simmer gently on low heat for 7-10 minutes so warming spices infuse deeply.',
+      'Strain hot spiced cider into glass mugs.',
+      'Garnish with a cinnamon stick stirrer and floating apple slices.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=warm+spiced+apple+cider+recipe',
     isSaved: false
   },
 

@@ -29,7 +29,27 @@ export const INGREDIENT_SYNONYMS = {
   matcha: ['matcha', 'green tea'],
   sugar: ['sugar', 'honey', 'jaggery', 'gur', 'maple syrup'],
   flour: ['flour', 'maida', 'atta', 'wheat flour', 'besan', 'gram flour', 'oats'],
-  lemon: ['lemon', 'lime', 'nimbu', 'lemon juice']
+  lemon: ['lemon', 'lime', 'nimbu', 'lemon juice'],
+  banana: ['banana', 'bananas', 'kela'],
+  strawberry: ['strawberry', 'strawberries'],
+  watermelon: ['watermelon', 'tarbooj'],
+  pineapple: ['pineapple', 'ananas'],
+  apple: ['apple', 'apples', 'seb', 'apple juice'],
+  grape: ['grape', 'grapes', 'angoor'],
+  orange: ['orange', 'oranges', 'orange juice', 'santre'],
+  cucumber: ['cucumber', 'kheera'],
+  coconut: ['coconut water', 'coconut', 'nariyal pani', 'nariyal'],
+  rose: ['rose syrup', 'rooh afza', 'gulab syrup', 'rose'],
+  coffee: ['coffee', 'instant coffee', 'cold coffee', 'espresso'],
+  peanut_butter: ['peanut butter', 'peanuts'],
+  oreo: ['oreo', 'oreo biscuit', 'cookies'],
+  ice_cream: ['ice cream', 'vanilla ice cream'],
+  cumin: ['cumin', 'jeera', 'bhuna jeera', 'cumin seeds'],
+  sattu: ['sattu', 'roasted gram flour'],
+  almond: ['almond', 'almonds', 'badam'],
+  turmeric: ['turmeric', 'haldi'],
+  honey: ['honey', 'shahad'],
+  mint: ['mint', 'pudina', 'mint leaves']
 };
 
 export const CO_OCCURRENCE_PAIRS = {
@@ -105,6 +125,17 @@ const FOOD_TYPE_IMAGES = {
   mango_lassi: '/mango_lassi.png',
   chai: '/masala_chai.jpg',
   matcha: '/iced_matcha_latte.png',
+  chaas: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80',
+  aam_panna: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+  lassi: 'https://images.unsplash.com/photo-1571006682858-a53ec2299d63?auto=format&fit=crop&w=800&q=80',
+  rose_milk: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',
+  cooler: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80',
+  lemonade: 'https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=800&q=80',
+  shake: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',
+  cold_coffee: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+  hot_chocolate: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80',
+  badam_milk: 'https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80',
+  haldi_milk: 'https://images.unsplash.com/photo-1578859318504-204695586b82?auto=format&fit=crop&w=800&q=80',
   generic_curry: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
   generic_bowl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80'
 };
@@ -202,7 +233,7 @@ export function parseUserDemand(queryText = '') {
   const dietary = {};
 
   // Extract ingredients mentioned in query
-  for (const [key, terms] of Object.entries(INGREDIENT_SYNONYMS)) {
+  for (const terms of Object.values(INGREDIENT_SYNONYMS)) {
     for (const term of terms) {
       const regex = new RegExp(`\\b${escapeRegExp(term)}\\b`, 'i');
       if (regex.test(text)) {
@@ -447,7 +478,7 @@ export function scoreRecipeDemand(recipe, demandParams = {}) {
 /**
  * Builds highlight tags tailored to the recipe and user demand
  */
-export function buildDemandHighlights(recipe, demandParams = {}) {
+export function buildDemandHighlights(recipe, _demandParams = {}) {
   const highlights = [];
   const totalMinutes = parseTotalMinutes(recipe.prepTime, recipe.cookTime);
   const protein = estimateProteinGrams(recipe);
@@ -490,7 +521,7 @@ export function buildDemandHighlights(recipe, demandParams = {}) {
 export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) {
   const {
     mood = null,
-    mealType = 'all',
+    mealType: _mealType = 'all',
     dietary = {}
   } = demandParams;
 
@@ -508,7 +539,6 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
   const hasRice = userKeys.has('rice');
   const hasBread = userKeys.has('bread');
   const hasCheese = userKeys.has('cheese');
-  const hasPasta = userKeys.has('pasta');
   const hasChocolate = userKeys.has('chocolate');
   const hasMango = userKeys.has('mango');
   const hasSpinach = userKeys.has('spinach');

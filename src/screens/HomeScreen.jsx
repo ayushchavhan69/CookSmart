@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { isVegRecipe } from '../data/recipes';
 import { VegIcon, NonVegIcon, DietIndicator } from '../components/DietBadge';
 
-export default function HomeScreen({ recipes, onSelectRecipe, onNavigateToInput, onNavigateToLanding }) {
+export default function HomeScreen({ recipes, onSelectRecipe, onNavigateToInput: _onNavigateToInput, onNavigateToLanding }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
   const [dietFilter, setDietFilter] = useState('all'); // 'all' | 'veg' | 'non-veg'
