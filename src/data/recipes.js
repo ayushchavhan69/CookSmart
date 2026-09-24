@@ -1399,7 +1399,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '5.0',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1571006682858-a53ec2299d63?auto=format&fit=crop&w=800&q=80',
+    image: '/sweet_lassi.png',
     description: 'Rich, thick, creamy North Indian yogurt shake churned with sugar, cold milk, and topped with clotted malai and cardamom.',
     ingredients: [
       { name: 'Fresh thick curd (Greek or home dahi)', amount: '2 cups', available: true },
@@ -1415,7 +1415,7 @@ export const INITIAL_RECIPES = [
       'Pour into tall tumblers over crushed ice.',
       'Crown with a generous dollop of fresh malai and crushed pistachio slivers.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=punjabi+sweet+lassi+recipe',
+    youtubeUrl: 'https://youtu.be/WY2W5jU5qPU?si=Yx6KuPBVMqUhNxs5',
     isSaved: false
   },
   {
