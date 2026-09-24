@@ -1369,7 +1369,7 @@ export const INITIAL_RECIPES = [
     calories: '95 kcal',
     rating: '4.9',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    image: '/aam_panna.jpg',
     description: 'Iconic Indian summer cooler crafted from boiled green raw mangoes, sweetened with sugar, and seasoned with roasted cumin and black salt.',
     ingredients: [
       { name: 'Raw green mangoes (kairi)', amount: '2 medium', available: true },
