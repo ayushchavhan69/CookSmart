@@ -125,7 +125,7 @@ const FOOD_TYPE_IMAGES = {
   mango_lassi: '/mango_lassi.png',
   chai: '/masala_chai.jpg',
   matcha: '/iced_matcha_latte.png',
-  chaas: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80',
+  chaas: '/masala_chaas.jpg',
   aam_panna: '/aam_panna.jpg',
   lassi: 'https://images.unsplash.com/photo-1571006682858-a53ec2299d63?auto=format&fit=crop&w=800&q=80',
   rose_milk: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',

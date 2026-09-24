@@ -1339,7 +1339,7 @@ export const INITIAL_RECIPES = [
     calories: '65 kcal',
     rating: '4.9',
     reviews: 180,
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80',
+    image: '/masala_chaas.jpg',
     description: 'Traditional cooling Indian buttermilk churned with fresh curd, chilled water, roasted cumin, black salt, and freshly chopped coriander.',
     ingredients: [
       { name: 'Fresh creamy curd (dahi)', amount: '1 cup', available: true },
