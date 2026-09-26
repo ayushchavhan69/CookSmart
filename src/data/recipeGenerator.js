@@ -129,6 +129,7 @@ const FOOD_TYPE_IMAGES = {
   aam_panna: '/aam_panna.jpg',
   lassi: '/sweet_lassi.png',
   rose_milk: '/rose_milk.png',
+  jaljeera: '/jaljeera.jpg',
   cooler: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80',
   lemonade: 'https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=800&q=80',
   shake: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',

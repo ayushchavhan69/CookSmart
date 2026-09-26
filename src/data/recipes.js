@@ -1458,7 +1458,7 @@ export const INITIAL_RECIPES = [
     calories: '45 kcal',
     rating: '4.7',
     reviews: 165,
-    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
+    image: '/jaljeera.jpg',
     description: 'Electrifying digestive summer drink with fresh mint, lemon, cumin, dry ginger, black pepper, and crispy boondi.',
     ingredients: [
       { name: 'Fresh mint and coriander leaves', amount: '1 cup', available: true },
@@ -1474,7 +1474,7 @@ export const INITIAL_RECIPES = [
       'Strain through a sieve for a crystal-clear refreshing infusion.',
       'Stir in crispy boondi and ice cubes right before serving.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=jaljeera+recipe+authentic',
+    youtubeUrl: 'https://youtu.be/mgHCazsqXPA?si=pcxGI7cEorvHg02G',
     isSaved: false
   },
   {
@@ -1504,7 +1504,7 @@ export const INITIAL_RECIPES = [
       'Top with chilled water or sparkling soda and plenty of ice cubes.',
       'Stir vigorously and serve garnished with a floating lemon wheel and mint leaf.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=nimbu+pani+shikanji+recipe',
+    youtubeUrl: 'https://youtu.be/8ygXBT4P0fg?si=qJ2gmHPQRUpL-XBF',
     isSaved: false
   },
   {
@@ -1534,7 +1534,7 @@ export const INITIAL_RECIPES = [
       'Add crushed ice and tender coconut meat strips.',
       'Stir gently to blend flavors and serve immediately for instant hydration.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=coconut+water+lemon+cooler+recipe',
+    youtubeUrl: 'https://youtu.be/3HCyGuYk7b0?si=ZD0GN2FuJOzMuKn3',
     isSaved: false
   },
   {
