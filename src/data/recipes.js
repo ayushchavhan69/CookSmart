@@ -1728,7 +1728,7 @@ export const INITIAL_RECIPES = [
     calories: '80 kcal',
     rating: '4.7',
     reviews: 115,
-    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=800&q=80',
+    image: '/apple_cooler.png',
     description: 'Crisp, sparkling orchard cooler balancing naturally sweet apple juice with tart lemon, sliced green apple, and mint.',
     ingredients: [
       { name: 'Pure apple juice (or fresh apple puree)', amount: '1.5 cups', available: true },
@@ -1744,7 +1744,7 @@ export const INITIAL_RECIPES = [
       'Top with bubbly chilled soda or water and stir gently.',
       'Garnish with a sprig of fresh mint and serve immediately.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=iced+apple+cooler+recipe',
+    youtubeUrl: 'https://youtu.be/V8zaTnjDF_0?si=Jn9uc4QCbnp_0rEJ',
     isSaved: false
   },
   {
