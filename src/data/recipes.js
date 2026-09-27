@@ -1638,7 +1638,7 @@ export const INITIAL_RECIPES = [
     calories: '65 kcal',
     rating: '4.9',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&w=800&q=80',
+    image: '/watermelon_cooler.jpg',
     description: 'Ultra-hydrating summer quencher blended from ripe ruby-red watermelon chunks, lime juice, sea salt, and torn fresh spearmint.',
     ingredients: [
       { name: 'Fresh seedless watermelon chunks', amount: '3 cups', available: true },
@@ -1654,7 +1654,7 @@ export const INITIAL_RECIPES = [
       'Fill tall glasses with crushed ice and pour watermelon cooler over the top.',
       'Garnish with a triangular watermelon slice and a mint bouquet.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=watermelon+cooler+mocktail+recipe',
+    youtubeUrl: 'https://youtu.be/rAdQ2fHa2BU?si=1aXeGA9He4M__mzr',
     isSaved: false
   },
   {
