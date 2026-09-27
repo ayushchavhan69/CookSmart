@@ -1578,7 +1578,7 @@ export const INITIAL_RECIPES = [
     calories: '150 kcal',
     rating: '4.9',
     reviews: 260,
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80',
+    image: '/sattu_sharbat.jpg',
     description: 'Traditional desi protein powerhouse drink made with roasted Bengal gram (sattu) flour, lemon, roasted cumin, black salt, and green chili.',
     ingredients: [
       { name: 'Roasted gram flour (chana sattu)', amount: '4 tbsp', available: true },
@@ -1594,7 +1594,7 @@ export const INITIAL_RECIPES = [
       'Pour the remaining water, lemon juice, black salt, and roasted cumin powder.',
       'Stir vigorously and top with minced coriander and green chili. Drink fresh!'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=sattu+sharbat+recipe',
+    youtubeUrl: 'https://youtu.be/Lceeq2LlPsg?si=DW95k8LTh4CJ6-Kg',
     isSaved: false
   },
   {
