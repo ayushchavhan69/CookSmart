@@ -1548,7 +1548,7 @@ export const INITIAL_RECIPES = [
     calories: '60 kcal',
     rating: '4.7',
     reviews: 110,
-    image: '/pudina_sharbat.jpg',
+    image: '/pudina_sharbat.png',
     description: 'Deep-green cooling herbal potion extracted from garden mint leaves, raw cane sugar, lemon juice, and mountain spring water.',
     ingredients: [
       { name: 'Fresh mint leaves (pudina)', amount: '1.5 cups', available: true },
@@ -1564,7 +1564,7 @@ export const INITIAL_RECIPES = [
       'Add remaining chilled water and stir thoroughly.',
       'Serve over crushed ice with fresh mint garnish for an invigorating refresher.'
     ],
-    youtubeUrl: 'https://youtu.be/QhRQtrK2Exg?si=Xx8oCbVjsHJvRXPD',
+    youtubeUrl: 'https://youtu.be/QhRQtrK2Exg?si=pTscc5vqpo9ZdfY1',
     isSaved: false
   },
   {
