@@ -1698,7 +1698,7 @@ export const INITIAL_RECIPES = [
     calories: '95 kcal',
     rating: '4.9',
     reviews: 240,
-    image: 'https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=800&q=80',
+    image: '/strawberry_lemonade.jpg',
     description: 'Gorgeous red-ombre mocktail made with macerated sweet strawberries, tart freshly squeezed lemon, sugar syrup, and cold water.',
     ingredients: [
       { name: 'Fresh strawberries (hulled)', amount: '1.5 cups', available: true },
@@ -1714,7 +1714,7 @@ export const INITIAL_RECIPES = [
       'Fill glasses with ice cubes, spoon 3 tablespoons of strawberry puree at the base.',
       'Top with lemonade and stir gently for a stunning ombré sunset effect.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=fresh+strawberry+lemonade+recipe',
+    youtubeUrl: 'https://youtu.be/fsqMpDy7y6s?si=pS4V8REFv69BCQUo',
     isSaved: false
   },
   {
