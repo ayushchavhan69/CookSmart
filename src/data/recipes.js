@@ -1608,7 +1608,7 @@ export const INITIAL_RECIPES = [
     calories: '85 kcal',
     rating: '4.8',
     reviews: 135,
-    image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80',
+    image: '/orange_cooler.jpg',
     description: 'Vibrant sunrise mocktail combining freshly squeezed orange juice, sparkling soda water, lemon, and a hint of mint.',
     ingredients: [
       { name: 'Freshly squeezed orange juice', amount: '1.5 cups', available: true },
@@ -1624,7 +1624,7 @@ export const INITIAL_RECIPES = [
       'Slowly top with bubbly chilled soda water to create a fizzy crown.',
       'Garnish with mint leaves and a festive straw.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=fresh+orange+cooler+mocktail+recipe',
+    youtubeUrl: 'https://youtu.be/wocu1HTj0Rc?si=y9iTKPIXlXRm2rft',
     isSaved: false
   },
   {
