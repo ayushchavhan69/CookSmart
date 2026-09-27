@@ -1668,7 +1668,7 @@ export const INITIAL_RECIPES = [
     calories: '90 kcal',
     rating: '4.8',
     reviews: 120,
-    image: 'https://images.unsplash.com/photo-1589733955431-7b0b029283f5?auto=format&fit=crop&w=800&q=80',
+    image: '/pineapple_cooler.png',
     description: 'Zingy tropical cooler crafted from sweet-tart pineapple pulp, fresh lemon juice, black salt, and crushed ice.',
     ingredients: [
       { name: 'Fresh ripe pineapple cubes', amount: '2 cups', available: true },
@@ -1684,7 +1684,7 @@ export const INITIAL_RECIPES = [
       'Stir in fresh lemon juice and a hint of black salt for that tropical kick.',
       'Serve over ice with a pineapple wedge perched on the rim.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=pineapple+cooler+juice+recipe',
+    youtubeUrl: 'https://youtu.be/zEJR9E702Os?si=jefZ-uG2PoNjIJ2F',
     isSaved: false
   },
   {
