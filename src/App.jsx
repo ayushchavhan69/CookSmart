@@ -9,10 +9,15 @@ import RecipeDetailScreen from './screens/RecipeDetailScreen';
 import CookbookScreen from './screens/CookbookScreen';
 import BottomNav from './components/BottomNav';
 
-const STORAGE_KEY = 'cooksmart_app_recipes_v3';
+const STORAGE_KEY = 'cooksmart_app_recipes_v4';
 
 function loadInitialRecipes() {
   try {
+    // Purge outdated storage versions
+    ['cooksmart_app_recipes_v1', 'cooksmart_app_recipes_v2', 'cooksmart_app_recipes_v3'].forEach((k) => {
+      try { localStorage.removeItem(k); } catch { /* ignore */ }
+    });
+
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       const parsed = JSON.parse(saved);
@@ -32,9 +37,12 @@ function loadInitialRecipes() {
           return r;
         });
 
-        // Include any custom AI generated recipes from localStorage
+        // Only include genuinely custom AI generated recipes from localStorage
         const customFromStorage = parsed.filter(
           (p) =>
+            (p.isAiGenerated || (p.id && String(p.id).startsWith('custom-ai-'))) &&
+            p.id !== 'drink-20' &&
+            (p.title || '').toLowerCase().trim() !== 'zesty mint lemon soda cooler' &&
             !INITIAL_RECIPES.some(
               (r) =>
                 r.id === p.id ||

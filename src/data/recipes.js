@@ -1818,7 +1818,7 @@ export const INITIAL_RECIPES = [
     calories: '110 kcal',
     rating: '4.9',
     reviews: 190,
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    image: '/mango_cooler.png',
     description: 'Golden tropical thirst quencher made with sweet Alphonso mango pulp, fresh lemon juice, chilled water, and crushed ice.',
     ingredients: [
       { name: 'Sweet mango pulp', amount: '1 cup', available: true },
@@ -1834,7 +1834,7 @@ export const INITIAL_RECIPES = [
       'Fill glasses with crushed ice and pour the sunshine cooler.',
       'Top with fresh mint leaves and a lemon wedge.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mango+cooler+recipe',
+    youtubeUrl: 'https://youtu.be/ENjWI_kPIe4?si=gXRJ7MXnmXx45R6z',
     isSaved: false
   },
   {
@@ -1848,7 +1848,7 @@ export const INITIAL_RECIPES = [
     calories: '180 kcal',
     rating: '4.9',
     reviews: 275,
-    image: 'https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80',
+    image: '/cold_chocolate_milk.jpg',
     description: 'Rich, comforting café-style chocolate milk shaken cold with Dutch cocoa powder, chilled milk, and a touch of sweetness.',
     ingredients: [
       { name: 'Chilled whole milk', amount: '2 cups', available: true },
@@ -1878,7 +1878,7 @@ export const INITIAL_RECIPES = [
     calories: '210 kcal',
     rating: '4.8',
     reviews: 320,
-    image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',
+    image: '/banana_milkshake.png',
     description: 'Silky smooth, energy-packed shake blended from ripe bananas, chilled milk, sugar, and a hint of vanilla.',
     ingredients: [
       { name: 'Ripe bananas (sliced)', amount: '2 medium', available: true },
@@ -1908,7 +1908,7 @@ export const INITIAL_RECIPES = [
     calories: '230 kcal',
     rating: '5.0',
     reviews: 280,
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    image: '/strawberry_milkshake.jpg',
     description: 'Thick, creamy diner-style strawberry shake made with fresh ripe strawberries, cold milk, sugar, and optional vanilla ice cream.',
     ingredients: [
       { name: 'Fresh ripe strawberries', amount: '1.5 cups', available: true },
@@ -1938,7 +1938,7 @@ export const INITIAL_RECIPES = [
     calories: '250 kcal',
     rating: '5.0',
     reviews: 390,
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
+    image: '/mango_icecream_milkshake.jpg',
     description: 'Street-style indulgent mango mastani shake made with sweet Alphonso pulp, chilled milk, and sugar.',
     ingredients: [
       { name: 'Sweet ripe mango pulp or cubes', amount: '1.5 cups', available: true },
@@ -1968,7 +1968,7 @@ export const INITIAL_RECIPES = [
     calories: '210 kcal',
     rating: '4.7',
     reviews: 90,
-    image: 'https://images.unsplash.com/photo-1570696516188-ade861b84a49?auto=format&fit=crop&w=800&q=80',
+    image: '/apple_cinnamon_milkshake.jpg',
     description: 'Warmly spiced autumn shake blending tender apple pieces, cold milk, cinnamon powder, and honey.',
     ingredients: [
       { name: 'Sweet red apple (peeled & diced)', amount: '1 large', available: true },
@@ -1998,7 +1998,7 @@ export const INITIAL_RECIPES = [
     calories: '320 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',
+    image: '/peanut_butter_banana_shake.jpg',
     description: 'Gym-favorite protein powerhouse made by blending rich peanut butter, ripe banana, cold milk, and honey.',
     ingredients: [
       { name: 'Creamy peanut butter', amount: '2 tbsp', available: true },
@@ -2087,7 +2087,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '4.8',
     reviews: 160,
-    image: 'https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80',
+    image: '/chocolate_banana_shake.jpg',
     description: 'Fudge-like decadent blend of ripe sweet banana, pure cocoa powder, cold milk, and honey.',
     ingredients: [
       { name: 'Ripe banana', amount: '1 large', available: true },
@@ -2117,7 +2117,7 @@ export const INITIAL_RECIPES = [
     calories: '260 kcal',
     rating: '4.9',
     reviews: 175,
-    image: 'https://images.unsplash.com/photo-1588767763435-0842e47c1b48?auto=format&fit=crop&w=800&q=80',
+    image: '/royal_rose_milkshake.jpg',
     description: 'Luxurious sweet dessert milkshake made by blending aromatic rose syrup with chilled whole milk and creamy vanilla ice cream.',
     ingredients: [
       { name: 'Concentrated rose syrup (Rooh Afza)', amount: '3 tbsp', available: true },
@@ -2176,7 +2176,7 @@ export const INITIAL_RECIPES = [
     calories: '60 kcal',
     rating: '4.9',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: '/honey_lemon_tea.jpg',
     description: 'Classic soothing throat relief infusion made with hot water, freshly squeezed lemon juice, and pure raw honey.',
     ingredients: [
       { name: 'Warm/Hot water (not boiling)', amount: '1.5 cups', available: true },
@@ -2235,7 +2235,7 @@ export const INITIAL_RECIPES = [
     calories: '220 kcal',
     rating: '5.0',
     reviews: 320,
-    image: 'https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80',
+    image: '/kesar_badam_milk.jpg',
     description: 'Rich royal tonic simmered with soaked blanched almond paste, saffron strands, green cardamom, and warm whole milk.',
     ingredients: [
       { name: 'Whole milk', amount: '2 cups', available: true },
@@ -2265,7 +2265,7 @@ export const INITIAL_RECIPES = [
     calories: '130 kcal',
     rating: '4.9',
     reviews: 350,
-    image: 'https://images.unsplash.com/photo-1578859318504-204695586b82?auto=format&fit=crop&w=800&q=80',
+    image: '/golden_haldi_doodh.jpg',
     description: 'Ayurvedic healing golden milk simmered with organic turmeric, black pepper, cinnamon, honey, and warm milk.',
     ingredients: [
       { name: 'Whole milk (or oat/almond milk)', amount: '2 cups', available: true },
@@ -2295,7 +2295,7 @@ export const INITIAL_RECIPES = [
     calories: '95 kcal',
     rating: '4.8',
     reviews: 145,
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
+    image: '/warm_cinnamon_apple_drink.jpg',
     description: 'Cozy spiced warm beverage brewed with pure apple juice, whole cinnamon quills, cloves, and a touch of lemon.',
     ingredients: [
       { name: 'Pure unfiltered apple juice', amount: '2.5 cups', available: true },
