@@ -1778,36 +1778,6 @@ export const INITIAL_RECIPES = [
     isSaved: false
   },
   {
-    id: 'drink-20',
-    title: 'Zesty Mint Lemon Soda Cooler',
-    course: 'Drinks',
-    category: 'Drinks',
-    cuisine: 'Continental',
-    prepTime: '3 mins',
-    cookTime: '0 mins',
-    calories: '60 kcal',
-    rating: '4.9',
-    reviews: 215,
-    image: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80',
-    description: 'The ultimate fizzy restaurant cooler with muddled garden mint, tangy lemon juice, simple syrup, and bubbly chilled soda.',
-    ingredients: [
-      { name: 'Fresh lemon juice', amount: '2 tbsp', available: true },
-      { name: 'Fresh mint leaves', amount: '12 leaves', available: true },
-      { name: 'Sugar syrup', amount: '2 tbsp', available: true },
-      { name: 'Chilled club soda', amount: '1.5 cups', available: true },
-      { name: 'Black salt and crushed ice', amount: '1 pinch', available: true }
-    ],
-    missingCount: 0,
-    instructions: [
-      'In a tall glass, muddle mint leaves and sugar syrup with a pinch of black salt.',
-      'Squeeze in fresh lemon juice and fill glass with plenty of crushed ice.',
-      'Pour chilled sparkling soda to the top and watch it fizz.',
-      'Give it one quick stir and sip through a straw for instant refreshment.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mint+lemon+soda+cooler+recipe',
-    isSaved: false
-  },
-  {
     id: 'drink-21',
     title: 'Detox Cucumber Mint Hydration Cooler',
     course: 'Drinks',
@@ -1818,7 +1788,7 @@ export const INITIAL_RECIPES = [
     calories: '35 kcal',
     rating: '4.8',
     reviews: 130,
-    image: 'https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=800&q=80',
+    image: '/cucumber_cooler.png',
     description: 'Crisp, spa-grade wellness cooler packed with pureed cucumber, fresh lemon, mint leaves, and ice-cold water.',
     ingredients: [
       { name: 'English cucumber (chopped)', amount: '1 cup', available: true },
@@ -1834,7 +1804,7 @@ export const INITIAL_RECIPES = [
       'Combine with remaining chilled water and ice cubes.',
       'Garnish with cucumber ribbons and fresh mint for a revitalizing spa drink.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=cucumber+mint+cooler+recipe',
+    youtubeUrl: 'https://youtu.be/XsG5h70rSSI?si=oR2ot5OXnmAELvG9',
     isSaved: false
   },
   {
