@@ -1217,7 +1217,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '5.0',
     reviews: 620,
-    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    image: '/samosa.jpg',
     description: 'Flaky, pyramid-shaped golden crust stuffed with spiced boiled potatoes, green peas, whole coriander seeds, and ginger.',
     ingredients: [
       { name: 'All-purpose flour (Maida) & Ajwain', amount: '2 cups', available: true },
@@ -1247,7 +1247,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '5.0',
     reviews: 580,
-    image: 'https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80',
+    image: '/mumbai_vada_pav.jpg',
     description: 'The undisputed king of Mumbai street food: spiced mashed potato batata vada nestled in soft ladi pav with spicy dry red garlic chutney.',
     ingredients: [
       { name: 'Boiled mashed potatoes', amount: '4 medium', available: true },
@@ -1277,7 +1277,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/street_sev_puri.jpg',
     description: 'Crispy flat papdis topped with diced boiled potatoes, onions, a trio of spicy, sweet & garlic chutneys, topped with a mountain of nylon sev.',
     ingredients: [
       { name: 'Flat crispy flour papdis', amount: '15-18 papdis', available: true },
@@ -1308,7 +1308,7 @@ export const INITIAL_RECIPES = [
     calories: '270 kcal',
     rating: '4.9',
     reviews: 420,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/onion_pakoda.jpg',
     description: 'Ultra-crunchy Mumbai street-style shredded onion fritters made without extra water, spiced with ajwain, green chilies, and coriander.',
     ingredients: [
       { name: 'Thinly sliced red onions', amount: '3 large', available: true },
@@ -1338,7 +1338,7 @@ export const INITIAL_RECIPES = [
     calories: '190 kcal',
     rating: '5.0',
     reviews: 890,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/classic_pani_puri.jpg',
     description: 'Hollow, ultra-crisp semolina puries filled with spiced ragda or black chickpeas, bathed in icy tangy mint-coriander pani and sweet tamarind water.',
     ingredients: [
       { name: 'Crispy hollow Golgappa puris', amount: '20 puris', available: true },
@@ -1368,7 +1368,7 @@ export const INITIAL_RECIPES = [
     calories: '320 kcal',
     rating: '4.8',
     reviews: 260,
-    image: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80',
+    image: '/cheesy_garlic_breadsticks.jpg',
     description: 'Bakery-fresh soft pull-apart breadsticks loaded with roasted garlic butter, oregano, chili flakes, and gooey melted mozzarella cheese.',
     ingredients: [
       { name: 'Yeast bread dough or French loaf slices', amount: '300g', available: true },
@@ -1397,7 +1397,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
+    image: '/veg_spring_rolls.png',
     description: 'Golden crunchy rolls stuffed with wok-tossed cabbage, shredded carrots, bell peppers, spring onions, and soy-garlic seasoning.',
     ingredients: [
       { name: 'Spring roll wrappers (pastry sheets)', amount: '10 sheets', available: true },
@@ -1416,7 +1416,6 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+veg+spring+rolls+recipe',
     isSaved: false
   },
-
   {
     id: 'snack-17',
     title: 'Crispy Golden Mozzarella Cheese Sticks',
@@ -1428,7 +1427,7 @@ export const INITIAL_RECIPES = [
     calories: '330 kcal',
     rating: '4.8',
     reviews: 240,
-    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    image: '/mozzarella_sticks.png',
     description: 'Herb-seasoned crunchy breadcrumb crust encasing stretchy melted mozzarella cheese, served with rich marinara dipping sauce.',
     ingredients: [
       { name: 'Low-moisture Mozzarella cheese block (cut into batons)', amount: '250g', available: false },
@@ -1458,7 +1457,7 @@ export const INITIAL_RECIPES = [
     calories: '210 kcal',
     rating: '5.0',
     reviews: 490,
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80',
+    image: '/steamed_veg_momos.jpg',
     description: 'Delicate, thin-skinned pleated dumplings stuffed with juicy seasoned cabbage, carrots, onions, and garlic, served with fiery red tomato-chili sauce.',
     ingredients: [
       { name: 'All-purpose flour dough (thinly rolled)', amount: '2 cups', available: true },
@@ -1488,7 +1487,7 @@ export const INITIAL_RECIPES = [
     calories: '220 kcal',
     rating: '4.9',
     reviews: 380,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/mumbai_bhel_puri.jpg',
     description: 'Iconic beachside chaat tossed with light puffed rice, crispy papdis, crunchy sev, boiled potatoes, chopped onions, and three tangy chutneys.',
     ingredients: [
       { name: 'Crisp puffed rice (Murmura)', amount: '3 cups', available: true },
@@ -1518,7 +1517,7 @@ export const INITIAL_RECIPES = [
     calories: '360 kcal',
     rating: '4.8',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/stuffed_bread_pakoda.jpg',
     description: 'Dhaba-style golden fried snack made of soft white bread sandwiches packed with spiced potato masala and green chutney, dipped in seasoned gram flour batter.',
     ingredients: [
       { name: 'White or whole wheat bread slices', amount: '4 slices', available: true },
@@ -1537,7 +1536,6 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=halwai+style+stuffed+bread+pakoda+recipe',
     isSaved: false
   },
-
   {
     id: 'snack-22',
     title: 'Dilli Style Papdi Chaat',
@@ -1549,7 +1547,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '5.0',
     reviews: 410,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/dilli_papdi_chaat.jpg',
     description: 'Crispy fried dough wafers (papdis) layered with boiled potatoes, chickpeas, sweetened whisked curd, tangy chutneys, and aromatic spice powders.',
     ingredients: [
       { name: 'Crisp round papdis', amount: '12-15 pieces', available: true },
@@ -1579,7 +1577,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '4.9',
     reviews: 370,
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
+    image: '/veg_manchurian_dry.jpg',
     description: 'Crisp vegetable dumplings made from shredded cabbage and carrots, tossed in a sizzling wok with garlic, ginger, spring onions, and dark soy sauce.',
     ingredients: [
       { name: 'Finely grated cabbage, carrots & bell peppers', amount: '2.5 cups', available: true },
@@ -1609,7 +1607,7 @@ export const INITIAL_RECIPES = [
     calories: '350 kcal',
     rating: '4.9',
     reviews: 295,
-    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    image: '/paneer_65.jpg',
     description: 'Spicy South Indian appetizer featuring batter-fried crispy paneer cubes tempered with fragrant curry leaves, mustard seeds, green chillies, and garlic.',
     ingredients: [
       { name: 'Fresh paneer (cut into bite-sized cubes)', amount: '250g', available: true },
@@ -1639,7 +1637,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '5.0',
     reviews: 430,
-    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    image: '/chilli_paneer_dry.jpg',
     description: 'Wok-tossed crispy batter-coated paneer cubes with crunchy diced bell peppers, onions, green chilies, garlic, and savory Asian sauces.',
     ingredients: [
       { name: 'Paneer cubes (lightly fried with cornstarch)', amount: '250g', available: true },
@@ -1669,7 +1667,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.8',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80',
+    image: '/crinkle_cut_fries.jpg',
     description: 'Golden crinkle cut potato fries dusted with a zesty blend of chaat masala, peri-peri, paprika, garlic powder, and rock salt.',
     ingredients: [
       { name: 'Crinkle cut large potatoes', amount: '3 large (400g)', available: true },
@@ -1699,7 +1697,7 @@ export const INITIAL_RECIPES = [
     calories: '260 kcal',
     rating: '4.7',
     reviews: 165,
-    image: 'https://images.unsplash.com/photo-1639024471285-05c285cc1508?auto=format&fit=crop&w=800&q=80',
+    image: '/onion_rings.jpg',
     description: 'Thick sweet yellow onion rings dipped in a light seasoned bubbly batter and panko breadcrumbs, fried until airy and golden.',
     ingredients: [
       { name: 'Large sweet Spanish onions (sliced into rings)', amount: '2 large', available: true },
@@ -1729,7 +1727,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '4.8',
     reviews: 230,
-    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80',
+    image: '/baked_potato_wedges.png',
     description: 'Thick-cut skin-on russet potato wedges seasoned with rosemary, smoked paprika, and garlic olive oil, baked until crisp and fluffy inside.',
     ingredients: [
       { name: 'Russet potatoes (cut into thick wedges)', amount: '3 large', available: true },
@@ -1759,7 +1757,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    image: '/cheese_corn_balls.jpg',
     description: 'Café-favorite crunchy golden spheres packed with sweet corn, mashed potatoes, green chillies, and molten mozzarella cheese.',
     ingredients: [
       { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
@@ -1789,7 +1787,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.8',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/mirchi_bajji.jpg',
     description: 'Large mild green chilies stuffed with tangy tamarind-cumin paste, dipped in spiced gram flour batter, and fried until crisp.',
     ingredients: [
       { name: 'Large Bhavnagri mild green chillies', amount: '6-8 large', available: true },
@@ -1819,7 +1817,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '5.0',
     reviews: 440,
-    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    image: '/sabudana_vada.jpg',
     description: 'Golden crispy Maharashtrian fasting snack made from soaked tapioca pearls, roasted crushed peanuts, mashed potatoes, and green chillies.',
     ingredients: [
       { name: 'Sabudana (tapioca pearls, soaked overnight)', amount: '1.5 cups', available: true },
@@ -1849,7 +1847,7 @@ export const INITIAL_RECIPES = [
     calories: '390 kcal',
     rating: '5.0',
     reviews: 520,
-    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    image: '/samosa_ragda_chaat.jpg',
     description: 'Hot crispy samosas crushed and smothered in warm white pea ragda curry, chilled sweet yogurt, tangy tamarind & spicy mint chutneys.',
     ingredients: [
       { name: 'Hot crispy samosas', amount: '2 samosas', available: true },
@@ -1879,7 +1877,7 @@ export const INITIAL_RECIPES = [
     calories: '260 kcal',
     rating: '4.8',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    image: '/railway_veg_cutlet.jpg',
     description: 'Nostalgic crumb-coated vegetable cutlet patties packed with potatoes, beetroot, carrots, and green peas, shallow-fried to perfection.',
     ingredients: [
       { name: 'Boiled potatoes, grated beetroot & carrots', amount: '2 cups', available: true },
@@ -1909,7 +1907,7 @@ export const INITIAL_RECIPES = [
     calories: '270 kcal',
     rating: '5.0',
     reviews: 480,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/dahi_bhalla.jpg',
     description: 'Melt-in-your-mouth lentil dumplings soaked in warm water and immersed in silky chilled sweetened yogurt with sweet and spicy chutneys.',
     ingredients: [
       { name: 'Soaked Urad dal (ground & aerated)', amount: '1.5 cups', available: true },
@@ -1939,7 +1937,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '4.9',
     reviews: 360,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/ragda_pattice.jpg',
     description: 'Golden shallow-fried crisp potato patties served on a bed of piping hot white pea gravy, garnished with chutneys, onions, and sev.',
     ingredients: [
       { name: 'Boiled mashed potatoes & cornstarch', amount: '3 large', available: true },
@@ -1969,7 +1967,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '4.8',
     reviews: 270,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/moong_dal_pakoda.jpg',
     description: 'Famous Delhi street snack made of light, crispy yellow moong dal fritters served with grated mooli (radish) and spicy tangy radish-leaf chutney.',
     ingredients: [
       { name: 'Yellow Moong dal & Chana dal (soaked)', amount: '1.5 cups', available: true },
@@ -1999,7 +1997,7 @@ export const INITIAL_RECIPES = [
     calories: '180 kcal',
     rating: '5.0',
     reviews: 460,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/khaman_dhokla.png',
     description: 'Juicy, melt-in-mouth steamed savory gram flour cake tempered with mustard seeds, curry leaves, green chillies, and sweet lime syrup.',
     ingredients: [
       { name: 'Besan (gram flour)', amount: '2 cups', available: true },
@@ -2029,7 +2027,7 @@ export const INITIAL_RECIPES = [
     calories: '190 kcal',
     rating: '4.7',
     reviews: 180,
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    image: '/methi_muthia.jpg',
     description: 'Nutritious spiced dumplings made from fresh fenugreek leaves, whole wheat flour, besan, steamed and pan-crisped with sesame seeds.',
     ingredients: [
       { name: 'Fresh methi (fenugreek leaves, chopped)', amount: '2 cups', available: true },
@@ -2059,7 +2057,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '4.8',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80',
+    image: '/corn_quesadilla.jpeg',
     description: 'Toasted flour tortillas filled with melted Monterey Jack cheese, sweet corn, bell peppers, jalapeño slices, and Mexican spices.',
     ingredients: [
       { name: 'Flour or corn tortillas', amount: '2 large', available: true },
@@ -2078,7 +2076,6 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+cheese+corn+quesadilla+recipe',
     isSaved: false
   },
-
   {
     id: 'snack-41',
     title: 'Tandoori Stuffed Mushroom Tikka',
@@ -2090,7 +2087,7 @@ export const INITIAL_RECIPES = [
     calories: '230 kcal',
     rating: '4.9',
     reviews: 190,
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    image: '/stuffed_mushroom_tikka.jpg',
     description: 'Juicy white button mushrooms stuffed with spiced paneer and cheese, marinated in smoky tandoori yogurt masala, and grilled to smoky perfection.',
     ingredients: [
       { name: 'Large fresh button mushrooms', amount: '250g', available: true },
@@ -2120,7 +2117,7 @@ export const INITIAL_RECIPES = [
     calories: '190 kcal',
     rating: '4.8',
     reviews: 220,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/kurkuri_bhindi.jpg',
     description: 'Thinly julienned okra strips dusted with besan, rice flour, amchur, and aromatic spices, flash-fried into irresistible crispy chips.',
     ingredients: [
       { name: 'Fresh Bhindi (Okra, deseeded & julienned)', amount: '250g', available: true },
@@ -2150,7 +2147,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    image: '/gobi_65.jpg',
     description: 'Crunchy battered cauliflower florets spiced with red chili paste, deep fried and tossed with sizzled curry leaves and green chillies.',
     ingredients: [
       { name: 'Cauliflower florets (parboiled for 2 mins)', amount: '300g', available: true },
@@ -2180,7 +2177,7 @@ export const INITIAL_RECIPES = [
     calories: '320 kcal',
     rating: '5.0',
     reviews: 380,
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80',
+    image: '/kurkure_momos.jpg',
     description: 'Viral Delhi street food sensation: steamed veg momos coated in seasoned batter and crushed cornflakes, deep-fried for maximum audible crunch.',
     ingredients: [
       { name: 'Steamed vegetable momos', amount: '8 pieces', available: true },
@@ -2210,7 +2207,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '4.9',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    image: '/malai_soya_chaap.jpg',
     description: 'Protein-packed soya chaap chunks marinated in rich cashew-cream masala, skewered, and grilled with capsicum and onion petals.',
     ingredients: [
       { name: 'Soya chaap sticks (boiled & sliced)', amount: '300g', available: true },
@@ -2240,7 +2237,7 @@ export const INITIAL_RECIPES = [
     calories: '320 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    image: '/paneer_popcorn.jpg',
     description: 'Bite-sized cubes of fresh paneer marinated in peri-peri spices, coated in crunchy breadcrumbs, and flash fried into addictive popcorn bites.',
     ingredients: [
       { name: 'Fresh paneer (cut into 1-inch mini cubes)', amount: '250g', available: true },
@@ -2270,7 +2267,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '4.8',
     reviews: 240,
-    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
+    image: '/tawa_masala_toast.jpg',
     description: 'Mumbai street food classic: buttered white bread topped with sautéed spicy onion-capsicum-tomato bhaji and a thick blanket of molten cheese.',
     ingredients: [
       { name: 'Bread slices (white or multigrain)', amount: '4 slices', available: true },
@@ -2300,7 +2297,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.9',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/ribbon_pakoda.jpg',
     description: 'Crisp ribbon-shaped savory tea-time snack made from rice flour, roasted gram flour (besan), butter, and seasoned with cumin and chili.',
     ingredients: [
       { name: 'Rice flour', amount: '2 cups', available: true },
@@ -2330,7 +2327,7 @@ export const INITIAL_RECIPES = [
     calories: '250 kcal',
     rating: '5.0',
     reviews: 390,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    image: '/palak_patta_chaat.jpg',
     description: 'Whole fresh spinach leaves coated in thin spiced besan batter, fried until paper-crisp, and topped with yogurt, chutneys, and spice powders.',
     ingredients: [
       { name: 'Large fresh whole spinach leaves (Palak)', amount: '15-20 leaves', available: true },
@@ -2360,7 +2357,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '4.8',
     reviews: 195,
-    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    image: '/jalapeno_poppers.jpg',
     description: 'Spicy jalapeño peppers hollowed out and filled with cream cheese, cheddar, garlic herbs, coated in crispy breadcrumbs, and fried golden.',
     ingredients: [
       { name: 'Fresh Jalapeño peppers (halved & deseeded)', amount: '8 large', available: true },
@@ -2390,7 +2387,7 @@ export const INITIAL_RECIPES = [
     calories: '210 kcal',
     rating: '4.9',
     reviews: 260,
-    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    image: '/kothimbir_vadi.jpg',
     description: 'Traditional Maharashtrian savory snack made of fresh chopped cilantro (kothimbir), besan, peanuts, and spices, steamed into cakes and fried crispy.',
     ingredients: [
       { name: 'Fresh cilantro / coriander (finely chopped)', amount: '3 cups', available: true },
