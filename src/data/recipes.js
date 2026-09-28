@@ -1864,7 +1864,7 @@ export const INITIAL_RECIPES = [
       'Shake vigorously for 20 seconds until frothy and velvety.',
       'Pour into chilled glasses and dust top with cocoa powder or chocolate curls.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=homemade+chocolate+milk+recipe',
+    youtubeUrl: 'https://youtu.be/H2DKofxjb74?si=qOrveROhm__JSRc7',
     isSaved: false
   },
   {
@@ -1894,7 +1894,7 @@ export const INITIAL_RECIPES = [
       'Blend on high speed for 60 seconds until thick, frothy, and totally lump-free.',
       'Pour into a tall glass and sprinkle a pinch of ground cinnamon on top.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=creamy+banana+shake+recipe',
+    youtubeUrl: 'https://youtu.be/uUv3cby4yMI?si=pcuioa-Dpa3UKcjU',
     isSaved: false
   },
   {
@@ -1924,7 +1924,7 @@ export const INITIAL_RECIPES = [
       'Blend on high until silky smooth and pastel pink.',
       'Pour into soda glasses and garnish with a fresh strawberry on the rim.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=strawberry+milkshake+recipe',
+    youtubeUrl: 'https://youtu.be/vwO7nPaAWvs?si=77eFuwTXRoJrZiRl',
     isSaved: false
   },
   {
@@ -1954,7 +1954,7 @@ export const INITIAL_RECIPES = [
       'Crown with a scoop of ice cream.',
       'Garnish with chopped cashews, pistachios, and colorful tutty-fruity.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mango+milkshake+recipe+street+style',
+    youtubeUrl: 'https://youtu.be/gllA8QgRJIA?si=WXZybfL8UzBr5AHS',
     isSaved: false
   },
   {
@@ -1984,7 +1984,7 @@ export const INITIAL_RECIPES = [
       'Pour into chilled glasses over ice.',
       'Dust with extra ground cinnamon and serve cold.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=apple+milkshake+recipe',
+    youtubeUrl: 'https://youtu.be/ewx0WbnzDEk?si=7ZvVDOIaGNWcSgjT',
     isSaved: false
   },
   {
@@ -2014,7 +2014,7 @@ export const INITIAL_RECIPES = [
       'Pour into a shaker bottle or tall glass.',
       'Garnish with banana coins and crushed roasted peanuts.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=peanut+butter+banana+shake+protein',
+    youtubeUrl: 'https://youtu.be/DEiueXH--HI?si=rYWfNpnPd-p4yJ9r',
     isSaved: false
   },
   {
@@ -2043,7 +2043,7 @@ export const INITIAL_RECIPES = [
       'Pulse for 30 seconds so crunchy cookie crumbles remain suspended.',
       'Pour into prepared glasses and top with the remaining crumbled Oreo cookie.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=oreo+milkshake+cafe+style+recipe',
+    youtubeUrl: 'https://youtu.be/jS3mRWkpVOA?si=fUfEK0YgnvHKwW6t',
     isSaved: false
   },
   {
@@ -2073,7 +2073,7 @@ export const INITIAL_RECIPES = [
       'Blend on high speed for 60 seconds until thick, creamy froth fills the top half.',
       'Drizzle chocolate syrup into glass, pour cold coffee, and spoon the foam on top.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=cafe+style+cold+coffee+recipe',
+    youtubeUrl: 'https://youtu.be/BtJob9f2Zvc?si=oy437Oln7BdCkpHd',
     isSaved: false
   },
   {
@@ -2103,7 +2103,7 @@ export const INITIAL_RECIPES = [
       'Pour into tall tumblers.',
       'Garnish top with a dust of cocoa powder and banana chips.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=chocolate+banana+shake+recipe',
+    youtubeUrl: 'https://youtu.be/SYYNkMwKHlw?si=Mi8rcNKJww7RIaDZ',
     isSaved: false
   },
   {
@@ -2132,7 +2132,7 @@ export const INITIAL_RECIPES = [
       'Top with a second scoop of vanilla ice cream.',
       'Drizzle with extra rose syrup and sprinkle crushed pistachios.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=rose+ice+cream+shake+recipe',
+    youtubeUrl: 'https://youtu.be/OBAYy0TQRjs?si=CnC4Gcktqt5eGjjM',
     isSaved: false
   },
   {
@@ -2162,7 +2162,7 @@ export const INITIAL_RECIPES = [
       'Add black tea leaves and simmer for 1 minute; add milk and sugar.',
       'Bring to rolling boil twice, strain into cups, and enjoy hot.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=adrak+wali+chai+ginger+tea+recipe',
+    youtubeUrl: 'https://youtu.be/ogB4Y3dmODQ?si=7HTbWQmg3gz-msQs',
     isSaved: false
   },
   {
@@ -2191,7 +2191,7 @@ export const INITIAL_RECIPES = [
       'Stir in raw wild honey until completely dissolved.',
       'Sip slowly from a warm mug for instant soothing comfort.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=hot+honey+lemon+water+recipe',
+    youtubeUrl: 'https://youtu.be/XKv24ZzvmyQ?si=gX7nlt86dWf3w-Wn',
     isSaved: false
   },
   {
@@ -2221,7 +2221,7 @@ export const INITIAL_RECIPES = [
       'Add dark chocolate chunks and whisk constantly until melted and silky thick.',
       'Pour into cozy mugs and top with whipped cream or mini marshmallows.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=thick+hot+chocolate+recipe',
+    youtubeUrl: 'https://youtu.be/rdU5qbwpGgY?si=oJHSFrS_k-RqiXLY',
     isSaved: false
   },
   {
@@ -2251,7 +2251,7 @@ export const INITIAL_RECIPES = [
       'Stir in almond paste, sugar, and cardamom powder; simmer on low heat for 5 minutes.',
       'Serve steaming hot in winter or chilled in summer with sliced almonds.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kesar+badam+milk+recipe',
+    youtubeUrl: 'https://youtu.be/t-OKJMEUSsI?si=3KtUMtFG2AKuzIIF',
     isSaved: false
   },
   {
@@ -2281,7 +2281,7 @@ export const INITIAL_RECIPES = [
       'Pour into mugs through a strainer.',
       'Stir in honey or jaggery to taste and enjoy warm before bed.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=haldi+doodh+golden+milk+recipe',
+    youtubeUrl: 'https://youtu.be/qDvGBHuTswA?si=uV15lgM3uR55z0II',
     isSaved: false
   },
   {
@@ -2311,7 +2311,7 @@ export const INITIAL_RECIPES = [
       'Strain hot spiced cider into glass mugs.',
       'Garnish with a cinnamon stick stirrer and floating apple slices.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=warm+spiced+apple+cider+recipe',
+    youtubeUrl: 'https://youtu.be/lxOhKo7Og4U?si=UXEAUPKeTE-Kf5bg',
     isSaved: false
   },
 
