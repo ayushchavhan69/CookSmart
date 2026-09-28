@@ -137,6 +137,7 @@ const FOOD_TYPE_IMAGES = {
   pineapple_cooler: '/pineapple_cooler.png',
   strawberry_lemonade: '/strawberry_lemonade.jpg',
   apple_cooler: '/apple_cooler.png',
+  grape_cooler: '/grape_cooler.png',
   cooler: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80',
   lemonade: '/strawberry_lemonade.jpg',
   shake: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80',

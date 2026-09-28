@@ -1758,7 +1758,7 @@ export const INITIAL_RECIPES = [
     calories: '90 kcal',
     rating: '4.8',
     reviews: 105,
-    image: 'https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=800&q=80',
+    image: '/grape_cooler.png',
     description: 'Deep purple antioxidant elixir made with sweet seedless black grapes, a squeeze of lemon, sugar, and cooling mint.',
     ingredients: [
       { name: 'Seedless black or red grapes', amount: '2 cups', available: true },
@@ -1774,7 +1774,7 @@ export const INITIAL_RECIPES = [
       'Pour into highball glasses loaded with crushed ice.',
       'Top with a splash of soda and garnish with mint leaves.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=grape+cooler+juice+recipe',
+    youtubeUrl: 'https://youtu.be/U3KwgIX7d_A?si=H3vGS3ruP5Q8iee5',
     isSaved: false
   },
   {
