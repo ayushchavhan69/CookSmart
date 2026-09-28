@@ -1416,96 +1416,7 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+veg+spring+rolls+recipe',
     isSaved: false
   },
-  {
-    id: 'snack-14',
-    title: 'Delightful Hara Bhara Kabab',
-    course: 'Snacks',
-    category: 'Snacks',
-    cuisine: 'Indian',
-    prepTime: '15 mins',
-    cookTime: '12 mins',
-    calories: '220 kcal',
-    rating: '4.8',
-    reviews: 215,
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
-    description: 'Nutritious vibrant green patties made from fresh blanched spinach, green peas, paneer, and potatoes, topped with a crunchy cashew nut.',
-    ingredients: [
-      { name: 'Fresh spinach leaves (Palak)', amount: '2 cups blanched', available: true },
-      { name: 'Boiled green peas & grated paneer', amount: '1 cup', available: true },
-      { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
-      { name: 'Roasted gram flour (besan) & breadcrumbs', amount: '4 tbsp', available: true },
-      { name: 'Whole cashew halves for garnish', amount: '10-12', available: false }
-    ],
-    missingCount: 1,
-    instructions: [
-      'Blanch spinach in boiling water for 2 mins, refresh in ice water, squeeze excess moisture, and grind with green peas.',
-      'Mix puree with mashed potatoes, crumbled paneer, roasted besan, garam masala, and chaat masala.',
-      'Shape into smooth round tikkis and press a whole cashew half on the top center of each.',
-      'Pan-sear in ghee on medium flame until crisp on both sides and rich green inside.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=hara+bhara+kabab+restaurant+style+recipe',
-    isSaved: false
-  },
-  {
-    id: 'snack-15',
-    title: 'Butter Masala Crispy Corn Chaat',
-    course: 'Snacks',
-    category: 'Snacks',
-    cuisine: 'Indo-Chinese / Street',
-    prepTime: '10 mins',
-    cookTime: '10 mins',
-    calories: '250 kcal',
-    rating: '4.9',
-    reviews: 290,
-    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80',
-    description: 'Barbeque Nation style crunchy fried sweet corn kernels tossed with butter, chaat masala, lemon juice, and finely chopped herbs.',
-    ingredients: [
-      { name: 'Sweet corn kernels (boiled)', amount: '2 cups', available: true },
-      { name: 'Corn flour (cornstarch) & rice flour', amount: '3 tbsp each', available: true },
-      { name: 'Butter', amount: '2 tbsp', available: true },
-      { name: 'Chaat masala & Kashmiri chili powder', amount: '1.5 tsp', available: true },
-      { name: 'Chopped onions, green chilies & lemon', amount: '1/3 cup', available: true }
-    ],
-    missingCount: 0,
-    instructions: [
-      'Coat boiled sweet corn with a pinch of salt, corn flour, and rice flour until each kernel is dusted evenly.',
-      'Deep fry in medium-hot oil for 4-5 mins until kernels pop and become shatteringly crisp.',
-      'Toss immediately while hot in a bowl with melted butter, chaat masala, chili powder, and lemon juice.',
-      'Garnish with finely chopped onions, cilantro, and serve right away.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+corn+barbeque+nation+style+recipe',
-    isSaved: false
-  },
-  {
-    id: 'snack-16',
-    title: 'Kolkata Kathi Paneer Roll',
-    course: 'Snacks',
-    category: 'Snacks',
-    cuisine: 'Indian',
-    prepTime: '15 mins',
-    cookTime: '12 mins',
-    calories: '380 kcal',
-    rating: '4.9',
-    reviews: 340,
-    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
-    description: 'Street-style Kolkata roll wrapped in flaky layered paratha loaded with tandoori-marinated paneer chunks, sliced onions, and tangy chaat masala.',
-    ingredients: [
-      { name: 'Flaky layered whole wheat / maida parathas', amount: '2 parathas', available: true },
-      { name: 'Paneer cubes (marinated in spices & yogurt)', amount: '200g', available: true },
-      { name: 'Thinly sliced onions & bell peppers', amount: '1 cup', available: true },
-      { name: 'Mint coriander chutney & tomato sauce', amount: '3 tbsp', available: true },
-      { name: 'Kasuri methi & Kolkata frankie spice mix', amount: '1 tsp', available: false }
-    ],
-    missingCount: 1,
-    instructions: [
-      'Pan-roast marinated paneer cubes and capsicum in a skillet over high heat until lightly charred.',
-      'Toast paratha on hot tawa with butter until crisp and flaky.',
-      'Layer paratha with green mint chutney, spicy roasted paneer tikka, and crunchy onion rings.',
-      'Sprinkle special chaat masala, squeeze fresh lemon, roll tightly in paper, and serve.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kolkata+paneer+kathi+roll+recipe',
-    isSaved: false
-  },
+
   {
     id: 'snack-17',
     title: 'Crispy Golden Mozzarella Cheese Sticks',
@@ -1626,36 +1537,7 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=halwai+style+stuffed+bread+pakoda+recipe',
     isSaved: false
   },
-  {
-    id: 'snack-21',
-    title: 'Spicy Tangy Crispy Aloo Chaat',
-    course: 'Snacks',
-    category: 'Snacks',
-    cuisine: 'Indian',
-    prepTime: '10 mins',
-    cookTime: '10 mins',
-    calories: '260 kcal',
-    rating: '4.9',
-    reviews: 280,
-    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
-    description: 'Dilli street favorite: crispy double-fried golden potato cubes tossed in roasted cumin, dry mango powder, sweet-spicy chutneys, and lemon juice.',
-    ingredients: [
-      { name: 'Boiled potatoes (cut into cubes)', amount: '3 large', available: true },
-      { name: 'Chaat masala & roasted jeera powder', amount: '1.5 tsp', available: true },
-      { name: 'Sweet tamarind chutney & mint chutney', amount: '2 tbsp each', available: true },
-      { name: 'Finely sliced ginger matchsticks & green chillies', amount: '1 tbsp', available: true },
-      { name: 'Fresh coriander & lemon juice', amount: '1 tbsp', available: true }
-    ],
-    missingCount: 0,
-    instructions: [
-      'Deep fry or shallow fry boiled potato cubes in hot oil on high flame until deeply crisp and golden brown.',
-      'Transfer hot crispy potatoes into a large mixing bowl.',
-      'Toss immediately with chaat masala, amchur powder, roasted cumin, and black salt.',
-      'Drizzle sweet tamarind and mint chutneys, toss well, garnish with ginger juliennes and serve with toothpicks.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+street+style+aloo+chaat+recipe',
-    isSaved: false
-  },
+
   {
     id: 'snack-22',
     title: 'Dilli Style Papdi Chaat',
@@ -2196,36 +2078,7 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+cheese+corn+quesadilla+recipe',
     isSaved: false
   },
-  {
-    id: 'snack-40',
-    title: 'Classic Italian Tomato Basil Bruschetta',
-    course: 'Snacks',
-    category: 'Snacks',
-    cuisine: 'Italian',
-    prepTime: '12 mins',
-    cookTime: '6 mins',
-    calories: '180 kcal',
-    rating: '4.9',
-    reviews: 250,
-    image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80',
-    description: 'Crispy toasted artisanal garlic baguette slices topped with ripe diced tomatoes, fresh basil leaves, extra virgin olive oil, and balsamic glaze.',
-    ingredients: [
-      { name: 'Crusty Baguette or Ciabatta slices', amount: '6 slices', available: true },
-      { name: 'Ripe Roma tomatoes (finely diced)', amount: '3 medium', available: true },
-      { name: 'Fresh basil leaves (chiffonade)', amount: '1/4 cup', available: false },
-      { name: 'Garlic cloves & Extra virgin olive oil', amount: '3 tbsp', available: true },
-      { name: 'Aged Balsamic vinegar glaze', amount: '1 tbsp', available: false }
-    ],
-    missingCount: 2,
-    instructions: [
-      'Toss diced tomatoes with chopped garlic, olive oil, fresh basil, salt, and black pepper; rest 10 mins.',
-      'Toast baguette slices in oven or grill pan until crusty; rub with raw garlic clove.',
-      'Spoon generous amounts of seasoned tomato mixture over warm bread.',
-      'Drizzle with aged balsamic glaze and extra virgin olive oil before serving.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=classic+italian+tomato+bruschetta+recipe',
-    isSaved: false
-  },
+
   {
     id: 'snack-41',
     title: 'Tandoori Stuffed Mushroom Tikka',
