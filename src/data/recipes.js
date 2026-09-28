@@ -1206,6 +1206,1356 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://youtu.be/Q6udZLwaYG8?si=Mw9cgviSxD_r1lL_',
     isSaved: false
   },
+  {
+    id: 'snack-7',
+    title: 'Crispy Punjabi Samosa with Mint Chutney',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '25 mins',
+    cookTime: '20 mins',
+    calories: '310 kcal',
+    rating: '5.0',
+    reviews: 620,
+    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    description: 'Flaky, pyramid-shaped golden crust stuffed with spiced boiled potatoes, green peas, whole coriander seeds, and ginger.',
+    ingredients: [
+      { name: 'All-purpose flour (Maida) & Ajwain', amount: '2 cups', available: true },
+      { name: 'Boiled potatoes (crumbled)', amount: '3 large', available: true },
+      { name: 'Green peas & crushed cashews', amount: '1/2 cup', available: true },
+      { name: 'Crushed coriander seeds & fennel', amount: '1 tbsp', available: true },
+      { name: 'Ghee or oil for shortening & deep frying', amount: '2 cups', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Rub ghee into flour with ajwain and salt until breadcrumb consistency; knead into a stiff dough.',
+      'Sauté crushed spices, ginger, green chilies, green peas, and crumbled potatoes until fragrant.',
+      'Roll oval dough sheets, cut in half, form cones, stuff generously with aloo filling, and seal edges.',
+      'Slow-fry on low-to-medium heat for 15-20 mins until blister-free, crunchy, and deep golden.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=punjabi+samosa+recipe+halwai+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-8',
+    title: 'Mumbai Vada Pav with Dry Garlic Chutney',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '340 kcal',
+    rating: '5.0',
+    reviews: 580,
+    image: 'https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80',
+    description: 'The undisputed king of Mumbai street food: spiced mashed potato batata vada nestled in soft ladi pav with spicy dry red garlic chutney.',
+    ingredients: [
+      { name: 'Boiled mashed potatoes', amount: '4 medium', available: true },
+      { name: 'Besan (gram flour) for batter', amount: '1.5 cups', available: true },
+      { name: 'Fresh soft Ladi Pav', amount: '4 pavs', available: true },
+      { name: 'Mustard seeds, curry leaves & turmeric', amount: '1 tbsp', available: true },
+      { name: 'Dry coconut garlic chutney & fried green chillies', amount: '3 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Temper boiled mashed potatoes with mustard seeds, curry leaves, ginger-garlic-chilli paste, and turmeric.',
+      'Shape into smooth round balls and dip each in seasoned turmeric-besan batter.',
+      'Deep fry in hot oil until crisp and light golden yellow.',
+      'Slit pav buns, smear green mint chutney and sweet chutney, sprinkle spicy dry garlic chutney, tuck in hot vada, and serve with fried salted chilli.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+vada+pav+recipe+with+garlic+chutney',
+    isSaved: false
+  },
+  {
+    id: 'snack-9',
+    title: 'Street-Style Sev Puri Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '10 mins',
+    cookTime: '0 mins',
+    calories: '240 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Crispy flat papdis topped with diced boiled potatoes, onions, a trio of spicy, sweet & garlic chutneys, topped with a mountain of nylon sev.',
+    ingredients: [
+      { name: 'Flat crispy flour papdis', amount: '15-18 papdis', available: true },
+      { name: 'Boiled diced potatoes', amount: '1 cup', available: true },
+      { name: 'Finely chopped red onions & raw mango', amount: '1/2 cup', available: true },
+      { name: 'Mint coriander & sweet tamarind chutneys', amount: '1/4 cup each', available: true },
+      { name: 'Spicy red garlic chutney', amount: '2 tbsp', available: true },
+      { name: 'Crunchy Nylon Sev & chaat masala', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Arrange flat crispy puris in a single layer on a wide plate.',
+      'Top each puri with boiled potato cubes and finely chopped onions.',
+      'Drizzle spicy green chutney, fiery garlic chutney, and sweet tamarind chutney on each piece.',
+      'Generously blanket with crisp nylon sev, sprinkle chaat masala, and garnish with fresh coriander and raw mango.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+sev+puri+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-10',
+    title: 'Crispy Onion Pakoda (Kanda Bhaji)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '10 mins',
+    cookTime: '12 mins',
+    calories: '270 kcal',
+    rating: '4.9',
+    reviews: 420,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Ultra-crunchy Mumbai street-style shredded onion fritters made without extra water, spiced with ajwain, green chilies, and coriander.',
+    ingredients: [
+      { name: 'Thinly sliced red onions', amount: '3 large', available: true },
+      { name: 'Besan (gram flour)', amount: '1 cup', available: true },
+      { name: 'Rice flour (for extra crunch)', amount: '2 tbsp', available: true },
+      { name: 'Carom seeds (Ajwain) & turmeric', amount: '1 tsp', available: true },
+      { name: 'Green chilies & fresh coriander', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Toss sliced onions with salt, green chilies, and ajwain; squeeze and rest 5 mins until onions release moisture.',
+      'Mix in besan and rice flour using only the released onion juices without adding water.',
+      'Drop loose clumps into moderately hot oil and fry evenly on medium flame.',
+      'Drain when deep golden brown and crispy; serve piping hot with cutting chai.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kanda+bhaji+crispy+onion+pakoda+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-11',
+    title: 'Classic Pani Puri (Gol Gappe / Puchka)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '20 mins',
+    cookTime: '0 mins',
+    calories: '190 kcal',
+    rating: '5.0',
+    reviews: 890,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Hollow, ultra-crisp semolina puries filled with spiced ragda or black chickpeas, bathed in icy tangy mint-coriander pani and sweet tamarind water.',
+    ingredients: [
+      { name: 'Crispy hollow Golgappa puris', amount: '20 puris', available: true },
+      { name: 'Boiled mashed potatoes & black chickpeas / yellow peas', amount: '1.5 cups', available: true },
+      { name: 'Fresh mint leaves, coriander & green chillies', amount: '1 cup', available: true },
+      { name: 'Pani Puri masala, black salt & roasted cumin', amount: '2 tbsp', available: true },
+      { name: 'Sweet tamarind date chutney & chilled water', amount: '1 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Blend mint, coriander, ginger, green chillies, lemon juice, black salt, and ice-cold water into refreshing spicy teekha pani.',
+      'Prepare sweet khatti-meethi pani by diluting tamarind-date chutney with cold water.',
+      'Make a spiced filling using boiled mashed potatoes, boiled chickpeas, and chaat masala.',
+      'Poke a hole in puri, add filling, fill generously with chilled teekha pani, and eat immediately in one whole bite!'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=pani+puri+golgappa+recipe+street+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-12',
+    title: 'Cheesy Garlic Breadsticks',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Italian / American',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '320 kcal',
+    rating: '4.8',
+    reviews: 260,
+    image: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80',
+    description: 'Bakery-fresh soft pull-apart breadsticks loaded with roasted garlic butter, oregano, chili flakes, and gooey melted mozzarella cheese.',
+    ingredients: [
+      { name: 'Yeast bread dough or French loaf slices', amount: '300g', available: true },
+      { name: 'Minced fresh garlic & salted butter', amount: '4 tbsp', available: true },
+      { name: 'Shredded Mozzarella & Cheddar cheese', amount: '1.5 cups', available: false },
+      { name: 'Dried oregano & red chili flakes', amount: '1 tbsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Melt butter and whisk with finely minced garlic and chopped parsley.',
+      'Roll out dough into an oval, brush inside with garlic butter, and pack with shredded mozzarella.',
+      'Fold in half, crimp edges, score into fingers, and top with more garlic butter and Italian herbs.',
+      'Bake at 200°C (400°F) for 12-15 minutes until bubbly, golden brown, and delightfully stretchy.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=dominos+style+stuffed+garlic+bread+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-13',
+    title: 'Crispy Vegetable Spring Rolls',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Asian / Indo-Chinese',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '280 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
+    description: 'Golden crunchy rolls stuffed with wok-tossed cabbage, shredded carrots, bell peppers, spring onions, and soy-garlic seasoning.',
+    ingredients: [
+      { name: 'Spring roll wrappers (pastry sheets)', amount: '10 sheets', available: true },
+      { name: 'Shredded cabbage, carrots & bell peppers', amount: '3 cups', available: true },
+      { name: 'Soy sauce, vinegar & white pepper', amount: '1.5 tbsp', available: true },
+      { name: 'Garlic, ginger & green chillies', amount: '1 tbsp', available: true },
+      { name: 'Sweet chili garlic dipping sauce', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Stir-fry shredded veggies in high-heat wok with garlic, ginger, soy sauce, and pepper until tender-crisp.',
+      'Place filling diagonally on wrapper, fold corners securely, seal with cornstarch slurry.',
+      'Deep fry in hot oil on medium heat until golden, bubbly, and shatteringly crisp.',
+      'Slice diagonally and serve with sweet chili sauce or schezwan dip.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+veg+spring+rolls+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-14',
+    title: 'Delightful Hara Bhara Kabab',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '220 kcal',
+    rating: '4.8',
+    reviews: 215,
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    description: 'Nutritious vibrant green patties made from fresh blanched spinach, green peas, paneer, and potatoes, topped with a crunchy cashew nut.',
+    ingredients: [
+      { name: 'Fresh spinach leaves (Palak)', amount: '2 cups blanched', available: true },
+      { name: 'Boiled green peas & grated paneer', amount: '1 cup', available: true },
+      { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
+      { name: 'Roasted gram flour (besan) & breadcrumbs', amount: '4 tbsp', available: true },
+      { name: 'Whole cashew halves for garnish', amount: '10-12', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Blanch spinach in boiling water for 2 mins, refresh in ice water, squeeze excess moisture, and grind with green peas.',
+      'Mix puree with mashed potatoes, crumbled paneer, roasted besan, garam masala, and chaat masala.',
+      'Shape into smooth round tikkis and press a whole cashew half on the top center of each.',
+      'Pan-sear in ghee on medium flame until crisp on both sides and rich green inside.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=hara+bhara+kabab+restaurant+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-15',
+    title: 'Butter Masala Crispy Corn Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indo-Chinese / Street',
+    prepTime: '10 mins',
+    cookTime: '10 mins',
+    calories: '250 kcal',
+    rating: '4.9',
+    reviews: 290,
+    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80',
+    description: 'Barbeque Nation style crunchy fried sweet corn kernels tossed with butter, chaat masala, lemon juice, and finely chopped herbs.',
+    ingredients: [
+      { name: 'Sweet corn kernels (boiled)', amount: '2 cups', available: true },
+      { name: 'Corn flour (cornstarch) & rice flour', amount: '3 tbsp each', available: true },
+      { name: 'Butter', amount: '2 tbsp', available: true },
+      { name: 'Chaat masala & Kashmiri chili powder', amount: '1.5 tsp', available: true },
+      { name: 'Chopped onions, green chilies & lemon', amount: '1/3 cup', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Coat boiled sweet corn with a pinch of salt, corn flour, and rice flour until each kernel is dusted evenly.',
+      'Deep fry in medium-hot oil for 4-5 mins until kernels pop and become shatteringly crisp.',
+      'Toss immediately while hot in a bowl with melted butter, chaat masala, chili powder, and lemon juice.',
+      'Garnish with finely chopped onions, cilantro, and serve right away.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+corn+barbeque+nation+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-16',
+    title: 'Kolkata Kathi Paneer Roll',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '380 kcal',
+    rating: '4.9',
+    reviews: 340,
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    description: 'Street-style Kolkata roll wrapped in flaky layered paratha loaded with tandoori-marinated paneer chunks, sliced onions, and tangy chaat masala.',
+    ingredients: [
+      { name: 'Flaky layered whole wheat / maida parathas', amount: '2 parathas', available: true },
+      { name: 'Paneer cubes (marinated in spices & yogurt)', amount: '200g', available: true },
+      { name: 'Thinly sliced onions & bell peppers', amount: '1 cup', available: true },
+      { name: 'Mint coriander chutney & tomato sauce', amount: '3 tbsp', available: true },
+      { name: 'Kasuri methi & Kolkata frankie spice mix', amount: '1 tsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Pan-roast marinated paneer cubes and capsicum in a skillet over high heat until lightly charred.',
+      'Toast paratha on hot tawa with butter until crisp and flaky.',
+      'Layer paratha with green mint chutney, spicy roasted paneer tikka, and crunchy onion rings.',
+      'Sprinkle special chaat masala, squeeze fresh lemon, roll tightly in paper, and serve.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kolkata+paneer+kathi+roll+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-17',
+    title: 'Crispy Golden Mozzarella Cheese Sticks',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'American / Italian',
+    prepTime: '15 mins',
+    cookTime: '5 mins',
+    calories: '330 kcal',
+    rating: '4.8',
+    reviews: 240,
+    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    description: 'Herb-seasoned crunchy breadcrumb crust encasing stretchy melted mozzarella cheese, served with rich marinara dipping sauce.',
+    ingredients: [
+      { name: 'Low-moisture Mozzarella cheese block (cut into batons)', amount: '250g', available: false },
+      { name: 'Panko breadcrumbs & Italian seasoning', amount: '1.5 cups', available: true },
+      { name: 'Eggs (beaten) or cornstarch slurry', amount: '2 eggs', available: true },
+      { name: 'All-purpose flour & garlic powder', amount: '1/2 cup', available: true },
+      { name: 'Warm zesty Marinara sauce for dipping', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 2,
+    instructions: [
+      'Cut mozzarella into finger-sized sticks; dredge in flour, dip in egg wash, and coat in seasoned panko.',
+      'Double coat with egg and breadcrumbs for an impenetrable shield, then freeze for 45 minutes.',
+      'Deep fry in hot oil (180°C/350°F) for 60-90 seconds until golden brown without bursting.',
+      'Drain briefly and serve immediately for an epic, gooey cheese pull.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+mozzarella+cheese+sticks+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-18',
+    title: 'Steamed Vegetable Momos with Fiery Chutney',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Tibetan / Indo-Chinese',
+    prepTime: '25 mins',
+    cookTime: '12 mins',
+    calories: '210 kcal',
+    rating: '5.0',
+    reviews: 490,
+    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80',
+    description: 'Delicate, thin-skinned pleated dumplings stuffed with juicy seasoned cabbage, carrots, onions, and garlic, served with fiery red tomato-chili sauce.',
+    ingredients: [
+      { name: 'All-purpose flour dough (thinly rolled)', amount: '2 cups', available: true },
+      { name: 'Finely minced cabbage, carrots & onions', amount: '2.5 cups', available: true },
+      { name: 'Garlic, ginger & black pepper', amount: '1.5 tbsp', available: true },
+      { name: 'Soy sauce & sesame oil', amount: '1.5 tbsp', available: true },
+      { name: 'Spicy red tomato-chilli momo chutney', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Sauté minced vegetables with garlic, ginger, soy sauce, and black pepper on high heat for 3 minutes.',
+      'Roll dough into thin translucent 3-inch discs with slightly thinner edges.',
+      'Place 1 tbsp filling in center, pleat and pinch edges together to form traditional crescent momos.',
+      'Steam in a greased steamer for 10-12 minutes until glossy and translucent; serve piping hot with spicy red chutney.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=veg+momos+recipe+with+spicy+red+chutney',
+    isSaved: false
+  },
+  {
+    id: 'snack-19',
+    title: 'Mumbai Chowpatty Bhel Puri',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '8 mins',
+    cookTime: '0 mins',
+    calories: '220 kcal',
+    rating: '4.9',
+    reviews: 380,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Iconic beachside chaat tossed with light puffed rice, crispy papdis, crunchy sev, boiled potatoes, chopped onions, and three tangy chutneys.',
+    ingredients: [
+      { name: 'Crisp puffed rice (Murmura)', amount: '3 cups', available: true },
+      { name: 'Crushed flat papdis & nylon sev', amount: '1 cup', available: true },
+      { name: 'Boiled diced potatoes & chopped onions', amount: '1 cup', available: true },
+      { name: 'Spicy green mint chutney & sweet tamarind chutney', amount: '3 tbsp each', available: true },
+      { name: 'Roasted peanuts, chaat masala & lemon juice', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'In a wide mixing bowl, combine puffed rice, crushed papdis, roasted peanuts, and boiled potato cubes.',
+      'Add finely chopped onions, tomatoes, and green chillies.',
+      'Pour green chutney, spicy garlic chutney, and sweet tamarind chutney with a squeeze of fresh lemon.',
+      'Toss vigorously for 15 seconds, top with extra nylon sev, and serve immediately in paper cones.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+bhel+puri+chaat+chowpatty+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-20',
+    title: 'Stuffed Potato Bread Pakoda',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '360 kcal',
+    rating: '4.8',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Dhaba-style golden fried snack made of soft white bread sandwiches packed with spiced potato masala and green chutney, dipped in seasoned gram flour batter.',
+    ingredients: [
+      { name: 'White or whole wheat bread slices', amount: '4 slices', available: true },
+      { name: 'Spiced boiled mashed potatoes', amount: '1.5 cups', available: true },
+      { name: 'Besan (gram flour) with ajwain & turmeric', amount: '1.5 cups', available: true },
+      { name: 'Mint coriander green chutney', amount: '3 tbsp', available: true },
+      { name: 'Garam masala, chaat masala & oil for deep frying', amount: '2 cups', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Spread mint chutney on one bread slice and spiced mashed potato masala on the other; press together into a sandwich.',
+      'Whisk besan with water, ajwain, salt, turmeric, and baking soda into a smooth, thick coating batter.',
+      'Cut sandwich into triangles, dip into batter, and gently lower into hot oil.',
+      'Deep fry on medium flame until puffed, golden, and crispy; slice and dust with chaat masala.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=halwai+style+stuffed+bread+pakoda+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-21',
+    title: 'Spicy Tangy Crispy Aloo Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '10 mins',
+    cookTime: '10 mins',
+    calories: '260 kcal',
+    rating: '4.9',
+    reviews: 280,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Dilli street favorite: crispy double-fried golden potato cubes tossed in roasted cumin, dry mango powder, sweet-spicy chutneys, and lemon juice.',
+    ingredients: [
+      { name: 'Boiled potatoes (cut into cubes)', amount: '3 large', available: true },
+      { name: 'Chaat masala & roasted jeera powder', amount: '1.5 tsp', available: true },
+      { name: 'Sweet tamarind chutney & mint chutney', amount: '2 tbsp each', available: true },
+      { name: 'Finely sliced ginger matchsticks & green chillies', amount: '1 tbsp', available: true },
+      { name: 'Fresh coriander & lemon juice', amount: '1 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Deep fry or shallow fry boiled potato cubes in hot oil on high flame until deeply crisp and golden brown.',
+      'Transfer hot crispy potatoes into a large mixing bowl.',
+      'Toss immediately with chaat masala, amchur powder, roasted cumin, and black salt.',
+      'Drizzle sweet tamarind and mint chutneys, toss well, garnish with ginger juliennes and serve with toothpicks.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+street+style+aloo+chaat+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-22',
+    title: 'Dilli Style Papdi Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '0 mins',
+    calories: '290 kcal',
+    rating: '5.0',
+    reviews: 410,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Crispy fried dough wafers (papdis) layered with boiled potatoes, chickpeas, sweetened whisked curd, tangy chutneys, and aromatic spice powders.',
+    ingredients: [
+      { name: 'Crisp round papdis', amount: '12-15 pieces', available: true },
+      { name: 'Boiled diced potatoes & soaked boiled chickpeas', amount: '1 cup', available: true },
+      { name: 'Sweetened thick whisked yogurt (Dahi)', amount: '1.5 cups', available: true },
+      { name: 'Saunth (tamarind chutney) & spicy green chutney', amount: '1/3 cup each', available: true },
+      { name: 'Roasted cumin, red chili & nylon sev', amount: '2 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Arrange papdis in a wide shallow bowl.',
+      'Top with spiced boiled potatoes, soft chickpeas, and a sprinkle of chaat masala.',
+      'Blanket generously with cold sweetened curd until all papdis are submerged.',
+      'Drizzle tamarind saunth and green chutney; finish with roasted cumin powder, chili powder, sev, and pomegranate seeds.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+style+papdi+chaat+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-23',
+    title: 'Indo-Chinese Veg Manchurian Dry',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indo-Chinese',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '310 kcal',
+    rating: '4.9',
+    reviews: 370,
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80',
+    description: 'Crisp vegetable dumplings made from shredded cabbage and carrots, tossed in a sizzling wok with garlic, ginger, spring onions, and dark soy sauce.',
+    ingredients: [
+      { name: 'Finely grated cabbage, carrots & bell peppers', amount: '2.5 cups', available: true },
+      { name: 'Corn flour & all-purpose flour', amount: '3 tbsp each', available: true },
+      { name: 'Finely chopped garlic & ginger', amount: '2 tbsp', available: true },
+      { name: 'Dark soy sauce, chili sauce & vinegar', amount: '2 tbsp', available: true },
+      { name: 'Chopped spring onion greens', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Squeeze excess water from grated veggies; mix with flours, salt, and pepper into compact balls.',
+      'Deep fry vegetable balls in hot oil until deeply golden and crispy.',
+      'In a wok, sauté garlic, ginger, and green chillies on high flame; add sauces and a splash of water.',
+      'Toss fried vegetable balls quickly in the glaze, coat evenly, and garnish with spring onion greens.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=veg+manchurian+dry+restaurant+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-24',
+    title: 'Crispy Paneer 65 Bites',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'South Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '350 kcal',
+    rating: '4.9',
+    reviews: 295,
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    description: 'Spicy South Indian appetizer featuring batter-fried crispy paneer cubes tempered with fragrant curry leaves, mustard seeds, green chillies, and garlic.',
+    ingredients: [
+      { name: 'Fresh paneer (cut into bite-sized cubes)', amount: '250g', available: true },
+      { name: 'Corn flour, rice flour & curd', amount: '3 tbsp each', available: true },
+      { name: 'Kashmiri red chili powder & ginger-garlic paste', amount: '1.5 tbsp', available: true },
+      { name: 'Fresh curry leaves & slit green chilies', amount: '10-12 leaves', available: true },
+      { name: 'Mustard seeds & lemon juice', amount: '1 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Marinate paneer cubes in spiced yogurt, ginger-garlic paste, chili powder, and flour coating.',
+      'Deep fry in hot oil until crispy on the outside and tender inside.',
+      'In a separate pan, temper mustard seeds, curry leaves, and green chillies in 1 tbsp oil.',
+      'Toss the fried paneer bites in the sizzling tempering with a squeeze of fresh lemon juice and serve.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=paneer+65+crispy+restaurant+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-25',
+    title: 'Chilli Paneer Dry (Restaurant Style)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indo-Chinese',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '340 kcal',
+    rating: '5.0',
+    reviews: 430,
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    description: 'Wok-tossed crispy batter-coated paneer cubes with crunchy diced bell peppers, onions, green chilies, garlic, and savory Asian sauces.',
+    ingredients: [
+      { name: 'Paneer cubes (lightly fried with cornstarch)', amount: '250g', available: true },
+      { name: 'Diced green bell pepper & red onion cubes', amount: '1.5 cups', available: true },
+      { name: 'Finely minced garlic & green chillies', amount: '2 tbsp', available: true },
+      { name: 'Dark soy sauce, red chili sauce & vinegar', amount: '2 tbsp', available: true },
+      { name: 'Cornstarch slurry & spring onions', amount: '2 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Toss paneer cubes in cornstarch, salt, and pepper; shallow fry until crispy and set aside.',
+      'Stir-fry minced garlic, green chillies, onions, and capsicum in a hot smoking wok for 2 mins.',
+      'Add soy sauce, chilli sauce, vinegar, and 2 tbsp cornstarch slurry to create a glossy clinging sauce.',
+      'Fold in crispy paneer, toss on high heat for 1 minute, and garnish with spring onion greens.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=chilli+paneer+dry+restaurant+style+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-26',
+    title: 'Masala Crinkle Cut French Fries',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Fast Food',
+    prepTime: '10 mins',
+    cookTime: '15 mins',
+    calories: '280 kcal',
+    rating: '4.8',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80',
+    description: 'Golden crinkle cut potato fries dusted with a zesty blend of chaat masala, peri-peri, paprika, garlic powder, and rock salt.',
+    ingredients: [
+      { name: 'Crinkle cut large potatoes', amount: '3 large (400g)', available: true },
+      { name: 'Cornstarch for extra crispness', amount: '2 tbsp', available: true },
+      { name: 'Chaat masala & smoked paprika', amount: '1 tbsp', available: true },
+      { name: 'Garlic powder & onion powder', amount: '1 tsp', available: true },
+      { name: 'Creamy spicy chipotle mayo dip', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Soak crinkle cut potato batons in cold water for 15 mins, pat thoroughly dry, and dust with cornstarch.',
+      'First fry at 160°C (320°F) for 5 minutes until cooked through; remove and rest for 10 mins.',
+      'Flash-fry at 190°C (375°F) for 2-3 minutes until golden and deeply crispy.',
+      'Toss immediately in a warm bowl with masala seasoning and serve with creamy dip.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=masala+french+fries+crispy+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-27',
+    title: 'Crispy Golden Beer-Battered Onion Rings',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'American / Pub Style',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '260 kcal',
+    rating: '4.7',
+    reviews: 165,
+    image: 'https://images.unsplash.com/photo-1639024471285-05c285cc1508?auto=format&fit=crop&w=800&q=80',
+    description: 'Thick sweet yellow onion rings dipped in a light seasoned bubbly batter and panko breadcrumbs, fried until airy and golden.',
+    ingredients: [
+      { name: 'Large sweet Spanish onions (sliced into rings)', amount: '2 large', available: true },
+      { name: 'All-purpose flour & cornstarch', amount: '1 cup', available: true },
+      { name: 'Sparkling club soda or chilled water', amount: '1 cup', available: true },
+      { name: 'Panko breadcrumbs & paprika', amount: '1 cup', available: true },
+      { name: 'Creamy ranch or garlic aioli dip', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Separate onion slices into individual thick rings; dust lightly with plain flour.',
+      'Whisk flour, cornstarch, paprika, garlic powder, and chilled sparkling water into an airy batter.',
+      'Dip onion rings into batter, dredge in panko breadcrumbs, and deep fry in hot oil.',
+      'Fry for 2-3 mins until light golden and super crisp; drain and season with sea salt.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+onion+rings+recipe+easy',
+    isSaved: false
+  },
+  {
+    id: 'snack-28',
+    title: 'Loaded Baked Potato Wedges with Cheese Dip',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'American',
+    prepTime: '10 mins',
+    cookTime: '25 mins',
+    calories: '290 kcal',
+    rating: '4.8',
+    reviews: 230,
+    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80',
+    description: 'Thick-cut skin-on russet potato wedges seasoned with rosemary, smoked paprika, and garlic olive oil, baked until crisp and fluffy inside.',
+    ingredients: [
+      { name: 'Russet potatoes (cut into thick wedges)', amount: '3 large', available: true },
+      { name: 'Extra virgin olive oil', amount: '3 tbsp', available: true },
+      { name: 'Garlic powder, dried rosemary & thyme', amount: '1 tbsp', available: true },
+      { name: 'Smoked paprika & black pepper', amount: '1 tsp', available: true },
+      { name: 'Warm cheddar cheese sauce dip', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Parboil potato wedges in salted water for 5 minutes, then drain and steam dry.',
+      'Toss wedges with olive oil, rosemary, garlic powder, paprika, salt, and pepper.',
+      'Arrange on baking sheet in a single layer with skin-side down.',
+      'Bake at 210°C (410°F) for 25-30 minutes until edges are blistered, golden, and crispy.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+baked+potato+wedges+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-29',
+    title: 'Golden Melting Cheese Corn Balls',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Continental / Cafe Style',
+    prepTime: '20 mins',
+    cookTime: '10 mins',
+    calories: '310 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    description: 'Café-favorite crunchy golden spheres packed with sweet corn, mashed potatoes, green chillies, and molten mozzarella cheese.',
+    ingredients: [
+      { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
+      { name: 'Boiled sweet corn kernels', amount: '1 cup', available: true },
+      { name: 'Grated Mozzarella and Processed cheese', amount: '1 cup', available: false },
+      { name: 'Oregano, chili flakes & black pepper', amount: '1 tsp', available: true },
+      { name: 'Breadcrumbs & cornstarch slurry', amount: '1 cup', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Mix mashed potatoes, coarsely crushed sweet corn, cheese, oregano, and chili flakes.',
+      'Form into tight spherical balls; dip in cornstarch slurry and roll generously in breadcrumbs.',
+      'Chill in refrigerator for 20 minutes to set the structure.',
+      'Deep fry in hot oil on medium-high flame until deeply golden; serve immediately for luscious cheese pull.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=cheese+corn+balls+recipe+cafe+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-30',
+    title: 'Hyderabadi Mirchi Bajji (Stuffed Chili Fritters)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '280 kcal',
+    rating: '4.8',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Large mild green chilies stuffed with tangy tamarind-cumin paste, dipped in spiced gram flour batter, and fried until crisp.',
+    ingredients: [
+      { name: 'Large Bhavnagri mild green chillies', amount: '6-8 large', available: true },
+      { name: 'Tamarind pulp & roasted cumin powder (stuffing)', amount: '3 tbsp', available: true },
+      { name: 'Besan (gram flour) & rice flour', amount: '1.5 cups', available: true },
+      { name: 'Ajwain, turmeric & pinch of baking soda', amount: '1 tsp', available: true },
+      { name: 'Finely chopped raw onions & lemon juice for topping', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Slit large chillies lengthwise, deseed to reduce heat, and stuff with tamarind-cumin-salt paste.',
+      'Prepare a thick coating batter using besan, rice flour, ajwain, turmeric, and water.',
+      'Dip stuffed chillies to coat completely and fry in hot oil until golden.',
+      'Slit fried bajjis down the center, stuff with chopped raw onions, sprinkle chaat masala, and squeeze lemon.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=hyderabadi+mirchi+bajji+recipe+street+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-31',
+    title: 'Crispy Sabudana Vada (Tapioca Pearl Fritters)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian / Maharashtrian',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '310 kcal',
+    rating: '5.0',
+    reviews: 440,
+    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    description: 'Golden crispy Maharashtrian fasting snack made from soaked tapioca pearls, roasted crushed peanuts, mashed potatoes, and green chillies.',
+    ingredients: [
+      { name: 'Sabudana (tapioca pearls, soaked overnight)', amount: '1.5 cups', available: true },
+      { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
+      { name: 'Roasted crushed peanuts (Danyacha koot)', amount: '1/2 cup', available: true },
+      { name: 'Finely chopped green chilies & cumin seeds', amount: '1.5 tbsp', available: true },
+      { name: 'Fresh curd (sweet dahi) dip & mint chutney', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Drain soaked sabudana completely; combine with mashed potatoes, coarse crushed peanuts, chillies, cumin, and salt.',
+      'Knead gently into a non-sticky dough and shape into flat round patties.',
+      'Deep fry in medium-hot oil until the outer crust turns golden brown and shatteringly crisp without sticking.',
+      'Serve hot with sweet peanut yogurt dip or mint chutney.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+sabudana+vada+recipe+maharashtrian',
+    isSaved: false
+  },
+  {
+    id: 'snack-32',
+    title: 'Crushed Samosa Ragda Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '390 kcal',
+    rating: '5.0',
+    reviews: 520,
+    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80',
+    description: 'Hot crispy samosas crushed and smothered in warm white pea ragda curry, chilled sweet yogurt, tangy tamarind & spicy mint chutneys.',
+    ingredients: [
+      { name: 'Hot crispy samosas', amount: '2 samosas', available: true },
+      { name: 'Warm cooked white pea Ragda gravy', amount: '1.5 cups', available: true },
+      { name: 'Chilled sweetened yogurt (Dahi)', amount: '1/2 cup', available: true },
+      { name: 'Tamarind saunth & mint-coriander chutney', amount: '3 tbsp each', available: true },
+      { name: 'Nylon sev, chopped onions & pomegranate seeds', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Crush 2 hot samosas roughly into a serving bowl.',
+      'Pour piping hot spiced white pea ragda all over the crushed samosas.',
+      'Drizzle sweetened yogurt, spicy green chutney, and tangy tamarind chutney generously.',
+      'Garnish with chopped raw onions, nylon sev, chaat masala, and fresh coriander.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=samosa+ragda+chaat+recipe+street+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-33',
+    title: 'Indian Railway Style Crispy Veg Cutlet',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '20 mins',
+    cookTime: '12 mins',
+    calories: '260 kcal',
+    rating: '4.8',
+    reviews: 290,
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    description: 'Nostalgic crumb-coated vegetable cutlet patties packed with potatoes, beetroot, carrots, and green peas, shallow-fried to perfection.',
+    ingredients: [
+      { name: 'Boiled potatoes, grated beetroot & carrots', amount: '2 cups', available: true },
+      { name: 'Boiled green peas & sweet corn', amount: '1/2 cup', available: true },
+      { name: 'Garam masala, amchur & ginger-chilli paste', amount: '1.5 tbsp', available: true },
+      { name: 'Cornflour slurry & breadcrumbs', amount: '1 cup', available: true },
+      { name: 'Butter toasted bread slices & tomato ketchup', amount: '2 pairs', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Sauté grated beetroot, carrots, and peas with spices; mix with boiled mashed potatoes.',
+      'Shape into heart or oval cutlet patties.',
+      'Dip each cutlet in cornflour slurry and coat thoroughly with dry breadcrumbs.',
+      'Shallow fry on medium heat in oil/ghee until dark golden and crispy; serve with toasted butter bread and ketchup.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=railway+veg+cutlet+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-34',
+    title: 'Soft Spongy Dahi Bhalla / Dahi Vada',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '25 mins',
+    cookTime: '15 mins',
+    calories: '270 kcal',
+    rating: '5.0',
+    reviews: 480,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Melt-in-your-mouth lentil dumplings soaked in warm water and immersed in silky chilled sweetened yogurt with sweet and spicy chutneys.',
+    ingredients: [
+      { name: 'Soaked Urad dal (ground & aerated)', amount: '1.5 cups', available: true },
+      { name: 'Fresh creamy yogurt (whisked with sugar)', amount: '2 cups', available: true },
+      { name: 'Ginger, green chili & hing', amount: '1 tbsp', available: true },
+      { name: 'Tamarind date chutney & spicy mint chutney', amount: '1/3 cup each', available: true },
+      { name: 'Roasted cumin powder, black salt & Kashmiri chili', amount: '1 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Whip ground urad dal paste vigorously for 10 minutes until fluffy and light enough to float on water.',
+      'Drop spoonfuls into medium oil and fry until pale golden; soak immediately in warm salted water for 15 mins.',
+      'Gently squeeze water out between palms and arrange soft vadas on a plate.',
+      'Drench in chilled sweetened yogurt, drizzle chutneys, and dust with roasted jeera and black salt.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=soft+dahi+bhalla+recipe+halwai+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-35',
+    title: 'Mumbai Style Ragda Pattice',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '340 kcal',
+    rating: '4.9',
+    reviews: 360,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Golden shallow-fried crisp potato patties served on a bed of piping hot white pea gravy, garnished with chutneys, onions, and sev.',
+    ingredients: [
+      { name: 'Boiled mashed potatoes & cornstarch', amount: '3 large', available: true },
+      { name: 'Cooked white dried peas (Ragda curry)', amount: '2 cups', available: true },
+      { name: 'Turmeric, red chili & chaat masala', amount: '1.5 tbsp', available: true },
+      { name: 'Mint chutney & tamarind chutney', amount: '1/4 cup each', available: true },
+      { name: 'Chopped onions, coriander & nylon sev', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Simmer boiled white peas with turmeric, ginger-garlic paste, and salt until thick and creamy.',
+      'Shape mashed potato mixture into smooth flat patties (pattice).',
+      'Shallow fry on a hot tawa with oil until both sides are deeply golden and crusty.',
+      'Place 2 hot pattice in a dish, ladle warm ragda over them, drizzle chutneys, and top with sev and onions.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+ragda+pattice+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-36',
+    title: 'Crispy Moong Dal Pakoda (Ram Ladoo)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '240 kcal',
+    rating: '4.8',
+    reviews: 270,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Famous Delhi street snack made of light, crispy yellow moong dal fritters served with grated mooli (radish) and spicy tangy radish-leaf chutney.',
+    ingredients: [
+      { name: 'Yellow Moong dal & Chana dal (soaked)', amount: '1.5 cups', available: true },
+      { name: 'Ginger, green chillies & hing', amount: '1 tbsp', available: true },
+      { name: 'Grated fresh radish (Mooli)', amount: '1 cup', available: false },
+      { name: 'Spicy radish-leaf green chutney', amount: '1/2 cup', available: true },
+      { name: 'Chaat masala & lemon juice', amount: '1 tsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Grind soaked moong and chana dal into a coarse paste; whisk aerated for 5 minutes until fluffy.',
+      'Add crushed ginger, green chillies, and cumin seeds.',
+      'Drop small round fritters into hot oil and fry until golden brown and super crispy.',
+      'Top hot fritters with freshly grated radish, spicy green chutney, and a dash of chaat masala.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+famous+ram+ladoo+moong+dal+pakode+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-37',
+    title: 'Spongy Gujarati Khaman Dhokla',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian / Gujarati',
+    prepTime: '10 mins',
+    cookTime: '18 mins',
+    calories: '180 kcal',
+    rating: '5.0',
+    reviews: 460,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Juicy, melt-in-mouth steamed savory gram flour cake tempered with mustard seeds, curry leaves, green chillies, and sweet lime syrup.',
+    ingredients: [
+      { name: 'Besan (gram flour)', amount: '2 cups', available: true },
+      { name: 'Eno fruit salt or baking soda', amount: '1 sachet', available: true },
+      { name: 'Lemon juice & sugar', amount: '2 tbsp each', available: true },
+      { name: 'Mustard seeds, green chilies & curry leaves', amount: '1 tbsp', available: true },
+      { name: 'Freshly grated coconut & coriander for garnish', amount: '3 tbsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Whisk besan with water, ginger-chili paste, turmeric, lemon juice, and sugar into a smooth batter.',
+      'Add Eno fruit salt, whisk for 10 seconds until batter turns foamy, and pour into a greased steaming tin.',
+      'Steam on high heat for 18-20 minutes until a toothpick inserted comes out clean.',
+      'Prepare hot water tempering with mustard seeds, curry leaves, and green chillies; pour all over warm sliced dhokla.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=nylon+khaman+dhokla+gujarati+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-38',
+    title: 'Crispy Steamed Methi Muthia',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian / Gujarati',
+    prepTime: '15 mins',
+    cookTime: '15 mins',
+    calories: '190 kcal',
+    rating: '4.7',
+    reviews: 180,
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    description: 'Nutritious spiced dumplings made from fresh fenugreek leaves, whole wheat flour, besan, steamed and pan-crisped with sesame seeds.',
+    ingredients: [
+      { name: 'Fresh methi (fenugreek leaves, chopped)', amount: '2 cups', available: true },
+      { name: 'Besan & whole wheat flour', amount: '1/2 cup each', available: true },
+      { name: 'White sesame seeds (Til) & mustard seeds', amount: '1.5 tbsp', available: true },
+      { name: 'Ginger-green chili paste, turmeric & sugar', amount: '1 tbsp', available: true },
+      { name: 'Oil for tempering', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Mix chopped methi, flours, spices, lemon juice, sugar, and 1 tbsp oil into a soft dough.',
+      'Shape into cylindrical logs and steam in a steamer for 15-18 minutes.',
+      'Cool slightly and slice into bite-sized rounds.',
+      'Pan-fry in oil with mustard seeds, sesame seeds, and curry leaves until golden and crispy on the edges.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=methi+muthia+recipe+gujarati+steamed',
+    isSaved: false
+  },
+  {
+    id: 'snack-39',
+    title: 'Cheesy Sweet Corn Quesadilla',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Mexican',
+    prepTime: '10 mins',
+    cookTime: '8 mins',
+    calories: '340 kcal',
+    rating: '4.8',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80',
+    description: 'Toasted flour tortillas filled with melted Monterey Jack cheese, sweet corn, bell peppers, jalapeño slices, and Mexican spices.',
+    ingredients: [
+      { name: 'Flour or corn tortillas', amount: '2 large', available: true },
+      { name: 'Boiled sweet corn & diced bell peppers', amount: '1 cup', available: true },
+      { name: 'Shredded Cheddar & Mozzarella cheese', amount: '1.5 cups', available: false },
+      { name: 'Pickled jalapeños & taco seasoning', amount: '1 tbsp', available: true },
+      { name: 'Fresh salsa & sour cream', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 2,
+    instructions: [
+      'Layer half of tortilla with shredded cheese, sweet corn, diced capsicum, and sliced jalapeños.',
+      'Fold tortilla in half over the filling.',
+      'Griddle on a hot skillet with butter on medium heat for 3-4 mins per side until cheese is molten and shell is golden crisp.',
+      'Cut into wedges and serve with fresh tomato salsa and sour cream.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+cheese+corn+quesadilla+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-40',
+    title: 'Classic Italian Tomato Basil Bruschetta',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Italian',
+    prepTime: '12 mins',
+    cookTime: '6 mins',
+    calories: '180 kcal',
+    rating: '4.9',
+    reviews: 250,
+    image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80',
+    description: 'Crispy toasted artisanal garlic baguette slices topped with ripe diced tomatoes, fresh basil leaves, extra virgin olive oil, and balsamic glaze.',
+    ingredients: [
+      { name: 'Crusty Baguette or Ciabatta slices', amount: '6 slices', available: true },
+      { name: 'Ripe Roma tomatoes (finely diced)', amount: '3 medium', available: true },
+      { name: 'Fresh basil leaves (chiffonade)', amount: '1/4 cup', available: false },
+      { name: 'Garlic cloves & Extra virgin olive oil', amount: '3 tbsp', available: true },
+      { name: 'Aged Balsamic vinegar glaze', amount: '1 tbsp', available: false }
+    ],
+    missingCount: 2,
+    instructions: [
+      'Toss diced tomatoes with chopped garlic, olive oil, fresh basil, salt, and black pepper; rest 10 mins.',
+      'Toast baguette slices in oven or grill pan until crusty; rub with raw garlic clove.',
+      'Spoon generous amounts of seasoned tomato mixture over warm bread.',
+      'Drizzle with aged balsamic glaze and extra virgin olive oil before serving.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=classic+italian+tomato+bruschetta+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-41',
+    title: 'Tandoori Stuffed Mushroom Tikka',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '15 mins',
+    calories: '230 kcal',
+    rating: '4.9',
+    reviews: 190,
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    description: 'Juicy white button mushrooms stuffed with spiced paneer and cheese, marinated in smoky tandoori yogurt masala, and grilled to smoky perfection.',
+    ingredients: [
+      { name: 'Large fresh button mushrooms', amount: '250g', available: true },
+      { name: 'Grated paneer & cheese (stuffing)', amount: '1/2 cup', available: false },
+      { name: 'Thick Greek yogurt / Hung curd', amount: '1/2 cup', available: true },
+      { name: 'Tandoori masala, kasuri methi & mustard oil', amount: '1.5 tbsp', available: true },
+      { name: 'Chaat masala & mint chutney', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Gently remove mushroom stems, chop stems and sauté with paneer, cheese, and herbs.',
+      'Stuff mushroom caps tightly with the paneer mixture.',
+      'Coat generously in hung curd tandoori marinade with mustard oil and kasuri methi.',
+      'Skewer and grill at 200°C (400°F) or pan-sear on tawa for 12-15 mins until lightly charred; dust with chaat masala.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=tandoori+stuffed+mushroom+tikka+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-42',
+    title: 'Kurkuri Masala Bhindi (Crispy Okra Fries)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '190 kcal',
+    rating: '4.8',
+    reviews: 220,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Thinly julienned okra strips dusted with besan, rice flour, amchur, and aromatic spices, flash-fried into irresistible crispy chips.',
+    ingredients: [
+      { name: 'Fresh Bhindi (Okra, deseeded & julienned)', amount: '250g', available: true },
+      { name: 'Besan & rice flour', amount: '2 tbsp each', available: true },
+      { name: 'Dry mango powder (Amchur) & chaat masala', amount: '1 tsp each', available: true },
+      { name: 'Kashmiri red chili powder & ajwain', amount: '1 tsp', available: true },
+      { name: 'Oil for deep frying', amount: '1.5 cups', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Wash okra and dry thoroughly with a towel; slit lengthwise, remove seeds, and cut into thin matchsticks.',
+      'Toss okra matchsticks with spices, besan, and rice flour until every strip is lightly dusted.',
+      'Deep fry in batches in hot oil on high flame for 3-4 mins until blistered and ultra-crispy.',
+      'Drain on paper towels, sprinkle chaat masala, and serve as a crunchy snack.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kurkuri+bhindi+crispy+okra+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-43',
+    title: 'Crispy Gobi 65 (Spiced Cauliflower Bites)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'South Indian',
+    prepTime: '15 mins',
+    cookTime: '12 mins',
+    calories: '240 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    description: 'Crunchy battered cauliflower florets spiced with red chili paste, deep fried and tossed with sizzled curry leaves and green chillies.',
+    ingredients: [
+      { name: 'Cauliflower florets (parboiled for 2 mins)', amount: '300g', available: true },
+      { name: 'Corn flour & rice flour', amount: '3 tbsp each', available: true },
+      { name: 'Ginger-garlic paste, red chili powder & yogurt', amount: '2 tbsp', available: true },
+      { name: 'Fresh curry leaves & green chilies', amount: '10 leaves', available: true },
+      { name: 'Lemon wedges & onion rings for garnish', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Parboil cauliflower florets with turmeric and salt for 2 minutes; drain completely.',
+      'Coat florets in spiced yogurt, ginger-garlic paste, cornflour, and rice flour batter.',
+      'Deep fry in hot oil until deeply golden and crispy.',
+      'Toss with crackled curry leaves and green chilies, then serve with lemon wedges.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=gobi+65+crispy+cauliflower+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-44',
+    title: 'Crunchy Kurkure Veg Momos',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Street Food / Indo-Tibetan',
+    prepTime: '20 mins',
+    cookTime: '12 mins',
+    calories: '320 kcal',
+    rating: '5.0',
+    reviews: 380,
+    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80',
+    description: 'Viral Delhi street food sensation: steamed veg momos coated in seasoned batter and crushed cornflakes, deep-fried for maximum audible crunch.',
+    ingredients: [
+      { name: 'Steamed vegetable momos', amount: '8 pieces', available: true },
+      { name: 'Crushed cornflakes / kurkure chips', amount: '1.5 cups', available: false },
+      { name: 'All-purpose flour & cornstarch batter', amount: '1/2 cup', available: true },
+      { name: 'Oregano, chili flakes & chaat masala', amount: '1 tsp each', available: true },
+      { name: 'Spicy momo red chutney & garlic mayo', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 2,
+    instructions: [
+      'Prepare seasoned slurry using flour, cornstarch, water, red chili powder, and oregano.',
+      'Dip each steamed veg momo into the batter slurry.',
+      'Roll generously in crushed cornflakes or panko crumbs until completely encased.',
+      'Deep fry in hot oil for 2-3 minutes until golden and shatteringly crunchy; serve with spicy red dip and mayo.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kurkure+momos+recipe+street+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-45',
+    title: 'Tandoori Malai Soya Chaap Bites',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '20 mins',
+    cookTime: '15 mins',
+    calories: '310 kcal',
+    rating: '4.9',
+    reviews: 290,
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    description: 'Protein-packed soya chaap chunks marinated in rich cashew-cream masala, skewered, and grilled with capsicum and onion petals.',
+    ingredients: [
+      { name: 'Soya chaap sticks (boiled & sliced)', amount: '300g', available: true },
+      { name: 'Fresh cream & cashew paste', amount: '1/3 cup each', available: false },
+      { name: 'Hung curd, ginger-garlic & green cardamom', amount: '2 tbsp', available: true },
+      { name: 'Kasuri methi, butter & chaat masala', amount: '2 tbsp', available: true },
+      { name: 'Onion rings & mint chutney', amount: '1/2 cup', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Cut boiled soya chaap into bite-sized pieces and shallow fry in butter for 3 minutes.',
+      'Marinate in hung curd, fresh cream, cashew paste, kasuri methi, cardamom, and black pepper.',
+      'Grill on a hot tawa or skewers in oven at 220°C for 12-15 minutes until charred.',
+      'Toss in melted butter, cream, and chaat masala; serve hot with mint chutney.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=malai+soya+chaap+tikka+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-46',
+    title: 'Crunchy Paneer Popcorn Nuggets',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Fast Food',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '320 kcal',
+    rating: '4.9',
+    reviews: 310,
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    description: 'Bite-sized cubes of fresh paneer marinated in peri-peri spices, coated in crunchy breadcrumbs, and flash fried into addictive popcorn bites.',
+    ingredients: [
+      { name: 'Fresh paneer (cut into 1-inch mini cubes)', amount: '250g', available: true },
+      { name: 'Panko breadcrumbs / crushed chips', amount: '1.5 cups', available: true },
+      { name: 'Cornstarch & all-purpose flour batter', amount: '1/2 cup', available: true },
+      { name: 'Peri-peri spice mix & garlic powder', amount: '1.5 tbsp', available: true },
+      { name: 'Cheesy jalapeño dip or sweet chili dip', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Season paneer cubes with peri-peri spice mix, salt, and garlic powder.',
+      'Dip in flour batter and roll into breadcrumbs to form a crunchy shell.',
+      'Deep fry in hot oil for 2-3 minutes until golden brown and super crispy.',
+      'Toss with extra peri-peri seasoning and serve with cheesy dip.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=paneer+popcorn+crispy+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-47',
+    title: 'Street-Style Tawa Masala Cheese Toast',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '10 mins',
+    cookTime: '8 mins',
+    calories: '310 kcal',
+    rating: '4.8',
+    reviews: 240,
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
+    description: 'Mumbai street food classic: buttered white bread topped with sautéed spicy onion-capsicum-tomato bhaji and a thick blanket of molten cheese.',
+    ingredients: [
+      { name: 'Bread slices (white or multigrain)', amount: '4 slices', available: true },
+      { name: 'Finely chopped onions, tomatoes & capsicum', amount: '1.5 cups', available: true },
+      { name: 'Butter', amount: '3 tbsp', available: true },
+      { name: 'Pav bhaji masala & red chili powder', amount: '1.5 tsp', available: true },
+      { name: 'Grated processed cheese & mozzarella', amount: '1 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Sauté onions, capsicum, and tomatoes on a hot buttery tawa with pav bhaji masala and salt for 3 mins.',
+      'Toast bread slices on one side with butter until crisp.',
+      'Spread the spicy vegetable mixture over bread, top generously with grated cheese and oregano.',
+      'Cover with a lid on low flame for 2 mins until cheese is completely melted; slice into fingers and serve.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=tawa+cheese+masala+toast+sandwich+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-48',
+    title: 'South Indian Crispy Ribbon Pakoda (Murukku)',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'South Indian',
+    prepTime: '15 mins',
+    cookTime: '15 mins',
+    calories: '280 kcal',
+    rating: '4.9',
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Crisp ribbon-shaped savory tea-time snack made from rice flour, roasted gram flour (besan), butter, and seasoned with cumin and chili.',
+    ingredients: [
+      { name: 'Rice flour', amount: '2 cups', available: true },
+      { name: 'Besan (gram flour) & roasted gram flour', amount: '1 cup', available: true },
+      { name: 'Butter or hot oil (for shortening)', amount: '2 tbsp', available: true },
+      { name: 'Cumin seeds (Jeera) & red chili powder', amount: '1.5 tsp', available: true },
+      { name: 'Hing (asafoetida) & curry leaves for frying', amount: '1 tsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Mix rice flour, besan, salt, chili powder, cumin seeds, hing, and melted butter into a soft dough.',
+      'Fit the murukku press with the flat slotted ribbon plate and fill with dough.',
+      'Press ribbons directly into hot oil in circular motions.',
+      'Fry on medium heat until golden and bubbles subside; cool completely for crispness.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=ribbon+pakoda+murukku+recipe+crispy',
+    isSaved: false
+  },
+  {
+    id: 'snack-49',
+    title: 'Banarasi Crispy Palak Patta Chaat',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '250 kcal',
+    rating: '5.0',
+    reviews: 390,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Whole fresh spinach leaves coated in thin spiced besan batter, fried until paper-crisp, and topped with yogurt, chutneys, and spice powders.',
+    ingredients: [
+      { name: 'Large fresh whole spinach leaves (Palak)', amount: '15-20 leaves', available: true },
+      { name: 'Besan & rice flour', amount: '1 cup', available: true },
+      { name: 'Chilled sweetened yogurt (Dahi)', amount: '1 cup', available: true },
+      { name: 'Tamarind saunth & mint-coriander chutney', amount: '1/3 cup each', available: true },
+      { name: 'Nylon sev, pomegranate seeds & chaat masala', amount: '1/2 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Whisk besan, rice flour, ajwain, turmeric, and water into a smooth, thin coating batter.',
+      'Dip whole spinach leaves one by one and deep fry in hot oil until crunchy and brittle.',
+      'Arrange crispy palak leaves on a platter.',
+      'Drizzle sweetened yogurt, mint chutney, tamarind chutney, and sprinkle nylon sev, chaat masala, and pomegranate seeds.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=palak+patta+chaat+recipe+halwai+style',
+    isSaved: false
+  },
+  {
+    id: 'snack-50',
+    title: 'Cheesy Stuffed Jalapeño Poppers',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Mexican / American',
+    prepTime: '15 mins',
+    cookTime: '10 mins',
+    calories: '290 kcal',
+    rating: '4.8',
+    reviews: 195,
+    image: 'https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80',
+    description: 'Spicy jalapeño peppers hollowed out and filled with cream cheese, cheddar, garlic herbs, coated in crispy breadcrumbs, and fried golden.',
+    ingredients: [
+      { name: 'Fresh Jalapeño peppers (halved & deseeded)', amount: '8 large', available: true },
+      { name: 'Cream cheese & sharp cheddar cheese', amount: '1 cup each', available: false },
+      { name: 'Garlic powder, onion powder & smoked paprika', amount: '1 tsp each', available: true },
+      { name: 'Panko breadcrumbs & egg wash', amount: '1.5 cups', available: true },
+      { name: 'Creamy cilantro lime ranch dip', amount: '1/3 cup', available: false }
+    ],
+    missingCount: 2,
+    instructions: [
+      'Mix softened cream cheese, shredded cheddar, garlic powder, and paprika until smooth.',
+      'Fill jalapeño halves generously with cheese filling.',
+      'Dredge in flour, dip in beaten egg, and coat thoroughly in seasoned panko crumbs.',
+      'Deep fry in hot oil at 180°C (350°F) for 3-4 minutes until crunchy and cheese is molten inside.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+jalapeno+poppers+recipe',
+    isSaved: false
+  },
+  {
+    id: 'snack-51',
+    title: 'Crispy Maharashtrian Kothimbir Vadi',
+    course: 'Snacks',
+    category: 'Snacks',
+    cuisine: 'Indian / Maharashtrian',
+    prepTime: '15 mins',
+    cookTime: '15 mins',
+    calories: '210 kcal',
+    rating: '4.9',
+    reviews: 260,
+    image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
+    description: 'Traditional Maharashtrian savory snack made of fresh chopped cilantro (kothimbir), besan, peanuts, and spices, steamed into cakes and fried crispy.',
+    ingredients: [
+      { name: 'Fresh cilantro / coriander (finely chopped)', amount: '3 cups', available: true },
+      { name: 'Besan (gram flour) & rice flour', amount: '1 cup', available: true },
+      { name: 'Roasted crushed peanuts & white sesame seeds', amount: '3 tbsp', available: true },
+      { name: 'Ginger-green chili paste, turmeric & cumin', amount: '1.5 tbsp', available: true },
+      { name: 'Lemon juice & oil for shallow frying', amount: '2 tbsp', available: true }
+    ],
+    missingCount: 0,
+    instructions: [
+      'Combine chopped coriander, besan, rice flour, crushed peanuts, sesame seeds, and spices into a dense dough without adding extra water.',
+      'Shape into cylindrical rolls and steam in a greased steamer for 15-20 minutes until firm.',
+      'Allow to cool completely, then slice into 1/2-inch thick discs.',
+      'Shallow fry or deep fry in hot oil until edges are dark golden brown and deeply crunchy.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=kothimbir+vadi+recipe+maharashtrian+crispy',
+    isSaved: false
+  },
 
   // ===================== BEVERAGES (DRINKS) (38) =====================
   {
