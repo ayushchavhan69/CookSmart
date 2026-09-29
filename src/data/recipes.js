@@ -1233,7 +1233,7 @@ export const INITIAL_RECIPES = [
       'Roll oval dough sheets, cut in half, form cones, stuff generously with aloo filling, and seal edges.',
       'Slow-fry on low-to-medium heat for 15-20 mins until blister-free, crunchy, and deep golden.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=punjabi+samosa+recipe+halwai+style',
+    youtubeUrl: 'https://youtu.be/EKPAfUCn_Jo?si=WDsbWqbttAbx4x2V',
     isSaved: false
   },
   {
@@ -1263,7 +1263,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in hot oil until crisp and light golden yellow.',
       'Slit pav buns, smear green mint chutney and sweet chutney, sprinkle spicy dry garlic chutney, tuck in hot vada, and serve with fried salted chilli.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+vada+pav+recipe+with+garlic+chutney',
+    youtubeUrl: 'https://youtu.be/sydPCQp4hUY?si=IH-1iP7x6dVF77eo',
     isSaved: false
   },
   {
@@ -1294,7 +1294,7 @@ export const INITIAL_RECIPES = [
       'Drizzle spicy green chutney, fiery garlic chutney, and sweet tamarind chutney on each piece.',
       'Generously blanket with crisp nylon sev, sprinkle chaat masala, and garnish with fresh coriander and raw mango.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+sev+puri+recipe',
+    youtubeUrl: 'https://youtu.be/ZvtbqCJ51kg?si=7DHilBUuK7LZ9XQM',
     isSaved: false
   },
   {
@@ -1324,7 +1324,7 @@ export const INITIAL_RECIPES = [
       'Drop loose clumps into moderately hot oil and fry evenly on medium flame.',
       'Drain when deep golden brown and crispy; serve piping hot with cutting chai.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kanda+bhaji+crispy+onion+pakoda+recipe',
+    youtubeUrl: 'https://youtu.be/7B5KEtf37ec?si=JZ6BVAm4NqKRHd8L',
     isSaved: false
   },
   {
@@ -1354,7 +1354,7 @@ export const INITIAL_RECIPES = [
       'Make a spiced filling using boiled mashed potatoes, boiled chickpeas, and chaat masala.',
       'Poke a hole in puri, add filling, fill generously with chilled teekha pani, and eat immediately in one whole bite!'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=pani+puri+golgappa+recipe+street+style',
+    youtubeUrl: 'https://youtu.be/fOu3wB0Inx8?si=sCJT-ZcZ6Q7pV_eC',
     isSaved: false
   },
   {
@@ -1383,7 +1383,7 @@ export const INITIAL_RECIPES = [
       'Fold in half, crimp edges, score into fingers, and top with more garlic butter and Italian herbs.',
       'Bake at 200°C (400°F) for 12-15 minutes until bubbly, golden brown, and delightfully stretchy.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=dominos+style+stuffed+garlic+bread+recipe',
+    youtubeUrl: 'https://youtu.be/K4MuJusoUmk?si=DMv_KK63Crdqu3Z6',
     isSaved: false
   },
   {
@@ -1413,7 +1413,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in hot oil on medium heat until golden, bubbly, and shatteringly crisp.',
       'Slice diagonally and serve with sweet chili sauce or schezwan dip.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+veg+spring+rolls+recipe',
+    youtubeUrl: 'https://youtu.be/wNB05Zc4TqA?si=YJbzXQ34xIe4wRmJ',
     isSaved: false
   },
   {
@@ -1443,7 +1443,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in hot oil (180°C/350°F) for 60-90 seconds until golden brown without bursting.',
       'Drain briefly and serve immediately for an epic, gooey cheese pull.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+mozzarella+cheese+sticks+recipe',
+    youtubeUrl: 'https://youtu.be/37JEvP__EhM?si=BzHVRDwvdwbkzWJ2',
     isSaved: false
   },
   {
@@ -1473,7 +1473,7 @@ export const INITIAL_RECIPES = [
       'Place 1 tbsp filling in center, pleat and pinch edges together to form traditional crescent momos.',
       'Steam in a greased steamer for 10-12 minutes until glossy and translucent; serve piping hot with spicy red chutney.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=veg+momos+recipe+with+spicy+red+chutney',
+    youtubeUrl: 'https://youtu.be/7r2eWzc-ZsA?si=wj814OpzS_uth3UW',
     isSaved: false
   },
   {
@@ -1503,7 +1503,7 @@ export const INITIAL_RECIPES = [
       'Pour green chutney, spicy garlic chutney, and sweet tamarind chutney with a squeeze of fresh lemon.',
       'Toss vigorously for 15 seconds, top with extra nylon sev, and serve immediately in paper cones.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+bhel+puri+chaat+chowpatty+recipe',
+    youtubeUrl: 'https://youtu.be/Jm59igYS5iY?si=jEgB_02u40nmQMuk',
     isSaved: false
   },
   {
@@ -1533,7 +1533,7 @@ export const INITIAL_RECIPES = [
       'Cut sandwich into triangles, dip into batter, and gently lower into hot oil.',
       'Deep fry on medium flame until puffed, golden, and crispy; slice and dust with chaat masala.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=halwai+style+stuffed+bread+pakoda+recipe',
+    youtubeUrl: 'https://youtu.be/Ztgv-5CNZ9U?si=SLnUjrLJtu8hqEnQ',
     isSaved: false
   },
   {
@@ -1563,7 +1563,7 @@ export const INITIAL_RECIPES = [
       'Blanket generously with cold sweetened curd until all papdis are submerged.',
       'Drizzle tamarind saunth and green chutney; finish with roasted cumin powder, chili powder, sev, and pomegranate seeds.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+style+papdi+chaat+recipe',
+    youtubeUrl: 'https://youtu.be/6l7MecdJjDs?si=RqeW9dh-3kgm627X',
     isSaved: false
   },
   {
@@ -1593,7 +1593,7 @@ export const INITIAL_RECIPES = [
       'In a wok, sauté garlic, ginger, and green chillies on high flame; add sauces and a splash of water.',
       'Toss fried vegetable balls quickly in the glaze, coat evenly, and garnish with spring onion greens.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=veg+manchurian+dry+restaurant+style+recipe',
+    youtubeUrl: 'https://youtu.be/WLjJKy1ZRiA?si=MhaeXTBSU5SFlbUq',
     isSaved: false
   },
   {
@@ -1623,7 +1623,7 @@ export const INITIAL_RECIPES = [
       'In a separate pan, temper mustard seeds, curry leaves, and green chillies in 1 tbsp oil.',
       'Toss the fried paneer bites in the sizzling tempering with a squeeze of fresh lemon juice and serve.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=paneer+65+crispy+restaurant+style+recipe',
+    youtubeUrl: 'https://youtu.be/Rs49YKc8iJw?si=DCS2t87zfrumkWeg',
     isSaved: false
   },
   {
@@ -1653,7 +1653,7 @@ export const INITIAL_RECIPES = [
       'Add soy sauce, chilli sauce, vinegar, and 2 tbsp cornstarch slurry to create a glossy clinging sauce.',
       'Fold in crispy paneer, toss on high heat for 1 minute, and garnish with spring onion greens.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=chilli+paneer+dry+restaurant+style+recipe',
+    youtubeUrl: 'https://youtu.be/_0xCUm_aOco?si=igJ6Mgr13qYKxVnH',
     isSaved: false
   },
   {
@@ -1683,7 +1683,7 @@ export const INITIAL_RECIPES = [
       'Flash-fry at 190°C (375°F) for 2-3 minutes until golden and deeply crispy.',
       'Toss immediately in a warm bowl with masala seasoning and serve with creamy dip.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=masala+french+fries+crispy+recipe',
+    youtubeUrl: 'https://youtu.be/hXtm-Q4sT4A?si=gg5rrcSGLyE-kMgV',
     isSaved: false
   },
   {
@@ -1713,7 +1713,7 @@ export const INITIAL_RECIPES = [
       'Dip onion rings into batter, dredge in panko breadcrumbs, and deep fry in hot oil.',
       'Fry for 2-3 mins until light golden and super crisp; drain and season with sea salt.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+onion+rings+recipe+easy',
+    youtubeUrl: 'https://youtu.be/ptCP1QjRibM?si=FxdR2ISDuXFlqyA8',
     isSaved: false
   },
   {
@@ -1743,7 +1743,7 @@ export const INITIAL_RECIPES = [
       'Arrange on baking sheet in a single layer with skin-side down.',
       'Bake at 210°C (410°F) for 25-30 minutes until edges are blistered, golden, and crispy.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+baked+potato+wedges+recipe',
+    youtubeUrl: 'https://youtu.be/5MLQTJ6exKg?si=7vqwCaJI5wnPjaTw',
     isSaved: false
   },
   {
@@ -1773,7 +1773,7 @@ export const INITIAL_RECIPES = [
       'Chill in refrigerator for 20 minutes to set the structure.',
       'Deep fry in hot oil on medium-high flame until deeply golden; serve immediately for luscious cheese pull.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=cheese+corn+balls+recipe+cafe+style',
+    youtubeUrl: 'https://youtu.be/utqYhiRFBN8?si=Gd-KjKptciOc1aGG',
     isSaved: false
   },
   {
@@ -1803,7 +1803,7 @@ export const INITIAL_RECIPES = [
       'Dip stuffed chillies to coat completely and fry in hot oil until golden.',
       'Slit fried bajjis down the center, stuff with chopped raw onions, sprinkle chaat masala, and squeeze lemon.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=hyderabadi+mirchi+bajji+recipe+street+style',
+    youtubeUrl: 'https://youtu.be/PKHH_Oa-lzc?si=XVCnWNyFANbEOAph',
     isSaved: false
   },
   {
@@ -1833,7 +1833,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in medium-hot oil until the outer crust turns golden brown and shatteringly crisp without sticking.',
       'Serve hot with sweet peanut yogurt dip or mint chutney.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+sabudana+vada+recipe+maharashtrian',
+    youtubeUrl: 'https://youtu.be/Lkm67eFJYkA?si=juYY-bSdFiMpEiXy',
     isSaved: false
   },
   {
@@ -1863,7 +1863,7 @@ export const INITIAL_RECIPES = [
       'Drizzle sweetened yogurt, spicy green chutney, and tangy tamarind chutney generously.',
       'Garnish with chopped raw onions, nylon sev, chaat masala, and fresh coriander.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=samosa+ragda+chaat+recipe+street+style',
+    youtubeUrl: 'https://youtu.be/5ox8_itYzTM?si=SOEHbwh0wF6UaMlZ',
     isSaved: false
   },
   {
@@ -1893,7 +1893,7 @@ export const INITIAL_RECIPES = [
       'Dip each cutlet in cornflour slurry and coat thoroughly with dry breadcrumbs.',
       'Shallow fry on medium heat in oil/ghee until dark golden and crispy; serve with toasted butter bread and ketchup.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=railway+veg+cutlet+recipe',
+    youtubeUrl: 'https://youtu.be/dBwOtmRySq8?si=y6eV0qblrEpsbOtQ',
     isSaved: false
   },
   {
@@ -1923,7 +1923,7 @@ export const INITIAL_RECIPES = [
       'Gently squeeze water out between palms and arrange soft vadas on a plate.',
       'Drench in chilled sweetened yogurt, drizzle chutneys, and dust with roasted jeera and black salt.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=soft+dahi+bhalla+recipe+halwai+style',
+    youtubeUrl: 'https://youtu.be/Jhmjty652Uc?si=RJNIV07KGiZ4L6E0',
     isSaved: false
   },
   {
@@ -1953,7 +1953,7 @@ export const INITIAL_RECIPES = [
       'Shallow fry on a hot tawa with oil until both sides are deeply golden and crusty.',
       'Place 2 hot pattice in a dish, ladle warm ragda over them, drizzle chutneys, and top with sev and onions.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=mumbai+ragda+pattice+recipe',
+    youtubeUrl: 'https://youtu.be/F9Zvon4tHBY?si=Cm0bgdX4T7YcFE1W',
     isSaved: false
   },
   {
@@ -1983,7 +1983,7 @@ export const INITIAL_RECIPES = [
       'Drop small round fritters into hot oil and fry until golden brown and super crispy.',
       'Top hot fritters with freshly grated radish, spicy green chutney, and a dash of chaat masala.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=delhi+famous+ram+ladoo+moong+dal+pakode+recipe',
+    youtubeUrl: 'https://youtu.be/N64KObG9KeE?si=KhSyRWcRzUdWkU6d',
     isSaved: false
   },
   {
@@ -2013,7 +2013,7 @@ export const INITIAL_RECIPES = [
       'Steam on high heat for 18-20 minutes until a toothpick inserted comes out clean.',
       'Prepare hot water tempering with mustard seeds, curry leaves, and green chillies; pour all over warm sliced dhokla.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=nylon+khaman+dhokla+gujarati+recipe',
+    youtubeUrl: 'https://youtu.be/-Qy4fuNy8kI?si=NLfQPpyk-IeAw94S',
     isSaved: false
   },
   {
@@ -2043,7 +2043,7 @@ export const INITIAL_RECIPES = [
       'Cool slightly and slice into bite-sized rounds.',
       'Pan-fry in oil with mustard seeds, sesame seeds, and curry leaves until golden and crispy on the edges.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=methi+muthia+recipe+gujarati+steamed',
+    youtubeUrl: 'https://youtu.be/miKS8XI9z-U?si=haxt2HGRC1cK6r-n',
     isSaved: false
   },
   {
@@ -2073,7 +2073,7 @@ export const INITIAL_RECIPES = [
       'Griddle on a hot skillet with butter on medium heat for 3-4 mins per side until cheese is molten and shell is golden crisp.',
       'Cut into wedges and serve with fresh tomato salsa and sour cream.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+cheese+corn+quesadilla+recipe',
+    youtubeUrl: 'https://youtu.be/0WjE5YSH1B8?si=3_zN0pcHBmcXFVua',
     isSaved: false
   },
   {
@@ -2103,7 +2103,7 @@ export const INITIAL_RECIPES = [
       'Coat generously in hung curd tandoori marinade with mustard oil and kasuri methi.',
       'Skewer and grill at 200°C (400°F) or pan-sear on tawa for 12-15 mins until lightly charred; dust with chaat masala.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=tandoori+stuffed+mushroom+tikka+recipe',
+    youtubeUrl: 'https://youtu.be/QjGoVspDqxE?si=DMdEQfsKq0dwcRqg',
     isSaved: false
   },
   {
@@ -2133,7 +2133,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in batches in hot oil on high flame for 3-4 mins until blistered and ultra-crispy.',
       'Drain on paper towels, sprinkle chaat masala, and serve as a crunchy snack.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kurkuri+bhindi+crispy+okra+recipe',
+    youtubeUrl: 'https://youtu.be/68CB-tAr82o?si=zvcv4bHvIxFrIwGQ',
     isSaved: false
   },
   {
@@ -2163,7 +2163,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in hot oil until deeply golden and crispy.',
       'Toss with crackled curry leaves and green chilies, then serve with lemon wedges.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=gobi+65+crispy+cauliflower+recipe',
+    youtubeUrl: 'https://youtu.be/Gbx3krm342Y?si=wT2oNkxMPRLmqmAJ',
     isSaved: false
   },
   {
@@ -2193,7 +2193,7 @@ export const INITIAL_RECIPES = [
       'Roll generously in crushed cornflakes or panko crumbs until completely encased.',
       'Deep fry in hot oil for 2-3 minutes until golden and shatteringly crunchy; serve with spicy red dip and mayo.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kurkure+momos+recipe+street+style',
+    youtubeUrl: 'https://youtu.be/VPkBFHmUCCU?si=QhA23U_oaQWy3-EP',
     isSaved: false
   },
   {
@@ -2223,7 +2223,7 @@ export const INITIAL_RECIPES = [
       'Grill on a hot tawa or skewers in oven at 220°C for 12-15 minutes until charred.',
       'Toss in melted butter, cream, and chaat masala; serve hot with mint chutney.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=malai+soya+chaap+tikka+recipe',
+    youtubeUrl: 'https://youtu.be/Ahw7E6tUOlQ?si=HikE8Szt1skk5EEq',
     isSaved: false
   },
   {
@@ -2253,7 +2253,7 @@ export const INITIAL_RECIPES = [
       'Deep fry in hot oil for 2-3 minutes until golden brown and super crispy.',
       'Toss with extra peri-peri seasoning and serve with cheesy dip.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=paneer+popcorn+crispy+recipe',
+    youtubeUrl: 'https://youtu.be/LGxAKvvXFXE?si=iykR5XXFKdleay94',
     isSaved: false
   },
   {
@@ -2283,7 +2283,7 @@ export const INITIAL_RECIPES = [
       'Spread the spicy vegetable mixture over bread, top generously with grated cheese and oregano.',
       'Cover with a lid on low flame for 2 mins until cheese is completely melted; slice into fingers and serve.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=tawa+cheese+masala+toast+sandwich+recipe',
+    youtubeUrl: 'https://youtu.be/Uove4yBp7M8?si=x1RkWeDb2UeAMeBy',
     isSaved: false
   },
   {
@@ -2313,7 +2313,7 @@ export const INITIAL_RECIPES = [
       'Press ribbons directly into hot oil in circular motions.',
       'Fry on medium heat until golden and bubbles subside; cool completely for crispness.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=ribbon+pakoda+murukku+recipe+crispy',
+    youtubeUrl: 'https://youtu.be/5DhgC6Zi6WE?si=uikQj4Sv0mJdFVCX',
     isSaved: false
   },
   {
@@ -2343,7 +2343,7 @@ export const INITIAL_RECIPES = [
       'Arrange crispy palak leaves on a platter.',
       'Drizzle sweetened yogurt, mint chutney, tamarind chutney, and sprinkle nylon sev, chaat masala, and pomegranate seeds.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=palak+patta+chaat+recipe+halwai+style',
+    youtubeUrl: 'https://youtu.be/IvEuZFz-PzM?si=nuFKELwCgthDjw-x',
     isSaved: false
   },
   {
@@ -2373,7 +2373,7 @@ export const INITIAL_RECIPES = [
       'Dredge in flour, dip in beaten egg, and coat thoroughly in seasoned panko crumbs.',
       'Deep fry in hot oil at 180°C (350°F) for 3-4 minutes until crunchy and cheese is molten inside.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+jalapeno+poppers+recipe',
+    youtubeUrl: 'https://youtu.be/q_z4FAR82FU?si=-PpKZ5DUz2xavKaA',
     isSaved: false
   },
   {
@@ -2403,7 +2403,7 @@ export const INITIAL_RECIPES = [
       'Allow to cool completely, then slice into 1/2-inch thick discs.',
       'Shallow fry or deep fry in hot oil until edges are dark golden brown and deeply crunchy.'
     ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=kothimbir+vadi+recipe+maharashtrian+crispy',
+    youtubeUrl: 'https://youtu.be/vYO2e40nbIg?si=ktegAdkb0QYhp-2Y',
     isSaved: false
   },
 
