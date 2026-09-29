@@ -22,7 +22,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '380 kcal',
     rating: '4.6',
-    reviews: 480,
+    reviews: 680,
     image: '/malai_paneer_tikka.jpg',
     description: 'Silken cubes of paneer marinated in hung curd, green cardamom, cashews, and roasted in high heat.',
     ingredients: [
@@ -53,7 +53,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '320 kcal',
     rating: '4.5',
-    reviews: 820,
+    reviews: 1120,
     image: '/samosa.jpg',
     description: 'Golden triangular flaky pastry filled with spiced crushed potatoes, green peas, toasted coriander seeds, and amchur.',
     ingredients: [
@@ -85,7 +85,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '240 kcal',
     rating: '4.4',
-    reviews: 310,
+    reviews: 430,
     image: '/hara_bhara_kebab.png',
     description: 'Pan-seared nutrient-rich vegetable patties made of blanched spinach, green peas, mashed potatoes, and roasted gram flour.',
     ingredients: [
@@ -116,7 +116,7 @@ export const INITIAL_RECIPES = [
     cookTime: '8 mins',
     calories: '310 kcal',
     rating: '4.6',
-    reviews: 390,
+    reviews: 540,
     image: 'https://images.unsplash.com/photo-1559742811-822873691df8?auto=format&fit=crop&w=800&q=80',
     description: 'Succulent jumbo prawns pan-fried in foaming salted butter, crushed garlic cloves, white wine reduction, and fresh parsley.',
     ingredients: [
@@ -148,7 +148,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '330 kcal',
     rating: '4.6',
-    reviews: 540,
+    reviews: 780,
     image: '/seekh_kebab.jpg',
     description: 'Finely minced spiced chicken skewers infused with mint, onions, garlic, and cooked over glowing charcoal.',
     ingredients: [
@@ -179,8 +179,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '10 mins',
     calories: '280 kcal',
-    rating: '4.3',
-    reviews: 410,
+    rating: '4.4',
+    reviews: 510,
     image: '/spring_rolls.jpg',
     description: 'Crispy delicate fried wonton wrappers stuffed with julienned cabbage, carrots, scallions, and soy-glazed glass noodles.',
     ingredients: [
@@ -210,7 +210,7 @@ export const INITIAL_RECIPES = [
     cookTime: '5 mins',
     calories: '190 kcal',
     rating: '4.4',
-    reviews: 350,
+    reviews: 490,
     image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80',
     description: 'Charred garlic-rubbed Italian sourdough toasts topped with diced vine-ripened tomatoes, torn basil, and balsamic reduction.',
     ingredients: [
@@ -241,7 +241,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '260 kcal',
     rating: '4.3',
-    reviews: 290,
+    reviews: 360,
     image: '/crispy_corn.png',
     description: 'Crisp fried sweet corn kernels tossed with diced bell peppers, spring onions, crushed black pepper, and toasted garlic.',
     ingredients: [
@@ -273,7 +273,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '560 kcal',
     rating: '4.7',
-    reviews: 1420,
+    reviews: 2450,
     image: '/butter_chicken.jpg',
     description: 'Tender marinated chicken tikka cooked in a velvety tomato-butter gravy infused with fragrant kasuri methi and cream.',
     ingredients: [
@@ -305,7 +305,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '490 kcal',
     rating: '4.6',
-    reviews: 980,
+    reviews: 1820,
     image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80',
     description: 'Soft cottage cheese cubes immersed in a rich, buttery, spiced onion-tomato gravy with aromatic whole spices.',
     ingredients: [
@@ -336,7 +336,7 @@ export const INITIAL_RECIPES = [
     cookTime: '40 mins',
     calories: '410 kcal',
     rating: '4.6',
-    reviews: 890,
+    reviews: 1650,
     image: '/dal_makhani.jpg',
     description: 'Slow-cooked whole black lentils and kidney beans simmered overnight with butter, cream, and subtle smoky undertones.',
     ingredients: [
@@ -367,8 +367,8 @@ export const INITIAL_RECIPES = [
     prepTime: '30 mins',
     cookTime: '35 mins',
     calories: '620 kcal',
-    rating: '4.8',
-    reviews: 1650,
+    rating: '4.7',
+    reviews: 2890,
     image: '/chicken_biryani.jpg',
     description: 'Royal layered basmati rice and marinated chicken slow-cooked on dum with saffron milk, fried onions (birista), and mint.',
     ingredients: [
@@ -400,7 +400,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '360 kcal',
     rating: '4.5',
-    reviews: 740,
+    reviews: 1340,
     image: '/palak_paneer.jpg',
     description: 'Vibrant green silky blanched spinach gravy simmered with fresh garlic, cumin, paneer cubes, and a swirl of cream.',
     ingredients: [
@@ -432,7 +432,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '490 kcal',
     rating: '4.6',
-    reviews: 680,
+    reviews: 1580,
     image: '/chole_kulche.png',
     description: 'Dark, tangy, deeply spiced chickpeas brewed with tea leaves, anardana (pomegranate seeds), and ginger juliennes.',
     ingredients: [
@@ -464,7 +464,7 @@ export const INITIAL_RECIPES = [
     cookTime: '45 mins',
     calories: '580 kcal',
     rating: '4.6',
-    reviews: 590,
+    reviews: 890,
     image: 'https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=800&q=80',
     description: 'Slow-braised mutton curry in an aromatic crimson gravy infused with Kashmiri chilies, fennel powder, and dry ginger.',
     ingredients: [
@@ -496,7 +496,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '480 kcal',
     rating: '4.5',
-    reviews: 480,
+    reviews: 620,
     image: '/tuscan_chicken.jpg',
     description: 'Juicy seared chicken breast smothered in a velvety sun-dried tomato and spinach cream sauce.',
     ingredients: [
@@ -528,7 +528,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '520 kcal',
     rating: '4.5',
-    reviews: 420,
+    reviews: 570,
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
     description: 'Crispy skin-on salmon fillet drizzled with rich honey-soy glaze over cauliflower rice and avocado slices.',
     ingredients: [
@@ -558,8 +558,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '12 mins',
     calories: '540 kcal',
-    rating: '4.6',
-    reviews: 760,
+    rating: '4.5',
+    reviews: 1210,
     image: 'https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80',
     description: 'Silky golden fettuccine tossed in a rich emulsion of European butter, aged Parmigiano Reggiano, and freshly cracked black pepper.',
     isVeg: true,
@@ -590,7 +590,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '390 kcal',
     rating: '4.4',
-    reviews: 380,
+    reviews: 480,
     image: '/thai_basil_tofu.jpg',
     description: 'Crisp bell peppers, crispy pressed tofu, and fragrant holy basil tossed in a savory chili-garlic sauce.',
     ingredients: [
@@ -621,7 +621,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '420 kcal',
     rating: '4.6',
-    reviews: 510,
+    reviews: 730,
     image: '/malabar_fish_curry.png',
     description: 'Coastal kingfish steaks simmered in creamy coconut milk with mustard seeds, curry leaves, and sour Kudampuli (Malabar tamarind).',
     ingredients: [
@@ -655,7 +655,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '420 kcal',
     rating: '4.7',
-    reviews: 1530,
+    reviews: 2150,
     image: '/tiramisu.jpg',
     description: 'Airy ladyfingers soaked in dark espresso and Marsala, layered with whipped mascarpone cream and dusted with bitter cocoa.',
     ingredients: [
@@ -687,7 +687,7 @@ export const INITIAL_RECIPES = [
     cookTime: '12 mins',
     calories: '480 kcal',
     rating: '4.6',
-    reviews: 920,
+    reviews: 1840,
     image: '/lava_cake.png',
     description: 'Decadent dark chocolate soufflé cakes with a molten, oozing chocolate center, served warm with vanilla ice cream.',
     ingredients: [
@@ -718,7 +718,7 @@ export const INITIAL_RECIPES = [
     cookTime: '55 mins',
     calories: '510 kcal',
     rating: '4.6',
-    reviews: 840,
+    reviews: 1470,
     image: '/berry_cheesecake.jpg',
     description: 'Dense, rich, velvety cream cheese cake on a graham cracker crust, topped with fresh blueberry and raspberry compote.',
     ingredients: [
@@ -749,7 +749,7 @@ export const INITIAL_RECIPES = [
     cookTime: '35 mins',
     calories: '390 kcal',
     rating: '4.6',
-    reviews: 790,
+    reviews: 920,
     image: '/creme_brulee.jpg',
     description: 'Silky rich vanilla bean custard topped with a contrasting brittle layer of crackling caramelized amber sugar.',
     ingredients: [
@@ -780,7 +780,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '440 kcal',
     rating: '4.5',
-    reviews: 620,
+    reviews: 860,
     image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80',
     description: 'Ultra-fudgy crackle-top brownies loaded with melted dark chocolate chunks and swirled with gooey fleur de sel caramel.',
     ingredients: [
@@ -810,7 +810,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '340 kcal',
     rating: '4.4',
-    reviews: 410,
+    reviews: 640,
     image: 'https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=800&q=80',
     description: 'Tender spiced Honeycrisp apple slices baked under a crunchy golden streusel of rolled oats, brown sugar, and butter.',
     ingredients: [
@@ -842,7 +842,7 @@ export const INITIAL_RECIPES = [
     cookTime: '35 mins',
     calories: '380 kcal',
     rating: '4.6',
-    reviews: 1120,
+    reviews: 1680,
     image: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=800&q=80',
     description: 'Golden layers of paper-thin crisp filo pastry brushed with clarified butter, packed with finely chopped pistachios, and drenched in fragrant orange-blossom honey syrup.',
     ingredients: [
@@ -873,7 +873,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '420 kcal',
     rating: '4.7',
-    reviews: 980,
+    reviews: 1420,
     image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
     description: 'Crispy shredded kataifi pastry crisped with melted ghee, encasing a gooey molten sweet cheese center, soaked in aromatic saffron-rose syrup.',
     ingredients: [
@@ -905,7 +905,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '310 kcal',
     rating: '4.5',
-    reviews: 860,
+    reviews: 1350,
     image: 'https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&w=800&q=80',
     description: 'Golden-fried ridged pastry sticks, rolled in fragrant cinnamon sugar, served piping hot with a rich Spanish dark chocolate dipping sauce.',
     ingredients: [
@@ -936,7 +936,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '290 kcal',
     rating: '4.5',
-    reviews: 590,
+    reviews: 870,
     image: 'https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?auto=format&fit=crop&w=800&q=80',
     description: 'Airy, hollow French choux pastry fingers filled with luscious silky vanilla bean pastry cream and dipped in glossy dark chocolate ganache.',
     ingredients: [
@@ -967,7 +967,7 @@ export const INITIAL_RECIPES = [
     cookTime: '18 mins',
     calories: '180 kcal',
     rating: '4.5',
-    reviews: 740,
+    reviews: 1190,
     image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
     description: 'Iconic delicate almond flour meringue cookies with ruffled feet and crisp shells, sandwiched with rich white chocolate raspberry ganache.',
     ingredients: [
@@ -998,7 +998,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '340 kcal',
     rating: '4.6',
-    reviews: 810,
+    reviews: 1280,
     image: 'https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80',
     description: 'Ultra-light sponge cake punctured and soaked in a luxurious sweet three-milk mixture, crowned with fresh whipped cream and cinnamon.',
     ingredients: [
@@ -1029,7 +1029,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '260 kcal',
     rating: '4.5',
-    reviews: 670,
+    reviews: 940,
     image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80',
     description: 'Silken, delicate Italian chilled cream pudding infused with fragrant natural vanilla bean, served with a tart ruby berry coulis.',
     ingredients: [
@@ -1060,7 +1060,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '310 kcal',
     rating: '4.5',
-    reviews: 610,
+    reviews: 1060,
     image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80',
     description: 'Blistered, golden crispy fried pastry tubes stuffed with sweet cinnamon-infused sheep’s milk ricotta, mini dark chocolate chips, and candied orange peel.',
     ingredients: [
@@ -1091,7 +1091,7 @@ export const INITIAL_RECIPES = [
     cookTime: '22 mins',
     calories: '410 kcal',
     rating: '4.6',
-    reviews: 890,
+    reviews: 1530,
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
     description: 'Pillow-soft, buttery yeast spiraled buns packed with brown sugar Ceylon cinnamon filling, smothered with warm vanilla cream cheese frosting.',
     ingredients: [
@@ -1122,7 +1122,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '440 kcal',
     rating: '4.6',
-    reviews: 540,
+    reviews: 820,
     image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80',
     description: 'A moist, tender Medjool date sponge cake drenched in a rich, buttery brown sugar toffee butterscotch sauce, served with vanilla ice cream.',
     ingredients: [
@@ -1153,7 +1153,7 @@ export const INITIAL_RECIPES = [
     cookTime: '45 mins',
     calories: '460 kcal',
     rating: '4.4',
-    reviews: 460,
+    reviews: 710,
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
     description: 'A buttery flaky pastry crust overflowing with roasted toasted pecans suspended in a rich, gooey brown sugar and vanilla caramel custard.',
     ingredients: [
@@ -1183,8 +1183,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '25 mins',
     calories: '320 kcal',
-    rating: '4.7',
-    reviews: 1040,
+    rating: '4.6',
+    reviews: 1450,
     image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80',
     description: 'Fragrant steamed glutinous sweet rice infused with salted coconut milk and palm sugar, paired with chilled sweet yellow Champagne mango slices.',
     ingredients: [
@@ -1215,7 +1215,7 @@ export const INITIAL_RECIPES = [
     cookTime: '5 mins',
     calories: '160 kcal',
     rating: '4.5',
-    reviews: 630,
+    reviews: 880,
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
     description: 'Soft, stretchy, chewable sweet rice mochi dough wrapped around sweet red bean paste (anko) and a juicy whole fresh strawberry.',
     ingredients: [
@@ -1245,8 +1245,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '15 mins',
     calories: '210 kcal',
-    rating: '4.8',
-    reviews: 1290,
+    rating: '4.7',
+    reviews: 1980,
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
     description: 'Iconic Lisbon pastry cups made of shatteringly crisp puff pastry filled with creamy egg yolk custard blistered with caramelized spots.',
     ingredients: [
@@ -1277,7 +1277,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '290 kcal',
     rating: '4.4',
-    reviews: 410,
+    reviews: 650,
     image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
     description: 'Moist, melt-in-mouth semolina and desiccated coconut diamond cake soaked in warm orange blossom citrus syrup, topped with whole blanched almonds.',
     ingredients: [
@@ -1308,7 +1308,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '390 kcal',
     rating: '4.5',
-    reviews: 670,
+    reviews: 1120,
     image: 'https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80',
     description: 'Two-tier crimson cocoa buttermilk sponge cake with a subtle vanilla-chocolate flavor, frosted with tangy, rich cream cheese icing.',
     ingredients: [
@@ -1339,7 +1339,7 @@ export const INITIAL_RECIPES = [
     cookTime: '45 mins',
     calories: '190 kcal',
     rating: '4.3',
-    reviews: 490,
+    reviews: 760,
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
     description: 'Jelly-like chewy cubes of confection scented with floral rosewater and stuffed with roasted pistachios, dusted in powdered sugar and cornstarch.',
     ingredients: [
@@ -1370,7 +1370,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '230 kcal',
     rating: '4.5',
-    reviews: 780,
+    reviews: 980,
     image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80',
     description: 'Ultra-airy, jiggly cloud pancakes made with whipped meringue, served stacked high with melted butter, maple syrup, and fresh berries.',
     ingredients: [
@@ -1400,8 +1400,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '50 mins',
     calories: '280 kcal',
-    rating: '4.6',
-    reviews: 730,
+    rating: '4.5',
+    reviews: 1240,
     image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80',
     description: 'Silky smooth baked egg custard blanketed with a dark amber molten caramel sauce that pools luxuriously when inverted.',
     ingredients: [
@@ -1431,8 +1431,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '15 mins',
     calories: '140 kcal',
-    rating: '4.5',
-    reviews: 640,
+    rating: '4.4',
+    reviews: 810,
     image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80',
     description: 'Chewy, fudgy Brazilian sweet truffle balls made by reducing sweetened condensed milk, Dutch cocoa, and butter, rolled in chocolate sprinkles.',
     ingredients: [
@@ -1464,8 +1464,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '20 mins',
     calories: '360 kcal',
-    rating: '4.6',
-    reviews: 1460,
+    rating: '4.7',
+    reviews: 2680,
     image: '/gulab_jamun.jpg',
     description: 'Deep-fried golden khoya dumplings soaked in fragrant sugar syrup infused with rose water, cardamom, and saffron.',
     ingredients: [
@@ -1496,8 +1496,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '30 mins',
     calories: '310 kcal',
-    rating: '4.6',
-    reviews: 1180,
+    rating: '4.7',
+    reviews: 2310,
     image: '/rasmalai.png',
     description: 'Spongy flattened cottage cheese discs floating in chilled saffron and cardamom rabri milk, topped with pistachios.',
     ingredients: [
@@ -1528,7 +1528,7 @@ export const INITIAL_RECIPES = [
     cookTime: '35 mins',
     calories: '420 kcal',
     rating: '4.6',
-    reviews: 920,
+    reviews: 1940,
     image: '/gajar_ka_halwa.jpg',
     description: 'Winter-special dessert made of slow-simmered grated red Delhi carrots in full-fat milk, roasted khoya, pure ghee, and nuts.',
     ingredients: [
@@ -1560,7 +1560,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '390 kcal',
     rating: '4.5',
-    reviews: 880,
+    reviews: 1720,
     image: '/jalebi.jpg',
     description: 'Spiral, crispy, fermented batter coils fried in desi ghee and plunged into saffron-rose sugar syrup, served with creamy rabdi.',
     ingredients: [
@@ -1590,8 +1590,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '25 mins',
     calories: '280 kcal',
-    rating: '4.4',
-    reviews: 640,
+    rating: '4.5',
+    reviews: 1390,
     image: '/besan_ladoo.jpg',
     description: 'Aromatic spheres made from slow-roasted coarse gram flour (besan) in desi ghee, scented with cardamom and boora sugar.',
     ingredients: [
@@ -1621,7 +1621,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '450 kcal',
     rating: '4.5',
-    reviews: 560,
+    reviews: 980,
     image: '/shahi_tukda.jpg',
     description: 'Crispy ghee-fried bread triangles soaked in saffron sugar syrup and topped with condensed malai rabri and silver leaf (varq).',
     ingredients: [
@@ -1651,8 +1651,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '15 mins',
     calories: '220 kcal',
-    rating: '4.6',
-    reviews: 1320,
+    rating: '4.7',
+    reviews: 2840,
     image: '/kaju_katli.jpg',
     description: 'Smooth, melt-in-mouth diamond-cut cashew fudge made with fine ground cashews, sugar syrup, and adorned with edible silver leaf (varq).',
     ingredients: [
@@ -1683,7 +1683,7 @@ export const INITIAL_RECIPES = [
     cookTime: '40 mins',
     calories: '450 kcal',
     rating: '4.6',
-    reviews: 780,
+    reviews: 1260,
     image: '/moong_dal_halwa.jpg',
     description: 'Rich, slow-roasted yellow lentil paste roasted in pure desi ghee until fragrant and nutty, simmered with saffron milk and toasted almonds.',
     ingredients: [
@@ -1714,7 +1714,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '180 kcal',
     rating: '4.5',
-    reviews: 1240,
+    reviews: 2150,
     image: '/bengali_rasgulla.jpg',
     description: 'Ultra-soft, juicy, and spongy cottage cheese dumplings cooked in boiling light sugar syrup scented with rosewater and crushed green cardamom.',
     ingredients: [
@@ -1744,8 +1744,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '25 mins',
     calories: '290 kcal',
-    rating: '4.5',
-    reviews: 890,
+    rating: '4.6',
+    reviews: 1670,
     image: '/motichoor_ladoo.jpg',
     description: 'Melt-in-mouth tiny golden gram flour pearls fried in pure desi ghee, soaked in saffron-cardamom syrup, and hand-rolled into festive spheres.',
     ingredients: [
@@ -1776,7 +1776,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '280 kcal',
     rating: '4.5',
-    reviews: 610,
+    reviews: 940,
     image: '/royal_kalakand.png',
     description: 'Moist, grainy, melt-in-mouth milk sweet prepared with fresh homemade chhena and condensed milk, flavored with cardamom and sliced nuts.',
     ingredients: [
@@ -1807,7 +1807,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '420 kcal',
     rating: '4.6',
-    reviews: 520,
+    reviews: 810,
     image: '/kesar_badam_halwa.jpg',
     description: 'A luxurious royal dessert made from soaked blanched almonds ground into paste, roasted in fragrant desi ghee, and infused with saffron milk.',
     ingredients: [
@@ -1838,7 +1838,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '340 kcal',
     rating: '4.4',
-    reviews: 480,
+    reviews: 720,
     image: '/crispy_imarti.jpg',
     description: 'Intricate flower-shaped crispy urad dal coils deep-fried in pure desi ghee and soaked in fragrant saffron-cardamom sugar syrup.',
     ingredients: [
@@ -1869,7 +1869,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '390 kcal',
     rating: '4.5',
-    reviews: 590,
+    reviews: 890,
     image: '/malpua_rabdi.jpg',
     description: 'Crisp-edged, melt-in-mouth fennel-infused sweet pancakes fried in pure ghee, dipped in rose syrup, and blanketed with creamy pistachio rabdi.',
     ingredients: [
@@ -1900,7 +1900,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '270 kcal',
     rating: '4.4',
-    reviews: 470,
+    reviews: 790,
     image: '/kolkata_cham_cham.jpg',
     description: 'Elongated chhena cottage cheese cylinders cooked in sugar syrup, slit open, stuffed with sweetened mawa, and rolled in desiccated coconut.',
     ingredients: [
@@ -1930,8 +1930,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '20 mins',
     calories: '420 kcal',
-    rating: '4.5',
-    reviews: 810,
+    rating: '4.6',
+    reviews: 1480,
     image: '/mysore_pak.jpg',
     description: 'Iconic royal South Indian fudge made by roasting sieved gram flour in bubbling hot desi ghee and caramelized sugar syrup until melt-in-mouth tender.',
     ingredients: [
@@ -1962,7 +1962,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '260 kcal',
     rating: '4.6',
-    reviews: 670,
+    reviews: 1130,
     image: '/matka_phirni.jpg',
     description: 'Slow-simmered coarsely ground Basmati rice pudding infused with saffron, cardamom, and kewra water, chilled in earthy terracotta clay pots.',
     ingredients: [
@@ -1992,8 +1992,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '25 mins',
     calories: '480 kcal',
-    rating: '4.5',
-    reviews: 580,
+    rating: '4.6',
+    reviews: 960,
     image: '/royal_ghevar.jpg',
     description: 'Disc-shaped honeycomb-textured Rajasthani monsoon delicacy fried in desi ghee, soaked in saffron syrup, topped with thick malai rabdi and silver leaf.',
     ingredients: [
@@ -2024,7 +2024,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '340 kcal',
     rating: '4.4',
-    reviews: 490,
+    reviews: 750,
     image: '/crispy_balushahi.jpg',
     description: 'Flaky, multi-layered golden ghee-fried pastries with crisp crust and juicy melt-in-mouth interior, glazed in aromatic cardamom sugar syrup.',
     ingredients: [
@@ -2055,7 +2055,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '190 kcal',
     rating: '4.7',
-    reviews: 960,
+    reviews: 1620,
     image: '/ukadiche_modak.jpg',
     description: 'Steamed Maharashtrian rice flour dumplings with delicate pleats, filled with fresh grated coconut, organic jaggery, cardamom, and nutmeg.',
     ingredients: [
@@ -2085,8 +2085,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '35 mins',
     calories: '280 kcal',
-    rating: '4.5',
-    reviews: 820,
+    rating: '4.6',
+    reviews: 1490,
     image: '/creamy_rice_kheer.jpg',
     description: 'Traditional slow-cooked Indian rice pudding simmered with full cream milk, aromatic basmati rice, cardamom, saffron, and golden fried nuts.',
     ingredients: [
@@ -2116,8 +2116,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '15 mins',
     calories: '230 kcal',
-    rating: '4.3',
-    reviews: 430,
+    rating: '4.4',
+    reviews: 680,
     image: '/nariyal_barfi.png',
     description: 'Juicy, soft fresh grated coconut fudge made with condensed milk and cardamom, topped with sliced pistachios.',
     ingredients: [
@@ -2148,7 +2148,7 @@ export const INITIAL_RECIPES = [
     cookTime: '40 mins',
     calories: '390 kcal',
     rating: '4.5',
-    reviews: 540,
+    reviews: 840,
     image: '/alwar_mawa_milk_cake.jpg',
     description: 'Grainy, two-toned caramelized mawa fudge with a deep golden-brown core and creamy pale edges, slow-cooked in traditional Rajasthani style.',
     ingredients: [
@@ -2179,7 +2179,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '240 kcal',
     rating: '4.5',
-    reviews: 490,
+    reviews: 790,
     image: '/mathura_peda.jpg',
     description: 'Authentic dark roasted caramelized khoya pedas scented with cardamom and nutmeg, rolled in traditional Boora (tagar) sugar.',
     ingredients: [
@@ -2210,7 +2210,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '310 kcal',
     rating: '4.5',
-    reviews: 460,
+    reviews: 690,
     image: '/kesar_malai_roll.jpg',
     description: 'Delicate, soft chhena sheets rolled over a luscious cardamom and pistachio mawa filling, bathed in thickened saffron cream milk.',
     ingredients: [
@@ -2241,7 +2241,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '290 kcal',
     rating: '4.6',
-    reviews: 620,
+    reviews: 1240,
     image: '/angoori_rasmalai.jpg',
     description: 'Bite-sized miniature chhena pearls cooked in syrup and submerged in fragrant, saffron-infused pistachio rabri milk.',
     ingredients: [
@@ -2272,7 +2272,7 @@ export const INITIAL_RECIPES = [
     cookTime: '30 mins',
     calories: '320 kcal',
     rating: '4.3',
-    reviews: 380,
+    reviews: 590,
     image: '/doodhi_halwa.jpg',
     description: 'Vibrant green grated tender bottle gourd slow-cooked in milk, pure desi ghee, and rich crumbled mawa, flavored with cardamom.',
     ingredients: [
@@ -2304,7 +2304,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '190 kcal',
     rating: '4.6',
-    reviews: 530,
+    reviews: 880,
     image: '/nolen_gur_sandesh.jpg',
     description: 'Authentic winter Bengali delicacy made with fresh homemade chhena and liquid date palm jaggery (Jhola Nolen Gur), shaped in traditional wooden moulds.',
     ingredients: [
@@ -2334,7 +2334,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '310 kcal',
     rating: '4.6',
-    reviews: 710,
+    reviews: 1320,
     image: '/seviyan_kheer.jpg',
     description: 'Festive Mughlai pudding made by slow-cooking roasted fine vermicelli with full-fat milk, soaked dried dates (chhuara), saffron, and chironji nuts.',
     ingredients: [
@@ -2365,7 +2365,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '330 kcal',
     rating: '4.4',
-    reviews: 420,
+    reviews: 610,
     image: '/gond_ke_ladoo.jpg',
     description: 'Traditional winter energy sweet made from puffed edible gum (gond) crystals, whole wheat flour, desi ghee, roasted dry fruits, and jaggery/boora.',
     ingredients: [
@@ -2396,7 +2396,7 @@ export const INITIAL_RECIPES = [
     cookTime: '20 mins',
     calories: '340 kcal',
     rating: '4.6',
-    reviews: 890,
+    reviews: 1740,
     image: '/puran_poli.jpg',
     description: 'Golden, paper-thin Maharashtrian flatbread stuffed with sweet cooked chana dal and jaggery filling scented with cardamom, served with dollops of melted ghee.',
     ingredients: [
@@ -2426,8 +2426,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '25 mins',
     calories: '380 kcal',
-    rating: '4.4',
-    reviews: 380,
+    rating: '4.5',
+    reviews: 780,
     image: '/laung_lata.jpg',
     description: 'Crispy, flaky pastry envelope stuffed with sweet cardamom-flavored mawa, dry fruits, and grated coconut, sealed with a whole clove (laung) and dipped in warm sugar syrup.',
     ingredients: [
@@ -2457,8 +2457,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '35 mins',
     calories: '180 kcal',
-    rating: '4.3',
-    reviews: 510,
+    rating: '4.4',
+    reviews: 920,
     image: '/agra_petha.jpg',
     description: 'Translucent, juicy, and crunchy candied ash gourd (winter melon) cubes soaked in fragrant rose-infused and kewra-scented cardamom sugar syrup.',
     ingredients: [
@@ -2488,8 +2488,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '45 mins',
     calories: '290 kcal',
-    rating: '4.6',
-    reviews: 680,
+    rating: '4.7',
+    reviews: 1380,
     image: '/chhena_poda.jpg',
     description: 'The legendary baked cottage cheese cake of Odisha, caramelized to a deep golden crust on the outside while staying soft, juicy, and cardamom-scented on the inside.',
     ingredients: [
@@ -2522,8 +2522,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '20 mins',
     calories: '490 kcal',
-    rating: '4.6',
-    reviews: 1540,
+    rating: '4.7',
+    reviews: 2950,
     image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80',
     description: 'Mashed medley of potatoes, tomatoes, peas, and peppers spiced with pav bhaji masala, served with buttery griddled ladi pav.',
     ingredients: [
@@ -2554,8 +2554,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '0 mins',
     calories: '280 kcal',
-    rating: '4.5',
-    reviews: 980,
+    rating: '4.6',
+    reviews: 1680,
     image: '/dahi_puri.jpg',
     description: 'Crisp semolina puries filled with boiled potatoes and chickpeas, smothered in sweet chilled dahi, chutneys, and nylon sev.',
     ingredients: [
@@ -2587,7 +2587,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '320 kcal',
     rating: '4.5',
-    reviews: 870,
+    reviews: 1420,
     image: '/delhi_aloo_tikki.jpg',
     description: 'Super crisp shallow-fried potato patties topped with spicy ragda chana, yogurt, sweet & sour chutneys, and ginger matchsticks.',
     ingredients: [
@@ -2617,8 +2617,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '8 mins',
     calories: '450 kcal',
-    rating: '4.4',
-    reviews: 620,
+    rating: '4.5',
+    reviews: 980,
     image: '/loaded_nachos.jpg',
     description: 'Crisp stone-ground tortilla chips smothered in melted cheddar queso, black beans, jalapeño rings, pico de gallo, and sour cream.',
     ingredients: [
@@ -2647,8 +2647,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '10 mins',
     calories: '390 kcal',
-    rating: '4.5',
-    reviews: 790,
+    rating: '4.6',
+    reviews: 1260,
     image: '/paneer_kathi_roll.png',
     description: 'Flaky paratha layered with seasoned pan-tossed paneer tikka cubes, sliced onions, chaat masala, and spicy mint chutney.',
     ingredients: [
@@ -2678,7 +2678,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '370 kcal',
     rating: '4.5',
-    reviews: 580,
+    reviews: 840,
     image: '/falafel_pita.jpg',
     description: 'Golden crispy chickpea falafels tucked inside warm pita pockets with crunchy pickled cucumber, shredded lettuce, and tahini sauce.',
     ingredients: [
@@ -2707,8 +2707,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '20 mins',
     calories: '310 kcal',
-    rating: '4.5',
-    reviews: 1350,
+    rating: '4.6',
+    reviews: 2420,
     image: '/samosa.jpg',
     description: 'Flaky, pyramid-shaped golden crust stuffed with spiced boiled potatoes, green peas, whole coriander seeds, and ginger.',
     ingredients: [
@@ -2737,8 +2737,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '15 mins',
     calories: '340 kcal',
-    rating: '4.5',
-    reviews: 1420,
+    rating: '4.7',
+    reviews: 2680,
     image: '/mumbai_vada_pav.jpg',
     description: 'The undisputed king of Mumbai street food: spiced mashed potato batata vada nestled in soft ladi pav with spicy dry red garlic chutney.',
     ingredients: [
@@ -2767,8 +2767,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '0 mins',
     calories: '240 kcal',
-    rating: '4.5',
-    reviews: 860,
+    rating: '4.6',
+    reviews: 1790,
     image: '/street_sev_puri.jpg',
     description: 'Crispy flat papdis topped with diced boiled potatoes, onions, a trio of spicy, sweet & garlic chutneys, topped with a mountain of nylon sev.',
     ingredients: [
@@ -2798,8 +2798,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '12 mins',
     calories: '270 kcal',
-    rating: '4.4',
-    reviews: 910,
+    rating: '4.6',
+    reviews: 1540,
     image: '/onion_pakoda.jpg',
     description: 'Ultra-crunchy Mumbai street-style shredded onion fritters made without extra water, spiced with ajwain, green chilies, and coriander.',
     ingredients: [
@@ -2828,8 +2828,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '0 mins',
     calories: '190 kcal',
-    rating: '4.6',
-    reviews: 1780,
+    rating: '4.8',
+    reviews: 3620,
     image: '/classic_pani_puri.jpg',
     description: 'Hollow, ultra-crisp semolina puries filled with spiced ragda or black chickpeas, bathed in icy tangy mint-coriander pani and sweet tamarind water.',
     ingredients: [
@@ -2859,7 +2859,7 @@ export const INITIAL_RECIPES = [
     cookTime: '12 mins',
     calories: '320 kcal',
     rating: '4.4',
-    reviews: 540,
+    reviews: 890,
     image: '/cheesy_garlic_breadsticks.jpg',
     description: 'Bakery-fresh soft pull-apart breadsticks loaded with roasted garlic butter, oregano, chili flakes, and gooey melted mozzarella cheese.',
     ingredients: [
@@ -2887,8 +2887,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '15 mins',
     calories: '280 kcal',
-    rating: '4.3',
-    reviews: 670,
+    rating: '4.4',
+    reviews: 930,
     image: '/veg_spring_rolls.png',
     description: 'Golden crunchy rolls stuffed with wok-tossed cabbage, shredded carrots, bell peppers, spring onions, and soy-garlic seasoning.',
     ingredients: [
@@ -2918,7 +2918,7 @@ export const INITIAL_RECIPES = [
     cookTime: '5 mins',
     calories: '330 kcal',
     rating: '4.4',
-    reviews: 510,
+    reviews: 760,
     image: '/mozzarella_sticks.png',
     description: 'Herb-seasoned crunchy breadcrumb crust encasing stretchy melted mozzarella cheese, served with rich marinara dipping sauce.',
     ingredients: [
@@ -2947,8 +2947,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '12 mins',
     calories: '210 kcal',
-    rating: '4.5',
-    reviews: 1040,
+    rating: '4.6',
+    reviews: 1850,
     image: '/steamed_veg_momos.jpg',
     description: 'Delicate, thin-skinned pleated dumplings stuffed with juicy seasoned cabbage, carrots, onions, and garlic, served with fiery red tomato-chili sauce.',
     ingredients: [
@@ -2977,8 +2977,8 @@ export const INITIAL_RECIPES = [
     prepTime: '8 mins',
     cookTime: '0 mins',
     calories: '220 kcal',
-    rating: '4.4',
-    reviews: 820,
+    rating: '4.5',
+    reviews: 1490,
     image: '/mumbai_bhel_puri.jpg',
     description: 'Iconic beachside chaat tossed with light puffed rice, crispy papdis, crunchy sev, boiled potatoes, chopped onions, and three tangy chutneys.',
     ingredients: [
@@ -3007,8 +3007,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '12 mins',
     calories: '360 kcal',
-    rating: '4.4',
-    reviews: 730,
+    rating: '4.5',
+    reviews: 1220,
     image: '/stuffed_bread_pakoda.jpg',
     description: 'Dhaba-style golden fried snack made of soft white bread sandwiches packed with spiced potato masala and green chutney, dipped in seasoned gram flour batter.',
     ingredients: [
@@ -3038,7 +3038,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '290 kcal',
     rating: '4.5',
-    reviews: 760,
+    reviews: 1380,
     image: '/dilli_papdi_chaat.jpg',
     description: 'Crispy fried dough wafers (papdis) layered with boiled potatoes, chickpeas, sweetened whisked curd, tangy chutneys, and aromatic spice powders.',
     ingredients: [
@@ -3068,7 +3068,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '310 kcal',
     rating: '4.4',
-    reviews: 810,
+    reviews: 1140,
     image: '/veg_manchurian_dry.jpg',
     description: 'Crisp vegetable dumplings made from shredded cabbage and carrots, tossed in a sizzling wok with garlic, ginger, spring onions, and dark soy sauce.',
     ingredients: [
@@ -3097,8 +3097,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '12 mins',
     calories: '350 kcal',
-    rating: '4.4',
-    reviews: 640,
+    rating: '4.5',
+    reviews: 890,
     image: '/paneer_65.jpg',
     description: 'Spicy South Indian appetizer featuring batter-fried crispy paneer cubes tempered with fragrant curry leaves, mustard seeds, green chillies, and garlic.',
     ingredients: [
@@ -3128,7 +3128,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '340 kcal',
     rating: '4.5',
-    reviews: 890,
+    reviews: 1040,
     image: '/chilli_paneer_dry.jpg',
     description: 'Wok-tossed crispy batter-coated paneer cubes with crunchy diced bell peppers, onions, green chilies, garlic, and savory Asian sauces.',
     ingredients: [
@@ -3158,7 +3158,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '280 kcal',
     rating: '4.3',
-    reviews: 580,
+    reviews: 680,
     image: '/crinkle_cut_fries.jpg',
     description: 'Golden crinkle cut potato fries dusted with a zesty blend of chaat masala, peri-peri, paprika, garlic powder, and rock salt.',
     ingredients: [
@@ -3188,7 +3188,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '260 kcal',
     rating: '4.3',
-    reviews: 490,
+    reviews: 620,
     image: '/onion_rings.jpg',
     description: 'Thick sweet yellow onion rings dipped in a light seasoned bubbly batter and panko breadcrumbs, fried until airy and golden.',
     ingredients: [
@@ -3218,7 +3218,7 @@ export const INITIAL_RECIPES = [
     cookTime: '25 mins',
     calories: '290 kcal',
     rating: '4.4',
-    reviews: 470,
+    reviews: 710,
     image: '/baked_potato_wedges.png',
     description: 'Thick-cut skin-on russet potato wedges seasoned with rosemary, smoked paprika, and garlic olive oil, baked until crisp and fluffy inside.',
     ingredients: [
@@ -3247,8 +3247,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '10 mins',
     calories: '310 kcal',
-    rating: '4.4',
-    reviews: 530,
+    rating: '4.5',
+    reviews: 860,
     image: '/cheese_corn_balls.jpg',
     description: 'Café-favorite crunchy golden spheres packed with sweet corn, mashed potatoes, green chillies, and molten mozzarella cheese.',
     ingredients: [
@@ -3277,8 +3277,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '12 mins',
     calories: '280 kcal',
-    rating: '4.4',
-    reviews: 610,
+    rating: '4.5',
+    reviews: 970,
     image: '/mirchi_bajji.jpg',
     description: 'Large mild green chilies stuffed with tangy tamarind-cumin paste, dipped in spiced gram flour batter, and fried until crisp.',
     ingredients: [
@@ -3307,8 +3307,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '15 mins',
     calories: '310 kcal',
-    rating: '4.5',
-    reviews: 780,
+    rating: '4.6',
+    reviews: 1390,
     image: '/sabudana_vada.jpg',
     description: 'Golden crispy Maharashtrian fasting snack made from soaked tapioca pearls, roasted crushed peanuts, mashed potatoes, and green chillies.',
     ingredients: [
@@ -3338,7 +3338,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '390 kcal',
     rating: '4.5',
-    reviews: 690,
+    reviews: 1120,
     image: '/samosa_ragda_chaat.jpg',
     description: 'Hot crispy samosas crushed and smothered in warm white pea ragda curry, chilled sweet yogurt, tangy tamarind & spicy mint chutneys.',
     ingredients: [
@@ -3367,8 +3367,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '12 mins',
     calories: '260 kcal',
-    rating: '4.3',
-    reviews: 540,
+    rating: '4.5',
+    reviews: 890,
     image: '/railway_veg_cutlet.jpg',
     description: 'Nostalgic crumb-coated vegetable cutlet patties packed with potatoes, beetroot, carrots, and green peas, shallow-fried to perfection.',
     ingredients: [
@@ -3397,8 +3397,8 @@ export const INITIAL_RECIPES = [
     prepTime: '25 mins',
     cookTime: '15 mins',
     calories: '270 kcal',
-    rating: '4.5',
-    reviews: 830,
+    rating: '4.6',
+    reviews: 1560,
     image: '/dahi_bhalla.jpg',
     description: 'Melt-in-your-mouth lentil dumplings soaked in warm water and immersed in silky chilled sweetened yogurt with sweet and spicy chutneys.',
     ingredients: [
@@ -3428,7 +3428,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '340 kcal',
     rating: '4.5',
-    reviews: 720,
+    reviews: 1180,
     image: '/ragda_pattice.jpg',
     description: 'Golden shallow-fried crisp potato patties served on a bed of piping hot white pea gravy, garnished with chutneys, onions, and sev.',
     ingredients: [
@@ -3457,8 +3457,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '12 mins',
     calories: '240 kcal',
-    rating: '4.4',
-    reviews: 650,
+    rating: '4.5',
+    reviews: 870,
     image: '/moong_dal_pakoda.jpg',
     description: 'Famous Delhi street snack made of light, crispy yellow moong dal fritters served with grated mooli (radish) and spicy tangy radish-leaf chutney.',
     ingredients: [
@@ -3487,8 +3487,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '18 mins',
     calories: '180 kcal',
-    rating: '4.5',
-    reviews: 920,
+    rating: '4.6',
+    reviews: 1640,
     image: '/khaman_dhokla.png',
     description: 'Juicy, melt-in-mouth steamed savory gram flour cake tempered with mustard seeds, curry leaves, green chillies, and sweet lime syrup.',
     ingredients: [
@@ -3517,8 +3517,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '15 mins',
     calories: '190 kcal',
-    rating: '4.3',
-    reviews: 460,
+    rating: '4.4',
+    reviews: 710,
     image: '/methi_muthia.jpg',
     description: 'Nutritious spiced dumplings made from fresh fenugreek leaves, whole wheat flour, besan, steamed and pan-crisped with sesame seeds.',
     ingredients: [
@@ -3547,8 +3547,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '8 mins',
     calories: '340 kcal',
-    rating: '4.4',
-    reviews: 510,
+    rating: '4.3',
+    reviews: 540,
     image: '/corn_quesadilla.jpeg',
     description: 'Toasted flour tortillas filled with melted Monterey Jack cheese, sweet corn, bell peppers, jalapeño slices, and Mexican spices.',
     ingredients: [
@@ -3577,8 +3577,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '15 mins',
     calories: '230 kcal',
-    rating: '4.4',
-    reviews: 480,
+    rating: '4.5',
+    reviews: 780,
     image: '/stuffed_mushroom_tikka.jpg',
     description: 'Juicy white button mushrooms stuffed with spiced paneer and cheese, marinated in smoky tandoori yogurt masala, and grilled to smoky perfection.',
     ingredients: [
@@ -3607,8 +3607,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '10 mins',
     calories: '190 kcal',
-    rating: '4.3',
-    reviews: 450,
+    rating: '4.4',
+    reviews: 690,
     image: '/kurkuri_bhindi.jpg',
     description: 'Thinly julienned okra strips dusted with besan, rice flour, amchur, and aromatic spices, flash-fried into irresistible crispy chips.',
     ingredients: [
@@ -3638,7 +3638,7 @@ export const INITIAL_RECIPES = [
     cookTime: '12 mins',
     calories: '240 kcal',
     rating: '4.4',
-    reviews: 520,
+    reviews: 830,
     image: '/gobi_65.jpg',
     description: 'Crunchy battered cauliflower florets spiced with red chili paste, deep fried and tossed with sizzled curry leaves and green chillies.',
     ingredients: [
@@ -3667,8 +3667,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '12 mins',
     calories: '320 kcal',
-    rating: '4.4',
-    reviews: 630,
+    rating: '4.5',
+    reviews: 960,
     image: '/kurkure_momos.jpg',
     description: 'Viral Delhi street food sensation: steamed veg momos coated in seasoned batter and crushed cornflakes, deep-fried for maximum audible crunch.',
     ingredients: [
@@ -3697,8 +3697,8 @@ export const INITIAL_RECIPES = [
     prepTime: '20 mins',
     cookTime: '15 mins',
     calories: '310 kcal',
-    rating: '4.4',
-    reviews: 560,
+    rating: '4.5',
+    reviews: 890,
     image: '/malai_soya_chaap.jpg',
     description: 'Protein-packed soya chaap chunks marinated in rich cashew-cream masala, skewered, and grilled with capsicum and onion petals.',
     ingredients: [
@@ -3728,7 +3728,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '320 kcal',
     rating: '4.4',
-    reviews: 490,
+    reviews: 720,
     image: '/paneer_popcorn.jpg',
     description: 'Bite-sized cubes of fresh paneer marinated in peri-peri spices, coated in crunchy breadcrumbs, and flash fried into addictive popcorn bites.',
     ingredients: [
@@ -3757,8 +3757,8 @@ export const INITIAL_RECIPES = [
     prepTime: '10 mins',
     cookTime: '8 mins',
     calories: '310 kcal',
-    rating: '4.3',
-    reviews: 470,
+    rating: '4.5',
+    reviews: 880,
     image: '/tawa_masala_toast.jpg',
     description: 'Mumbai street food classic: buttered white bread topped with sautéed spicy onion-capsicum-tomato bhaji and a thick blanket of molten cheese.',
     ingredients: [
@@ -3787,8 +3787,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '15 mins',
     calories: '280 kcal',
-    rating: '4.4',
-    reviews: 510,
+    rating: '4.5',
+    reviews: 760,
     image: '/ribbon_pakoda.jpg',
     description: 'Crisp ribbon-shaped savory tea-time snack made from rice flour, roasted gram flour (besan), butter, and seasoned with cumin and chili.',
     ingredients: [
@@ -3817,8 +3817,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '10 mins',
     calories: '250 kcal',
-    rating: '4.5',
-    reviews: 640,
+    rating: '4.6',
+    reviews: 1140,
     image: '/palak_patta_chaat.jpg',
     description: 'Whole fresh spinach leaves coated in thin spiced besan batter, fried until paper-crisp, and topped with yogurt, chutneys, and spice powders.',
     ingredients: [
@@ -3847,8 +3847,8 @@ export const INITIAL_RECIPES = [
     prepTime: '15 mins',
     cookTime: '10 mins',
     calories: '290 kcal',
-    rating: '4.3',
-    reviews: 430,
+    rating: '4.4',
+    reviews: 680,
     image: '/jalapeno_poppers.jpg',
     description: 'Spicy jalapeño peppers hollowed out and filled with cream cheese, cheddar, garlic herbs, coated in crispy breadcrumbs, and fried golden.',
     ingredients: [
@@ -3878,7 +3878,7 @@ export const INITIAL_RECIPES = [
     cookTime: '15 mins',
     calories: '210 kcal',
     rating: '4.5',
-    reviews: 580,
+    reviews: 820,
     image: '/kothimbir_vadi.jpg',
     description: 'Traditional Maharashtrian savory snack made of fresh chopped cilantro (kothimbir), besan, peanuts, and spices, steamed into cakes and fried crispy.',
     ingredients: [
@@ -3910,7 +3910,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '220 kcal',
     rating: '4.7',
-    reviews: 1480,
+    reviews: 2840,
     image: '/mango_lassi.png',
     description: 'Thick, sweet, refreshing yogurt shake blended with Alphonso mango pulp, green cardamom, and garnished with pistachios.',
     ingredients: [
@@ -3939,8 +3939,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '8 mins',
     calories: '110 kcal',
-    rating: '4.7',
-    reviews: 1690,
+    rating: '4.8',
+    reviews: 3450,
     image: '/masala_chai.jpg',
     description: 'Strong Assam CTC black tea brewed with fresh crushed ginger, green cardamom, cloves, cinnamon, and whole milk.',
     ingredients: [
@@ -3969,8 +3969,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '140 kcal',
-    rating: '4.4',
-    reviews: 540,
+    rating: '4.5',
+    reviews: 980,
     image: '/iced_matcha_latte.png',
     description: 'Ceremonial Japanese stone-ground green tea whisked with warm water and poured over iced vanilla oat milk.',
     ingredients: [
@@ -3999,8 +3999,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '90 kcal',
-    rating: '4.5',
-    reviews: 620,
+    rating: '4.6',
+    reviews: 1420,
     image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80',
     description: 'Ultra-crisp mocktail muddled with fresh spearmint leaves, lime wedges, pure cane syrup, and sparkling soda water.',
     ingredients: [
@@ -4029,8 +4029,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '65 kcal',
-    rating: '4.5',
-    reviews: 810,
+    rating: '4.6',
+    reviews: 1780,
     image: '/masala_chaas.jpg',
     description: 'Traditional cooling Indian buttermilk churned with fresh curd, chilled water, roasted cumin, black salt, and freshly chopped coriander.',
     ingredients: [
@@ -4060,7 +4060,7 @@ export const INITIAL_RECIPES = [
     cookTime: '10 mins',
     calories: '95 kcal',
     rating: '4.6',
-    reviews: 760,
+    reviews: 1250,
     image: '/aam_panna.jpg',
     description: 'Iconic Indian summer cooler crafted from boiled green raw mangoes, sweetened with sugar, and seasoned with roasted cumin and black salt.',
     ingredients: [
@@ -4090,7 +4090,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '240 kcal',
     rating: '4.6',
-    reviews: 940,
+    reviews: 1690,
     image: '/sweet_lassi.png',
     description: 'Rich, thick, creamy North Indian yogurt shake churned with sugar, cold milk, and topped with clotted malai and cardamom.',
     ingredients: [
@@ -4119,8 +4119,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '0 mins',
     calories: '160 kcal',
-    rating: '4.4',
-    reviews: 610,
+    rating: '4.5',
+    reviews: 1120,
     image: '/rose_milk.png',
     description: 'Fragrant, pretty-in-pink sweet beverage made with cold whole milk infused with authentic rose syrup and soaked sabja seeds.',
     ingredients: [
@@ -4148,8 +4148,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '45 kcal',
-    rating: '4.4',
-    reviews: 580,
+    rating: '4.5',
+    reviews: 1040,
     image: '/jaljeera.jpg',
     description: 'Electrifying digestive summer drink with fresh mint, lemon, cumin, dry ginger, black pepper, and crispy boondi.',
     ingredients: [
@@ -4179,7 +4179,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '70 kcal',
     rating: '4.6',
-    reviews: 870,
+    reviews: 1530,
     image: 'https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?auto=format&fit=crop&w=800&q=80',
     description: 'Quintessential Indian street-style fresh lemonade shaken with lemon juice, chilled water, sugar, and shikanji masala salt.',
     ingredients: [
@@ -4208,8 +4208,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '0 mins',
     calories: '55 kcal',
-    rating: '4.5',
-    reviews: 520,
+    rating: '4.6',
+    reviews: 870,
     image: 'https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=800&q=80',
     description: 'Natural electrolyte powerhouse combining sweet tender coconut water, tangy freshly squeezed lemon, and muddled spearmint.',
     ingredients: [
@@ -4238,8 +4238,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '60 kcal',
-    rating: '4.3',
-    reviews: 430,
+    rating: '4.4',
+    reviews: 720,
     image: '/pudina_sharbat.png',
     description: 'Deep-green cooling herbal potion extracted from garden mint leaves, raw cane sugar, lemon juice, and mountain spring water.',
     ingredients: [
@@ -4268,8 +4268,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '150 kcal',
-    rating: '4.5',
-    reviews: 690,
+    rating: '4.4',
+    reviews: 810,
     image: '/sattu_sharbat.jpg',
     description: 'Traditional desi protein powerhouse drink made with roasted Bengal gram (sattu) flour, lemon, roasted cumin, black salt, and green chili.',
     ingredients: [
@@ -4298,8 +4298,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '85 kcal',
-    rating: '4.3',
-    reviews: 390,
+    rating: '4.4',
+    reviews: 680,
     image: '/orange_cooler.jpg',
     description: 'Vibrant sunrise mocktail combining freshly squeezed orange juice, sparkling soda water, lemon, and a hint of mint.',
     ingredients: [
@@ -4329,7 +4329,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '65 kcal',
     rating: '4.5',
-    reviews: 590,
+    reviews: 1180,
     image: '/watermelon_cooler.jpg',
     description: 'Ultra-hydrating summer quencher blended from ripe ruby-red watermelon chunks, lime juice, sea salt, and torn fresh spearmint.',
     ingredients: [
@@ -4358,8 +4358,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '90 kcal',
-    rating: '4.3',
-    reviews: 410,
+    rating: '4.4',
+    reviews: 620,
     image: '/pineapple_cooler.png',
     description: 'Zingy tropical cooler crafted from sweet-tart pineapple pulp, fresh lemon juice, black salt, and crushed ice.',
     ingredients: [
@@ -4388,8 +4388,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '95 kcal',
-    rating: '4.4',
-    reviews: 480,
+    rating: '4.5',
+    reviews: 840,
     image: '/strawberry_lemonade.jpg',
     description: 'Gorgeous red-ombre mocktail made with macerated sweet strawberries, tart freshly squeezed lemon, sugar syrup, and cold water.',
     ingredients: [
@@ -4419,7 +4419,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '80 kcal',
     rating: '4.3',
-    reviews: 370,
+    reviews: 530,
     image: '/apple_cooler.png',
     description: 'Crisp, sparkling orchard cooler balancing naturally sweet apple juice with tart lemon, sliced green apple, and mint.',
     ingredients: [
@@ -4448,8 +4448,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '90 kcal',
-    rating: '4.3',
-    reviews: 380,
+    rating: '4.4',
+    reviews: 690,
     image: '/grape_cooler.png',
     description: 'Deep purple antioxidant elixir made with sweet seedless black grapes, a squeeze of lemon, sugar, and cooling mint.',
     ingredients: [
@@ -4478,8 +4478,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '35 kcal',
-    rating: '4.4',
-    reviews: 450,
+    rating: '4.3',
+    reviews: 580,
     image: '/cucumber_cooler.png',
     description: 'Crisp, spa-grade wellness cooler packed with pureed cucumber, fresh lemon, mint leaves, and ice-cold water.',
     ingredients: [
@@ -4509,7 +4509,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '110 kcal',
     rating: '4.5',
-    reviews: 620,
+    reviews: 790,
     image: '/mango_cooler.png',
     description: 'Golden tropical thirst quencher made with sweet Alphonso mango pulp, fresh lemon juice, chilled water, and crushed ice.',
     ingredients: [
@@ -4538,8 +4538,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '0 mins',
     calories: '180 kcal',
-    rating: '4.4',
-    reviews: 530,
+    rating: '4.5',
+    reviews: 930,
     image: '/cold_chocolate_milk.jpg',
     description: 'Rich, comforting café-style chocolate milk shaken cold with Dutch cocoa powder, chilled milk, and a touch of sweetness.',
     ingredients: [
@@ -4568,8 +4568,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '210 kcal',
-    rating: '4.4',
-    reviews: 490,
+    rating: '4.5',
+    reviews: 1060,
     image: '/banana_milkshake.png',
     description: 'Silky smooth, energy-packed shake blended from ripe bananas, chilled milk, sugar, and a hint of vanilla.',
     ingredients: [
@@ -4598,8 +4598,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '230 kcal',
-    rating: '4.6',
-    reviews: 780,
+    rating: '4.5',
+    reviews: 890,
     image: '/strawberry_milkshake.jpg',
     description: 'Thick, creamy diner-style strawberry shake made with fresh ripe strawberries, cold milk, sugar, and optional vanilla ice cream.',
     ingredients: [
@@ -4628,8 +4628,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '0 mins',
     calories: '250 kcal',
-    rating: '4.3',
-    reviews: 410,
+    rating: '4.7',
+    reviews: 1740,
     image: '/mango_icecream_milkshake.jpg',
     description: 'Street-style indulgent mango mastani shake made with sweet Alphonso pulp, chilled milk, and sugar.',
     ingredients: [
@@ -4659,7 +4659,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '210 kcal',
     rating: '4.4',
-    reviews: 490,
+    reviews: 610,
     image: '/apple_cinnamon_milkshake.jpg',
     description: 'Warmly spiced autumn shake blending tender apple pieces, cold milk, cinnamon powder, and honey.',
     ingredients: [
@@ -4689,7 +4689,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '320 kcal',
     rating: '4.5',
-    reviews: 710,
+    reviews: 840,
     image: '/peanut_butter_banana_shake.jpg',
     description: 'Gym-favorite protein powerhouse made by blending rich peanut butter, ripe banana, cold milk, and honey.',
     ingredients: [
@@ -4719,7 +4719,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '340 kcal',
     rating: '4.6',
-    reviews: 830,
+    reviews: 1480,
     image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80',
     description: 'Irresistible dessert shake made with crushed chocolate Oreo cookies, rich milk, and creamy vanilla ice cream.',
     ingredients: [
@@ -4747,8 +4747,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '170 kcal',
-    rating: '4.4',
-    reviews: 460,
+    rating: '4.7',
+    reviews: 2190,
     image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
     description: 'Rich, velvety, coffeehouse-standard cold coffee whipped with instant coffee granules, sugar, ice, and chilled milk.',
     ingredients: [
@@ -4778,7 +4778,7 @@ export const INITIAL_RECIPES = [
     cookTime: '0 mins',
     calories: '240 kcal',
     rating: '4.4',
-    reviews: 420,
+    reviews: 760,
     image: '/chocolate_banana_shake.jpg',
     description: 'Fudge-like decadent blend of ripe sweet banana, pure cocoa powder, cold milk, and honey.',
     ingredients: [
@@ -4807,8 +4807,8 @@ export const INITIAL_RECIPES = [
     prepTime: '4 mins',
     cookTime: '0 mins',
     calories: '260 kcal',
-    rating: '4.6',
-    reviews: 890,
+    rating: '4.5',
+    reviews: 920,
     image: '/royal_rose_milkshake.jpg',
     description: 'Luxurious sweet dessert milkshake made by blending aromatic rose syrup with chilled whole milk and creamy vanilla ice cream.',
     ingredients: [
@@ -4836,8 +4836,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '6 mins',
     calories: '85 kcal',
-    rating: '4.5',
-    reviews: 510,
+    rating: '4.7',
+    reviews: 1650,
     image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80',
     description: 'Immunity-boosting fiery ginger tea simmered with fresh crushed adrak, Assam black tea leaves, and sweet milk.',
     ingredients: [
@@ -4866,8 +4866,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '2 mins',
     calories: '60 kcal',
-    rating: '4.6',
-    reviews: 670,
+    rating: '4.5',
+    reviews: 830,
     image: '/honey_lemon_tea.jpg',
     description: 'Classic soothing throat relief infusion made with hot water, freshly squeezed lemon juice, and pure raw honey.',
     ingredients: [
@@ -4895,8 +4895,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '5 mins',
     calories: '240 kcal',
-    rating: '4.6',
-    reviews: 740,
+    rating: '4.7',
+    reviews: 1390,
     image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80',
     description: 'Thick, velvety, European-style winter warmer simmered with whole milk, Dutch cocoa, dark chocolate, and sugar.',
     ingredients: [
@@ -4925,8 +4925,8 @@ export const INITIAL_RECIPES = [
     prepTime: '5 mins',
     cookTime: '8 mins',
     calories: '220 kcal',
-    rating: '4.5',
-    reviews: 680,
+    rating: '4.7',
+    reviews: 1540,
     image: '/kesar_badam_milk.jpg',
     description: 'Rich royal tonic simmered with soaked blanched almond paste, saffron strands, green cardamom, and warm whole milk.',
     ingredients: [
@@ -4955,8 +4955,8 @@ export const INITIAL_RECIPES = [
     prepTime: '2 mins',
     cookTime: '4 mins',
     calories: '130 kcal',
-    rating: '4.4',
-    reviews: 410,
+    rating: '4.6',
+    reviews: 1280,
     image: '/golden_haldi_doodh.jpg',
     description: 'Ayurvedic healing golden milk simmered with organic turmeric, black pepper, cinnamon, honey, and warm milk.',
     ingredients: [
@@ -4985,8 +4985,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '7 mins',
     calories: '95 kcal',
-    rating: '4.8',
-    reviews: 145,
+    rating: '4.4',
+    reviews: 610,
     image: '/warm_cinnamon_apple_drink.jpg',
     description: 'Cozy spiced warm beverage brewed with pure apple juice, whole cinnamon quills, cloves, and a touch of lemon.',
     ingredients: [
@@ -5017,8 +5017,8 @@ export const INITIAL_RECIPES = [
     prepTime: '2 mins',
     cookTime: '3 mins',
     calories: '290 kcal',
-    rating: '4.5',
-    reviews: 1620,
+    rating: '4.6',
+    reviews: 2340,
     image: '/butter_masala_maggi.jpg',
     description: 'Classic quick noodles elevated with rich butter, green chilies, golden corn, and extra aromatic masala seasoning.',
     ingredients: [
@@ -5046,8 +5046,8 @@ export const INITIAL_RECIPES = [
     prepTime: '2 mins',
     cookTime: '4 mins',
     calories: '260 kcal',
-    rating: '4.3',
-    reviews: 540,
+    rating: '4.5',
+    reviews: 1120,
     image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
     description: 'Golden toasted bread loaded with melted bubbly cheese, minced green chilies, and oregano garlic butter.',
     ingredients: [
@@ -5076,7 +5076,7 @@ export const INITIAL_RECIPES = [
     cookTime: '4 mins',
     calories: '230 kcal',
     rating: '4.5',
-    reviews: 790,
+    reviews: 980,
     image: '/egg_bhurji.jpg',
     description: 'Dhaba-style quick fluffy scrambled eggs cooked with finely chopped onions, tomatoes, and everyday spices.',
     ingredients: [
@@ -5105,7 +5105,7 @@ export const INITIAL_RECIPES = [
     cookTime: '3 mins',
     calories: '310 kcal',
     rating: '4.4',
-    reviews: 610,
+    reviews: 860,
     image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80',
     description: 'Fast and flavorful wok-tossed leftover rice with aromatic golden toasted garlic, butter, and light soy sauce.',
     ingredients: [
@@ -5133,8 +5133,8 @@ export const INITIAL_RECIPES = [
     prepTime: '2 mins',
     cookTime: '1.5 mins',
     calories: '270 kcal',
-    rating: '4.3',
-    reviews: 480,
+    rating: '4.4',
+    reviews: 990,
     image: '/chocolate_mug_cake.jpg',
     description: 'Warm, moist, ultra-rich chocolate sponge cake baked right in your favorite coffee mug in just 90 seconds.',
     ingredients: [
@@ -5162,8 +5162,8 @@ export const INITIAL_RECIPES = [
     prepTime: '3 mins',
     cookTime: '5 mins',
     calories: '340 kcal',
-    rating: '4.4',
-    reviews: 590,
+    rating: '4.5',
+    reviews: 890,
     image: '/paneer_bhurji_wrap.jpg',
     description: 'Spiced crumbled cottage cheese tossed with onion, tomato, and wrapped in warm roti with mint sauce.',
     ingredients: [
@@ -5192,7 +5192,7 @@ export const INITIAL_RECIPES = [
     cookTime: '4 mins',
     calories: '320 kcal',
     rating: '4.3',
-    reviews: 510,
+    reviews: 780,
     image: '/mug_mac_and_cheese.png',
     description: 'Cheesy, creamy comfort pasta cooked in a mug in minutes with zero boiling pots needed.',
     ingredients: [
@@ -5219,7 +5219,7 @@ export const INITIAL_RECIPES = [
     cookTime: '4 mins',
     calories: '190 kcal',
     rating: '4.4',
-    reviews: 570,
+    reviews: 910,
     image: '/instant_aloo_chaat.jpg',
     description: 'Crisp pan-tossed potato cubes tossed in tangy lemon juice, roasted cumin, chaat masala, and spicy green chutney.',
     ingredients: [
