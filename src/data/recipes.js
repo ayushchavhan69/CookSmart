@@ -1829,37 +1829,6 @@ export const INITIAL_RECIPES = [
     isSaved: false
   },
   {
-    id: 'sweet-13',
-    title: 'Crispy Imarti with Rabdi',
-    course: 'Sweets',
-    category: 'Sweets',
-    cuisine: 'Indian / Mughlai',
-    prepTime: '25 mins',
-    cookTime: '20 mins',
-    calories: '360 kcal',
-    rating: '4.8',
-    reviews: 195,
-    image: 'https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&w=800&q=80',
-    description: 'Intricate circular flower-shaped fritters made from aerated urad dal batter, fried crisp in ghee, dipped in saffron syrup, served with creamy rabdi.',
-    ingredients: [
-      { name: 'Urad Dal (soaked 4 hours & ground)', amount: '1 cup', available: true },
-      { name: 'Cornstarch & orange food color', amount: '2 tbsp', available: true },
-      { name: 'Sugar & water for syrup', amount: '1.5 cups', available: true },
-      { name: 'Desi ghee for deep frying', amount: '2 cups', available: true },
-      { name: 'Thick chilled malai Rabdi', amount: '1/2 cup', available: false }
-    ],
-    missingCount: 1,
-    instructions: [
-      'Grind soaked urad dal with minimal water, then whip vigorously by hand for 10 mins until fluffy and floating in water.',
-      'Mix in cornstarch and orange color; fill into an imarti piping cloth with a small center hole.',
-      'Pipe intricate flower patterns into warm ghee and fry on medium-low flame until crisp.',
-      'Immediately soak fried imartis in warm saffron-cardamom sugar syrup for 2 minutes.',
-      'Serve warm topped with thick malai rabdi.'
-    ],
-    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+imarti+recipe+halwai+style',
-    isSaved: false
-  },
-  {
     id: 'sweet-14',
     title: 'Malpua with Rich Rabdi',
     course: 'Sweets',
