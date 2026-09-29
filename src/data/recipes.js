@@ -1653,7 +1653,7 @@ export const INITIAL_RECIPES = [
     calories: '220 kcal',
     rating: '5.0',
     reviews: 520,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/kaju_katli.jpg',
     description: 'Smooth, melt-in-mouth diamond-cut cashew fudge made with fine ground cashews, sugar syrup, and adorned with edible silver leaf (varq).',
     ingredients: [
       { name: 'Whole raw cashews (Kaju)', amount: '2 cups (ground to fine powder)', available: true },
@@ -1684,7 +1684,7 @@ export const INITIAL_RECIPES = [
     calories: '450 kcal',
     rating: '5.0',
     reviews: 340,
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    image: '/moong_dal_halwa.jpg',
     description: 'Rich, slow-roasted yellow lentil paste roasted in pure desi ghee until fragrant and nutty, simmered with saffron milk and toasted almonds.',
     ingredients: [
       { name: 'Yellow Moong Dal (soaked & coarsely ground)', amount: '1 cup', available: true },
@@ -1715,7 +1715,7 @@ export const INITIAL_RECIPES = [
     calories: '180 kcal',
     rating: '4.9',
     reviews: 410,
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80',
+    image: '/bengali_rasgulla.jpg',
     description: 'Ultra-soft, juicy, and spongy cottage cheese dumplings cooked in boiling light sugar syrup scented with rosewater and crushed green cardamom.',
     ingredients: [
       { name: 'Cow Milk (for fresh soft Chhena)', amount: '1.5 liters', available: true },
@@ -1746,7 +1746,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '4.9',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/motichoor_ladoo.jpg',
     description: 'Melt-in-mouth tiny golden gram flour pearls fried in pure desi ghee, soaked in saffron-cardamom syrup, and hand-rolled into festive spheres.',
     ingredients: [
       { name: 'Fine Besan (gram flour)', amount: '1.5 cups', available: true },
@@ -1777,7 +1777,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.9',
     reviews: 230,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/royal_kalakand.png',
     description: 'Moist, grainy, melt-in-mouth milk sweet prepared with fresh homemade chhena and condensed milk, flavored with cardamom and sliced nuts.',
     ingredients: [
       { name: 'Fresh soft Chhena / grated Paneer', amount: '250g', available: true },
@@ -1808,7 +1808,7 @@ export const INITIAL_RECIPES = [
     calories: '420 kcal',
     rating: '5.0',
     reviews: 180,
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    image: '/kesar_badam_halwa.jpg',
     description: 'A luxurious royal dessert made from soaked blanched almonds ground into paste, roasted in fragrant desi ghee, and infused with saffron milk.',
     ingredients: [
       { name: 'Almonds (Badam) soaked & blanched', amount: '1.5 cups', available: true },
@@ -1839,7 +1839,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '4.9',
     reviews: 190,
-    image: 'https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&w=800&q=80',
+    image: '/crispy_imarti.jpg',
     description: 'Intricate flower-shaped crispy urad dal coils deep-fried in pure desi ghee and soaked in fragrant saffron-cardamom sugar syrup.',
     ingredients: [
       { name: 'Urad Dal (soaked 4 hours & fluffy ground)', amount: '1 cup', available: true },
@@ -1870,7 +1870,7 @@ export const INITIAL_RECIPES = [
     calories: '390 kcal',
     rating: '4.9',
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=800&q=80',
+    image: '/malpua_rabdi.jpg',
     description: 'Crisp-edged, melt-in-mouth fennel-infused sweet pancakes fried in pure ghee, dipped in rose syrup, and blanketed with creamy pistachio rabdi.',
     ingredients: [
       { name: 'All-purpose flour (Maida) & Mawa (Khoya)', amount: '1/2 cup each', available: true },
@@ -1901,7 +1901,7 @@ export const INITIAL_RECIPES = [
     calories: '270 kcal',
     rating: '4.8',
     reviews: 175,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/kolkata_cham_cham.jpg',
     description: 'Elongated chhena cottage cheese cylinders cooked in sugar syrup, slit open, stuffed with sweetened mawa, and rolled in desiccated coconut.',
     ingredients: [
       { name: 'Fresh homemade soft Chhena', amount: '250g', available: true },
@@ -1932,7 +1932,7 @@ export const INITIAL_RECIPES = [
     calories: '420 kcal',
     rating: '5.0',
     reviews: 380,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/mysore_pak.jpg',
     description: 'Iconic royal South Indian fudge made by roasting sieved gram flour in bubbling hot desi ghee and caramelized sugar syrup until melt-in-mouth tender.',
     ingredients: [
       { name: 'Fine Besan (gram flour, sieved)', amount: '1 cup', available: true },
@@ -1963,7 +1963,7 @@ export const INITIAL_RECIPES = [
     calories: '260 kcal',
     rating: '4.9',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/matka_phirni.jpg',
     description: 'Slow-simmered coarsely ground Basmati rice pudding infused with saffron, cardamom, and kewra water, chilled in earthy terracotta clay pots.',
     ingredients: [
       { name: 'Basmati Rice (soaked & coarsely ground)', amount: '1/4 cup', available: true },
@@ -1994,7 +1994,7 @@ export const INITIAL_RECIPES = [
     calories: '480 kcal',
     rating: '5.0',
     reviews: 260,
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    image: '/royal_ghevar.jpg',
     description: 'Disc-shaped honeycomb-textured Rajasthani monsoon delicacy fried in desi ghee, soaked in saffron syrup, topped with thick malai rabdi and silver leaf.',
     ingredients: [
       { name: 'All-purpose flour (Maida) & chilled milk', amount: '1 cup + 1/4 cup', available: true },
@@ -2025,7 +2025,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '4.8',
     reviews: 165,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/crispy_balushahi.jpg',
     description: 'Flaky, multi-layered golden ghee-fried pastries with crisp crust and juicy melt-in-mouth interior, glazed in aromatic cardamom sugar syrup.',
     ingredients: [
       { name: 'All-purpose flour (Maida)', amount: '2 cups', available: true },
@@ -2056,7 +2056,7 @@ export const INITIAL_RECIPES = [
     calories: '190 kcal',
     rating: '5.0',
     reviews: 390,
-    image: 'https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=800&q=80',
+    image: '/ukadiche_modak.jpg',
     description: 'Steamed Maharashtrian rice flour dumplings with delicate pleats, filled with fresh grated coconut, organic jaggery, cardamom, and nutmeg.',
     ingredients: [
       { name: 'Fine Basmati rice flour (Ukad flour)', amount: '1.5 cups', available: true },
@@ -2087,7 +2087,7 @@ export const INITIAL_RECIPES = [
     calories: '280 kcal',
     rating: '4.9',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/creamy_rice_kheer.jpg',
     description: 'Traditional slow-cooked Indian rice pudding simmered with full cream milk, aromatic basmati rice, cardamom, saffron, and golden fried nuts.',
     ingredients: [
       { name: 'Gobindobhog or Basmati Rice (washed & crushed)', amount: '1/3 cup', available: true },
@@ -2118,7 +2118,7 @@ export const INITIAL_RECIPES = [
     calories: '230 kcal',
     rating: '4.8',
     reviews: 185,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/nariyal_barfi.png',
     description: 'Juicy, soft fresh grated coconut fudge made with condensed milk and cardamom, topped with sliced pistachios.',
     ingredients: [
       { name: 'Freshly grated coconut (white part only)', amount: '2 cups', available: true },
@@ -2149,7 +2149,7 @@ export const INITIAL_RECIPES = [
     calories: '390 kcal',
     rating: '4.9',
     reviews: 245,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/alwar_mawa_milk_cake.jpg',
     description: 'Grainy, two-toned caramelized mawa fudge with a deep golden-brown core and creamy pale edges, slow-cooked in traditional Rajasthani style.',
     ingredients: [
       { name: 'Full cream milk', amount: '2 liters', available: true },
@@ -2180,7 +2180,7 @@ export const INITIAL_RECIPES = [
     calories: '240 kcal',
     rating: '4.9',
     reviews: 215,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/mathura_peda.jpg',
     description: 'Authentic dark roasted caramelized khoya pedas scented with cardamom and nutmeg, rolled in traditional Boora (tagar) sugar.',
     ingredients: [
       { name: 'Fresh Khoya / Mawa', amount: '300g', available: true },
@@ -2211,7 +2211,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '4.9',
     reviews: 205,
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80',
+    image: '/kesar_malai_roll.jpg',
     description: 'Delicate, soft chhena sheets rolled over a luscious cardamom and pistachio mawa filling, bathed in thickened saffron cream milk.',
     ingredients: [
       { name: 'Fresh soft Chhena / Paneer sheets', amount: '200g', available: true },
@@ -2242,7 +2242,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '5.0',
     reviews: 310,
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80',
+    image: '/angoori_rasmalai.jpg',
     description: 'Bite-sized miniature chhena pearls cooked in syrup and submerged in fragrant, saffron-infused pistachio rabri milk.',
     ingredients: [
       { name: 'Fresh Cow Milk Chhena', amount: '200g', available: true },
@@ -2273,7 +2273,7 @@ export const INITIAL_RECIPES = [
     calories: '320 kcal',
     rating: '4.8',
     reviews: 170,
-    image: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80',
+    image: '/doodhi_halwa.jpg',
     description: 'Vibrant green grated tender bottle gourd slow-cooked in milk, pure desi ghee, and rich crumbled mawa, flavored with cardamom.',
     ingredients: [
       { name: 'Tender Lauki (Bottle Gourd), peeled & grated', amount: '500g', available: true },
@@ -2305,7 +2305,7 @@ export const INITIAL_RECIPES = [
     calories: '190 kcal',
     rating: '4.9',
     reviews: 220,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/nolen_gur_sandesh.jpg',
     description: 'Authentic winter Bengali delicacy made with fresh homemade chhena and liquid date palm jaggery (Jhola Nolen Gur), shaped in traditional wooden moulds.',
     ingredients: [
       { name: 'Fresh soft homemade Chhena', amount: '250g', available: true },
@@ -2335,7 +2335,7 @@ export const INITIAL_RECIPES = [
     calories: '310 kcal',
     rating: '5.0',
     reviews: 350,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/seviyan_kheer.jpg',
     description: 'Festive Mughlai pudding made by slow-cooking roasted fine vermicelli with full-fat milk, soaked dried dates (chhuara), saffron, and chironji nuts.',
     ingredients: [
       { name: 'Fine roasted Seviyan (vermicelli)', amount: '1 cup', available: true },
@@ -2366,7 +2366,7 @@ export const INITIAL_RECIPES = [
     calories: '330 kcal',
     rating: '4.9',
     reviews: 180,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/gond_ke_ladoo.jpg',
     description: 'Traditional winter energy sweet made from puffed edible gum (gond) crystals, whole wheat flour, desi ghee, roasted dry fruits, and jaggery/boora.',
     ingredients: [
       { name: 'Edible Gum (Gond crystals)', amount: '1/2 cup', available: true },
@@ -2397,7 +2397,7 @@ export const INITIAL_RECIPES = [
     calories: '340 kcal',
     rating: '5.0',
     reviews: 420,
-    image: 'https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=800&q=80',
+    image: '/puran_poli.jpg',
     description: 'Golden, paper-thin Maharashtrian flatbread stuffed with sweet cooked chana dal and jaggery filling scented with cardamom, served with dollops of melted ghee.',
     ingredients: [
       { name: 'Chana Dal (Bengal gram)', amount: '1 cup boiled', available: true },
@@ -2428,7 +2428,7 @@ export const INITIAL_RECIPES = [
     calories: '380 kcal',
     rating: '5.0',
     reviews: 260,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/laung_lata.jpg',
     description: 'Crispy, flaky pastry envelope stuffed with sweet cardamom-flavored mawa, dry fruits, and grated coconut, sealed with a whole clove (laung) and dipped in warm sugar syrup.',
     ingredients: [
       { name: 'All-purpose flour (Maida) & Desi Ghee', amount: '1.5 cups + 3 tbsp', available: true },
