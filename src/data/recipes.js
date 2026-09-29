@@ -2459,7 +2459,7 @@ export const INITIAL_RECIPES = [
     calories: '180 kcal',
     rating: '4.9',
     reviews: 290,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    image: '/agra_petha.jpg',
     description: 'Translucent, juicy, and crunchy candied ash gourd (winter melon) cubes soaked in fragrant rose-infused and kewra-scented cardamom sugar syrup.',
     ingredients: [
       { name: 'Ripe Ash Gourd (Safed Petha / Winter Melon), peeled & cubed', amount: '1 kg', available: true },
@@ -2490,7 +2490,7 @@ export const INITIAL_RECIPES = [
     calories: '290 kcal',
     rating: '5.0',
     reviews: 340,
-    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    image: '/chhena_poda.jpg',
     description: 'The legendary baked cottage cheese cake of Odisha, caramelized to a deep golden crust on the outside while staying soft, juicy, and cardamom-scented on the inside.',
     ingredients: [
       { name: 'Fresh homemade soft Chhena (curdled cow milk)', amount: '500g', available: true },
