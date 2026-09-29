@@ -1829,6 +1829,37 @@ export const INITIAL_RECIPES = [
     isSaved: false
   },
   {
+    id: 'sweet-13',
+    title: 'Crispy Saffron Imarti',
+    course: 'Sweets',
+    category: 'Sweets',
+    cuisine: 'Indian / Mughlai',
+    prepTime: '20 mins',
+    cookTime: '20 mins',
+    calories: '340 kcal',
+    rating: '4.9',
+    reviews: 190,
+    image: 'https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&w=800&q=80',
+    description: 'Intricate flower-shaped crispy urad dal coils deep-fried in pure desi ghee and soaked in fragrant saffron-cardamom sugar syrup.',
+    ingredients: [
+      { name: 'Urad Dal (soaked 4 hours & fluffy ground)', amount: '1 cup', available: true },
+      { name: 'Cornstarch & pinch of saffron orange color', amount: '2 tbsp', available: true },
+      { name: 'Sugar & water for 1-string syrup', amount: '1.5 cups', available: true },
+      { name: 'Pure Desi Ghee for deep frying', amount: '2 cups', available: true },
+      { name: 'Cardamom powder & rose water', amount: '1 tsp', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Grind soaked urad dal to a fine thick paste, then aerate by hand-whipping for 10 minutes until fluffy and light.',
+      'Mix in cornstarch and natural saffron coloring; pour batter into an imarti piping cloth nozzle.',
+      'Pipe intricate overlapping flower rings directly into warm desi ghee over medium-low heat.',
+      'Fry slowly until crisp and golden on all sides.',
+      'Immediately dip into warm saffron-rose sugar syrup for 2 minutes, then drain and serve.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=crispy+imarti+recipe+halwai+style',
+    isSaved: false
+  },
+  {
     id: 'sweet-14',
     title: 'Malpua with Rich Rabdi',
     course: 'Sweets',
@@ -2384,6 +2415,37 @@ export const INITIAL_RECIPES = [
       'Serve hot drenched with warm desi ghee or with Katachi Amti.'
     ],
     youtubeUrl: 'https://www.youtube.com/results?search_query=authentic+maharashtrian+puran+poli+recipe',
+    isSaved: false
+  },
+  {
+    id: 'sweet-32',
+    title: 'Banarasi Crispy Laung Lata (Lavang Latika)',
+    course: 'Sweets',
+    category: 'Sweets',
+    cuisine: 'Indian / Banarasi / Bihari',
+    prepTime: '25 mins',
+    cookTime: '25 mins',
+    calories: '380 kcal',
+    rating: '5.0',
+    reviews: 260,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    description: 'Crispy, flaky pastry envelope stuffed with sweet cardamom-flavored mawa, dry fruits, and grated coconut, sealed with a whole clove (laung) and dipped in warm sugar syrup.',
+    ingredients: [
+      { name: 'All-purpose flour (Maida) & Desi Ghee', amount: '1.5 cups + 3 tbsp', available: true },
+      { name: 'Fresh Khoya (Mawa) roasted', amount: '1 cup', available: true },
+      { name: 'Chopped cashews, almonds & raisins', amount: '1/3 cup', available: true },
+      { name: 'Grated dry coconut & cardamom powder', amount: '2 tbsp + 1 tsp', available: true },
+      { name: 'Whole aromatic Cloves (Laung) & Sugar syrup', amount: '10-12 cloves + 1.5 cups syrup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Knead a semi-stiff dough with maida, ghee moyan, and water; rest for 20 minutes.',
+      'Roast mawa with sugar, dry fruits, desiccated coconut, and cardamom for the aromatic filling.',
+      'Roll dough into small discs, place a spoonful of filling in center, and fold into neat rectangular envelope packets.',
+      'Insert a whole clove (laung) firmly through center to pin and seal the pocket securely.',
+      'Slow-fry on low flame in desi ghee until deep golden and crisp, then submerge into warm 1-string sugar syrup for 4 minutes.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=banarasi+laung+lata+recipe+lavang+latika',
     isSaved: false
   },
 
