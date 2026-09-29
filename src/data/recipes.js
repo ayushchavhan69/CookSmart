@@ -2448,6 +2448,69 @@ export const INITIAL_RECIPES = [
     youtubeUrl: 'https://www.youtube.com/results?search_query=banarasi+laung+lata+recipe+lavang+latika',
     isSaved: false
   },
+  {
+    id: 'sweet-33',
+    title: 'Agra Ka Petha (Candied Ash Gourd)',
+    course: 'Sweets',
+    category: 'Sweets',
+    cuisine: 'Indian / Agra',
+    prepTime: '20 mins',
+    cookTime: '35 mins',
+    calories: '180 kcal',
+    rating: '4.9',
+    reviews: 290,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+    description: 'Translucent, juicy, and crunchy candied ash gourd (winter melon) cubes soaked in fragrant rose-infused and kewra-scented cardamom sugar syrup.',
+    ingredients: [
+      { name: 'Ripe Ash Gourd (Safed Petha / Winter Melon), peeled & cubed', amount: '1 kg', available: true },
+      { name: 'Alum (Fitkari) or Pickling lime (Chuna) for soaking', amount: '1 tsp', available: true },
+      { name: 'Granulated sugar', amount: '3 cups (600g)', available: true },
+      { name: 'Kewra water & rose water', amount: '1 tbsp', available: false },
+      { name: 'Green cardamom powder & saffron strands', amount: '1/2 tsp', available: true }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Prick ash gourd cubes all over with a fork and soak in lime/alum water for 2-3 hours for signature crisp bite.',
+      'Rinse thoroughly in cold running water 3-4 times to remove any trace of alum.',
+      'Boil cubes in boiling water for 8-10 minutes until translucent and fork-tender, then drain.',
+      'Cook sugar and drained ash gourd together on medium heat until sugar dissolves and turns into 2-string syrup.',
+      'Flavor with kewra water, rose water, and cardamom; let soak overnight for maximum translucency and juicy crunch.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=agra+ka+petha+authentic+recipe',
+    isSaved: false
+  },
+  {
+    id: 'sweet-34',
+    title: 'Traditional Odia Chhena Poda',
+    course: 'Sweets',
+    category: 'Sweets',
+    cuisine: 'Indian / Odia',
+    prepTime: '20 mins',
+    cookTime: '45 mins',
+    calories: '290 kcal',
+    rating: '5.0',
+    reviews: 340,
+    image: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80',
+    description: 'The legendary baked cottage cheese cake of Odisha, caramelized to a deep golden crust on the outside while staying soft, juicy, and cardamom-scented on the inside.',
+    ingredients: [
+      { name: 'Fresh homemade soft Chhena (curdled cow milk)', amount: '500g', available: true },
+      { name: 'Granulated sugar (partly caramelized)', amount: '1 cup', available: true },
+      { name: 'Fine Semolina (Sooji / Rava)', amount: '2 tbsp', available: true },
+      { name: 'Pure Desi Ghee', amount: '2 tbsp', available: true },
+      { name: 'Green cardamom powder & crushed cashews, raisins', amount: '1/4 cup', available: false }
+    ],
+    missingCount: 1,
+    instructions: [
+      'Knead fresh moist chhena with sugar, sooji, ghee, and cardamom powder until smooth and crumbly.',
+      'Fold in ghee-roasted cashews and raisins.',
+      'Caramelize 2 tbsp sugar in a cake tin or cast iron pan until dark amber to create bottom caramel crust.',
+      'Transfer chhena mixture into the tin and level the top evenly.',
+      'Bake at 180°C (350°F) for 40-45 minutes (or in a heavy covered kadai) until the top is deeply caramelized and roasted.',
+      'Cool completely before slicing to reveal the iconic golden crust and tender interior.'
+    ],
+    youtubeUrl: 'https://www.youtube.com/results?search_query=authentic+odia+chhena+poda+recipe',
+    isSaved: false
+  },
 
   // ===================== SNACKS & STREET FOOD (6) =====================
   {
