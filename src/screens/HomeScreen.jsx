@@ -274,10 +274,14 @@ export default function HomeScreen({ recipes, onSelectRecipe, onNavigateToInput:
 
                 <div className="flex items-center justify-between pt-2 border-t border-neutral-800/80 text-xs">
                   <span className="text-neutral-500 font-medium">
-                    {recipe.ingredients.length} ingredients • {recipe.missingCount > 0 ? (
-                      <span className="text-red-400 font-semibold">{recipe.missingCount} to buy</span>
+                    {recipe.ingredients.length} ingredients • {recipe.isPantryMatch ? (
+                      recipe.missingCount > 0 ? (
+                        <span className="text-red-400 font-semibold">{recipe.missingCount} to buy</span>
+                      ) : (
+                        <span className="text-emerald-400 font-semibold">All in pantry</span>
+                      )
                     ) : (
-                      <span className="text-emerald-400 font-semibold">All in pantry</span>
+                      <span className="text-neutral-400 font-medium">{recipe.calories || recipe.prepTime}</span>
                     )}
                   </span>
                   <span className="text-orange-400 font-bold flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">

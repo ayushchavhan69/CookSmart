@@ -764,7 +764,8 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
     missingCount: complementaryIngredients.length,
     instructions,
     isSaved: false,
-    isAiGenerated: true
+    isAiGenerated: true,
+    isPantryMatch: true
   };
 
   recipe.demandHighlights = buildDemandHighlights(recipe, demandParams);

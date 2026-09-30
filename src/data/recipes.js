@@ -31,9 +31,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cashew cream paste', amount: '2 tbsp', available: true },
       { name: 'Green bell peppers & onions', amount: '1 cup cubed', available: true },
       { name: 'Chaat masala & roasted kasuri methi', amount: '1 tbsp', available: true },
-      { name: 'Edible green cardamom powder', amount: '1/2 tsp', available: false }
+      { name: 'Edible green cardamom powder', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk hung curd with cashew paste, cardamom powder, ginger-garlic paste, and lemon juice.',
       'Coat paneer cubes, bell peppers, and onion petals thoroughly. Marinate for 30 minutes.',
@@ -62,9 +62,9 @@ export const INITIAL_RECIPES = [
       { name: 'All-purpose flour (maida) & ajwain', amount: '2 cups', available: true },
       { name: 'Ghee for moin dough', amount: '4 tbsp', available: true },
       { name: 'Amchur (dry mango powder) & chaat masala', amount: '1.5 tsp', available: true },
-      { name: 'Tamarind jaggery sweet chutney', amount: '3 tbsp', available: false }
+      { name: 'Tamarind jaggery sweet chutney', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead a firm dough using flour, carom seeds (ajwain), salt, and cold ghee. Rest 20 mins.',
       'Sauté crushed coriander seeds, cumin, green chilies, ginger, peas, and coarse boiled potatoes with amchur.',
@@ -94,9 +94,9 @@ export const INITIAL_RECIPES = [
       { name: 'Green peas (boiled & mashed)', amount: '1/2 cup', available: true },
       { name: 'Roasted besan (gram flour)', amount: '3 tbsp', available: true },
       { name: 'Chaat masala & green chilies', amount: '1 tsp', available: true },
-      { name: 'Cashew halves for topping', amount: '10-12 pieces', available: false }
+      { name: 'Cashew halves for topping', amount: '10-12 pieces', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Squeeze out excess water from blanched spinach. Finely mince or pulse in blender.',
       'Combine spinach, mashed potatoes, peas, spices, roasted besan, and salt into a workable dough.',
@@ -125,9 +125,9 @@ export const INITIAL_RECIPES = [
       { name: 'Salted butter & olive oil', amount: '3 tbsp', available: true },
       { name: 'Red pepper chili flakes', amount: '1 tsp', available: true },
       { name: 'Fresh flat-leaf parsley', amount: '2 tbsp chopped', available: true },
-      { name: 'Organic Lemon juice & zest', amount: '1 whole', available: false }
+      { name: 'Organic Lemon juice & zest', amount: '1 whole', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pat jumbo prawns thoroughly dry with kitchen paper; season with sea salt and cracked pepper.',
       'Melt butter with a splash of olive oil in a wide heavy skillet over high heat.',
@@ -157,9 +157,9 @@ export const INITIAL_RECIPES = [
       { name: 'Chopped mint & fresh cilantro', amount: '1/2 cup', available: true },
       { name: 'Ginger-garlic paste', amount: '1.5 tbsp', available: true },
       { name: 'Egg or cornstarch (binding)', amount: '1 tbsp', available: true },
-      { name: 'Melted butter for basting', amount: '3 tbsp', available: false }
+      { name: 'Melted butter for basting', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Mix chicken mince with thoroughly squeezed grated onions, herbs, aromatic spices, and salt.',
       'Knead the mixture like dough for 5 minutes until proteins activate and bind tightly.',
@@ -188,9 +188,9 @@ export const INITIAL_RECIPES = [
       { name: 'Shredded cabbage & carrots', amount: '2 cups', available: true },
       { name: 'Bell pepper & scallions', amount: '1 cup', available: true },
       { name: 'Soy sauce & sesame oil', amount: '2 tbsp', available: true },
-      { name: 'Thai sweet chili dipping sauce', amount: '3 tbsp', available: false }
+      { name: 'Thai sweet chili dipping sauce', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Flash stir-fry julienned vegetables in a wok on high flame with sesame oil, soy sauce, and white pepper for 2 minutes.',
       'Allow vegetable filling to cool completely so pastry remains crisp.',
@@ -219,9 +219,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh sweet basil leaves', amount: '1/3 cup torn', available: true },
       { name: 'Extra virgin cold-pressed olive oil', amount: '3 tbsp', available: true },
       { name: 'Garlic cloves (for rubbing toast)', amount: '2 whole', available: true },
-      { name: 'Aged balsamic glaze drizzle', amount: '2 tbsp', available: false }
+      { name: 'Aged balsamic glaze drizzle', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Toss diced tomatoes with torn basil, minced shallots, extra virgin olive oil, sea salt, and black pepper. Marinate 10 mins.',
       'Slice bread thickly and toast over grill or skillet until golden and charred on edges.',
@@ -249,9 +249,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cornstarch & rice flour', amount: '4 tbsp', available: true },
       { name: 'Finely diced bell peppers & onions', amount: '1/2 cup', available: true },
       { name: 'Freshly crushed black peppercorns', amount: '1 tsp', available: true },
-      { name: 'Fresh green scallion greens', amount: '3 tbsp', available: false }
+      { name: 'Fresh green scallion greens', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pat boiled corn dry. Toss with salt, pepper, and dusting of cornstarch/rice flour until uniformly coated.',
       'Deep fry in batches in hot oil until crunchy and popping.',
@@ -282,9 +282,9 @@ export const INITIAL_RECIPES = [
       { name: 'Butter & heavy cream', amount: '3 tbsp + 1/4 cup', available: true },
       { name: 'Ginger-garlic paste', amount: '2 tbsp', available: true },
       { name: 'Garam masala & Kashmiri chili', amount: '1.5 tsp', available: true },
-      { name: 'Kasuri Methi (Dried fenugreek)', amount: '1 tbsp', available: false }
+      { name: 'Kasuri Methi (Dried fenugreek)', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Marinate chicken cubes in yogurt, ginger-garlic paste, Kashmiri chili, and lemon juice.',
       'Sear chicken in a smoking hot pan with ghee until charred spots develop. Set aside.',
@@ -314,9 +314,9 @@ export const INITIAL_RECIPES = [
       { name: 'Soaked cashew paste', amount: '10 cashews', available: true },
       { name: 'Ghee and butter', amount: '2 tbsp', available: true },
       { name: 'Whole spices (cloves, cardamom)', amount: '1 tsp', available: true },
-      { name: 'Green Cardamom Powder', amount: '1/2 tsp', available: false }
+      { name: 'Green Cardamom Powder', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak paneer cubes in warm lightly salted water for 10 minutes for extreme softness.',
       'Sauté whole spices in ghee, caramelize onions, add ginger-garlic and tomato puree.',
@@ -344,10 +344,10 @@ export const INITIAL_RECIPES = [
       { name: 'Pureed plum tomatoes', amount: '1 cup', available: true },
       { name: 'White butter (Makhan) & cream', amount: '3 tbsp', available: true },
       { name: 'Degi Mirch & ginger juliennes', amount: '1 tbsp', available: true },
-      { name: 'Natural charcoal lump (for Dhungar smoke)', amount: '1 piece', available: false },
+      { name: 'Natural charcoal lump (for Dhungar smoke)', amount: '1 piece', available: true },
       { name: 'Garam masala & roasted cumin', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pressure cook soaked black lentils and rajma with ginger and salt until buttery soft.',
       'Mash lightly against pot edges to release thick velvety starch.',
@@ -376,10 +376,10 @@ export const INITIAL_RECIPES = [
       { name: 'Bone-in chicken cuts', amount: '600g', available: true },
       { name: 'Crispy fried onions (Birista)', amount: '1 cup', available: true },
       { name: 'Fresh mint & coriander leaves', amount: '1 cup chopped', available: true },
-      { name: 'Pure Kashmiri Saffron in warm milk', amount: '1 pinch', available: false },
+      { name: 'Pure Kashmiri Saffron in warm milk', amount: '1 pinch', available: true },
       { name: 'Ghee & Biryani whole spices', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Marinate chicken in curd, spices, fried onions, mint, and lemon juice for 45 minutes.',
       'Par-cook basmati rice with whole spices until 70% done.',
@@ -409,9 +409,9 @@ export const INITIAL_RECIPES = [
       { name: 'Garlic cloves & green chilies', amount: '6 cloves', available: true },
       { name: 'Heavy cream or malai', amount: '2 tbsp', available: true },
       { name: 'Ghee & cumin seeds', amount: '2 tbsp', available: true },
-      { name: 'Roasted Kasuri Methi', amount: '1 tsp', available: false }
+      { name: 'Roasted Kasuri Methi', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blanch spinach in boiling water for 2 mins, immediately plunge into ice water to preserve emerald green color.',
       'Puree spinach with green chilies and ginger without adding excess water.',
@@ -441,9 +441,9 @@ export const INITIAL_RECIPES = [
       { name: 'Anardana (dry pomegranate powder)', amount: '1.5 tbsp', available: true },
       { name: 'Chopped onions & tomatoes', amount: '2 each', available: true },
       { name: 'Ginger juliennes & green chilies', amount: '2 tbsp', available: true },
-      { name: 'Amritsari Chole Masala blend', amount: '2 tbsp', available: false }
+      { name: 'Amritsari Chole Masala blend', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Boil chickpeas with tea bag, black cardamom, and salt until tender and melt-in-mouth.',
       'In a pan, cook onions, ginger, and tomato reduction with chole spices and anardana.',
@@ -473,9 +473,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whisked yogurt (dahi)', amount: '1/2 cup', available: true },
       { name: 'Kashmiri red chili powder', amount: '2 tbsp', available: true },
       { name: 'Fennel seed powder (Saunf)', amount: '1.5 tbsp', available: true },
-      { name: 'Ratanjot (natural crimson herb extract)', amount: '1 pinch', available: false }
+      { name: 'Ratanjot (natural crimson herb extract)', amount: '1 pinch', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Heat mustard oil to smoking point, cool slightly, then sear mutton with whole black cardamom and cloves.',
       'Mix yogurt with Kashmiri chili powder, fennel powder, and dry ginger powder (Saunth).',
@@ -504,10 +504,10 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh baby spinach', amount: '2 cups', available: true },
       { name: 'Garlic cloves (minced)', amount: '4 cloves', available: true },
       { name: 'Heavy cream', amount: '3/4 cup', available: true },
-      { name: 'Sun-dried tomatoes in oil', amount: '1/3 cup', available: false },
+      { name: 'Sun-dried tomatoes in oil', amount: '1/3 cup', available: true },
       { name: 'Grated parmesan cheese', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Season chicken breasts generously with salt, pepper, and Italian herbs.',
       'Sear in butter and olive oil for 6-8 mins per side until golden. Remove.',
@@ -536,10 +536,10 @@ export const INITIAL_RECIPES = [
       { name: 'Steamed jasmine or cauliflower rice', amount: '2 cups', available: true },
       { name: 'Ripe avocado (sliced)', amount: '1 whole', available: true },
       { name: 'Soy sauce or Tamari', amount: '3 tbsp', available: true },
-      { name: 'Toasted sesame seeds & scallions', amount: '2 tbsp', available: false },
+      { name: 'Toasted sesame seeds & scallions', amount: '2 tbsp', available: true },
       { name: 'Fresh ginger (grated)', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk soy sauce, ginger, garlic, and honey into a glossy reduction.',
       'Sear salmon skin-side down in a hot cast-iron skillet for 4 mins.',
@@ -568,9 +568,9 @@ export const INITIAL_RECIPES = [
       { name: 'Unsalted high-fat butter', amount: '1/2 cup', available: true },
       { name: 'Freshly grated Parmigiano Reggiano', amount: '1.5 cups', available: true },
       { name: 'Heavy whipping cream', amount: '1/4 cup', available: true },
-      { name: 'Nutmeg & black pepper', amount: '1/2 tsp', available: false }
+      { name: 'Nutmeg & black pepper', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Boil pasta in well-salted water until al dente; reserve 1 cup starchy pasta water.',
       'Melt butter over low heat in a deep skillet with a ladle of pasta water.',
@@ -597,11 +597,11 @@ export const INITIAL_RECIPES = [
       { name: 'Extra firm tofu (cubed & pressed)', amount: '1 block (400g)', available: true },
       { name: 'Fresh holy basil leaves', amount: '1 large handful', available: true },
       { name: 'Red & yellow bell peppers', amount: '2 sliced', available: true },
-      { name: 'Toasted whole cashews', amount: '1/3 cup', available: false },
+      { name: 'Toasted whole cashews', amount: '1/3 cup', available: true },
       { name: 'Bird\'s eye chilies', amount: '2 chilies', available: true },
       { name: 'Dark mushroom soy sauce', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pan-fry cubed tofu until crispy golden on all sides.',
       'Flash fry bell peppers, garlic, and chilies in hot wok.',
@@ -630,9 +630,9 @@ export const INITIAL_RECIPES = [
       { name: 'Shallots (small onions)', amount: '10 sliced', available: true },
       { name: 'Fresh curry leaves & green chilies', amount: '2 sprigs', available: true },
       { name: 'Coconut oil & mustard seeds', amount: '2 tbsp', available: true },
-      { name: 'Kudampuli (Cocum / Malabar tamarind)', amount: '2 pieces soaked', available: false }
+      { name: 'Kudampuli (Cocum / Malabar tamarind)', amount: '2 pieces soaked', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak Kudampuli in 1/2 cup warm water for 10 minutes.',
       'Heat coconut oil in an earthenware pot (Meen Chatti); splutter mustard seeds, fenugreek, and fresh curry leaves.',
@@ -664,9 +664,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh egg yolks & sugar', amount: '4 yolks, 1/2 cup', available: true },
       { name: 'Strong freshly brewed espresso', amount: '1.5 cups', available: true },
       { name: 'Pure Dutch-process cocoa powder', amount: '3 tbsp', available: true },
-      { name: 'Marsala wine or dark rum', amount: '2 tbsp', available: false }
+      { name: 'Marsala wine or dark rum', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk egg yolks and sugar over a gentle double boiler until pale and ribbon-like. Fold in mascarpone until silky.',
       'In a separate bowl, whip egg whites or heavy cream to stiff peaks and gently fold into mascarpone cream.',
@@ -695,9 +695,9 @@ export const INITIAL_RECIPES = [
       { name: 'Unsalted butter', amount: '1/2 cup', available: true },
       { name: 'Whole eggs and egg yolks', amount: '2 eggs + 2 yolks', available: true },
       { name: 'Confectioners sugar & flour', amount: '1/2 cup + 2 tbsp', available: true },
-      { name: 'Madagascar vanilla bean ice cream', amount: '2 scoops', available: false }
+      { name: 'Madagascar vanilla bean ice cream', amount: '2 scoops', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Melt dark chocolate and butter together in a heatproof bowl set over simmering water.',
       'Whisk eggs, yolks, and powdered sugar until thick and pale yellow.',
@@ -726,9 +726,9 @@ export const INITIAL_RECIPES = [
       { name: 'Graham cracker crumbs & butter', amount: '1.5 cups', available: true },
       { name: 'Sour cream & pure vanilla', amount: '1/2 cup', available: true },
       { name: 'Granulated sugar & eggs', amount: '3/4 cup, 3 eggs', available: true },
-      { name: 'Fresh wild berries (blueberries/raspberries)', amount: '1 cup', available: false }
+      { name: 'Fresh wild berries (blueberries/raspberries)', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Press buttered graham crumbs firmly into base of springform pan; bake 10 mins at 175°C.',
       'Beat room-temperature cream cheese and sugar until smooth without incorporating excess air.',
@@ -757,9 +757,9 @@ export const INITIAL_RECIPES = [
       { name: 'Egg yolks', amount: '5 large', available: true },
       { name: 'Granulated sugar (custard + topping)', amount: '1/2 cup', available: true },
       { name: 'Fine sea salt', amount: '1 pinch', available: true },
-      { name: 'Whole vanilla bean pod (scraped)', amount: '1 pod', available: false }
+      { name: 'Whole vanilla bean pod (scraped)', amount: '1 pod', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Scald cream with split vanilla bean pod and seeds in a saucepan.',
       'Whisk egg yolks and sugar until combined. Temper slowly with hot cream.',
@@ -788,9 +788,9 @@ export const INITIAL_RECIPES = [
       { name: 'Unsalted melted butter', amount: '3/4 cup', available: true },
       { name: 'Eggs and brown sugar', amount: '3 eggs, 1 cup', available: true },
       { name: 'All-purpose flour', amount: '1/2 cup', available: true },
-      { name: 'Flaky Maldon sea salt & caramel', amount: '3 tbsp', available: false }
+      { name: 'Flaky Maldon sea salt & caramel', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Beat eggs and sugars with an electric mixer for 5 minutes until thick and glossy for paper-thin crackly crust.',
       'Fold in melted chocolate-butter mixture, followed by sifted cocoa and flour.',
@@ -818,9 +818,9 @@ export const INITIAL_RECIPES = [
       { name: 'Old-fashioned rolled oats', amount: '3/4 cup', available: true },
       { name: 'Brown sugar & ground cinnamon', amount: '1/2 cup + 1 tsp', available: true },
       { name: 'Cold cubed butter', amount: '1/3 cup', available: true },
-      { name: 'Pure maple syrup drizzle', amount: '2 tbsp', available: false }
+      { name: 'Pure maple syrup drizzle', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Toss apple slices with lemon juice, cinnamon, nutmeg, and 2 tbsp sugar in baking dish.',
       'Rub cold butter into oats, flour, and brown sugar using fingertips until coarse clumps form.',
@@ -850,9 +850,9 @@ export const INITIAL_RECIPES = [
       { name: 'Shelled raw pistachios (finely crushed)', amount: '2.5 cups', available: true },
       { name: 'Clarified melted butter (ghee)', amount: '1 cup', available: true },
       { name: 'Granulated sugar & honey', amount: '1.5 cups', available: true },
-      { name: 'Rosewater or orange blossom water & cinnamon', amount: '1 tsp', available: false }
+      { name: 'Rosewater or orange blossom water & cinnamon', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Layer 10-12 sheets of filo pastry in a greased baking pan, brushing each layer generously with melted clarified butter.',
       'Spread a thick, even layer of crushed pistachios mixed with ground cinnamon.',
@@ -879,11 +879,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Shredded Kataifi pastry dough', amount: '300g', available: true },
       { name: 'Desi ghee / melted unsalted butter', amount: '3/4 cup', available: true },
-      { name: 'Sweet Akkawi cheese or Fresh Mozzarella & Ricotta', amount: '2 cups shredded', available: false },
+      { name: 'Sweet Akkawi cheese or Fresh Mozzarella & Ricotta', amount: '2 cups shredded', available: true },
       { name: 'Sugar syrup flavored with rose water & saffron', amount: '1 cup', available: true },
       { name: 'Finely slivered pistachios for garnish', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Shred and toss kataifi pastry with melted ghee until every strand is thoroughly glistening.',
       'Press half the buttery pastry firmly into a round heavy skillet or baking dish.',
@@ -913,9 +913,9 @@ export const INITIAL_RECIPES = [
       { name: 'Butter & water', amount: '2 tbsp + 1 cup', available: true },
       { name: 'Cinnamon powder & castor sugar', amount: '1/2 cup', available: true },
       { name: 'Dark chocolate compound / chips', amount: '150g', available: true },
-      { name: 'Heavy cream (for chocolate ganache)', amount: '1/2 cup', available: false }
+      { name: 'Heavy cream (for chocolate ganache)', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Bring water, butter, and sugar to a boil; stir in flour vigorously until a smooth dough ball forms.',
       'Transfer dough to a piping bag fitted with a closed star nozzle (1M).',
@@ -944,9 +944,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whole milk & egg yolks (for custard)', amount: '2 cups + 4 yolks', available: true },
       { name: 'Vanilla bean pod or extract', amount: '1 tsp', available: true },
       { name: 'Cornstarch & sugar', amount: '3 tbsp + 1/3 cup', available: true },
-      { name: 'Dark chocolate ganache (chocolate + cream)', amount: '150g', available: false }
+      { name: 'Dark chocolate ganache (chocolate + cream)', amount: '150g', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pipe choux dough into 4-inch finger logs on a parchment-lined baking sheet.',
       'Bake at 200°C (400°F) for 20 mins, then reduce to 180°C for 10 mins until puffed and crisp.',
@@ -975,9 +975,9 @@ export const INITIAL_RECIPES = [
       { name: 'Powdered icing sugar', amount: '1.5 cups', available: true },
       { name: 'Aged egg whites & cream of tartar', amount: '3 egg whites', available: true },
       { name: 'Granulated sugar & gel food color', amount: '1/4 cup', available: true },
-      { name: 'White chocolate raspberry ganache filling', amount: '1 cup', available: false }
+      { name: 'White chocolate raspberry ganache filling', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whip egg whites and granulated sugar into stiff, glossy meringue peaks with French technique.',
       'Sift almond flour and powdered sugar twice; gently macaronage (fold) into meringue until lava consistency.',
@@ -1005,10 +1005,10 @@ export const INITIAL_RECIPES = [
       { name: 'All-purpose flour, eggs & sugar', amount: '1 cup + 4 eggs', available: true },
       { name: 'Sweetened condensed milk', amount: '1 can (14 oz)', available: true },
       { name: 'Evaporated milk', amount: '1 can (12 oz)', available: true },
-      { name: 'Heavy whipping cream & vanilla', amount: '1.5 cups', available: false },
+      { name: 'Heavy whipping cream & vanilla', amount: '1.5 cups', available: true },
       { name: 'Ground cinnamon & fresh strawberries', amount: 'For garnish', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Bake a light, airy sponge cake using whipped egg whites and flour at 180°C for 25 minutes.',
       'Let cake cool, then poke holes all over the surface using a fork or skewer.',
@@ -1037,9 +1037,9 @@ export const INITIAL_RECIPES = [
       { name: 'Granulated sugar', amount: '1/3 cup', available: true },
       { name: 'Gelatin powder or Agar Agar (veg)', amount: '2 tsp', available: true },
       { name: 'Pure vanilla bean paste / pod', amount: '1 tsp', available: true },
-      { name: 'Fresh raspberry or strawberry coulis', amount: '1/2 cup', available: false }
+      { name: 'Fresh raspberry or strawberry coulis', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Bloom gelatin in cold milk for 5 minutes.',
       'Heat heavy cream and sugar in a saucepan with scraped vanilla bean until warm (do not boil).',
@@ -1068,9 +1068,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whole milk Ricotta cheese (strained dry)', amount: '2 cups', available: true },
       { name: 'Powdered sugar & ground cinnamon', amount: '3/4 cup', available: true },
       { name: 'Mini dark chocolate chips & crushed pistachios', amount: '1/3 cup', available: true },
-      { name: 'Candied orange peel', amount: '2 tbsp', available: false }
+      { name: 'Candied orange peel', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead dough with flour, butter, sugar, and Marsala wine; rest 30 mins, then roll paper thin.',
       'Cut circles, wrap around cannoli metal tubes, and seal edge with egg white.',
@@ -1098,10 +1098,10 @@ export const INITIAL_RECIPES = [
       { name: 'Bread flour, warm milk & active dry yeast', amount: '3.5 cups', available: true },
       { name: 'Softened unsalted butter', amount: '1/2 cup + 1/3 cup', available: true },
       { name: 'Dark brown sugar & ground cinnamon', amount: '1 cup + 2 tbsp', available: true },
-      { name: 'Block cream cheese', amount: '120g softened', available: false },
+      { name: 'Block cream cheese', amount: '120g softened', available: true },
       { name: 'Powdered sugar & vanilla extract', amount: '1.5 cups + 1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead soft dough with yeast, warm milk, butter, and flour; proof for 1 hour until doubled.',
       'Roll into a large rectangle, spread softened butter, and pack with brown sugar and cinnamon.',
@@ -1130,9 +1130,9 @@ export const INITIAL_RECIPES = [
       { name: 'Baking soda & boiling water', amount: '1 tsp + 3/4 cup', available: true },
       { name: 'Butter, dark brown sugar & eggs', amount: '1/2 cup each + 2 eggs', available: true },
       { name: 'All-purpose flour & baking powder', amount: '1.5 cups', available: true },
-      { name: 'Double heavy cream (for toffee sauce)', amount: '1 cup', available: false }
+      { name: 'Double heavy cream (for toffee sauce)', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak chopped dates in boiling water with baking soda for 10 minutes, then puree lightly.',
       'Cream butter and dark brown sugar; beat in eggs and fold in flour and date mixture.',
@@ -1161,9 +1161,9 @@ export const INITIAL_RECIPES = [
       { name: 'Raw pecan halves (toasted)', amount: '2.5 cups', available: true },
       { name: 'Brown sugar & pure maple syrup / corn syrup', amount: '1/2 cup + 1 cup', available: true },
       { name: 'Eggs & melted butter', amount: '3 eggs + 4 tbsp butter', available: true },
-      { name: 'Bourbon or pure vanilla extract', amount: '1 tbsp', available: false }
+      { name: 'Bourbon or pure vanilla extract', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blind bake pie crust for 10 mins at 190°C (375°F) with pie weights.',
       'Whisk eggs, brown sugar, maple syrup, melted butter, pinch of salt, and vanilla extract until glossy.',
@@ -1191,10 +1191,10 @@ export const INITIAL_RECIPES = [
       { name: 'Thai sweet glutinous sticky rice', amount: '1.5 cups', available: true },
       { name: 'Full-fat coconut milk / coconut cream', amount: '1.5 cups', available: true },
       { name: 'Palm sugar or granulated sugar', amount: '1/2 cup', available: true },
-      { name: 'Ripe sweet yellow mangoes (sliced)', amount: '2 large', available: false },
+      { name: 'Ripe sweet yellow mangoes (sliced)', amount: '2 large', available: true },
       { name: 'Toasted sesame seeds or yellow mung beans', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak sticky rice in water for 4 hours, then steam in a cheesecloth basket for 20-25 mins until translucent and tender.',
       'Simmer coconut milk, palm sugar, and a generous pinch of sea salt until dissolved.',
@@ -1222,10 +1222,10 @@ export const INITIAL_RECIPES = [
       { name: 'Glutinous rice flour (Shiratamako / Mochiko)', amount: '1 cup', available: true },
       { name: 'Sugar & water', amount: '1/4 cup + 3/4 cup', available: true },
       { name: 'Cornstarch or potato starch (Katakuriko) for dusting', amount: '1/2 cup', available: true },
-      { name: 'Sweet red bean paste (Anko / Koshi-an)', amount: '200g', available: false },
+      { name: 'Sweet red bean paste (Anko / Koshi-an)', amount: '200g', available: true },
       { name: 'Fresh sweet strawberries (hulled)', amount: '6-8 medium', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Coat each washed and dried strawberry with a smooth layer of sweet red bean paste, leaving the top tip exposed.',
       'Mix glutinous rice flour, sugar, and water in a microwave-safe bowl; microwave covered for 2 mins until translucent and stretchy.',
@@ -1254,9 +1254,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whole milk & heavy cream', amount: '1 cup + 1/2 cup', available: true },
       { name: 'Egg yolks', amount: '6 large', available: true },
       { name: 'Sugar syrup with cinnamon stick & lemon peel', amount: '1 cup', available: true },
-      { name: 'Ground cinnamon & icing sugar dusting', amount: '1 tbsp', available: false }
+      { name: 'Ground cinnamon & icing sugar dusting', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Roll puff pastry into a tight spiral cylinder, cut into discs, and press firmly into metal muffin tin cups with wet thumbs.',
       'Whisk flour into milk, bring sugar syrup infused with cinnamon and lemon peel to a boil, then whisk into milk.',
@@ -1285,9 +1285,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desiccated fine coconut', amount: '1/2 cup', available: true },
       { name: 'Plain Greek yogurt & melted butter', amount: '1 cup + 1/2 cup', available: true },
       { name: 'Sugar syrup flavored with lemon & orange blossom water', amount: '1.5 cups', available: true },
-      { name: 'Whole blanched almonds', amount: '1/3 cup', available: false }
+      { name: 'Whole blanched almonds', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Mix semolina, coconut, sugar, and baking powder; fold in melted butter and yogurt until a thick batter forms.',
       'Spread into a greased baking dish and score into neat diamond diamonds.',
@@ -1315,10 +1315,10 @@ export const INITIAL_RECIPES = [
       { name: 'Cake flour, cocoa powder & buttermilk', amount: '2.5 cups + 2 tbsp + 1 cup', available: true },
       { name: 'Vegetable oil, sugar & eggs', amount: '1.5 cups + 2 eggs', available: true },
       { name: 'Red food coloring & pure vanilla extract', amount: '1 tbsp + 1 tsp', available: true },
-      { name: 'Block cream cheese (softened)', amount: '250g', available: false },
+      { name: 'Block cream cheese (softened)', amount: '250g', available: true },
       { name: 'Butter & powdered icing sugar', amount: '1/2 cup + 3 cups', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk dry ingredients and combine with buttermilk, eggs, oil, vanilla, and red coloring.',
       'Fold in baking soda activated with white vinegar right before baking.',
@@ -1345,11 +1345,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Granulated sugar & lemon juice', amount: '3 cups + 1 tbsp', available: true },
       { name: 'Cornstarch & cream of tartar', amount: '1 cup + 1 tsp', available: true },
-      { name: 'Natural rosewater & pink food color', amount: '2 tbsp', available: false },
+      { name: 'Natural rosewater & pink food color', amount: '2 tbsp', available: true },
       { name: 'Roasted unsalted pistachios', amount: '1 cup', available: true },
       { name: 'Powdered sugar & cornstarch for dusting', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Simmer sugar and water to soft-ball candy stage (115°C/240°F).',
       'In a separate pan, cook cornstarch and water with cream of tartar into a thick paste.',
@@ -1378,9 +1378,9 @@ export const INITIAL_RECIPES = [
       { name: 'Egg whites & cream of tartar', amount: '3 whites', available: true },
       { name: 'Cake flour & baking powder', amount: '4 tbsp + 1/2 tsp', available: true },
       { name: 'Sugar & vanilla extract', amount: '3 tbsp + 1/2 tsp', available: true },
-      { name: 'Pure maple syrup & fresh berries', amount: 'For serving', available: false }
+      { name: 'Pure maple syrup & fresh berries', amount: 'For serving', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk egg yolks, milk, vanilla, and sifted cake flour into a smooth yellow paste.',
       'Whip egg whites with cream of tartar and sugar into stiff, glossy peaks.',
@@ -1409,9 +1409,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whole eggs & egg yolks', amount: '3 whole + 2 yolks', available: true },
       { name: 'Sweetened condensed milk', amount: '1 can (14 oz)', available: true },
       { name: 'Evaporated milk & whole milk', amount: '1 can + 1/2 cup', available: true },
-      { name: 'Pure vanilla extract & pinch of salt', amount: '1.5 tsp', available: false }
+      { name: 'Pure vanilla extract & pinch of salt', amount: '1.5 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Melt sugar in a saucepan until deep amber caramel; immediately pour into baking dish or ramekins to coat bottom.',
       'Gently blend eggs, condensed milk, evaporated milk, whole milk, and vanilla without aerating.',
@@ -1440,9 +1440,9 @@ export const INITIAL_RECIPES = [
       { name: 'Unsweetened cocoa powder (Dutch-processed)', amount: '3 tbsp', available: true },
       { name: 'Unsalted butter', amount: '2 tbsp', available: true },
       { name: 'Pinch of sea salt', amount: '1 pinch', available: true },
-      { name: 'Dark chocolate sprinkles (granulado)', amount: '1 cup', available: false }
+      { name: 'Dark chocolate sprinkles (granulado)', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Combine condensed milk, sifted cocoa powder, and butter in a non-stick saucepan.',
       'Cook over medium-low heat, stirring constantly for 12-15 minutes until fudge pulls away cleanly from pan bottom.',
@@ -1474,9 +1474,9 @@ export const INITIAL_RECIPES = [
       { name: 'Sugar (for syrup)', amount: '2 cups', available: true },
       { name: 'Cardamom pods & rose water', amount: '1 tsp', available: true },
       { name: 'Ghee for deep frying', amount: '2 cups', available: true },
-      { name: 'Saffron strands & slivered pistachios', amount: '1 pinch', available: false }
+      { name: 'Saffron strands & slivered pistachios', amount: '1 pinch', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Grate khoya and knead with maida and a pinch of baking powder until smooth and crack-free.',
       'Prepare sugar syrup by simmering sugar and water with crushed cardamom and rose water to 1-string consistency.',
@@ -1505,9 +1505,9 @@ export const INITIAL_RECIPES = [
       { name: 'Full cream milk (for Rabri)', amount: '1 liter', available: true },
       { name: 'Sugar for boiling syrup & milk', amount: '1.5 cups', available: true },
       { name: 'Green cardamom powder', amount: '1 tsp', available: true },
-      { name: 'Pure Kashmiri Saffron & pistachios', amount: '1 pinch', available: false }
+      { name: 'Pure Kashmiri Saffron & pistachios', amount: '1 pinch', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead fresh chenna with heel of hand for 10 mins until fat separates and dough is smooth. Shape into flat discs.',
       'Boil discs in light sugar water for 15 minutes until doubled in size and spongy. Squeeze gently.',
@@ -1537,9 +1537,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desi Ghee', amount: '4 tbsp', available: true },
       { name: 'Sugar', amount: '3/4 cup', available: true },
       { name: 'Cashews, almonds, and raisins', amount: '1/3 cup', available: true },
-      { name: 'Fresh Khoya (Mawa)', amount: '100g crumbled', available: false }
+      { name: 'Fresh Khoya (Mawa)', amount: '100g crumbled', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Simmer grated red carrots in milk in a heavy kadai until milk completely evaporates (approx 25 mins).',
       'Add sugar and cook down released liquids.',
@@ -1568,9 +1568,9 @@ export const INITIAL_RECIPES = [
       { name: 'Thick curd (yogurt)', amount: '2 tbsp', available: true },
       { name: 'Sugar & saffron strands', amount: '1.5 cups', available: true },
       { name: 'Desi ghee for frying', amount: '2 cups', available: true },
-      { name: 'Chilled thickened malai Rabdi', amount: '1/2 cup', available: false }
+      { name: 'Chilled thickened malai Rabdi', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Mix flour, cornstarch, yogurt, and water into a smooth batter; ferment overnight or use baking powder for instant.',
       'Prepare 1-string sugar syrup with saffron and lemon juice to prevent crystallization.',
@@ -1599,9 +1599,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '1/2 cup + 2 tbsp', available: true },
       { name: 'Boora / Tagar (coarse ground sugar)', amount: '1 cup', available: true },
       { name: 'Green cardamom powder', amount: '1 tsp', available: true },
-      { name: 'Melon seeds (Magaz) & chopped pistachios', amount: '2 tbsp', available: false }
+      { name: 'Melon seeds (Magaz) & chopped pistachios', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Roast besan in melted ghee in a heavy kadai over low flame for 20 minutes until nutty and golden.',
       'Sprinkle a few drops of water in the hot besan to create signature grainy (danedar) texture.',
@@ -1629,9 +1629,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desi ghee for frying', amount: '1/2 cup', available: true },
       { name: 'Sugar syrup flavored with cardamom', amount: '1 cup', available: true },
       { name: 'Thick creamy Rabri', amount: '1 cup', available: true },
-      { name: 'Edible Silver Leaf (Chandi ka Varq)', amount: '1 sheet', available: false }
+      { name: 'Edible Silver Leaf (Chandi ka Varq)', amount: '1 sheet', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Cut crusts off bread and slice diagonally into neat triangles.',
       'Deep fry bread triangles in pure ghee until crispy and reddish gold.',
@@ -1660,9 +1660,9 @@ export const INITIAL_RECIPES = [
       { name: 'Granulated sugar & water', amount: '1 cup + 1/2 cup', available: true },
       { name: 'Desi ghee', amount: '1 tbsp', available: true },
       { name: 'Cardamom powder', amount: '1/2 tsp', available: true },
-      { name: 'Edible Silver Leaf (Chandi Varq)', amount: '2 sheets', available: false }
+      { name: 'Edible Silver Leaf (Chandi Varq)', amount: '2 sheets', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pulse cold cashews in short bursts in mixer to get a fine powder without releasing cashew oil.',
       'Boil sugar and water to single string consistency.',
@@ -1691,9 +1691,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '1 cup', available: true },
       { name: 'Full cream milk & water', amount: '1 cup + 1 cup', available: true },
       { name: 'Sugar', amount: '1 cup', available: true },
-      { name: 'Saffron strands, cardamom & slivered almonds', amount: '2 tbsp', available: false }
+      { name: 'Saffron strands, cardamom & slivered almonds', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak moong dal for 3 hours and grind coarsely without adding excess water.',
       'Melt ghee in a heavy kadai, add 1 tbsp besan (to prevent sticking), then add ground dal paste.',
@@ -1722,9 +1722,9 @@ export const INITIAL_RECIPES = [
       { name: 'Lemon juice / vinegar for curdling', amount: '3 tbsp', available: true },
       { name: 'Granulated sugar', amount: '2 cups', available: true },
       { name: 'Water (for light syrup)', amount: '6 cups', available: true },
-      { name: 'Rosewater & crushed cardamom', amount: '1 tsp', available: false }
+      { name: 'Rosewater & crushed cardamom', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Curdle hot cow milk with lemon juice, strain in cheesecloth, rinse with cold water, and hang for 30 minutes.',
       'Knead chhena with the palm of your hand for 8-10 minutes until perfectly smooth and oil-releasing.',
@@ -1753,9 +1753,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desi Ghee for frying', amount: '2 cups', available: true },
       { name: 'Sugar & water for 1-string syrup', amount: '1.5 cups', available: true },
       { name: 'Kashmiri saffron & orange food color', amount: '1 pinch', available: true },
-      { name: 'Melon seeds (Magaz) & pistachios', amount: '2 tbsp', available: false }
+      { name: 'Melon seeds (Magaz) & pistachios', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk besan with water into a thin, flowing lump-free batter.',
       'Hold a perforated motichoor jhara over hot ghee and tap to drop micro-droplets (tiny boondi).',
@@ -1784,9 +1784,9 @@ export const INITIAL_RECIPES = [
       { name: 'Sweetened condensed milk (Milkmaid)', amount: '1 tin (400g)', available: true },
       { name: 'Milk powder', amount: '1/2 cup', available: true },
       { name: 'Cardamom powder', amount: '1 tsp', available: true },
-      { name: 'Slivered pistachios & almonds', amount: '3 tbsp', available: false }
+      { name: 'Slivered pistachios & almonds', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'In a heavy-bottomed pan, combine crumbled fresh chhena, condensed milk, and milk powder.',
       'Cook on medium-low flame stirring continuously for 10-12 mins until mixture thickens and leaves pan sides.',
@@ -1815,9 +1815,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '1/2 cup + 2 tbsp', available: true },
       { name: 'Full cream milk infused with saffron', amount: '1 cup', available: true },
       { name: 'Sugar', amount: '3/4 cup', available: true },
-      { name: 'Green cardamom powder & silver leaf', amount: '1 tsp', available: false }
+      { name: 'Green cardamom powder & silver leaf', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blanch soaked almonds, peel skins, and grind with milk to a slightly coarse paste.',
       'Heat desi ghee in a kadai and cook almond paste on low flame for 15-20 mins until aromatic and pale golden.',
@@ -1846,9 +1846,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cornstarch & pinch of saffron orange color', amount: '2 tbsp', available: true },
       { name: 'Sugar & water for 1-string syrup', amount: '1.5 cups', available: true },
       { name: 'Pure Desi Ghee for deep frying', amount: '2 cups', available: true },
-      { name: 'Cardamom powder & rose water', amount: '1 tsp', available: false }
+      { name: 'Cardamom powder & rose water', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Grind soaked urad dal to a fine thick paste, then aerate by hand-whipping for 10 minutes until fluffy and light.',
       'Mix in cornstarch and natural saffron coloring; pour batter into an imarti piping cloth nozzle.',
@@ -1877,9 +1877,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fennel seeds (Saunf) & cardamom', amount: '1 tbsp crushed', available: true },
       { name: 'Warm milk for batter', amount: '1 cup', available: true },
       { name: 'Sugar syrup flavored with saffron', amount: '1 cup', available: true },
-      { name: 'Thick saffron Rabdi for topping', amount: '1 cup', available: false }
+      { name: 'Thick saffron Rabdi for topping', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk mashed khoya, maida, crushed fennel seeds, and warm milk into a smooth, flowing batter; rest 20 mins.',
       'Ladle small rounds of batter into a shallow pan with medium-hot ghee.',
@@ -1906,11 +1906,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Fresh homemade soft Chhena', amount: '250g', available: true },
       { name: 'Sugar & water for boiling syrup', amount: '2 cups + 5 cups', available: true },
-      { name: 'Sweetened Mawa / Khoya filling with saffron', amount: '1/2 cup', available: false },
+      { name: 'Sweetened Mawa / Khoya filling with saffron', amount: '1/2 cup', available: true },
       { name: 'Fine desiccated coconut', amount: '1/2 cup', available: true },
       { name: 'Pistachio slivers & saffron strands', amount: 'For garnish', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead fresh chhena until smooth and shape into neat oval/cylindrical pieces.',
       'Boil in light sugar syrup on high heat for 15-18 mins until doubled in volume; cool completely.',
@@ -1939,9 +1939,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '1.5 cups (kept hot)', available: true },
       { name: 'Granulated sugar & water', amount: '1.5 cups + 1/2 cup', available: true },
       { name: 'Cardamom powder', amount: '1/2 tsp', available: true },
-      { name: 'A pinch of turmeric for golden glow', amount: '1 pinch', available: false }
+      { name: 'A pinch of turmeric for golden glow', amount: '1 pinch', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Mix besan with 1/2 cup melted ghee until smooth and lump-free.',
       'Boil sugar and water to 1-string consistency in a heavy kadai.',
@@ -1970,9 +1970,9 @@ export const INITIAL_RECIPES = [
       { name: 'Full cream milk', amount: '1 liter', available: true },
       { name: 'Sugar', amount: '1/2 cup', available: true },
       { name: 'Saffron strands & crushed cardamom', amount: '1 tsp', available: true },
-      { name: 'Kewra water, pistachios & dried rose petals', amount: '1 tsp', available: false }
+      { name: 'Kewra water, pistachios & dried rose petals', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak rice for 30 mins, drain, dry briefly, and grind to a coarse semolina-like powder.',
       'Bring full-fat milk to a boil; whisk in ground rice paste gradually to avoid lumps.',
@@ -2001,9 +2001,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desi Ghee & ice cubes (for emulsification)', amount: '1/4 cup', available: true },
       { name: 'Ghee for deep frying in round ring mold', amount: '2 cups', available: true },
       { name: 'Saffron sugar syrup (1-string)', amount: '1 cup', available: true },
-      { name: 'Thick Malai / Rabdi topping with pistachios & silver leaf', amount: '1/2 cup', available: false }
+      { name: 'Thick Malai / Rabdi topping with pistachios & silver leaf', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Rub ghee with ice cubes until it turns into a smooth, fluffy white butter.',
       'Gradually whisk in flour, chilled milk, and ice-cold water to create a thin, flowing batter.',
@@ -2032,9 +2032,9 @@ export const INITIAL_RECIPES = [
       { name: 'Desi Ghee & cold water', amount: '1/2 cup + 1/2 cup', available: true },
       { name: 'Baking powder & yogurt', amount: '1/2 tsp + 2 tbsp', available: true },
       { name: 'Sugar syrup flavored with saffron & rose', amount: '1.5 cups', available: true },
-      { name: 'Chopped pistachios for garnish', amount: '2 tbsp', available: false }
+      { name: 'Chopped pistachios for garnish', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Gently bring flour, ghee, yogurt, and cold water together without kneading to preserve flaky layers.',
       'Shape into small flattened discs, make a thumb impression in center.',
@@ -2063,9 +2063,9 @@ export const INITIAL_RECIPES = [
       { name: 'Freshly grated coconut', amount: '1.5 cups', available: true },
       { name: 'Organic jaggery (Gul)', amount: '1 cup', available: true },
       { name: 'Cardamom powder & freshly grated nutmeg', amount: '1 tsp', available: true },
-      { name: 'Poppy seeds (Khus Khus) & Pure Ghee', amount: '1 tbsp each', available: false }
+      { name: 'Poppy seeds (Khus Khus) & Pure Ghee', amount: '1 tbsp each', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Cook coconut, jaggery, roasted poppy seeds, and nutmeg in ghee until sticky and fragrant (saran).',
       'Boil water with pinch of salt and ghee; stir in rice flour, cover and steam 5 mins to make ukad dough.',
@@ -2094,9 +2094,9 @@ export const INITIAL_RECIPES = [
       { name: 'Full cream milk', amount: '1.5 liters', available: true },
       { name: 'Granulated sugar', amount: '1/2 cup', available: true },
       { name: 'Cardamom powder & saffron strands', amount: '1 tsp', available: true },
-      { name: 'Ghee-roasted cashews, almonds & raisins', amount: '1/4 cup', available: false }
+      { name: 'Ghee-roasted cashews, almonds & raisins', amount: '1/4 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Toss washed rice in 1 tsp ghee; bring full-cream milk to a boil in a heavy pot.',
       'Add rice and simmer on low flame for 30 minutes, stirring occasionally, until rice is cooked and milk thickens.',
@@ -2125,9 +2125,9 @@ export const INITIAL_RECIPES = [
       { name: 'Sweetened condensed milk', amount: '1 cup (200g)', available: true },
       { name: 'Desi Ghee', amount: '1 tbsp', available: true },
       { name: 'Green cardamom powder', amount: '1/2 tsp', available: true },
-      { name: 'Chopped pistachios & edible rose petals', amount: '2 tbsp', available: false }
+      { name: 'Chopped pistachios & edible rose petals', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sauté freshly grated coconut in ghee for 3-4 mins without browning.',
       'Add condensed milk and cook on low heat stirring continuously until mixture binds together and leaves the pan.',
@@ -2156,9 +2156,9 @@ export const INITIAL_RECIPES = [
       { name: 'Granulated sugar', amount: '1 cup', available: true },
       { name: 'Citric acid / alum pinch (for granular curdling)', amount: '1/4 tsp', available: true },
       { name: 'Pure Desi Ghee', amount: '2 tbsp', available: true },
-      { name: 'Cardamom powder', amount: '1 tsp', available: false }
+      { name: 'Cardamom powder', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Boil full cream milk until reduced by half.',
       'Add a pinch of citric acid to create micro-curds and granular danedar texture.',
@@ -2187,9 +2187,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '2 tbsp', available: true },
       { name: 'Boora / Tagar (coarse sugar)', amount: '1 cup', available: true },
       { name: 'Whole milk', amount: '3 tbsp', available: true },
-      { name: 'Cardamom & nutmeg powder', amount: '1 tsp', available: false }
+      { name: 'Cardamom & nutmeg powder', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Roast khoya in a heavy kadai with ghee on low flame for 20-25 mins until it turns rich dark chocolate brown.',
       'Sprinkle milk in intervals to keep khoya moist and uniform in color.',
@@ -2218,9 +2218,9 @@ export const INITIAL_RECIPES = [
       { name: 'Mawa (Khoya) mixed with pistachio and saffron', amount: '1/2 cup', available: true },
       { name: 'Full cream milk (thickened to Rabri)', amount: '2 cups', available: true },
       { name: 'Sugar & green cardamom', amount: '1/2 cup + 1 tsp', available: true },
-      { name: 'Saffron strands & slivered pistachios', amount: '2 tbsp', available: false }
+      { name: 'Saffron strands & slivered pistachios', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Flatten soft chhena into thin rectangular sheets.',
       'Place flavored mawa and chopped pistachio stuffing in center and roll tightly into cylinders.',
@@ -2249,9 +2249,9 @@ export const INITIAL_RECIPES = [
       { name: 'Sugar for syrup & milk', amount: '1.5 cups', available: true },
       { name: 'Full cream milk for rabri', amount: '1 liter', available: true },
       { name: 'Kashmiri Saffron strands & cardamom', amount: '1 tsp', available: true },
-      { name: 'Slivered pistachios and almonds', amount: '3 tbsp', available: false }
+      { name: 'Slivered pistachios and almonds', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead chhena and roll into marble-sized tiny grape balls (angoori).',
       'Boil in light sugar syrup for 10 minutes until spongy; drain and squeeze gently.',
@@ -2281,9 +2281,9 @@ export const INITIAL_RECIPES = [
       { name: 'Pure Desi Ghee', amount: '3 tbsp', available: true },
       { name: 'Fresh Khoya (Mawa) crumbled', amount: '100g', available: true },
       { name: 'Sugar & cardamom powder', amount: '1/2 cup + 1 tsp', available: true },
-      { name: 'Cashews & almonds fried in ghee', amount: '2 tbsp', available: false }
+      { name: 'Cashews & almonds fried in ghee', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sauté freshly grated lauki in 2 tbsp ghee for 5 mins until aromatic.',
       'Add milk and simmer on medium flame until milk is absorbed and lauki is tender.',
@@ -2309,11 +2309,11 @@ export const INITIAL_RECIPES = [
     description: 'Authentic winter Bengali delicacy made with fresh homemade chhena and liquid date palm jaggery (Jhola Nolen Gur), shaped in traditional wooden moulds.',
     ingredients: [
       { name: 'Fresh soft homemade Chhena', amount: '250g', available: true },
-      { name: 'Nolen Gur (Date Palm Jaggery)', amount: '1/2 cup', available: false },
+      { name: 'Nolen Gur (Date Palm Jaggery)', amount: '1/2 cup', available: true },
       { name: 'Green cardamom powder', amount: '1/4 tsp', available: true },
       { name: 'Pistachios for topping', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead chhena until completely smooth and creamy.',
       'Cook kneaded chhena and nolen gur in a non-stick pan on lowest flame for 5-7 mins (do not overcook or it turns rubbery!).',
@@ -2342,9 +2342,9 @@ export const INITIAL_RECIPES = [
       { name: 'Full cream milk', amount: '1.5 liters', available: true },
       { name: 'Dried dates (Chhuara), soaked & sliced', amount: '1/4 cup', available: true },
       { name: 'Sugar / condensed milk', amount: '1/2 cup', available: true },
-      { name: 'Chironji, pistachios, almonds & Desi Ghee', amount: '1/3 cup', available: false }
+      { name: 'Chironji, pistachios, almonds & Desi Ghee', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Fry sliced soaked dates, chironji, almonds, and pistachios in 2 tbsp desi ghee until fragrant.',
       'Roast fine seviyan in ghee until deep golden.',
@@ -2373,9 +2373,9 @@ export const INITIAL_RECIPES = [
       { name: 'Whole wheat flour (Atta)', amount: '1.5 cups', available: true },
       { name: 'Pure Desi Ghee', amount: '1 cup', available: true },
       { name: 'Almonds, cashews, and melon seeds (roasted & crushed)', amount: '1 cup', available: true },
-      { name: 'Boora sugar or Jaggery powder', amount: '1 cup', available: false }
+      { name: 'Boora sugar or Jaggery powder', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Fry gond crystals in warm ghee on low heat until they puff up like popcorn; crush lightly once cool.',
       'Roast whole wheat flour in remaining ghee until aromatic and nutty brown.',
@@ -2404,9 +2404,9 @@ export const INITIAL_RECIPES = [
       { name: 'Jaggery (Gul)', amount: '1 cup grated', available: true },
       { name: 'Whole wheat flour & Maida', amount: '1 cup + 1/2 cup', available: true },
       { name: 'Nutmeg & green cardamom powder', amount: '1 tsp', available: true },
-      { name: 'Pure Desi Ghee for griddling & serving', amount: '1/2 cup', available: false }
+      { name: 'Pure Desi Ghee for griddling & serving', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Cook boiled chana dal with jaggery in a pan until thick; pass through a puran yantra/sieve into ultra-smooth puran paste, spiced with nutmeg and cardamom.',
       'Knead soft, pliable dough with flour, oil, turmeric, and water; rest for 30 minutes.',
@@ -2435,9 +2435,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh Khoya (Mawa) roasted', amount: '1 cup', available: true },
       { name: 'Chopped cashews, almonds & raisins', amount: '1/3 cup', available: true },
       { name: 'Grated dry coconut & cardamom powder', amount: '2 tbsp + 1 tsp', available: true },
-      { name: 'Whole aromatic Cloves (Laung) & Sugar syrup', amount: '10-12 cloves + 1.5 cups syrup', available: false }
+      { name: 'Whole aromatic Cloves (Laung) & Sugar syrup', amount: '10-12 cloves + 1.5 cups syrup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead a semi-stiff dough with maida, ghee moyan, and water; rest for 20 minutes.',
       'Roast mawa with sugar, dry fruits, desiccated coconut, and cardamom for the aromatic filling.',
@@ -2465,10 +2465,10 @@ export const INITIAL_RECIPES = [
       { name: 'Ripe Ash Gourd (Safed Petha / Winter Melon), peeled & cubed', amount: '1 kg', available: true },
       { name: 'Alum (Fitkari) or Pickling lime (Chuna) for soaking', amount: '1 tsp', available: true },
       { name: 'Granulated sugar', amount: '3 cups (600g)', available: true },
-      { name: 'Kewra water & rose water', amount: '1 tbsp', available: false },
+      { name: 'Kewra water & rose water', amount: '1 tbsp', available: true },
       { name: 'Green cardamom powder & saffron strands', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Prick ash gourd cubes all over with a fork and soak in lime/alum water for 2-3 hours for signature crisp bite.',
       'Rinse thoroughly in cold running water 3-4 times to remove any trace of alum.',
@@ -2497,9 +2497,9 @@ export const INITIAL_RECIPES = [
       { name: 'Granulated sugar (partly caramelized)', amount: '1 cup', available: true },
       { name: 'Fine Semolina (Sooji / Rava)', amount: '2 tbsp', available: true },
       { name: 'Pure Desi Ghee', amount: '2 tbsp', available: true },
-      { name: 'Green cardamom powder & crushed cashews, raisins', amount: '1/4 cup', available: false }
+      { name: 'Green cardamom powder & crushed cashews, raisins', amount: '1/4 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Knead fresh moist chhena with sugar, sooji, ghee, and cardamom powder until smooth and crumbly.',
       'Fold in ghee-roasted cashews and raisins.',
@@ -2532,9 +2532,9 @@ export const INITIAL_RECIPES = [
       { name: 'Butter', amount: '4 tbsp', available: true },
       { name: 'Special Pav Bhaji Masala', amount: '2 tbsp', available: true },
       { name: 'Fresh soft Ladi Pav buns', amount: '4 pairs', available: true },
-      { name: 'Kashmiri red chili garlic paste', amount: '1.5 tbsp', available: false }
+      { name: 'Kashmiri red chili garlic paste', amount: '1.5 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Boil vegetables and mash vigorously with a potato masher until coarse puree.',
       'On a large flat tawa, melt butter, sauté onions, garlic-chili paste, capsicum, and tomatoes.',
@@ -2564,9 +2564,9 @@ export const INITIAL_RECIPES = [
       { name: 'Sweetened thick chilled curd (Dahi)', amount: '1.5 cups', available: true },
       { name: 'Spicy mint-coriander green chutney', amount: '1/3 cup', available: true },
       { name: 'Sweet tamarind date chutney', amount: '1/3 cup', available: true },
-      { name: 'Nylon Sev & fresh pomegranate arils', amount: '1/2 cup', available: false }
+      { name: 'Nylon Sev & fresh pomegranate arils', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Crack a hole in the center of each hollow puri and arrange on serving plate.',
       'Stuff each puri with spiced boiled potatoes, black chickpeas, and pinch of chaat masala.',
@@ -2596,9 +2596,9 @@ export const INITIAL_RECIPES = [
       { name: 'Green chutney & tamarind chutney', amount: '3 tbsp each', available: true },
       { name: 'Whisked spiced dahi', amount: '1/2 cup', available: true },
       { name: 'Chaat masala & roasted cumin powder', amount: '1 tsp', available: true },
-      { name: 'Crispy fried boondi for crunch', amount: '2 tbsp', available: false }
+      { name: 'Crispy fried boondi for crunch', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Form potato dough discs, stuff with spiced chana dal, and seal edges.',
       'Slow-fry on a tawa in ghee until deeply crunchy and brown on both sides.',
@@ -2626,9 +2626,9 @@ export const INITIAL_RECIPES = [
       { name: 'Shredded sharp cheddar & Monterey Jack', amount: '2 cups', available: true },
       { name: 'Fresh pico de gallo (tomato, onion, cilantro)', amount: '1 cup', available: true },
       { name: 'Black beans & pickled jalapeños', amount: '1/2 cup', available: true },
-      { name: 'Homemade creamy Guacamole', amount: '1/2 cup', available: false }
+      { name: 'Homemade creamy Guacamole', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Spread a single layer of tortilla chips on oven-safe tray.',
       'Top with black beans, jalapeños, and generous layer of shredded cheese.',
@@ -2656,9 +2656,9 @@ export const INITIAL_RECIPES = [
       { name: 'Marinated paneer strips & capsicum', amount: '200g', available: true },
       { name: 'Sliced red onions', amount: '1 medium', available: true },
       { name: 'Mint coriander chutney', amount: '3 tbsp', available: true },
-      { name: 'Kolkata Frankie Masala spice mix', amount: '1 tsp', available: false }
+      { name: 'Kolkata Frankie Masala spice mix', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pan-sear marinated paneer strips and bell peppers in butter on high heat for 3 mins.',
       'Crisp the paratha on a hot tawa with a light coating of butter.',
@@ -2686,9 +2686,9 @@ export const INITIAL_RECIPES = [
       { name: 'Warm pocket pita bread', amount: '2 pitas', available: true },
       { name: 'Crisp lettuce & diced tomatoes', amount: '1 cup', available: true },
       { name: 'Cumin, coriander, and garlic', amount: '1.5 tsp', available: true },
-      { name: 'Creamy Sesame Tahini Sauce', amount: '3 tbsp', available: false }
+      { name: 'Creamy Sesame Tahini Sauce', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pulse soaked raw chickpeas with parsley, cilantro, garlic, and spices in food processor.',
       'Form into small balls or patties and deep fry in hot oil until crunchy and deep brown.',
@@ -2746,9 +2746,9 @@ export const INITIAL_RECIPES = [
       { name: 'Besan (gram flour) for batter', amount: '1.5 cups', available: true },
       { name: 'Fresh soft Ladi Pav', amount: '4 pavs', available: true },
       { name: 'Mustard seeds, curry leaves & turmeric', amount: '1 tbsp', available: true },
-      { name: 'Dry coconut garlic chutney & fried green chillies', amount: '3 tbsp', available: false }
+      { name: 'Dry coconut garlic chutney & fried green chillies', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Temper boiled mashed potatoes with mustard seeds, curry leaves, ginger-garlic-chilli paste, and turmeric.',
       'Shape into smooth round balls and dip each in seasoned turmeric-besan batter.',
@@ -2777,9 +2777,9 @@ export const INITIAL_RECIPES = [
       { name: 'Finely chopped red onions & raw mango', amount: '1/2 cup', available: true },
       { name: 'Mint coriander & sweet tamarind chutneys', amount: '1/4 cup each', available: true },
       { name: 'Spicy red garlic chutney', amount: '2 tbsp', available: true },
-      { name: 'Crunchy Nylon Sev & chaat masala', amount: '1/2 cup', available: false }
+      { name: 'Crunchy Nylon Sev & chaat masala', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Arrange flat crispy puris in a single layer on a wide plate.',
       'Top each puri with boiled potato cubes and finely chopped onions.',
@@ -2865,10 +2865,10 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Yeast bread dough or French loaf slices', amount: '300g', available: true },
       { name: 'Minced fresh garlic & salted butter', amount: '4 tbsp', available: true },
-      { name: 'Shredded Mozzarella & Cheddar cheese', amount: '1.5 cups', available: false },
+      { name: 'Shredded Mozzarella & Cheddar cheese', amount: '1.5 cups', available: true },
       { name: 'Dried oregano & red chili flakes', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Melt butter and whisk with finely minced garlic and chopped parsley.',
       'Roll out dough into an oval, brush inside with garlic butter, and pack with shredded mozzarella.',
@@ -2896,9 +2896,9 @@ export const INITIAL_RECIPES = [
       { name: 'Shredded cabbage, carrots & bell peppers', amount: '3 cups', available: true },
       { name: 'Soy sauce, vinegar & white pepper', amount: '1.5 tbsp', available: true },
       { name: 'Garlic, ginger & green chillies', amount: '1 tbsp', available: true },
-      { name: 'Sweet chili garlic dipping sauce', amount: '1/3 cup', available: false }
+      { name: 'Sweet chili garlic dipping sauce', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Stir-fry shredded veggies in high-heat wok with garlic, ginger, soy sauce, and pepper until tender-crisp.',
       'Place filling diagonally on wrapper, fold corners securely, seal with cornstarch slurry.',
@@ -2922,13 +2922,13 @@ export const INITIAL_RECIPES = [
     image: '/mozzarella_sticks.png',
     description: 'Herb-seasoned crunchy breadcrumb crust encasing stretchy melted mozzarella cheese, served with rich marinara dipping sauce.',
     ingredients: [
-      { name: 'Low-moisture Mozzarella cheese block (cut into batons)', amount: '250g', available: false },
+      { name: 'Low-moisture Mozzarella cheese block (cut into batons)', amount: '250g', available: true },
       { name: 'Panko breadcrumbs & Italian seasoning', amount: '1.5 cups', available: true },
       { name: 'Eggs (beaten) or cornstarch slurry', amount: '2 eggs', available: true },
       { name: 'All-purpose flour & garlic powder', amount: '1/2 cup', available: true },
-      { name: 'Warm zesty Marinara sauce for dipping', amount: '1/2 cup', available: false }
+      { name: 'Warm zesty Marinara sauce for dipping', amount: '1/2 cup', available: true }
     ],
-    missingCount: 2,
+    missingCount: 0,
     instructions: [
       'Cut mozzarella into finger-sized sticks; dredge in flour, dip in egg wash, and coat in seasoned panko.',
       'Double coat with egg and breadcrumbs for an impenetrable shield, then freeze for 45 minutes.',
@@ -2956,9 +2956,9 @@ export const INITIAL_RECIPES = [
       { name: 'Finely minced cabbage, carrots & onions', amount: '2.5 cups', available: true },
       { name: 'Garlic, ginger & black pepper', amount: '1.5 tbsp', available: true },
       { name: 'Soy sauce & sesame oil', amount: '1.5 tbsp', available: true },
-      { name: 'Spicy red tomato-chilli momo chutney', amount: '1/3 cup', available: false }
+      { name: 'Spicy red tomato-chilli momo chutney', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sauté minced vegetables with garlic, ginger, soy sauce, and black pepper on high heat for 3 minutes.',
       'Roll dough into thin translucent 3-inch discs with slightly thinner edges.',
@@ -3046,9 +3046,9 @@ export const INITIAL_RECIPES = [
       { name: 'Boiled diced potatoes & soaked boiled chickpeas', amount: '1 cup', available: true },
       { name: 'Sweetened thick whisked yogurt (Dahi)', amount: '1.5 cups', available: true },
       { name: 'Saunth (tamarind chutney) & spicy green chutney', amount: '1/3 cup each', available: true },
-      { name: 'Roasted cumin, red chili & nylon sev', amount: '2 tbsp', available: false }
+      { name: 'Roasted cumin, red chili & nylon sev', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Arrange papdis in a wide shallow bowl.',
       'Top with spiced boiled potatoes, soft chickpeas, and a sprinkle of chaat masala.',
@@ -3076,9 +3076,9 @@ export const INITIAL_RECIPES = [
       { name: 'Corn flour & all-purpose flour', amount: '3 tbsp each', available: true },
       { name: 'Finely chopped garlic & ginger', amount: '2 tbsp', available: true },
       { name: 'Dark soy sauce, chili sauce & vinegar', amount: '2 tbsp', available: true },
-      { name: 'Chopped spring onion greens', amount: '1/2 cup', available: false }
+      { name: 'Chopped spring onion greens', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Squeeze excess water from grated veggies; mix with flours, salt, and pepper into compact balls.',
       'Deep fry vegetable balls in hot oil until deeply golden and crispy.',
@@ -3136,9 +3136,9 @@ export const INITIAL_RECIPES = [
       { name: 'Diced green bell pepper & red onion cubes', amount: '1.5 cups', available: true },
       { name: 'Finely minced garlic & green chillies', amount: '2 tbsp', available: true },
       { name: 'Dark soy sauce, red chili sauce & vinegar', amount: '2 tbsp', available: true },
-      { name: 'Cornstarch slurry & spring onions', amount: '2 tbsp', available: false }
+      { name: 'Cornstarch slurry & spring onions', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Toss paneer cubes in cornstarch, salt, and pepper; shallow fry until crispy and set aside.',
       'Stir-fry minced garlic, green chillies, onions, and capsicum in a hot smoking wok for 2 mins.',
@@ -3166,9 +3166,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cornstarch for extra crispness', amount: '2 tbsp', available: true },
       { name: 'Chaat masala & smoked paprika', amount: '1 tbsp', available: true },
       { name: 'Garlic powder & onion powder', amount: '1 tsp', available: true },
-      { name: 'Creamy spicy chipotle mayo dip', amount: '1/3 cup', available: false }
+      { name: 'Creamy spicy chipotle mayo dip', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Soak crinkle cut potato batons in cold water for 15 mins, pat thoroughly dry, and dust with cornstarch.',
       'First fry at 160°C (320°F) for 5 minutes until cooked through; remove and rest for 10 mins.',
@@ -3196,9 +3196,9 @@ export const INITIAL_RECIPES = [
       { name: 'All-purpose flour & cornstarch', amount: '1 cup', available: true },
       { name: 'Sparkling club soda or chilled water', amount: '1 cup', available: true },
       { name: 'Panko breadcrumbs & paprika', amount: '1 cup', available: true },
-      { name: 'Creamy ranch or garlic aioli dip', amount: '1/3 cup', available: false }
+      { name: 'Creamy ranch or garlic aioli dip', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Separate onion slices into individual thick rings; dust lightly with plain flour.',
       'Whisk flour, cornstarch, paprika, garlic powder, and chilled sparkling water into an airy batter.',
@@ -3226,9 +3226,9 @@ export const INITIAL_RECIPES = [
       { name: 'Extra virgin olive oil', amount: '3 tbsp', available: true },
       { name: 'Garlic powder, dried rosemary & thyme', amount: '1 tbsp', available: true },
       { name: 'Smoked paprika & black pepper', amount: '1 tsp', available: true },
-      { name: 'Warm cheddar cheese sauce dip', amount: '1/2 cup', available: false }
+      { name: 'Warm cheddar cheese sauce dip', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Parboil potato wedges in salted water for 5 minutes, then drain and steam dry.',
       'Toss wedges with olive oil, rosemary, garlic powder, paprika, salt, and pepper.',
@@ -3254,11 +3254,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
       { name: 'Boiled sweet corn kernels', amount: '1 cup', available: true },
-      { name: 'Grated Mozzarella and Processed cheese', amount: '1 cup', available: false },
+      { name: 'Grated Mozzarella and Processed cheese', amount: '1 cup', available: true },
       { name: 'Oregano, chili flakes & black pepper', amount: '1 tsp', available: true },
       { name: 'Breadcrumbs & cornstarch slurry', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Mix mashed potatoes, coarsely crushed sweet corn, cheese, oregano, and chili flakes.',
       'Form into tight spherical balls; dip in cornstarch slurry and roll generously in breadcrumbs.',
@@ -3286,9 +3286,9 @@ export const INITIAL_RECIPES = [
       { name: 'Tamarind pulp & roasted cumin powder (stuffing)', amount: '3 tbsp', available: true },
       { name: 'Besan (gram flour) & rice flour', amount: '1.5 cups', available: true },
       { name: 'Ajwain, turmeric & pinch of baking soda', amount: '1 tsp', available: true },
-      { name: 'Finely chopped raw onions & lemon juice for topping', amount: '1/2 cup', available: false }
+      { name: 'Finely chopped raw onions & lemon juice for topping', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Slit large chillies lengthwise, deseed to reduce heat, and stuff with tamarind-cumin-salt paste.',
       'Prepare a thick coating batter using besan, rice flour, ajwain, turmeric, and water.',
@@ -3316,9 +3316,9 @@ export const INITIAL_RECIPES = [
       { name: 'Boiled mashed potatoes', amount: '2 medium', available: true },
       { name: 'Roasted crushed peanuts (Danyacha koot)', amount: '1/2 cup', available: true },
       { name: 'Finely chopped green chilies & cumin seeds', amount: '1.5 tbsp', available: true },
-      { name: 'Fresh curd (sweet dahi) dip & mint chutney', amount: '1/2 cup', available: false }
+      { name: 'Fresh curd (sweet dahi) dip & mint chutney', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Drain soaked sabudana completely; combine with mashed potatoes, coarse crushed peanuts, chillies, cumin, and salt.',
       'Knead gently into a non-sticky dough and shape into flat round patties.',
@@ -3346,9 +3346,9 @@ export const INITIAL_RECIPES = [
       { name: 'Warm cooked white pea Ragda gravy', amount: '1.5 cups', available: true },
       { name: 'Chilled sweetened yogurt (Dahi)', amount: '1/2 cup', available: true },
       { name: 'Tamarind saunth & mint-coriander chutney', amount: '3 tbsp each', available: true },
-      { name: 'Nylon sev, chopped onions & pomegranate seeds', amount: '1/2 cup', available: false }
+      { name: 'Nylon sev, chopped onions & pomegranate seeds', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Crush 2 hot samosas roughly into a serving bowl.',
       'Pour piping hot spiced white pea ragda all over the crushed samosas.',
@@ -3376,9 +3376,9 @@ export const INITIAL_RECIPES = [
       { name: 'Boiled green peas & sweet corn', amount: '1/2 cup', available: true },
       { name: 'Garam masala, amchur & ginger-chilli paste', amount: '1.5 tbsp', available: true },
       { name: 'Cornflour slurry & breadcrumbs', amount: '1 cup', available: true },
-      { name: 'Butter toasted bread slices & tomato ketchup', amount: '2 pairs', available: false }
+      { name: 'Butter toasted bread slices & tomato ketchup', amount: '2 pairs', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sauté grated beetroot, carrots, and peas with spices; mix with boiled mashed potatoes.',
       'Shape into heart or oval cutlet patties.',
@@ -3436,9 +3436,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cooked white dried peas (Ragda curry)', amount: '2 cups', available: true },
       { name: 'Turmeric, red chili & chaat masala', amount: '1.5 tbsp', available: true },
       { name: 'Mint chutney & tamarind chutney', amount: '1/4 cup each', available: true },
-      { name: 'Chopped onions, coriander & nylon sev', amount: '1/2 cup', available: false }
+      { name: 'Chopped onions, coriander & nylon sev', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Simmer boiled white peas with turmeric, ginger-garlic paste, and salt until thick and creamy.',
       'Shape mashed potato mixture into smooth flat patties (pattice).',
@@ -3464,11 +3464,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Yellow Moong dal & Chana dal (soaked)', amount: '1.5 cups', available: true },
       { name: 'Ginger, green chillies & hing', amount: '1 tbsp', available: true },
-      { name: 'Grated fresh radish (Mooli)', amount: '1 cup', available: false },
+      { name: 'Grated fresh radish (Mooli)', amount: '1 cup', available: true },
       { name: 'Spicy radish-leaf green chutney', amount: '1/2 cup', available: true },
       { name: 'Chaat masala & lemon juice', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Grind soaked moong and chana dal into a coarse paste; whisk aerated for 5 minutes until fluffy.',
       'Add crushed ginger, green chillies, and cumin seeds.',
@@ -3496,9 +3496,9 @@ export const INITIAL_RECIPES = [
       { name: 'Eno fruit salt or baking soda', amount: '1 sachet', available: true },
       { name: 'Lemon juice & sugar', amount: '2 tbsp each', available: true },
       { name: 'Mustard seeds, green chilies & curry leaves', amount: '1 tbsp', available: true },
-      { name: 'Freshly grated coconut & coriander for garnish', amount: '3 tbsp', available: false }
+      { name: 'Freshly grated coconut & coriander for garnish', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk besan with water, ginger-chili paste, turmeric, lemon juice, and sugar into a smooth batter.',
       'Add Eno fruit salt, whisk for 10 seconds until batter turns foamy, and pour into a greased steaming tin.',
@@ -3554,11 +3554,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Flour or corn tortillas', amount: '2 large', available: true },
       { name: 'Boiled sweet corn & diced bell peppers', amount: '1 cup', available: true },
-      { name: 'Shredded Cheddar & Mozzarella cheese', amount: '1.5 cups', available: false },
+      { name: 'Shredded Cheddar & Mozzarella cheese', amount: '1.5 cups', available: true },
       { name: 'Pickled jalapeños & taco seasoning', amount: '1 tbsp', available: true },
-      { name: 'Fresh salsa & sour cream', amount: '1/3 cup', available: false }
+      { name: 'Fresh salsa & sour cream', amount: '1/3 cup', available: true }
     ],
-    missingCount: 2,
+    missingCount: 0,
     instructions: [
       'Layer half of tortilla with shredded cheese, sweet corn, diced capsicum, and sliced jalapeños.',
       'Fold tortilla in half over the filling.',
@@ -3583,12 +3583,12 @@ export const INITIAL_RECIPES = [
     description: 'Juicy white button mushrooms stuffed with spiced paneer and cheese, marinated in smoky tandoori yogurt masala, and grilled to smoky perfection.',
     ingredients: [
       { name: 'Large fresh button mushrooms', amount: '250g', available: true },
-      { name: 'Grated paneer & cheese (stuffing)', amount: '1/2 cup', available: false },
+      { name: 'Grated paneer & cheese (stuffing)', amount: '1/2 cup', available: true },
       { name: 'Thick Greek yogurt / Hung curd', amount: '1/2 cup', available: true },
       { name: 'Tandoori masala, kasuri methi & mustard oil', amount: '1.5 tbsp', available: true },
       { name: 'Chaat masala & mint chutney', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Gently remove mushroom stems, chop stems and sauté with paneer, cheese, and herbs.',
       'Stuff mushroom caps tightly with the paneer mixture.',
@@ -3646,9 +3646,9 @@ export const INITIAL_RECIPES = [
       { name: 'Corn flour & rice flour', amount: '3 tbsp each', available: true },
       { name: 'Ginger-garlic paste, red chili powder & yogurt', amount: '2 tbsp', available: true },
       { name: 'Fresh curry leaves & green chilies', amount: '10 leaves', available: true },
-      { name: 'Lemon wedges & onion rings for garnish', amount: '1/2 cup', available: false }
+      { name: 'Lemon wedges & onion rings for garnish', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Parboil cauliflower florets with turmeric and salt for 2 minutes; drain completely.',
       'Coat florets in spiced yogurt, ginger-garlic paste, cornflour, and rice flour batter.',
@@ -3673,12 +3673,12 @@ export const INITIAL_RECIPES = [
     description: 'Viral Delhi street food sensation: steamed veg momos coated in seasoned batter and crushed cornflakes, deep-fried for maximum audible crunch.',
     ingredients: [
       { name: 'Steamed vegetable momos', amount: '8 pieces', available: true },
-      { name: 'Crushed cornflakes / kurkure chips', amount: '1.5 cups', available: false },
+      { name: 'Crushed cornflakes / kurkure chips', amount: '1.5 cups', available: true },
       { name: 'All-purpose flour & cornstarch batter', amount: '1/2 cup', available: true },
       { name: 'Oregano, chili flakes & chaat masala', amount: '1 tsp each', available: true },
-      { name: 'Spicy momo red chutney & garlic mayo', amount: '1/3 cup', available: false }
+      { name: 'Spicy momo red chutney & garlic mayo', amount: '1/3 cup', available: true }
     ],
-    missingCount: 2,
+    missingCount: 0,
     instructions: [
       'Prepare seasoned slurry using flour, cornstarch, water, red chili powder, and oregano.',
       'Dip each steamed veg momo into the batter slurry.',
@@ -3703,12 +3703,12 @@ export const INITIAL_RECIPES = [
     description: 'Protein-packed soya chaap chunks marinated in rich cashew-cream masala, skewered, and grilled with capsicum and onion petals.',
     ingredients: [
       { name: 'Soya chaap sticks (boiled & sliced)', amount: '300g', available: true },
-      { name: 'Fresh cream & cashew paste', amount: '1/3 cup each', available: false },
+      { name: 'Fresh cream & cashew paste', amount: '1/3 cup each', available: true },
       { name: 'Hung curd, ginger-garlic & green cardamom', amount: '2 tbsp', available: true },
       { name: 'Kasuri methi, butter & chaat masala', amount: '2 tbsp', available: true },
       { name: 'Onion rings & mint chutney', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Cut boiled soya chaap into bite-sized pieces and shallow fry in butter for 3 minutes.',
       'Marinate in hung curd, fresh cream, cashew paste, kasuri methi, cardamom, and black pepper.',
@@ -3736,9 +3736,9 @@ export const INITIAL_RECIPES = [
       { name: 'Panko breadcrumbs / crushed chips', amount: '1.5 cups', available: true },
       { name: 'Cornstarch & all-purpose flour batter', amount: '1/2 cup', available: true },
       { name: 'Peri-peri spice mix & garlic powder', amount: '1.5 tbsp', available: true },
-      { name: 'Cheesy jalapeño dip or sweet chili dip', amount: '1/3 cup', available: false }
+      { name: 'Cheesy jalapeño dip or sweet chili dip', amount: '1/3 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Season paneer cubes with peri-peri spice mix, salt, and garlic powder.',
       'Dip in flour batter and roll into breadcrumbs to form a crunchy shell.',
@@ -3766,9 +3766,9 @@ export const INITIAL_RECIPES = [
       { name: 'Finely chopped onions, tomatoes & capsicum', amount: '1.5 cups', available: true },
       { name: 'Butter', amount: '3 tbsp', available: true },
       { name: 'Pav bhaji masala & red chili powder', amount: '1.5 tsp', available: true },
-      { name: 'Grated processed cheese & mozzarella', amount: '1 cup', available: false }
+      { name: 'Grated processed cheese & mozzarella', amount: '1 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sauté onions, capsicum, and tomatoes on a hot buttery tawa with pav bhaji masala and salt for 3 mins.',
       'Toast bread slices on one side with butter until crisp.',
@@ -3826,9 +3826,9 @@ export const INITIAL_RECIPES = [
       { name: 'Besan & rice flour', amount: '1 cup', available: true },
       { name: 'Chilled sweetened yogurt (Dahi)', amount: '1 cup', available: true },
       { name: 'Tamarind saunth & mint-coriander chutney', amount: '1/3 cup each', available: true },
-      { name: 'Nylon sev, pomegranate seeds & chaat masala', amount: '1/2 cup', available: false }
+      { name: 'Nylon sev, pomegranate seeds & chaat masala', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk besan, rice flour, ajwain, turmeric, and water into a smooth, thin coating batter.',
       'Dip whole spinach leaves one by one and deep fry in hot oil until crunchy and brittle.',
@@ -3853,12 +3853,12 @@ export const INITIAL_RECIPES = [
     description: 'Spicy jalapeño peppers hollowed out and filled with cream cheese, cheddar, garlic herbs, coated in crispy breadcrumbs, and fried golden.',
     ingredients: [
       { name: 'Fresh Jalapeño peppers (halved & deseeded)', amount: '8 large', available: true },
-      { name: 'Cream cheese & sharp cheddar cheese', amount: '1 cup each', available: false },
+      { name: 'Cream cheese & sharp cheddar cheese', amount: '1 cup each', available: true },
       { name: 'Garlic powder, onion powder & smoked paprika', amount: '1 tsp each', available: true },
       { name: 'Panko breadcrumbs & egg wash', amount: '1.5 cups', available: true },
-      { name: 'Creamy cilantro lime ranch dip', amount: '1/3 cup', available: false }
+      { name: 'Creamy cilantro lime ranch dip', amount: '1/3 cup', available: true }
     ],
-    missingCount: 2,
+    missingCount: 0,
     instructions: [
       'Mix softened cream cheese, shredded cheddar, garlic powder, and paprika until smooth.',
       'Fill jalapeño halves generously with cheese filling.',
@@ -3918,9 +3918,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh thick curd / Greek yogurt', amount: '1.5 cups', available: true },
       { name: 'Cold milk & crushed ice', amount: '1/2 cup', available: true },
       { name: 'Sugar or honey', amount: '2 tbsp', available: true },
-      { name: 'Kashmiri Saffron strands & crushed pista', amount: '1 pinch', available: false }
+      { name: 'Kashmiri Saffron strands & crushed pista', amount: '1 pinch', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Add chilled mango pulp, thick yogurt, cold milk, sugar, and crushed cardamom to blender.',
       'Blend on high speed for 45 seconds until thick, frothy, and completely homogenous.',
@@ -3948,9 +3948,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh ginger root (crushed)', amount: '1 inch piece', available: true },
       { name: 'Green cardamom pods (crushed)', amount: '3 pods', available: true },
       { name: 'Whole milk', amount: '1 cup', available: true },
-      { name: 'Fresh holy basil (Tulsi) leaves', amount: '4 leaves', available: false }
+      { name: 'Fresh holy basil (Tulsi) leaves', amount: '4 leaves', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Crush ginger and green cardamom in mortar and pestle.',
       'Bring 1 cup water to boil with crushed spices; add strong black tea leaves and simmer 2 mins.',
@@ -3978,9 +3978,9 @@ export const INITIAL_RECIPES = [
       { name: 'Creamy oat milk or almond milk', amount: '1 cup', available: true },
       { name: 'Ice cubes', amount: '1 cup', available: true },
       { name: 'Warm water (80°C)', amount: '60 ml', available: true },
-      { name: 'Pure vanilla bean syrup', amount: '1 tbsp', available: false }
+      { name: 'Pure vanilla bean syrup', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Sift matcha into a small bowl to remove lumps; add 60ml warm water.',
       'Whisk vigorously in a "W" motion using bamboo chasen until vibrant green froth forms.',
@@ -4008,9 +4008,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh lime wedges', amount: '4 wedges', available: true },
       { name: 'Sparkling club soda', amount: '1 can', available: true },
       { name: 'Crushed ice', amount: '1 cup', available: true },
-      { name: 'Organic Blue Agave nectar', amount: '2 tbsp', available: false }
+      { name: 'Organic Blue Agave nectar', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Gently muddle mint leaves and lime wedges with agave in base of highball glass.',
       'Pack glass to the brim with crushed ice.',
@@ -4098,9 +4098,9 @@ export const INITIAL_RECIPES = [
       { name: 'Chilled milk or water', amount: '1/2 cup', available: true },
       { name: 'Granulated sugar', amount: '3 tbsp', available: true },
       { name: 'Green cardamom powder', amount: '1/4 tsp', available: true },
-      { name: 'Fresh clotted cream (malai) for topping', amount: '1 tbsp', available: false }
+      { name: 'Fresh clotted cream (malai) for topping', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'In a wide earthen pot or blender, combine thick curd, cold milk, sugar, and crushed cardamom.',
       'Blend or churn with a wooden hand-churner for 45 seconds until silky smooth and foamy.',
@@ -4127,9 +4127,9 @@ export const INITIAL_RECIPES = [
       { name: 'Chilled whole milk', amount: '2 cups', available: true },
       { name: 'Concentrated rose syrup (or Rooh Afza)', amount: '3 tbsp', available: true },
       { name: 'Ice cubes', amount: '1/2 cup', available: true },
-      { name: 'Soaked basil seeds (sabja)', amount: '1 tsp', available: false }
+      { name: 'Soaked basil seeds (sabja)', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pour ice-cold milk into a jug or shaker.',
       'Add sweet concentrated rose syrup and stir briskly until evenly pink and fragrant.',
@@ -4216,10 +4216,10 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh tender coconut water', amount: '2 cups', available: true },
       { name: 'Fresh lemon juice', amount: '1 tbsp', available: true },
       { name: 'Fresh mint leaves', amount: '8-10 leaves', available: true },
-      { name: 'Coconut malai strips', amount: '2 tbsp', available: false },
+      { name: 'Coconut malai strips', amount: '2 tbsp', available: true },
       { name: 'Crushed ice', amount: '1/2 cup', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Lightly clap or muddle fresh mint leaves in the bottom of serving glasses.',
       'Pour in chilled fresh tender coconut water and fresh lemon juice.',
@@ -4547,9 +4547,9 @@ export const INITIAL_RECIPES = [
       { name: 'Dutch cocoa powder', amount: '2 tbsp', available: true },
       { name: 'Sugar or maple syrup', amount: '2 tbsp', available: true },
       { name: 'Warm water (to dissolve cocoa)', amount: '2 tbsp', available: true },
-      { name: 'Chocolate shavings', amount: 'For garnish', available: false }
+      { name: 'Chocolate shavings', amount: 'For garnish', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'In a glass, whisk cocoa powder and sugar with warm water to create a glossy chocolate paste.',
       'Pour ice-cold milk into a cocktail shaker or jar, add the chocolate paste and ice cubes.',
@@ -4606,10 +4606,10 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh ripe strawberries', amount: '1.5 cups', available: true },
       { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
       { name: 'Sugar', amount: '2 tbsp', available: true },
-      { name: 'Vanilla ice cream', amount: '1 scoop', available: false },
+      { name: 'Vanilla ice cream', amount: '1 scoop', available: true },
       { name: 'Ice cubes', amount: '4 cubes', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Hull and slice fresh strawberries into blender.',
       'Add chilled milk, sugar, vanilla ice cream scoop, and ice cubes.',
@@ -4636,10 +4636,10 @@ export const INITIAL_RECIPES = [
       { name: 'Sweet ripe mango pulp or cubes', amount: '1.5 cups', available: true },
       { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
       { name: 'Sugar', amount: '2 tbsp', available: true },
-      { name: 'Vanilla or mango ice cream scoop', amount: '1 scoop', available: false },
-      { name: 'Chopped cashews and tutty-fruity', amount: '1 tbsp', available: false }
+      { name: 'Vanilla or mango ice cream scoop', amount: '1 scoop', available: true },
+      { name: 'Chopped cashews and tutty-fruity', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blend fresh mango pulp, chilled milk, and sugar for 45 seconds until thick.',
       'Pour into tall tumblers over crushed ice.',
@@ -4697,9 +4697,9 @@ export const INITIAL_RECIPES = [
       { name: 'Ripe banana', amount: '1 large', available: true },
       { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
       { name: 'Honey', amount: '1 tbsp', available: true },
-      { name: 'Chia seeds or roasted peanuts', amount: '1 tsp', available: false }
+      { name: 'Chia seeds or roasted peanuts', amount: '1 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Add banana slices, creamy peanut butter, honey, and cold milk into blender.',
       'Blend for 60 seconds until thick, nutty, and velvety.',
@@ -4725,10 +4725,10 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Oreo cookies', amount: '5 cookies', available: true },
       { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
-      { name: 'Vanilla ice cream', amount: '2 scoops', available: false },
-      { name: 'Chocolate syrup for drizzle', amount: '1 tbsp', available: false }
+      { name: 'Vanilla ice cream', amount: '2 scoops', available: true },
+      { name: 'Chocolate syrup for drizzle', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Swirl chocolate syrup along inside walls of serving glasses.',
       'In a blender, combine 4 Oreo cookies, vanilla ice cream, and chilled milk.',
@@ -4814,10 +4814,10 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Concentrated rose syrup (Rooh Afza)', amount: '3 tbsp', available: true },
       { name: 'Chilled whole milk', amount: '1.5 cups', available: true },
-      { name: 'Vanilla ice cream', amount: '2 scoops', available: false },
-      { name: 'Pistachio slivers & rose petals', amount: 'For garnish', available: false }
+      { name: 'Vanilla ice cream', amount: '2 scoops', available: true },
+      { name: 'Pistachio slivers & rose petals', amount: 'For garnish', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blend rose syrup, 1 scoop of vanilla ice cream, and chilled milk until thick and creamy.',
       'Pour into soda fountain glasses.',
@@ -4901,12 +4901,12 @@ export const INITIAL_RECIPES = [
     description: 'Thick, velvety, European-style winter warmer simmered with whole milk, Dutch cocoa, dark chocolate, and sugar.',
     ingredients: [
       { name: 'Whole milk', amount: '2 cups', available: true },
-      { name: 'Dark chocolate chips or chopped chocolate', amount: '50g', available: false },
+      { name: 'Dark chocolate chips or chopped chocolate', amount: '50g', available: true },
       { name: 'Dutch cocoa powder', amount: '1.5 tbsp', available: true },
       { name: 'Sugar', amount: '2 tbsp', available: true },
       { name: 'Vanilla extract & pinch of salt', amount: '1/4 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Warm milk in a heavy saucepan over medium heat until steaming.',
       'Whisk in cocoa powder, sugar, and a pinch of salt until completely dissolved.',
@@ -4932,11 +4932,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Whole milk', amount: '2 cups', available: true },
       { name: 'Soaked blanched almonds (badam)', amount: '15 almonds', available: true },
-      { name: 'Saffron strands (kesar)', amount: '1 pinch', available: false },
+      { name: 'Saffron strands (kesar)', amount: '1 pinch', available: true },
       { name: 'Green cardamom powder', amount: '1/4 tsp', available: true },
       { name: 'Sugar', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Blend soaked blanched almonds with 3 tablespoons of milk into a smooth paste.',
       'Bring remaining milk to a gentle boil with saffron strands.',
@@ -4992,11 +4992,11 @@ export const INITIAL_RECIPES = [
     ingredients: [
       { name: 'Pure unfiltered apple juice', amount: '2.5 cups', available: true },
       { name: 'Cinnamon sticks', amount: '2 sticks', available: true },
-      { name: 'Whole cloves & star anise', amount: '3 cloves', available: false },
+      { name: 'Whole cloves & star anise', amount: '3 cloves', available: true },
       { name: 'Fresh orange or lemon peel', amount: '1 strip', available: true },
       { name: 'Brown sugar or maple syrup (optional)', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'In a saucepan, combine apple juice, cinnamon sticks, cloves, and citrus peel.',
       'Simmer gently on low heat for 7-10 minutes so warming spices infuse deeply.',
@@ -5025,9 +5025,9 @@ export const INITIAL_RECIPES = [
       { name: 'Instant Masala Noodles with Tastemaker', amount: '1 pack', available: true },
       { name: 'Salted Butter', amount: '1 tbsp', available: true },
       { name: 'Chopped Green Chili & Onion', amount: '2 tbsp', available: true },
-      { name: 'Grated Processed Cheese', amount: '2 tbsp', available: false }
+      { name: 'Grated Processed Cheese', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Melt butter in a small pan, saute chopped green chili and onion for 30 seconds.',
       'Add 1.5 cups water and noodle tastemaker spice blend; bring to a rapid boil.',
@@ -5054,9 +5054,9 @@ export const INITIAL_RECIPES = [
       { name: 'Bread slices (White or Brown)', amount: '2 slices', available: true },
       { name: 'Grated Mozzarella & Cheddar cheese', amount: '1/2 cup', available: true },
       { name: 'Finely minced green chilies & garlic', amount: '1 tsp', available: true },
-      { name: 'Oregano & Chilli Flakes seasoning', amount: '1/2 tsp', available: false }
+      { name: 'Oregano & Chilli Flakes seasoning', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Lightly butter one side of bread slices and toast on a hot pan until crisp on the bottom.',
       'Flip, pile generously with grated cheese, minced chilies, and garlic butter.',
@@ -5083,9 +5083,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh Eggs (whisked)', amount: '3 large', available: true },
       { name: 'Finely chopped Onion & Tomato', amount: '1/2 cup', available: true },
       { name: 'Butter or Cooking Oil', amount: '1 tbsp', available: true },
-      { name: 'Garam Masala & Turmeric', amount: '1/2 tsp', available: false }
+      { name: 'Garam Masala & Turmeric', amount: '1/2 tsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Heat butter in a skillet; saute onions and green chilies for 1 minute until soft.',
       'Add chopped tomato, turmeric, salt, and cook for another minute.',
@@ -5112,9 +5112,9 @@ export const INITIAL_RECIPES = [
       { name: 'Cooked White / Basmati Rice', amount: '2 cups', available: true },
       { name: 'Minced fresh garlic cloves', amount: '5 cloves', available: true },
       { name: 'Salted Butter', amount: '2 tbsp', available: true },
-      { name: 'Dark Soy Sauce & Spring Onions', amount: '1 tbsp', available: false }
+      { name: 'Dark Soy Sauce & Spring Onions', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Melt butter in a hot pan over medium heat; add minced garlic and fry until golden brown and fragrant.',
       'Toss in chilled cooked rice and break up any clumps with a spatula.',
@@ -5141,9 +5141,9 @@ export const INITIAL_RECIPES = [
       { name: 'All-purpose flour & Sugar', amount: '3 tbsp each', available: true },
       { name: 'Unsweetened Cocoa powder', amount: '1.5 tbsp', available: true },
       { name: 'Milk & Melted Butter', amount: '3 tbsp + 1 tbsp', available: true },
-      { name: 'Chocolate chips / Nutella core', amount: '1 tbsp', available: false }
+      { name: 'Chocolate chips / Nutella core', amount: '1 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Whisk flour, sugar, cocoa powder, and a pinch of baking powder directly in a microwave-safe mug.',
       'Add milk and melted butter; mix with a fork until a smooth batter forms.',
@@ -5170,9 +5170,9 @@ export const INITIAL_RECIPES = [
       { name: 'Fresh Paneer (crumbled)', amount: '150g', available: true },
       { name: 'Whole Wheat Roti / Tortilla', amount: '2 pieces', available: true },
       { name: 'Diced Onion & Tomato', amount: '1/2 cup', available: true },
-      { name: 'Mint Chutney & Chaat Masala', amount: '2 tbsp', available: false }
+      { name: 'Mint Chutney & Chaat Masala', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Heat 1 tsp oil in pan, quickly saute onions and tomatoes for 1-2 minutes.',
       'Add crumbled paneer, pinch of turmeric, salt, and toss for 2 minutes.',
@@ -5226,9 +5226,9 @@ export const INITIAL_RECIPES = [
       { name: 'Boiled potatoes (diced)', amount: '2 medium', available: true },
       { name: 'Chaat Masala & Roasted Cumin', amount: '1 tsp', available: true },
       { name: 'Fresh Lemon Juice', amount: '1 tbsp', available: true },
-      { name: 'Spicy Mint Chutney & Crispy Sev', amount: '2 tbsp', available: false }
+      { name: 'Spicy Mint Chutney & Crispy Sev', amount: '2 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Pan-fry boiled potato cubes in 1 tsp oil on high flame for 3-4 mins until golden and crunchy.',
       'Transfer to a bowl; toss immediately with chaat masala, cumin, salt, and lemon juice.',
@@ -5256,9 +5256,9 @@ export const INITIAL_RECIPES = [
       { name: 'Peri-Peri Seasoning & Sea Salt', amount: '1.5 tbsp', available: true },
       { name: 'Cornstarch (for extra crunch)', amount: '2 tbsp', available: true },
       { name: 'Cooking Oil for frying', amount: '2 cups', available: true },
-      { name: 'Creamy Garlic Mayo Dip & Tomato Ketchup', amount: '3 tbsp', available: false }
+      { name: 'Creamy Garlic Mayo Dip & Tomato Ketchup', amount: '3 tbsp', available: true }
     ],
-    missingCount: 1,
+    missingCount: 0,
     instructions: [
       'Peel and slice potatoes into uniform 1/4-inch long batons. Soak in ice-cold water for 15 mins to remove excess starch.',
       'Drain and pat the potato batons completely dry with a clean kitchen towel. Lightly dust with cornstarch.',

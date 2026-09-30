@@ -9,12 +9,12 @@ import RecipeDetailScreen from './screens/RecipeDetailScreen';
 import CookbookScreen from './screens/CookbookScreen';
 import BottomNav from './components/BottomNav';
 
-const STORAGE_KEY = 'cooksmart_app_recipes_v4';
+const STORAGE_KEY = 'cooksmart_app_recipes_v5';
 
 function loadInitialRecipes() {
   try {
     // Purge outdated storage versions
-    ['cooksmart_app_recipes_v1', 'cooksmart_app_recipes_v2', 'cooksmart_app_recipes_v3'].forEach((k) => {
+    ['cooksmart_app_recipes_v1', 'cooksmart_app_recipes_v2', 'cooksmart_app_recipes_v3', 'cooksmart_app_recipes_v4'].forEach((k) => {
       try { localStorage.removeItem(k); } catch { /* ignore */ }
     });
 

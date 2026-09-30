@@ -133,8 +133,8 @@ function DetailOverview({ recipe, isVeg }) {
   );
 }
 
-function DetailMissingBanner({ missingIngredients }) {
-  if (!missingIngredients || missingIngredients.length === 0) return null;
+function DetailMissingBanner({ missingIngredients, isPantryMatch }) {
+  if (!isPantryMatch || !missingIngredients || missingIngredients.length === 0) return null;
   return (
     <div className="p-4 rounded-2xl bg-gradient-to-r from-red-950/40 via-red-950/20 to-neutral-900 border border-red-500/40 shadow-md">
       <div className="flex items-center gap-2 mb-2">
@@ -163,7 +163,22 @@ function DetailMissingBanner({ missingIngredients }) {
   );
 }
 
-function DetailIngredientsChecklist({ ingredients, checkedIngredients, onToggleCheck }) {
+function DetailPantrySuccessBanner({ isPantryMatch, missingCount }) {
+  if (!isPantryMatch || missingCount > 0) return null;
+  return (
+    <div className="p-3.5 rounded-2xl bg-emerald-950/30 border border-emerald-500/40 shadow-md flex items-center gap-3">
+      <span className="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold border border-emerald-500/40">
+        ✓
+      </span>
+      <div>
+        <h3 className="text-xs font-bold text-emerald-400">100% Pantry Match!</h3>
+        <p className="text-[11px] text-neutral-300">You've got all the ingredients ready in your kitchen.</p>
+      </div>
+    </div>
+  );
+}
+
+function DetailIngredientsChecklist({ ingredients, checkedIngredients, onToggleCheck, isPantryMatch }) {
   return (
     <div className="bg-neutral-900/90 border border-neutral-800 rounded-2xl p-4">
       <div className="flex items-center justify-between mb-3">
@@ -176,6 +191,7 @@ function DetailIngredientsChecklist({ ingredients, checkedIngredients, onToggleC
       <div className="space-y-2">
         {ingredients.map((ing) => {
           const isChecked = Boolean(checkedIngredients[ing.name]);
+          const isMissing = Boolean(isPantryMatch && ing.available === false);
           return (
             <div
               key={ing.name}
@@ -191,7 +207,7 @@ function DetailIngredientsChecklist({ ingredients, checkedIngredients, onToggleC
               className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition-colors ${
                 isChecked
                   ? 'bg-neutral-950/30 border-neutral-800/50 opacity-60'
-                  : !ing.available
+                  : isMissing
                   ? 'bg-red-950/20 border-red-500/30 text-red-100'
                   : 'bg-neutral-950/60 border-neutral-800 text-neutral-200 hover:border-neutral-700'
               }`}
@@ -211,7 +227,7 @@ function DetailIngredientsChecklist({ ingredients, checkedIngredients, onToggleC
 
               <div className="flex items-center gap-2">
                 <span className="text-xs text-neutral-400 font-semibold">{ing.amount}</span>
-                {!ing.available && (
+                {isMissing && (
                   <span className="text-[10px] font-bold uppercase bg-red-500/30 text-red-300 px-1.5 py-0.5 rounded">
                     Missing
                   </span>
@@ -353,7 +369,8 @@ export default function RecipeDetailScreen({
     }
   };
 
-  const missingIngredients = (recipe.ingredients || []).filter(i => !i.available);
+  const isPantryMatch = Boolean(recipe?.isPantryMatch);
+  const missingIngredients = isPantryMatch ? (recipe.ingredients || []).filter(i => i.available === false) : [];
 
   return (
     <div className="pb-36 pt-2 max-w-md mx-auto min-h-screen text-neutral-100 animate-fadeIn relative">
@@ -364,12 +381,15 @@ export default function RecipeDetailScreen({
       <div className="px-4 -mt-6 relative z-10 space-y-6">
         <DetailOverview recipe={recipe} isVeg={isVeg} />
 
-        <DetailMissingBanner missingIngredients={missingIngredients} />
+        <DetailMissingBanner missingIngredients={missingIngredients} isPantryMatch={isPantryMatch} />
+
+        <DetailPantrySuccessBanner isPantryMatch={isPantryMatch} missingCount={missingIngredients.length} />
 
         <DetailIngredientsChecklist
           ingredients={recipe.ingredients || []}
           checkedIngredients={checkedIngredients}
           onToggleCheck={toggleCheck}
+          isPantryMatch={isPantryMatch}
         />
 
         <DetailInstructions
