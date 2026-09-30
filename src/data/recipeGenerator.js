@@ -743,6 +743,7 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
   let description = '';
   let instructions = [];
   let complementaryIngredients = [];
+  let applicableUserIngredients = [...userIngredients];
 
   if (hasPotato) {
     title = 'Crispy Chatpata Masala Potato Wedges';
@@ -807,13 +808,47 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
     cookTime = '4 mins';
     calories = '240 kcal';
     image = FOOD_TYPE_IMAGES.egg;
-    description = `Fluffy, savory eggs scrambled with fresh sautéed aromatics (${userIngredients.join(', ')}).`;
-    complementaryIngredients = [{ name: 'Chopped Green Chilies & Cilantro', amount: '2 tbsp', available: false }];
+    // Strictly filter out milk, dairy milk drinks, tea, coffee, chocolate, sugar, and fruits from egg bhurji
+    applicableUserIngredients = userIngredients.filter(ing => {
+      const k = getSynonymKeys(ing);
+      return !k.includes('milk') &&
+             !k.includes('condensed_milk') &&
+             !k.includes('khoya') &&
+             !k.includes('sugar') &&
+             !k.includes('chocolate') &&
+             !k.includes('tea') &&
+             !k.includes('coffee') &&
+             !k.includes('apple') &&
+             !k.includes('mango') &&
+             !k.includes('banana') &&
+             !k.includes('strawberry');
+    });
+    const hasUserOnionTomato = applicableUserIngredients.some(i => {
+      const k = getSynonymKeys(i);
+      return k.includes('onion') || k.includes('tomato');
+    });
+    const hasUserButter = applicableUserIngredients.some(i => {
+      const k = getSynonymKeys(i);
+      return k.includes('butter') || k.includes('ghee');
+    });
+    complementaryIngredients = [];
+    if (!hasUserOnionTomato) {
+      complementaryIngredients.push({ name: 'Finely chopped Onion & Tomato', amount: '1/2 cup', available: false });
+    }
+    if (!hasUserButter) {
+      complementaryIngredients.push({ name: 'Butter or Cooking Oil', amount: '1 tbsp', available: false });
+    }
+    complementaryIngredients.push(
+      { name: 'Chopped Green Chilies & Cilantro', amount: '2 tbsp', available: false },
+      { name: 'Garam Masala & Turmeric', amount: '1/2 tsp', available: false }
+    );
+    const eggAromatics = applicableUserIngredients.filter(i => !i.toLowerCase().includes('egg'));
+    description = `Fluffy, savory dhaba-style scrambled eggs prepared with fresh sautéed aromatics${eggAromatics.length > 0 ? ` (${eggAromatics.join(', ')})` : ''} and everyday spices.`;
     instructions = [
       'Whisk eggs in a bowl with a pinch of salt and black pepper.',
-      `Melt butter/oil in a pan and sauté ${userIngredients.filter(i => !i.toLowerCase().includes('egg')).join(', ') || 'onions'} for 1-2 minutes.`,
-      'Pour in whisked eggs and stir gently over low-medium heat until soft curds form.',
-      'Garnish with fresh coriander and serve immediately.'
+      `Melt butter/oil in a pan and sauté ${eggAromatics.join(', ') || 'finely chopped onions and tomatoes'} for 1-2 minutes until soft.`,
+      'Pour in whisked eggs and scramble gently over medium-low heat until soft curds form.',
+      'Garnish with fresh green chilies, cilantro, and a pinch of garam masala. Serve hot with warm toast or roti.'
     ];
   } else if (hasChicken && hasRice) {
     title = 'Aromatic Garlic Butter Chicken & Steamed Rice Skillet';
@@ -947,7 +982,7 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
   }
 
   const formattedIngredients = [
-    ...userIngredients.map(ing => ({
+    ...applicableUserIngredients.map(ing => ({
       name: ing,
       amount: 'Pantry Portion',
       available: true
