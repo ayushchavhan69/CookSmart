@@ -67,7 +67,13 @@ function getFilteredAndSortedResults(results, filter, sortBy, dietFilter) {
     if (sortBy === 'protein') {
       return getProteinGrams(b) - getProteinGrams(a);
     }
-    return (b.matchPercentage || 90) - (a.matchPercentage || 90);
+    if ((b._demandScore || 0) !== (a._demandScore || 0)) {
+      return (b._demandScore || 0) - (a._demandScore || 0);
+    }
+    if (b.matchPercentage !== a.matchPercentage) {
+      return (b.matchPercentage || 90) - (a.matchPercentage || 90);
+    }
+    return (a.missingCount || 0) - (b.missingCount || 0);
   });
 }
 

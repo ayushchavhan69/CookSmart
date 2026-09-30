@@ -1,55 +1,90 @@
 // Smart AI Recipe Generation & Advanced User Demand Analyzer Engine
 
 export const INGREDIENT_SYNONYMS = {
-  paneer: ['paneer', 'cottage cheese', 'chenna'],
-  spinach: ['spinach', 'palak', 'greens', 'saag'],
-  potato: ['potato', 'potatoes', 'aloo', 'potatos', 'baby potato', 'french fries', 'fries', 'finger chips', 'franchfice', 'french fry'],
-  fries: ['french fries', 'fries', 'finger chips', 'peri peri fries', 'frenchfries', 'franchfice', 'french fry', 'frenchfry', 'franch fries'],
-  chicken: ['chicken', 'chicken breast', 'poultry', 'boneless chicken'],
-  rice: ['rice', 'basmati', 'basmati rice', 'white rice', 'brown rice', 'chawal', 'cooked rice'],
-  egg: ['egg', 'eggs', 'anda', 'egg bhurji', 'egg yolk', 'egg white'],
-  maggi: ['maggi', 'maggi noodles', 'noodles', 'instant noodles', 'ramen'],
-  cheese: ['cheese', 'mozzarella', 'cheddar', 'processed cheese', 'parmesan'],
-  bread: ['bread', 'bread slices', 'toast', 'roti', 'tortilla', 'paratha', 'pita', 'sandwich bread'],
-  chole: ['chole', 'chana', 'chickpeas', 'kabuli chana', 'falafel'],
-  garlic: ['garlic', 'ginger-garlic', 'garlic cloves', 'lasun'],
-  onion: ['onion', 'yellow onion', 'red onion', 'shallots', 'pyaz'],
-  tomato: ['tomato', 'tomatoes', 'tamatar', 'tomato puree'],
-  butter: ['butter', 'salted butter', 'makhan'],
+  potato: ['potato', 'potatoes', 'aloo', 'alu', 'baby potato', 'french fries', 'fries', 'batata', 'finger chips', 'hash brown', 'potato wedges'],
+  paneer: ['paneer', 'cottage cheese', 'chenna', 'chhena', 'fresh paneer', 'malai paneer'],
+  chicken: ['chicken', 'chicken breast', 'boneless chicken', 'murgh', 'chicken thighs', 'chicken keema', 'poultry', 'minced chicken'],
+  rice: ['rice', 'basmati', 'basmati rice', 'white rice', 'brown rice', 'chawal', 'cooked rice', 'jeera rice', 'sticky rice', 'gobindobhog'],
+  egg: ['egg', 'eggs', 'anda', 'egg bhurji', 'egg yolk', 'egg white', 'boiled egg', 'scrambled egg'],
+  maggi: ['maggi', 'maggi noodles', 'instant noodles', 'ramen', 'tastemaker'],
+  cheese: ['cheese', 'mozzarella', 'cheddar', 'processed cheese', 'parmesan', 'cheese slices', 'queso', 'gouda', 'cheese cubes'],
+  bread: ['bread', 'bread slices', 'toast', 'sandwich bread', 'pav', 'ladi pav', 'bun', 'sourdough', 'baguette', 'ciabatta', 'pita', 'brioche', 'breadcrumbs', 'panko'],
+  roti_dough: ['roti', 'chapati', 'paratha', 'tortilla', 'dough', 'kulcha', 'bhatura', 'naan'],
+  dal: ['dal', 'lentils', 'daal', 'urad dal', 'moong dal', 'toor dal', 'chana dal', 'masoor dal', 'black lentils', 'yellow lentils', 'sambar dal', 'urad', 'moong', 'toor', 'masoor', 'arhar'],
+  chole: ['chole', 'chana', 'chickpeas', 'kabuli chana', 'white chickpeas', 'kala chana', 'garbanzo', 'falafel', 'hummus'],
+  rajma: ['rajma', 'kidney beans', 'red kidney beans'],
+  spinach: ['spinach', 'palak', 'saag', 'blanched spinach', 'leafy greens'],
+  onion: ['onion', 'onions', 'pyaz', 'shallots', 'spring onion', 'scallions', 'scallion', 'red onion', 'white onion'],
+  tomato: ['tomato', 'tomatoes', 'tamatar', 'tomato puree', 'pureed tomatoes', 'tomato ketchup', 'cherry tomatoes', 'sun-dried tomatoes', 'sundried tomatoes'],
+  garlic: ['garlic', 'lasun', 'lahsun', 'garlic cloves', 'minced garlic', 'roasted garlic'],
+  ginger: ['ginger', 'adrak', 'ginger-garlic', 'ginger garlic', 'ginger-garlic paste', 'fresh ginger'],
+  butter: ['butter', 'makhan', 'salted butter', 'unsalted butter', 'garlic butter'],
   ghee: ['ghee', 'desi ghee', 'clarified butter'],
-  milk: ['milk', 'full cream milk', 'cow milk', 'oat milk', 'almond milk', 'rabdi'],
-  mango: ['mango', 'mango pulp', 'alphonso', 'aam'],
-  chocolate: ['chocolate', 'cocoa', 'cocoa powder', 'dark chocolate'],
-  tofu: ['tofu', 'soya', 'soy chunks', 'bean curd'],
-  fish: ['fish', 'kingfish', 'pomfret', 'salmon'],
-  corn: ['corn', 'sweet corn', 'sweetcorn', 'corn kernels'],
-  pasta: ['pasta', 'macaroni', 'spaghetti', 'penne', 'fusilli'],
-  curd: ['curd', 'yogurt', 'dahi', 'greek yogurt', 'hung curd'],
-  tea: ['tea', 'chai', 'black tea', 'tea leaves'],
-  matcha: ['matcha', 'green tea'],
-  sugar: ['sugar', 'honey', 'jaggery', 'gur', 'maple syrup'],
-  flour: ['flour', 'maida', 'atta', 'wheat flour', 'besan', 'gram flour', 'oats'],
-  lemon: ['lemon', 'lime', 'nimbu', 'lemon juice'],
-  banana: ['banana', 'bananas', 'kela'],
-  strawberry: ['strawberry', 'strawberries'],
-  watermelon: ['watermelon', 'tarbooj'],
-  pineapple: ['pineapple', 'ananas'],
-  apple: ['apple', 'apples', 'seb', 'apple juice'],
-  grape: ['grape', 'grapes', 'angoor'],
-  orange: ['orange', 'oranges', 'orange juice', 'santre'],
-  cucumber: ['cucumber', 'kheera'],
-  coconut: ['coconut water', 'coconut', 'nariyal pani', 'nariyal'],
-  rose: ['rose syrup', 'rooh afza', 'gulab syrup', 'rose'],
-  coffee: ['coffee', 'instant coffee', 'cold coffee', 'espresso'],
-  peanut_butter: ['peanut butter', 'peanuts'],
-  oreo: ['oreo', 'oreo biscuit', 'cookies'],
-  ice_cream: ['ice cream', 'vanilla ice cream'],
-  cumin: ['cumin', 'jeera', 'bhuna jeera', 'cumin seeds'],
-  sattu: ['sattu', 'roasted gram flour'],
-  almond: ['almond', 'almonds', 'badam'],
-  turmeric: ['turmeric', 'haldi'],
-  honey: ['honey', 'shahad'],
-  mint: ['mint', 'pudina', 'mint leaves']
+  cream: ['cream', 'heavy cream', 'malai', 'fresh cream', 'whipping cream', 'heavy whipping cream', 'cashew cream'],
+  milk: ['milk', 'doodh', 'whole milk', 'full cream milk', 'cow milk', 'oat milk', 'almond milk', 'warm milk', 'chilled milk', 'rabdi'],
+  condensed_milk: ['condensed milk', 'milkmaid', 'sweetened condensed milk'],
+  khoya: ['khoya', 'mawa', 'dried whole milk solids', 'milk powder', 'dairy whitener'],
+  curd: ['curd', 'yogurt', 'dahi', 'greek yogurt', 'hung curd', 'chaas', 'buttermilk', 'lassi'],
+  cream_cheese: ['cream cheese', 'mascarpone'],
+  besan: ['besan', 'gram flour', 'roasted gram flour', 'chickpea flour', 'sattu'],
+  flour: ['maida', 'all-purpose flour', 'all purpose flour', 'plain flour', 'refined flour'],
+  atta: ['atta', 'whole wheat flour', 'wheat flour'],
+  semolina: ['semolina', 'sooji', 'suji', 'rava', 'bombay rava', 'sheera'],
+  poha: ['poha', 'flattened rice', 'beaten rice', 'aval', 'chivda'],
+  sabudana: ['sabudana', 'tapioca pearls', 'tapioca', 'sago'],
+  corn: ['corn', 'sweet corn', 'sweetcorn', 'corn kernels', 'baby corn', 'makai'],
+  cornstarch: ['cornstarch', 'corn flour', 'corn starch', 'starch', 'potato starch', 'katakuriko'],
+  peas: ['peas', 'green peas', 'matar', 'frozen peas', 'boiled peas'],
+  capsicum: ['capsicum', 'bell pepper', 'bell peppers', 'shimla mirch', 'green bell pepper', 'red bell pepper', 'yellow bell pepper'],
+  cauliflower: ['cauliflower', 'gobi', 'phool gobi'],
+  cabbage: ['cabbage', 'patta gobi'],
+  carrot: ['carrot', 'carrots', 'gajar', 'baby carrots', 'grated carrot', 'grated carrots'],
+  mushroom: ['mushroom', 'mushrooms', 'button mushroom', 'khumb'],
+  cucumber: ['cucumber', 'kheera', 'kakdi'],
+  petha: ['petha', 'ash gourd', 'candied ash gourd', 'winter melon', 'safed petha', 'petha kaddoo'],
+  fish: ['fish', 'salmon', 'kingfish', 'pomfret', 'prawns', 'shrimp', 'tiger prawns', 'seafood'],
+  meat: ['mutton', 'lamb', 'goat', 'gosht', 'keema', 'minced meat'],
+  pasta: ['pasta', 'macaroni', 'spaghetti', 'penne', 'fusilli', 'lasagna'],
+  noodles: ['noodles', 'hakka noodles', 'chow mein', 'ramen', 'vermicelli', 'seviyan', 'semiya'],
+  sugar: ['sugar', 'chini', 'granulated sugar', 'powdered sugar', 'castor sugar', 'brown sugar', 'icing sugar', 'sugar syrup', 'misri'],
+  jaggery: ['jaggery', 'gur', 'gud', 'palm jaggery', 'cane jaggery'],
+  honey: ['honey', 'shahad', 'maple syrup'],
+  chocolate: ['chocolate', 'cocoa', 'cocoa powder', 'dark chocolate', 'cocoa nibs', 'choco chips', 'chocolate syrup', 'nutella'],
+  coffee: ['coffee', 'instant coffee', 'cold coffee', 'espresso', 'coffee powder'],
+  tea: ['tea', 'chai', 'tea leaves', 'black tea', 'green tea', 'matcha'],
+  cardamom: ['cardamom', 'elaichi', 'choti elaichi', 'green cardamom', 'cardamom powder', 'elaichi powder'],
+  cinnamon: ['cinnamon', 'dalchini', 'ground cinnamon', 'cinnamon stick', 'cinnamon powder'],
+  clove: ['clove', 'cloves', 'laung', 'lavang'],
+  saffron: ['saffron', 'kesar', 'saffron strands', 'zafran'],
+  cashew: ['cashew', 'cashews', 'kaju', 'cashew nuts', 'cashew paste', 'cashew halves'],
+  almond: ['almond', 'almonds', 'badam', 'sliced almonds'],
+  pistachio: ['pistachio', 'pistachios', 'pista', 'chopped pista'],
+  walnut: ['walnut', 'walnuts', 'akhrot', 'pecans', 'pecan'],
+  peanuts: ['peanuts', 'peanut', 'moongfali', 'roasted peanuts', 'peanut butter'],
+  raisins: ['raisins', 'kishmish', 'sultanas'],
+  dates: ['dates', 'khajur', 'khajoor'],
+  coconut: ['coconut', 'nariyal', 'grated coconut', 'coconut milk', 'desiccated coconut', 'coconut water'],
+  mango: ['mango', 'mangoes', 'aam', 'alphonso', 'mango pulp', 'ripe mango', 'kacha aam'],
+  banana: ['banana', 'bananas', 'kela', 'ripe banana'],
+  apple: ['apple', 'apples', 'seb', 'granny smith', 'apple juice'],
+  strawberry: ['strawberry', 'strawberries', 'berries', 'blueberries', 'raspberries'],
+  lemon: ['lemon', 'lime', 'nimbu', 'lemon juice', 'lime juice'],
+  mint: ['mint', 'pudina', 'mint leaves', 'fresh mint', 'mint chutney'],
+  coriander: ['coriander', 'cilantro', 'dhania', 'fresh coriander', 'coriander leaves'],
+  chili: ['chili', 'chilies', 'chillies', 'green chili', 'green chillies', 'red chili', 'hari mirch', 'lal mirch', 'chili flakes'],
+  cumin: ['cumin', 'jeera', 'cumin seeds', 'bhuna jeera', 'roasted cumin'],
+  turmeric: ['turmeric', 'haldi', 'turmeric powder'],
+  garam_masala: ['garam masala', 'whole spices', 'khada masala'],
+  chaat_masala: ['chaat masala', 'amchur', 'dry mango powder'],
+  tamarind: ['tamarind', 'imli', 'tamarind chutney', 'tamarind pulp'],
+  sev: ['sev', 'nylon sev', 'bhujia', 'ratlami sev'],
+  puri: ['puri', 'puris', 'poori', 'papdi', 'golgappa puris', 'pani puri'],
+  bhel: ['murmura', 'puffed rice', 'kurmura', 'bhel'],
+  nachos: ['nachos', 'tortilla chips', 'corn chips', 'taco shells'],
+  mayo: ['mayonnaise', 'mayo', 'garlic mayo'],
+  rose: ['rose', 'rose water', 'rose syrup', 'rooh afza', 'gulab jal', 'dried rose petals'],
+  vanilla: ['vanilla', 'vanilla extract', 'vanilla essence', 'vanilla bean'],
+  baking: ['baking powder', 'baking soda', 'yeast']
 };
 
 export const CO_OCCURRENCE_PAIRS = {
@@ -57,18 +92,24 @@ export const CO_OCCURRENCE_PAIRS = {
   chicken: ['Garlic Cloves', 'Basmati Rice', 'Butter', 'Black Pepper', 'Heavy Cream', 'Ginger', 'Onion'],
   egg: ['Bread Slices', 'Cheese', 'Yellow Onion', 'Green Chilies', 'Butter', 'Black Pepper'],
   maggi: ['Processed Cheese', 'Butter', 'Yellow Onion', 'Tomato', 'Green Chilies', 'Chaat Masala'],
-  potato: ['Peri-Peri Seasoning', 'Green Peas', 'Chaat Masala', 'Besan / Maida', 'Coriander Leaves', 'Tamarind Chutney'],
-  fries: ['Peri-Peri Seasoning', 'Garlic Mayo Dip', 'Tomato Ketchup', 'Cheese Sauce', 'Oregano'],
+  potato: ['Green Peas', 'Chaat Masala', 'Besan / Maida', 'Coriander Leaves', 'Tamarind Chutney', 'Cumin Seeds'],
+  dal: ['Pure Desi Ghee', 'Cumin (Jeera)', 'Garlic', 'Yellow Onion', 'Turmeric', 'Basmati Rice'],
   chocolate: ['Milk', 'Cocoa Powder', 'Baking Powder', 'Butter', 'Sugar / Honey'],
   pasta: ['Cheddar / Mozzarella', 'Butter', 'Garlic', 'Heavy Cream', 'Oregano & Chili Flakes'],
   bread: ['Cheese Slices', 'Eggs', 'Butter', 'Oregano', 'Tomato', 'Mayonnaise'],
   rice: ['Chicken Breast', 'Garlic', 'Butter', 'Soy Sauce', 'Spring Onions', 'Ghee'],
   tofu: ['Thai Basil', 'Soy Sauce', 'Cashews', 'Garlic', 'Bell Peppers', 'Sesame Oil'],
   spinach: ['Paneer', 'Garlic', 'Onion', 'Cream', 'Green Chilies', 'Cumin Seeds'],
-  milk: ['Cardamom Powder', 'Saffron (Kesar)', 'Pistachios', 'Sugar', 'Mango Pulp'],
+  milk: ['Cardamom Powder', 'Saffron (Kesar)', 'Pistachios', 'Sugar', 'Almonds'],
   curd: ['Chaat Masala', 'Sev / Papdi', 'Boiled Potatoes', 'Mint Chutney', 'Cumin'],
   corn: ['Butter', 'Chili Flakes', 'Bell Pepper', 'Cheese', 'Black Pepper'],
-  chole: ['Kulcha / Bhatura', 'Ginger & Chilies', 'Garam Masala', 'Onion Rings', 'Lemon']
+  chole: ['Kulcha / Bhatura', 'Ginger & Chilies', 'Garam Masala', 'Onion Rings', 'Lemon'],
+  peas: ['Boiled Potatoes', 'Paneer', 'Coriander Leaves', 'Chaat Masala', 'Garam Masala'],
+  capsicum: ['Paneer', 'Yellow Onion', 'Ripe Tomatoes', 'Garlic', 'Soy Sauce'],
+  mushroom: ['Garlic Cloves', 'Butter', 'Black Pepper', 'Onion', 'Heavy Cream'],
+  suji: ['Desi Ghee', 'Granulated Sugar', 'Cardamom Powder', 'Cashews', 'Milk'],
+  besan: ['Desi Ghee', 'Granulated Sugar', 'Cardamom Powder', 'Curd', 'Chopped Onions'],
+  sev: ['Boiled Potatoes', 'Curd', 'Mint Chutney', 'Tamarind Chutney', 'Chaat Masala', 'Puri']
 };
 
 export const DEMAND_MOODS = [
@@ -166,24 +207,93 @@ export function normalizeText(text) {
     .trim();
 }
 
+function stemWord(w) {
+  if (!w || typeof w !== 'string') return '';
+  if (w.endsWith('ies') && w.length > 4) return w.slice(0, -3) + 'y';
+  if (w.endsWith('es') && w.length > 4 && !w.endsWith('cheese')) return w.slice(0, -2);
+  if (w.endsWith('s') && w.length > 3 && !w.endsWith('ss') && !w.endsWith('us')) return w.slice(0, -1);
+  return w;
+}
+
+const NOISE_WORDS = new Set([
+  'fresh', 'organic', 'boiled', 'mashed', 'crushed', 'grated', 'shredded', 'diced',
+  'sliced', 'chopped', 'finely', 'coarsely', 'blanched', 'roasted', 'toasted', 'fried',
+  'baked', 'melted', 'warm', 'cold', 'chilled', 'hot', 'pureed', 'soaked', 'peeled',
+  'deveined', 'cubed', 'large', 'small', 'medium', 'thick', 'thin', 'soft', 'ripe',
+  'sweet', 'salted', 'unsalted', 'raw', 'cooked', 'steamed', 'powder', 'powdered',
+  'paste', 'sauce', 'puree', 'leaves', 'seeds', 'pieces', 'cloves', 'stalks', 'cups',
+  'tbsp', 'tsp', 'grams', 'pinch', 'bunch', 'optional', 'for', 'and', 'with', 'in',
+  'oil', 'water', 'taste', 'garnish', 'serving', 'pure', 'desi', 'edible', 'extra',
+  'virgin', 'cold-pressed', 'sweetened', 'curdled',
+  // Color adjectives that should not match as standalone ingredients
+  'green', 'red', 'yellow', 'black', 'white', 'brown', 'pink', 'golden', 'dark'
+]);
+
+export function extractSubstantiveTokens(text) {
+  const norm = normalizeText(text);
+  const words = norm.split(/\s+/).filter(w => w.length >= 2 && !NOISE_WORDS.has(w));
+  return new Set(words.map(stemWord));
+}
+
 export function getSynonymKeys(rawIngredient) {
   const norm = normalizeText(rawIngredient);
-  const wordsSet = new Set(norm.split(/\s+/).filter(Boolean));
+  const words = norm.split(/\s+/).filter(Boolean);
+  const stemmedWords = new Set(words.map(stemWord));
   const matchedKeys = new Set();
 
   for (const [key, terms] of Object.entries(INGREDIENT_SYNONYMS)) {
     for (const term of terms) {
-      if (norm === term || wordsSet.has(term) || (term.length >= 4 && norm.includes(term))) {
-        matchedKeys.add(key);
+      const termNorm = normalizeText(term);
+      const termWords = termNorm.split(/\s+/).filter(Boolean);
+
+      if (termWords.length === 1) {
+        // Single word term: MUST match exact word token, not partial substring!
+        const singleTermStemmed = stemWord(termWords[0]);
+        if (stemmedWords.has(singleTermStemmed)) {
+          matchedKeys.add(key);
+          break;
+        }
+      } else {
+        // Multi-word term (e.g. "green peas", "whole milk", "cocoa powder"):
+        // Must match either exact substring with word boundaries or all words present
+        const termStemmed = termWords.map(stemWord);
+        if (termStemmed.every(tw => stemmedWords.has(tw))) {
+          matchedKeys.add(key);
+          break;
+        }
       }
     }
   }
 
-  if (matchedKeys.size === 0) {
-    matchedKeys.add(norm);
+  return Array.from(matchedKeys);
+}
+
+/**
+ * Robust ingredient matcher: checks synonym categories, token overlap, and direct inclusion
+ */
+export function isIngredientMatch(userIng, recipeIngName) {
+  if (!userIng || !recipeIngName) return false;
+
+  const uKeys = getSynonymKeys(userIng);
+  const rKeys = getSynonymKeys(recipeIngName);
+
+  // 1. Synonym group overlap
+  if (uKeys.length > 0 && rKeys.length > 0) {
+    if (uKeys.some(k => rKeys.includes(k))) return true;
   }
 
-  return Array.from(matchedKeys);
+  // 2. Substantive token overlap (nouns only, no noise/color words)
+  const uTokens = extractSubstantiveTokens(userIng);
+  const rTokens = extractSubstantiveTokens(recipeIngName);
+  for (const ut of uTokens) {
+    if (rTokens.has(ut)) return true;
+    for (const rt of rTokens) {
+      if (ut.length >= 5 && rt.includes(ut)) return true;
+      if (rt.length >= 5 && ut.includes(rt)) return true;
+    }
+  }
+
+  return false;
 }
 
 /**
@@ -204,8 +314,7 @@ export function getSmartIngredientSuggestions(currentIngredients = []) {
 
   // Filter out what user already has
   const filtered = Array.from(recommended).filter(item => {
-    const itemKeys = getSynonymKeys(item);
-    return !itemKeys.some(k => currentKeys.has(k));
+    return !currentIngredients.some(ci => isIngredientMatch(ci, item));
   });
 
   if (filtered.length >= 4) {
@@ -219,8 +328,7 @@ export function getSmartIngredientSuggestions(currentIngredients = []) {
   ];
 
   defaultStaples.forEach(s => {
-    const sKeys = getSynonymKeys(s);
-    if (!sKeys.some(k => currentKeys.has(k))) {
+    if (!currentIngredients.some(ci => isIngredientMatch(ci, s))) {
       filtered.push(s);
     }
   });
@@ -279,7 +387,7 @@ export function parseUserDemand(queryText = '') {
     mood = 'healthy';
   } else if (text.includes('cheese') || text.includes('cheesy') || text.includes('comfort') || text.includes('creamy') || text.includes('butter')) {
     mood = 'comfort';
-  } else if (text.includes('sweet') || text.includes('dessert') || text.includes('cake') || text.includes('sugar') || text.includes('chocolate') || text.includes('craving')) {
+  } else if (text.includes('sweet') || text.includes('dessert') || text.includes('cake') || text.includes('sugar') || text.includes('chocolate') || text.includes('craving') || text.includes('mithai')) {
     mood = 'sweet';
   }
 
@@ -287,15 +395,15 @@ export function parseUserDemand(queryText = '') {
   let mealType = 'all';
   if (text.includes('breakfast') || text.includes('morning') || text.includes('nashta')) {
     mealType = 'breakfast';
-  } else if (text.includes('snack') || text.includes('starter') || text.includes('appetizer') || text.includes('tiffin') || text.includes('bite')) {
+  } else if (text.includes('snack') || text.includes('starter') || text.includes('appetizer') || text.includes('tiffin') || text.includes('bite') || text.includes('chaat')) {
     mealType = 'snack';
-  } else if (text.includes('lunch') || text.includes('dinner') || text.includes('main course') || text.includes('curry') || text.includes('meal')) {
+  } else if (text.includes('lunch') || text.includes('dinner') || text.includes('main course') || text.includes('curry') || text.includes('meal') || text.includes('sabzi') || text.includes('biryani')) {
     mealType = 'main';
-  } else if (text.includes('dessert') || text.includes('sweet') || text.includes('drink') || text.includes('shake') || text.includes('late night')) {
+  } else if (text.includes('dessert') || text.includes('sweet') || text.includes('drink') || text.includes('shake') || text.includes('late night') || text.includes('mithai')) {
     mealType = 'dessert';
   }
 
-  // Max Time extraction (e.g., "10 mins", "15 minutes")
+  // Max Time extraction
   let maxTime = null;
   const timeMatch = text.match(/(\d+)\s*(?:min|minute|m\b)/i);
   if (timeMatch) {
@@ -344,17 +452,17 @@ export function parseCaloriesNumber(calStr = '300 kcal') {
 export function estimateProteinGrams(recipe) {
   const fullText = (recipe.title + ' ' + recipe.description + ' ' + (recipe.ingredients || []).map(i => i.name).join(' ')).toLowerCase();
   
-  if (fullText.includes('chicken') || fullText.includes('salmon') || fullText.includes('fish')) return '32g Protein';
+  if (fullText.includes('chicken') || fullText.includes('salmon') || fullText.includes('fish') || fullText.includes('prawns')) return '32g Protein';
   if (fullText.includes('paneer') || fullText.includes('cottage cheese')) return '22g Protein';
   if (fullText.includes('egg') || fullText.includes('anda')) return '18g Protein';
   if (fullText.includes('tofu') || fullText.includes('soya')) return '20g Protein';
-  if (fullText.includes('chole') || fullText.includes('chana') || fullText.includes('falafel')) return '15g Protein';
+  if (fullText.includes('chole') || fullText.includes('chana') || fullText.includes('falafel') || fullText.includes('rajma') || fullText.includes('dal')) return '16g Protein';
   if (fullText.includes('cheese') || fullText.includes('yogurt') || fullText.includes('curd')) return '14g Protein';
   return '8g Protein';
 }
 
 /**
- * Advanced Multi-Factor Demand & Relevancy Scoring
+ * Advanced Multi-Factor Demand & Relevancy Scoring strictly based on ingredients
  */
 export function scoreRecipeDemand(recipe, demandParams = {}) {
   const {
@@ -365,63 +473,105 @@ export function scoreRecipeDemand(recipe, demandParams = {}) {
     dietary = {}
   } = demandParams;
 
-  let score = 0;
-  const userKeys = new Set();
-  ingredients.forEach(i => getSynonymKeys(i).forEach(k => userKeys.add(k)));
+  const totalMinutes = parseTotalMinutes(recipe.prepTime, recipe.cookTime);
+  const totalRecipeIngs = (recipe.ingredients || []).length;
 
-  const recipeTitleNorm = normalizeText(recipe.title);
-  const recipeDescNorm = normalizeText(recipe.description);
-  const recipeCategoryNorm = normalizeText(recipe.category || recipe.course || '');
-  const recipeFullText = (recipe.title + ' ' + recipe.description + ' ' + (recipe.ingredients || []).map(i => i.name).join(' ')).toLowerCase();
+  const matchedUserIngredients = new Set();
+  const matchedRecipeIndices = new Set();
 
-  // 1. HERO INGREDIENT MATCHING (40% Weight)
-  let isHeroMatch = false;
-  userKeys.forEach(key => {
-    const keyWords = key.split(/\s+/).filter(w => w.length >= 3);
-    if (keyWords.some(w => recipeTitleNorm.includes(w)) || recipeTitleNorm.includes(key)) {
-      score += 12; // Huge boost for hero in title
-      isHeroMatch = true;
-    } else if (keyWords.some(w => recipeDescNorm.includes(w)) || recipeDescNorm.includes(key)) {
-      score += 4;
-    }
-  });
-
-  // 2. INGREDIENT OVERLAP & COVERAGE (25% Weight)
-  let matchedCount = 0;
-  if (recipe.ingredients && recipe.ingredients.length > 0) {
-    recipe.ingredients.forEach(rIng => {
-      const rKeys = getSynonymKeys(rIng.name);
-      if (rKeys.some(k => userKeys.has(k))) {
-        matchedCount++;
-        score += 4;
+  (recipe.ingredients || []).forEach((rIng, idx) => {
+    ingredients.forEach(uIng => {
+      if (isIngredientMatch(uIng, rIng.name)) {
+        matchedUserIngredients.add(uIng);
+        matchedRecipeIndices.add(idx);
       }
     });
+  });
 
-    const coverageRatio = matchedCount / recipe.ingredients.length;
-    score += coverageRatio * 6; // High ratio of pantry items
-  }
+  const matchedCount = matchedRecipeIndices.size;
+  const userMatchedCount = matchedUserIngredients.size;
+  const missingCount = Math.max(0, totalRecipeIngs - matchedCount);
 
-  const totalMinutes = parseTotalMinutes(recipe.prepTime, recipe.cookTime);
-
-  // STRICT RELEVANCE GUARD: If user specified ingredients, reject dishes with zero ingredient connection
-  if (userKeys.size > 0 && matchedCount === 0 && !isHeroMatch) {
+  // STRICT RELEVANCE GUARD:
+  // If the user specified ingredients, reject any dish with 0 matched ingredients!
+  if (ingredients.length > 0 && matchedCount === 0) {
     return {
       score: 0,
       isHeroMatch: false,
       matchedCount: 0,
-      totalMinutes
+      userMatchedCount: 0,
+      missingCount,
+      matchPercentage: 0,
+      totalMinutes,
+      matchedRecipeIndices
     };
   }
 
-  // 3. MOOD & CRAVING ALIGNMENT (20% Weight)
+  let score = 0;
+
+  // 1. USER INGREDIENTS UTILIZATION (Primary Driver)
+  // Recipes that incorporate more of what the user has in pantry are heavily boosted
+  const userRatio = ingredients.length > 0 ? (userMatchedCount / ingredients.length) : 0;
+  score += userMatchedCount * 22;
+  score += userRatio * 28;
+
+  // 2. RECIPE PANTRY READINESS
+  // Recipes where user has most/all ingredients get a major boost
+  const recipeCoverage = totalRecipeIngs > 0 ? (matchedCount / totalRecipeIngs) : 0;
+  score += matchedCount * 8;
+  score += recipeCoverage * 16;
+
+  if (missingCount === 0) {
+    score += 14; // Complete 100% pantry match
+  } else if (missingCount === 1) {
+    score += 7; // Just 1 item needed
+  } else {
+    score -= missingCount * 0.5;
+  }
+
+  // 3. TITLE / HERO INGREDIENT MATCH
+  const recipeTitleNorm = normalizeText(recipe.title);
+  let isHeroMatch = false;
+  ingredients.forEach(uIng => {
+    const uTokens = extractSubstantiveTokens(uIng);
+    for (const t of uTokens) {
+      if (t.length >= 3 && recipeTitleNorm.includes(t)) {
+        score += 10;
+        isHeroMatch = true;
+        break;
+      }
+    }
+  });
+
+  // 4. INCOMPATIBILITY CHECKS
+  // If user entered savory staples (chicken, meat, fish, egg, potato, onion, garlic, capsicum) without any sweet ingredients,
+  // demote sweet desserts unless user explicitly requested sweet/dessert
+  const isSavoryStaple = ingredients.some(i => {
+    const k = getSynonymKeys(i);
+    return k.includes('chicken') || k.includes('meat') || k.includes('fish') || k.includes('egg') || k.includes('potato') || k.includes('onion') || k.includes('garlic') || k.includes('capsicum');
+  });
+  const hasSweetUserItem = ingredients.some(i => {
+    const k = getSynonymKeys(i);
+    return k.includes('sugar') || k.includes('chocolate') || k.includes('condensed_milk') || k.includes('honey') || k.includes('jaggery') || k.includes('khoya');
+  });
+  const isRecipeDessert = (recipe.category || recipe.course || '').toLowerCase().includes('dessert') ||
+                          (recipe.category || recipe.course || '').toLowerCase().includes('sweet');
+
+  if (isSavoryStaple && !hasSweetUserItem && isRecipeDessert && mood !== 'sweet' && mealType !== 'dessert') {
+    score -= 40;
+  }
+
+  // 5. MOOD & CRAVING ALIGNMENT
   const caloriesNum = parseCaloriesNumber(recipe.calories);
+  const recipeCategoryNorm = normalizeText(recipe.category || recipe.course || '');
+  const recipeFullText = (recipe.title + ' ' + recipe.description + ' ' + (recipe.ingredients || []).map(i => i.name).join(' ')).toLowerCase();
 
   if (mood === 'quick') {
     if (totalMinutes <= 10) score += 9;
     else if (totalMinutes <= 15) score += 6;
     else if (totalMinutes > 25) score -= 4;
   } else if (mood === 'high-protein') {
-    if (recipeFullText.includes('chicken') || recipeFullText.includes('paneer') || recipeFullText.includes('egg') || recipeFullText.includes('tofu') || recipeFullText.includes('fish') || recipeFullText.includes('chole')) {
+    if (recipeFullText.includes('chicken') || recipeFullText.includes('paneer') || recipeFullText.includes('egg') || recipeFullText.includes('tofu') || recipeFullText.includes('fish') || recipeFullText.includes('chole') || recipeFullText.includes('dal')) {
       score += 8;
     }
   } else if (mood === 'spicy') {
@@ -441,32 +591,32 @@ export function scoreRecipeDemand(recipe, demandParams = {}) {
     }
   } else if (mood === 'sweet') {
     if (recipeCategoryNorm.includes('dessert') || recipeCategoryNorm.includes('sweet') || recipeFullText.includes('chocolate') || recipeFullText.includes('cake') || recipeFullText.includes('halwa') || recipeFullText.includes('sweet')) {
-      score += 12;
+      score += 14;
     } else {
-      score -= 12; // Demote savory when user explicitly demands sweet
+      score -= 14;
     }
   }
 
-  // 4. MEAL OCCASION ALIGNMENT (10% Weight)
+  // 6. MEAL OCCASION ALIGNMENT
   if (mealType === 'breakfast') {
-    if (recipeCategoryNorm.includes('instant') || recipeFullText.includes('egg') || recipeFullText.includes('toast') || recipeFullText.includes('smoothie') || recipeFullText.includes('bhurji')) {
+    if (recipeCategoryNorm.includes('instant') || recipeFullText.includes('egg') || recipeFullText.includes('toast') || recipeFullText.includes('smoothie') || recipeFullText.includes('bhurji') || recipeFullText.includes('poha')) {
       score += 6;
     }
   } else if (mealType === 'snack') {
-    if (recipeCategoryNorm.includes('snack') || recipeCategoryNorm.includes('starter') || recipeCategoryNorm.includes('instant')) {
+    if (recipeCategoryNorm.includes('snack') || recipeCategoryNorm.includes('starter') || recipeCategoryNorm.includes('instant') || recipeCategoryNorm.includes('chaat')) {
       score += 6;
     }
   } else if (mealType === 'main') {
-    if (recipeCategoryNorm.includes('main') || recipeFullText.includes('rice') || recipeFullText.includes('curry') || recipeFullText.includes('biryani') || recipeFullText.includes('gravy')) {
+    if (recipeCategoryNorm.includes('main') || recipeFullText.includes('rice') || recipeFullText.includes('curry') || recipeFullText.includes('biryani') || recipeFullText.includes('gravy') || recipeFullText.includes('dal')) {
       score += 6;
     }
   } else if (mealType === 'dessert') {
-    if (recipeCategoryNorm.includes('dessert') || recipeCategoryNorm.includes('sweet')) {
+    if (recipeCategoryNorm.includes('dessert') || recipeCategoryNorm.includes('sweet') || recipeCategoryNorm.includes('drink')) {
       score += 8;
     }
   }
 
-  // 5. MAX TIME CONSTRAINT
+  // 7. MAX TIME CONSTRAINT
   if (maxTime && maxTime > 0) {
     if (totalMinutes <= maxTime) {
       score += 7;
@@ -475,22 +625,37 @@ export function scoreRecipeDemand(recipe, demandParams = {}) {
     }
   }
 
-  // 6. STRICT DIETARY CHECKS
+  // 8. STRICT DIETARY CHECKS
   if (dietary.dairyFree && (recipeFullText.includes('paneer') || recipeFullText.includes('butter') || recipeFullText.includes('milk') || recipeFullText.includes('cheese') || recipeFullText.includes('ghee') || recipeFullText.includes('curd'))) {
-    score -= 15;
-  }
-  if (dietary.vegan && (recipeFullText.includes('chicken') || recipeFullText.includes('fish') || recipeFullText.includes('egg') || recipeFullText.includes('paneer') || recipeFullText.includes('milk') || recipeFullText.includes('butter') || recipeFullText.includes('cheese') || recipeFullText.includes('honey') || recipeFullText.includes('ghee'))) {
     score -= 20;
   }
+  if (dietary.vegan && (recipeFullText.includes('chicken') || recipeFullText.includes('fish') || recipeFullText.includes('egg') || recipeFullText.includes('paneer') || recipeFullText.includes('milk') || recipeFullText.includes('butter') || recipeFullText.includes('cheese') || recipeFullText.includes('honey') || recipeFullText.includes('ghee'))) {
+    score -= 25;
+  }
   if (dietary.glutenFree && (recipeFullText.includes('bread') || recipeFullText.includes('maida') || recipeFullText.includes('wheat') || recipeFullText.includes('roti') || recipeFullText.includes('pasta') || recipeFullText.includes('macaroni') || recipeFullText.includes('flour'))) {
-    score -= 15;
+    score -= 20;
+  }
+
+  // 9. ACCURATE MATCH PERCENTAGE CALCULATION
+  let matchPercentage;
+  if (missingCount === 0 && userRatio >= 0.8) {
+    matchPercentage = 100;
+  } else if (missingCount === 0) {
+    matchPercentage = 95;
+  } else {
+    const rawPct = Math.round((recipeCoverage * 60) + (userRatio * 40));
+    matchPercentage = Math.min(94, Math.max(50, rawPct));
   }
 
   return {
     score,
     isHeroMatch,
     matchedCount,
-    totalMinutes
+    userMatchedCount,
+    missingCount,
+    matchPercentage,
+    totalMinutes,
+    matchedRecipeIndices
   };
 }
 
@@ -510,7 +675,7 @@ export function buildDemandHighlights(recipe, _demandParams = {}) {
   }
 
   // Protein highlight
-  if (protein.includes('32g') || protein.includes('22g') || protein.includes('20g') || protein.includes('18g')) {
+  if (protein.includes('32g') || protein.includes('22g') || protein.includes('20g') || protein.includes('18g') || protein.includes('16g')) {
     highlights.push(`💪 ${protein}`);
   }
 
@@ -562,7 +727,10 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
   const hasMango = userKeys.has('mango');
   const hasSpinach = userKeys.has('spinach');
   const hasButter = userKeys.has('butter') || userKeys.has('ghee');
-  const hasFries = userKeys.has('fries');
+  const hasPotato = userKeys.has('potato');
+  const hasDal = userKeys.has('dal');
+  const hasMilk = userKeys.has('milk') || userKeys.has('condensed_milk') || userKeys.has('khoya');
+  const hasSweetness = userKeys.has('sugar') || userKeys.has('jaggery') || userKeys.has('honey');
 
   let title = '';
   let course = 'Instant';
@@ -576,25 +744,25 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
   let instructions = [];
   let complementaryIngredients = [];
 
-  if (hasFries) {
-    title = 'Crispy Loaded Cheese & Herb French Fries';
+  if (hasPotato) {
+    title = 'Crispy Chatpata Masala Potato Wedges';
     course = 'Snacks';
     category = 'Snacks';
-    cuisine = 'Fast Food';
+    cuisine = 'Street Food';
     prepTime = '5 mins';
     cookTime = '10 mins';
-    calories = '310 kcal';
+    calories = '290 kcal';
     image = FOOD_TYPE_IMAGES.french_fries;
-    description = `Shatteringly crisp golden fries tossed with zesty herbs and drizzled with warm sauce and seasonings (${userIngredients.join(', ')}).`;
+    description = `Golden, crunchy potato batons tossed in zesty Indian chaat masala, lemon, and aromatic spices (${userIngredients.join(', ')}).`;
     complementaryIngredients = [
-      { name: 'Peri-Peri Spice Mix & Sea Salt', amount: '1 tsp', available: false },
-      { name: 'Garlic Mayo or Cheese Dip', amount: '2 tbsp', available: false }
+      { name: 'Chaat Masala & Kashmiri Red Chili', amount: '1 tsp', available: false },
+      { name: 'Fresh Mint Chutney or Mayo Dip', amount: '2 tbsp', available: false }
     ];
     instructions = [
-      'Fry or air-fry the potato batons until golden and super crispy.',
-      'Transfer immediately to a warm bowl and toss with seasonings while hot.',
-      'Drizzle with melted cheese dip or garlic mayo and top with herbs.',
-      'Serve hot and crunchy right out of the bowl!'
+      'Slice potatoes into crisp wedges or batons and par-boil or air-fry until tender.',
+      'Sauté on high heat with a drizzle of oil/butter until edges turn golden and shatteringly crisp.',
+      'Toss immediately with chaat masala, fresh coriander, and a squeeze of lime.',
+      'Serve steaming hot with your favorite dip.'
     ];
   } else if (isMaggi) {
     title = hasCheese ? 'Creamy Cheesy Street-Style Masala Maggi' : '5-Minute Butter Tadka Masala Maggi';
@@ -664,6 +832,46 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
       `Toss in remaining ingredients (${userIngredients.filter(i => !i.toLowerCase().includes('chicken') && !i.toLowerCase().includes('rice')).join(', ') || 'onions'}) and simmer for 2 minutes.`,
       'Serve chicken warm over a generous bed of fluffy steamed rice with pan juices.'
     ];
+  } else if (hasDal) {
+    title = 'Speedy Homestyle Tadka Dal';
+    course = 'Main Course';
+    category = 'Main Course';
+    cuisine = 'Indian';
+    prepTime = '5 mins';
+    cookTime = '12 mins';
+    calories = '260 kcal';
+    image = FOOD_TYPE_IMAGES.generic_curry;
+    description = `Comforting homestyle lentils tempered with sizzling cumin seeds, garlic, and fresh coriander (${userIngredients.join(', ')}).`;
+    complementaryIngredients = [
+      { name: 'Desi Ghee & Cumin Seeds (Jeera)', amount: '1.5 tbsp', available: false },
+      { name: 'Fresh Coriander Leaves', amount: '2 tbsp', available: false }
+    ];
+    instructions = [
+      'Pressure cook or boil lentils with turmeric and salt until velvety and soft.',
+      'In a tadka pan, heat ghee and crackle cumin seeds, minced garlic, and green chilies.',
+      'Pour the sizzling fragrant tadka over the dal and cover immediately to lock in the aroma.',
+      'Garnish with freshly chopped cilantro and enjoy hot with rice or warm rotis.'
+    ];
+  } else if ((hasMilk || userKeys.has('chhena') || userKeys.has('khoya')) && (hasSweetness || mood === 'sweet')) {
+    title = 'Velvety Cardamom Kheer & Sweet Milk Delight';
+    course = 'Desserts';
+    category = 'Desserts';
+    cuisine = 'Indian Sweet';
+    prepTime = '5 mins';
+    cookTime = '10 mins';
+    calories = '280 kcal';
+    image = FOOD_TYPE_IMAGES.rasmalai;
+    description = `A rich, comforting traditional sweet formulated with ${userIngredients.join(', ')} and fragrant green cardamom.`;
+    complementaryIngredients = [
+      { name: 'Green Cardamom Powder (Elaichi)', amount: '1/2 tsp', available: false },
+      { name: 'Sliced Pistachios & Saffron Strands', amount: '1 tbsp', available: false }
+    ];
+    instructions = [
+      'Simmer milk over medium heat until thickened and reduced slightly.',
+      `Fold in ${userIngredients.filter(i => !i.toLowerCase().includes('milk')).join(', ') || 'sugar'} and stir continuously.`,
+      'Infuse with crushed cardamom powder and toasted nuts for a rich royal aroma.',
+      'Serve warm or chilled in dessert bowls garnished with saffron.'
+    ];
   } else if (hasPaneer && hasSpinach) {
     title = 'Homestyle Velvet Palak Paneer Gravy';
     course = 'Main Course';
@@ -717,24 +925,24 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
     ];
   } else {
     const mainItem = userIngredients[0] || 'Garden Fresh';
-    title = `Sizzling ${mainItem} & Herb Sauté`;
-    course = 'Instant';
-    category = 'Instant';
-    cuisine = 'Fusion';
+    title = `Speedy Chatpata ${mainItem} Masala Toss`;
+    course = 'Snacks';
+    category = 'Snacks';
+    cuisine = 'Indian Street Style';
     prepTime = '3 mins';
     cookTime = '5 mins';
-    calories = '260 kcal';
+    calories = '240 kcal';
     image = FOOD_TYPE_IMAGES.generic_bowl;
-    description = `Fresh, vibrant, and quick pan-sauté bringing out the natural umami of ${userIngredients.join(', ')}.`;
+    description = `Vibrant, quick pan-toss bringing out the rich roasted aroma of ${userIngredients.join(', ')} with zesty Indian spices.`;
     complementaryIngredients = [
-      { name: 'Extra Virgin Olive Oil / Ghee', amount: '1 tbsp', available: false },
-      { name: 'Sea Salt & Crushed Pepper', amount: 'To taste', available: false }
+      { name: 'Extra Virgin Olive Oil / Desi Ghee', amount: '1 tbsp', available: false },
+      { name: 'Roasted Cumin & Chaat Masala', amount: '1 tsp', available: false }
     ];
     instructions = [
       `Rinse and chop ${userIngredients.join(', ')} into uniform bite-sized pieces.`,
-      'Heat oil or butter in a skillet over medium-high heat.',
-      `Sauté ingredients in sequence, searing on high to caramelize edges and lock in flavor.`,
-      'Season with salt, pepper, and fresh herbs; serve immediately as a wholesome meal.'
+      'Heat oil or butter in a skillet over medium-high heat with cumin seeds.',
+      `Sauté ingredients in sequence, searing on high heat to caramelize edges and lock in flavor.`,
+      'Season with salt, chaat masala, and fresh herbs; serve immediately as a wholesome dish.'
     ];
   }
 
@@ -765,11 +973,12 @@ export function synthesizeCustomRecipe(userIngredients = [], demandParams = {}) 
     instructions,
     isSaved: false,
     isAiGenerated: true,
-    isPantryMatch: true
+    isPantryMatch: true,
+    isHeroMatch: true,
+    matchPercentage: 92
   };
 
   recipe.demandHighlights = buildDemandHighlights(recipe, demandParams);
-  recipe.matchPercentage = 98;
   return recipe;
 }
 
@@ -817,30 +1026,26 @@ export function generateMultipleSmartRecipes({
     dietary: effectiveDietary
   };
 
-  const userKeys = new Set();
-  combinedIngredients.forEach(i => getSynonymKeys(i).forEach(k => userKeys.add(k)));
-
   // 2. Score and rank all catalogue recipes
   const scoredList = allRecipes
     .map(recipe => {
-      const { score, isHeroMatch, matchedCount, totalMinutes } = scoreRecipeDemand(recipe, demandParams);
-      return { recipe, score, isHeroMatch, matchedCount, totalMinutes };
+      const evaluation = scoreRecipeDemand(recipe, demandParams);
+      return { recipe, ...evaluation };
     })
-    .filter(item => item.score >= 2.0)
+    .filter(item => item.score > 0 && item.matchedCount > 0)
     .sort((a, b) => b.score - a.score);
 
   const results = [];
   const seenTitles = new Set();
 
-  // 3. Transform top matched catalog recipes (up to 8 options)
-  scoredList.slice(0, 8).forEach(({ recipe, score, isHeroMatch }) => {
+  // 3. Transform top matched catalog recipes (up to 28 options for extensive variety across filters)
+  scoredList.slice(0, 28).forEach(({ recipe, score, isHeroMatch, matchPercentage }) => {
     const key = recipe.title.toLowerCase();
     if (seenTitles.has(key)) return;
     seenTitles.add(key);
 
     const updatedIngredients = (recipe.ingredients || []).map(ing => {
-      const ingKeys = getSynonymKeys(ing.name);
-      const isAvailable = ingKeys.some(k => userKeys.has(k));
+      const isAvailable = combinedIngredients.some(uIng => isIngredientMatch(uIng, ing.name));
       return {
         ...ing,
         available: isAvailable
@@ -848,9 +1053,6 @@ export function generateMultipleSmartRecipes({
     });
 
     const missingCount = updatedIngredients.filter(i => !i.available).length;
-    
-    // Calculate match percentage (75% to 100%)
-    const matchPercentage = Math.min(100, Math.max(70, Math.round(70 + (score * 3.2))));
 
     const transformedRecipe = {
       ...recipe,
@@ -860,7 +1062,8 @@ export function generateMultipleSmartRecipes({
       isAiGenerated: false,
       isPantryMatch: true,
       isHeroMatch,
-      matchPercentage
+      matchPercentage,
+      _demandScore: score
     };
 
     transformedRecipe.demandHighlights = buildDemandHighlights(transformedRecipe, demandParams);
@@ -870,8 +1073,10 @@ export function generateMultipleSmartRecipes({
   // 4. Synthesize custom AI Chef recipe tailored to exact combination & demand
   const customAiRecipe = synthesizeCustomRecipe(combinedIngredients, demandParams);
   if (!seenTitles.has(customAiRecipe.title.toLowerCase())) {
-    if (results.length === 0 || results[0].missingCount > 1 || effectiveMood === 'quick') {
+    if (results.length === 0) {
       results.unshift(customAiRecipe);
+    } else if (results.length >= 2 && effectiveMood === 'quick') {
+      results.splice(1, 0, customAiRecipe);
     } else {
       results.push(customAiRecipe);
     }
@@ -887,5 +1092,3 @@ export function generateSmartRecipe(params) {
   const matches = generateMultipleSmartRecipes(params);
   return matches && matches.length > 0 ? matches[0] : synthesizeCustomRecipe(params.ingredients || [], params);
 }
-
-
