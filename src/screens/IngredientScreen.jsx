@@ -154,23 +154,48 @@ function FoodTypeCatalog({
   selectedFoodType,
   setSelectedFoodType,
   onAddAll,
+  onRemoveAll,
   onToggle,
   ingredients
 }) {
+  const currentCategoryItems = FOOD_TYPE_INGREDIENTS[selectedFoodType]?.items || [];
+  const totalCount = currentCategoryItems.length;
+  const addedCount = currentCategoryItems.filter(item =>
+    ingredients.some(i => i.toLowerCase() === item.val.toLowerCase())
+  ).length;
+  const isAllAdded = totalCount > 0 && addedCount === totalCount;
+
   return (
     <div className="pt-2.5 mt-2 border-t border-neutral-800/80 space-y-2">
       <div className="flex items-center justify-between gap-2">
         <span className="text-[10px] uppercase font-bold text-neutral-400 whitespace-nowrap flex items-center gap-1">
           <span>🍽️</span> Mentioned in Food Types:
         </span>
-        <button
-          type="button"
-          onClick={() => onAddAll(selectedFoodType)}
-          className="text-[10px] font-bold text-orange-400 hover:text-orange-300 bg-orange-500/10 hover:bg-orange-500/20 border border-orange-500/30 px-2.5 py-0.5 rounded-full transition-colors active:scale-95 cursor-pointer flex items-center gap-1 shadow-xs"
-          title="Add all ingredients from this food category"
-        >
-          <span>+ Add All ({FOOD_TYPE_INGREDIENTS[selectedFoodType]?.items?.length || 0})</span>
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => (isAllAdded ? onRemoveAll(selectedFoodType) : onAddAll(selectedFoodType))}
+            className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full transition-colors active:scale-95 cursor-pointer flex items-center gap-1 shadow-xs border ${
+              isAllAdded
+                ? 'text-red-400 hover:text-red-300 bg-red-500/10 hover:bg-red-500/20 border-red-500/30'
+                : 'text-orange-400 hover:text-orange-300 bg-orange-500/10 hover:bg-orange-500/20 border-orange-500/30'
+            }`}
+            title={isAllAdded ? 'Remove all ingredients from this food category' : 'Add all ingredients from this food category'}
+          >
+            <span>{isAllAdded ? `- Remove All (${totalCount})` : `+ Add All (${totalCount})`}</span>
+          </button>
+
+          {addedCount > 0 && !isAllAdded && (
+            <button
+              type="button"
+              onClick={() => onRemoveAll(selectedFoodType)}
+              className="text-[10px] font-bold text-red-400 hover:text-red-300 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 px-2 py-0.5 rounded-full transition-colors active:scale-95 cursor-pointer shadow-xs"
+              title="Remove added ingredients of this category"
+            >
+              <span>- Clear ({addedCount})</span>
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1 scroll-smooth">
@@ -359,6 +384,12 @@ export default function IngredientScreen({ onGenerateRecipe, isGenerating }) {
     });
   };
 
+  const handleRemoveAllFromFoodType = (typeKey) => {
+    const items = FOOD_TYPE_INGREDIENTS[typeKey]?.items || [];
+    const categoryVals = new Set(items.map(it => it.val.toLowerCase()));
+    setIngredients(prev => prev.filter(i => !categoryVals.has(i.toLowerCase())));
+  };
+
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' || e.key === ',') {
       e.preventDefault();
@@ -421,6 +452,7 @@ export default function IngredientScreen({ onGenerateRecipe, isGenerating }) {
           selectedFoodType={selectedFoodType}
           setSelectedFoodType={setSelectedFoodType}
           onAddAll={handleAddAllFromFoodType}
+          onRemoveAll={handleRemoveAllFromFoodType}
           onToggle={handleToggleIngredient}
           ingredients={ingredients}
         />
